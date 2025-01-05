@@ -13,5 +13,20 @@ namespace PriceNowCompleteV1.Models
 
         public Product Product { get; set; }
         public Merchant Merchant { get; set; }
+
+        public Price()
+        {
+        }
+
+        public Price(int priceId, int productId, int merchantId, decimal priceValue, DateTime scrapedAt, Product product, Merchant merchant)
+        {
+            PriceId = priceId;
+            ProductId = productId;
+            MerchantId = merchantId;
+            PriceValue = priceValue;
+            ScrapedAt = scrapedAt;
+            Product = product;
+            Merchant = merchant;
+        }
     }
 }

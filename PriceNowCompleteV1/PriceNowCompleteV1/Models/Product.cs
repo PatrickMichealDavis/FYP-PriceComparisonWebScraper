@@ -14,5 +14,21 @@ namespace PriceNowCompleteV1.Models
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
         public ICollection<Price> Prices { get; set; }
+
+        public Product()
+        {
+        }
+
+        public Product(int productId, string name, string description, string category, string unit, DateTime createdAt, DateTime updatedAt, ICollection<Price> prices)
+        {
+            ProductId = productId;
+            Name = name;
+            Description = description;
+            Category = category;
+            Unit = unit;
+            CreatedAt = createdAt;
+            UpdatedAt = updatedAt;
+            Prices = prices;
+        }
     }
 }

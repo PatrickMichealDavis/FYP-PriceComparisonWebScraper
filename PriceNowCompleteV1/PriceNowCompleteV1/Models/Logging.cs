@@ -12,5 +12,20 @@ namespace PriceNowCompleteV1.Models
         public string ErrorMessage { get; set; }
 
         public Merchant Merchant { get; set; }
+
+        public Logging()
+        {
+        }
+
+        public Logging(int scrapeId, int merchantId, DateTime scrapedAt, string status, string errorMessage, Merchant merchant)
+        {
+            ScrapeId = scrapeId;
+            MerchantId = merchantId;
+            ScrapedAt = scrapedAt;
+            Status = status;
+            ErrorMessage = errorMessage;
+            Merchant = merchant;
+        }
+
     }
 }
