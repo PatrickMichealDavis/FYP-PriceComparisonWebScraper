@@ -1,7 +1,10 @@
-﻿namespace PriceNowCompleteV1.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace PriceNowCompleteV1.Models
 {
     public class Price
     {
+        [Key]
         public int PriceId { get; set; }
         public int ProductId { get; set; }
         public int MerchantId { get; set; }

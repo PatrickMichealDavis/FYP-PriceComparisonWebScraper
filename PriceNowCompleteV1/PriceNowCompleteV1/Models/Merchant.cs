@@ -1,7 +1,10 @@
-﻿namespace PriceNowCompleteV1.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace PriceNowCompleteV1.Models
 {
     public class Merchant
     {
+        [Key]
         public int MerchantId { get; set; }
         public string Name { get; set; }
         public string Url { get; set; }

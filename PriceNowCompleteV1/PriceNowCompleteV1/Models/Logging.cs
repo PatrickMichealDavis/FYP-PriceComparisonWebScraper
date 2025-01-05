@@ -1,7 +1,10 @@
-﻿namespace PriceNowCompleteV1.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace PriceNowCompleteV1.Models
 {
     public class Logging
     {
+        [Key]
         public int ScrapeId { get; set; }
         public int MerchantId { get; set; }
         public DateTime ScrapedAt { get; set; } = DateTime.UtcNow;
