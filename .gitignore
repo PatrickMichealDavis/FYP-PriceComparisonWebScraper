@@ -1,0 +1,17 @@
+# Ignore Copilot-related files
+CopilotIndices/
+copilot-chat/
+
+# Ignore build-related and temporary files
+DesignTimeBuild/
+FileContentIndex/
+ProjectEvaluation/
+v17/
+
+# Ignore IDE-specific files
+*.suo
+*.user
+*.v2
+
+# Ignore backup files
+*.backup.json

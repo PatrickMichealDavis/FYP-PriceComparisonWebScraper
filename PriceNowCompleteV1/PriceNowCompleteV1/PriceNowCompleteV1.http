@@ -1,0 +1,6 @@
+@PriceNowCompleteV1_HostAddress = http://localhost:5002
+
+GET {{PriceNowCompleteV1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
