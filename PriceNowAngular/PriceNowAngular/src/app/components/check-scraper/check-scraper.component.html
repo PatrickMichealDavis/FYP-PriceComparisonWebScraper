@@ -1,0 +1,62 @@
+<p>check-scraper works!</p>
+<Button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#scraperModal">Run Scraper</Button>
+
+<!-- Modal Structure -->
+<div class="modal fade" id="scraperModal" tabindex="-1" aria-labelledby="scraperModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="scraperModalLabel">Modal Title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <button class="btn btn-success">Run Full Suite</button><br><br>
+            <button class="btn btn-warning">Run Full Suite Partial</button><br><br>
+          <h6>Run Scraper by Merchant</h6>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              Merchant
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Option 1</a></li>
+              <li><a class="dropdown-item" href="#">Option 2</a></li>
+              <li><a class="dropdown-item" href="#">Option 3</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <br>
+            <h6>Select an Option:</h6>
+            <label>
+              <input
+                type="radio"
+                name="scraperMode"
+                value="full"
+                [(ngModel)]="selectedOption"
+              />
+              Full
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                type="radio"
+                name="scraperMode"
+                value="partial"
+                [(ngModel)]="selectedOption"
+              />
+              Partial
+            </label>
+          </div>
+          
+          <p>Selected Option: {{ selectedOption }}</p>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>

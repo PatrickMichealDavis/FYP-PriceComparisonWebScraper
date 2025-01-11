@@ -23,7 +23,7 @@ namespace PriceNowCompleteV1.Controllers
         }
 
         [HttpGet]
-        public void RunScraper()
+        public void RunFullSuite()//this will create all scrapers in time
         {
             var merchant = new Merchant
             {
