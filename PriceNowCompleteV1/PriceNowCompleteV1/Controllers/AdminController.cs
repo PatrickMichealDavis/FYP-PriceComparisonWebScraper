@@ -1,10 +1,57 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using PriceNowCompleteV1.Interfaces;
+using PriceNowCompleteV1.Models;
+using PriceNowCompleteV1.Scrapers;
 
 namespace PriceNowCompleteV1.Controllers
 {
     public class AdminController : Controller
     {
+
+        private readonly IProductService _productService;
+        private readonly IPriceService _priceService;
+        private readonly IMerchantService _merchantService;
+        private readonly ILoggingService _loggingService;
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        {
+            var products = await _productService.GetAllProducts();
+            return Ok(products);
+        }
+
+        [HttpGet]
+        public void RunScraper()
+        {
+            var merchant = new Merchant
+            {
+                Name = "Chadwicks",
+                Url = "https://www.chadwicks.ie",
+                ContactEmail = "support@chadwicks.ie",
+                Prices = new List<Price>(),
+                Loggings = new List<Logging>()
+            };
+
+            try
+            {
+                IWebScraper scraper = WebScraperFactory.CreateScraper("Chadwicks");
+                scraper.RunFullScrape(merchant);
+            }
+            catch (Exception e)
+            {
+                _loggingService.AddLog(new Logging
+                {
+                    MerchantId = merchant.MerchantId,
+                    ScrapedAt = DateTime.UtcNow,
+                    Status = "Scraping initiated",
+                    ErrorMessage = e.Message
+                });
+            }
+        }
+
+
         // GET: HomeController
         public ActionResult Index()
         {

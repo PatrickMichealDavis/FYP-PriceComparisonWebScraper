@@ -9,5 +9,7 @@ namespace PriceNowCompleteV1.Interfaces
         Task AddProduct(Product product);
         Task UpdateProduct(Product product);
         Task DeleteProduct(int id);
+       
+        Task AddMultipleProducts(SortedSet<Product> products);
     }
 }
