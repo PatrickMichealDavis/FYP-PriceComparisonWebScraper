@@ -1,5 +1,6 @@
 ﻿using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
+using PriceNowCompleteV1.Repositories;
 
 namespace PriceNowCompleteV1.Services
 {
@@ -12,29 +13,39 @@ namespace PriceNowCompleteV1.Services
             _merchantRepository = merchantRepository;
         }
 
-        public Task AddMerchant(Merchant merchant)
+        public async Task AddMerchant(Merchant merchant)
         {
-            throw new NotImplementedException();
+            await _merchantRepository.Create(merchant);
         }
 
-        public Task DeleteMerchant(int id)
+        public async Task DeleteMerchant(int id)
         {
-            throw new NotImplementedException();
+            var merchant = _merchantRepository.GetById(id);
+            if (merchant == null)
+            {
+                throw new Exception("Merchant not found");
+            }
+            await _merchantRepository.Delete(id);
         }
 
-        public Task<IEnumerable<Merchant>> GetAllMerchants()
+        public async Task<IEnumerable<Merchant>> GetAllMerchants()
         {
-            throw new NotImplementedException();
+            return await _merchantRepository.GetAll();
         }
 
-        public Task<Merchant> GetMerchantById(int id)
+        public async Task<Merchant> GetMerchantById(int id)
         {
-            throw new NotImplementedException();
+            var merchant = await _merchantRepository.GetById(id);
+            if (merchant == null)
+            {
+                throw new Exception("Merchant not found");
+            }
+            return merchant;
         }
 
-        public Task UpdateMerchant(Merchant merchant)
+        public async Task UpdateMerchant(Merchant merchant)
         {
-            throw new NotImplementedException();
+            await _merchantRepository.Update(merchant);
         }
 
        

@@ -1,5 +1,6 @@
 ﻿using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
+using PriceNowCompleteV1.Repositories;
 
 namespace PriceNowCompleteV1.Services
 {
@@ -12,36 +13,39 @@ namespace PriceNowCompleteV1.Services
             _loggingRepository = loggingRepository;
         }
 
-        public Task AddLog(Logging log)
+        public async Task AddLog(Logging log)
         {
-            throw new NotImplementedException();
+            await _loggingRepository.AddLog(log);
         }
 
-        public Task DeleteLog(int id)
+        public async Task DeleteLog(int id)
         {
-            throw new NotImplementedException();
+            var log = await _loggingRepository.GetById(id);
+            if (log == null)
+            {
+                throw new Exception("log not found");
+            }
+            await _loggingRepository.Delete(id);
         }
 
-        public async Task<IEnumerable<Logging>> GetAllLoggings()
+        public async Task<IEnumerable<Logging>> GetAllLogs()
         {
-            return await _loggingRepository.GetAll();
+           return await _loggingRepository.GetAll();
         }
 
-        public Task<IEnumerable<Logging>> GetAllLogs()
+        public async Task<Logging> GetLogById(int id)
         {
-            throw new NotImplementedException();
+            var log = await _loggingRepository.GetById(id);
+            if (log == null)
+            {
+                throw new Exception("log not found");
+            }
+            return log;
         }
 
-        public Task<Logging> GetLogById(int id)
+        public async Task UpdateLog(Logging log)
         {
-            throw new NotImplementedException();
+            await _loggingRepository.Update(log);
         }
-
-        public Task UpdateLog(Logging log)
-        {
-            throw new NotImplementedException();
-        }
-
-       
     }
 }

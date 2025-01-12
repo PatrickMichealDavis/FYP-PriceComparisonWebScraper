@@ -13,9 +13,9 @@ namespace PriceNowCompleteV1.Services
             _productRepository = productRepository;
         }
 
-        public Task AddMultipleProducts(SortedSet<Product> products)
+        public async Task AddMultipleProducts(SortedSet<Product> products)
         {
-            throw new NotImplementedException();
+            await _productRepository.AddMultipleProducts(products);
         }
 
         public async Task AddProduct(Product product)
@@ -38,9 +38,14 @@ namespace PriceNowCompleteV1.Services
             return await _productRepository.GetAll();
         }
 
-        public Task<Product> GetProductById(int id)
+        public async Task<Product> GetProductById(int id)
         {
-            return _productRepository.GetById(id);
+            var product = await _productRepository.GetById(id);
+            if (product == null)
+            {
+                throw new Exception("Product not found");
+            }
+            return product;
         }
 
         public async Task<Product> GetProductWithPrices(int productId)
@@ -48,10 +53,9 @@ namespace PriceNowCompleteV1.Services
             return await _productRepository.GetProductWithPrices(productId);
         }
 
-        public Task UpdateProduct(Product product)
+        public async Task UpdateProduct(Product product)
         {
-           _productRepository.Update(product);
-            return Task.CompletedTask;
+             await _productRepository.Update(product);
         }
 
         

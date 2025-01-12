@@ -1,5 +1,6 @@
 ﻿using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
+using PriceNowCompleteV1.Repositories;
 
 namespace PriceNowCompleteV1.Services
 {
@@ -12,29 +13,39 @@ namespace PriceNowCompleteV1.Services
             _priceRepository = priceRepository;
         }
 
-        public Task AddPrice(Price price)
+        public async Task AddPrice(Price price)
         {
-            throw new NotImplementedException();
+           await _priceRepository.Create(price);
         }
 
         public Task DeletePrice(int id)
         {
-            throw new NotImplementedException();
+            var price = _priceRepository.GetById(id);
+            if (price == null)
+            {
+                throw new Exception("Price not found");
+            }
+            return _priceRepository.Delete(id);
         }
 
-        public Task<IEnumerable<Price>> GetAllPrices()
+        public async Task<IEnumerable<Price>> GetAllPrices()
         {
-            throw new NotImplementedException();
+            return await _priceRepository.GetAll();
         }
 
-        public Task<Price> GetPriceById(int id)
+        public async Task<Price> GetPriceById(int id)
         {
-            throw new NotImplementedException();
+            var price = await _priceRepository.GetById(id);
+            if (price == null)
+            {
+                throw new Exception("Price not found");
+            }
+            return price;
         }
 
-        public Task UpdatePrice(Price price)
+        public async Task UpdatePrice(Price price)
         {
-            throw new NotImplementedException();
+            await _priceRepository.Update(price);
         }
 
         
