@@ -29,8 +29,18 @@ namespace PriceNowCompleteV1.Repositories
 
         public async Task Create(Product product)
         {
-            _context.Products.Add(product);
-            await _context.SaveChangesAsync();
+            try
+            {
+                Console.WriteLine($"Adding product: {product.Name}");
+                await _context.Products.AddAsync(product);
+                var result = await _context.SaveChangesAsync();
+                Console.WriteLine($"SaveChangesAsync result: {result}");
+            }
+            catch (ObjectDisposedException ex)
+            {
+                Console.WriteLine($"Error in AddProduct: {ex.ObjectName} - {ex.Message}");
+                throw;
+            }
         }
 
         public async Task Delete(int id)
@@ -45,7 +55,7 @@ namespace PriceNowCompleteV1.Repositories
 
         public async Task<IEnumerable<Product>> GetAll()
         {
-            return await _context.Products.ToListAsync();
+            return await _context.Products.Include(p=>p.Prices).ToListAsync();
         }
 
         public async Task<Product> GetById(int id)

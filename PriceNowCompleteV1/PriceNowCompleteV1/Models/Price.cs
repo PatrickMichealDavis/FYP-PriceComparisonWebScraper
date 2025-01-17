@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace PriceNowCompleteV1.Models
 {
@@ -11,6 +12,7 @@ namespace PriceNowCompleteV1.Models
         public decimal PriceValue { get; set; }
         public DateTime ScrapedAt { get; set; } = DateTime.UtcNow;
 
+        [JsonIgnore]
         public Product Product { get; set; }
         public Merchant Merchant { get; set; }
 

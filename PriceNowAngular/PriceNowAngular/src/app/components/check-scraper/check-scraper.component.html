@@ -1,6 +1,6 @@
 <p>check-scraper works!</p>
-<Button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#scraperModal">Run Scraper</Button>
-
+<Button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#scraperModal">Run Scraper</Button><br>
+<button class="btn btn-primary" (click)="testAddProduct()">test add product</button>
 <!-- Modal Structure -->
 <div class="modal fade" id="scraperModal" tabindex="-1" aria-labelledby="scraperModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -10,7 +10,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <button class="btn btn-success">Run Full Suite</button><br><br>
+            <button class="btn btn-success" (click)="runFullSuite()">Run Full Suite</button><br><br>
             <button class="btn btn-warning">Run Full Suite Partial</button><br><br>
           <h6>Run Scraper by Merchant</h6>
           <div class="dropdown">

@@ -7,6 +7,8 @@ using PriceNowCompleteV1.Scrapers;
 
 namespace PriceNowCompleteV1.Controllers
 {
+    [Route("api/admin")]
+    [ApiController]
     public class AdminController : Controller
     {
 
@@ -15,14 +17,26 @@ namespace PriceNowCompleteV1.Controllers
         private readonly IMerchantService _merchantService;
         private readonly ILoggingService _loggingService;
 
-        [HttpGet]
+        public AdminController(
+           IProductService productService,
+           IPriceService priceService,
+           IMerchantService merchantService,
+           ILoggingService loggingService)
+        {
+            _productService = productService;
+            _priceService = priceService;
+            _merchantService = merchantService;
+            _loggingService = loggingService;
+        }
+
+        [HttpGet("products")]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
             var products = await _productService.GetAllProducts();
             return Ok(products);
         }
 
-        [HttpGet]
+        [HttpGet("run-full-suite")]
         public void RunFullSuite()//this will create all scrapers in time
         {
             var merchant = new Merchant
@@ -51,80 +65,113 @@ namespace PriceNowCompleteV1.Controllers
             }
         }
 
-
-        // GET: HomeController
-        public ActionResult Index()
+        [HttpGet("testAddProduct")]
+        public async Task<IActionResult> TestAddProduct()
         {
-            return View();
-        }
-
-        // GET: HomeController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: HomeController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: HomeController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
+            var merchant = new Merchant
             {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
+                Name = "CorkBP",
+                Url = "https://www.corkbp.ie",
+                ContactEmail = "N/A",
+                Prices = new List<Price>(),
+                Loggings = new List<Logging>()
+            };
+
+            Price price = new Price
             {
-                return View();
-            }
+                PriceValue = 2,
+                Merchant = merchant
+            };
+
+            List<Price> prices = new List<Price> { price };
+
+            Product product = new Product
+            {
+                Name = "Test",
+                Description = "Test",
+                Category = "Test",
+                Unit = "Test",
+                Prices = prices
+            };
+
+            await _productService.AddProduct(product);
+            return Ok("Test product added successfully.");
         }
 
-        // GET: HomeController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
 
-        // POST: HomeController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //    // GET: HomeController
+        //    public ActionResult Index()
+        //    {
+        //        return View();
+        //    }
 
-        // GET: HomeController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
+        //    // GET: HomeController/Details/5
+        //    public ActionResult Details(int id)
+        //    {
+        //        return View();
+        //    }
 
-        // POST: HomeController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //    // GET: HomeController/Create
+        //    public ActionResult Create()
+        //    {
+        //        return View();
+        //    }
+
+        //    // POST: HomeController/Create
+        //    [HttpPost]
+        //    [ValidateAntiForgeryToken]
+        //    public ActionResult Create(IFormCollection collection)
+        //    {
+        //        try
+        //        {
+        //            return RedirectToAction(nameof(Index));
+        //        }
+        //        catch
+        //        {
+        //            return View();
+        //        }
+        //    }
+
+        //    // GET: HomeController/Edit/5
+        //    public ActionResult Edit(int id)
+        //    {
+        //        return View();
+        //    }
+
+        //    // POST: HomeController/Edit/5
+        //    [HttpPost]
+        //    [ValidateAntiForgeryToken]
+        //    public ActionResult Edit(int id, IFormCollection collection)
+        //    {
+        //        try
+        //        {
+        //            return RedirectToAction(nameof(Index));
+        //        }
+        //        catch
+        //        {
+        //            return View();
+        //        }
+        //    }
+
+        //    // GET: HomeController/Delete/5
+        //    public ActionResult Delete(int id)
+        //    {
+        //        return View();
+        //    }
+
+        //    // POST: HomeController/Delete/5
+        //    [HttpPost]
+        //    [ValidateAntiForgeryToken]
+        //    public ActionResult Delete(int id, IFormCollection collection)
+        //    {
+        //        try
+        //        {
+        //            return RedirectToAction(nameof(Index));
+        //        }
+        //        catch
+        //        {
+        //            return View();
+        //        }
+        //    }
     }
 }

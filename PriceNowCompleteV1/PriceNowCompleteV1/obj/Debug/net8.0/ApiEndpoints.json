@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "PriceNowCompleteV1.Controllers.AdminController",
+    "Method": "GetProducts",
+    "RelativePath": "api/admin/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PriceNowCompleteV1.Models.Product, PriceNowCompleteV1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PriceNowCompleteV1.Controllers.AdminController",
+    "Method": "RunFullSuite",
+    "RelativePath": "api/admin/run-full-suite",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PriceNowCompleteV1.Controllers.AdminController",
+    "Method": "TestAddProduct",
+    "RelativePath": "api/admin/testAddProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

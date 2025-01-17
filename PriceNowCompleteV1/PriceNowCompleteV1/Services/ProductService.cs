@@ -20,7 +20,7 @@ namespace PriceNowCompleteV1.Services
 
         public async Task AddProduct(Product product)
         {
-           await _productRepository.AddProduct(product);
+           await _productRepository.Create(product);
         }
 
         public Task DeleteProduct(int id)
