@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\PriceNowCompleteV1.props" />
-</Project>

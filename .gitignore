@@ -15,3 +15,7 @@ v17/
 
 # Ignore backup files
 *.backup.json
+
+# Ignore build artifacts
+/PriceNowCompleteV1/PriceNowCompleteV1/bin/
+/PriceNowCompleteV1/PriceNowCompleteV1/obj/
