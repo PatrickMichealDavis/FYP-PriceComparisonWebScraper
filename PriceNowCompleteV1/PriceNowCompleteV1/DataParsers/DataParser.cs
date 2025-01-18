@@ -8,8 +8,8 @@ namespace PriceNowCompleteV1.DataParsers
         public static Product SanitizeProduct(Product product)
         {
             var productNameAndUnit = SplitProductNameAndUnit(product.Name);
-            product.Name = productNameAndUnit.Item1;
-            product.Unit = productNameAndUnit.Item2;
+            product.Name = productNameAndUnit.Item1.ToLower();
+            product.Unit = productNameAndUnit.Item2.ToLower();
 
             return product;
         }

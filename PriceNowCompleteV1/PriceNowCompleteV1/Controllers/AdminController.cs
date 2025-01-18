@@ -49,8 +49,8 @@ namespace PriceNowCompleteV1.Controllers
         {
             var merchant = new Merchant
             {
-                MerchantId = 2,
-                Name = "Chadwicks",
+                MerchantId = 3,
+                Name = "TJOMahonyScraper",
                 Url = "https://www.chadwicks.ie",
                 ContactEmail = "support@chadwicks.ie",
                 Prices = new List<Price>(),
@@ -59,7 +59,7 @@ namespace PriceNowCompleteV1.Controllers
 
             try
             {
-                IWebScraper scraper = WebScraperFactory.CreateScraper("Chadwicks");
+                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name);
                 scraper.RunFullScrape(merchant);
             }
             catch (Exception e)
@@ -68,7 +68,7 @@ namespace PriceNowCompleteV1.Controllers
                 {
                     MerchantId = merchant.MerchantId,
                     ScrapedAt = DateTime.UtcNow,
-                    Status = "Scraping initiated",
+                    Status = "Run full suite failed",
                     ErrorMessage = e.Message
                 });
             }
