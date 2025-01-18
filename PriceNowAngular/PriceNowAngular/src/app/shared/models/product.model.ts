@@ -1,3 +1,5 @@
+import { Price } from "./price.model";
+
 export class Product {
 
     productID: number=0;

@@ -15,7 +15,7 @@ namespace PriceNowCompleteV1.Repositories
             _context = context;
         }
 
-        public async Task AddMultipleProducts(SortedSet<Product> products)
+        public async Task AddMultipleProducts(List<Product> products)
         {
             await _context.Products.AddRangeAsync(products);
             await _context.SaveChangesAsync();

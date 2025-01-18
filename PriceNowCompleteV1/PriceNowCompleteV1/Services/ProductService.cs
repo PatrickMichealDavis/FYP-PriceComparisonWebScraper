@@ -13,7 +13,7 @@ namespace PriceNowCompleteV1.Services
             _productRepository = productRepository;
         }
 
-        public async Task AddMultipleProducts(SortedSet<Product> products)
+        public async Task AddMultipleProducts(List<Product> products)
         {
             await _productRepository.AddMultipleProducts(products);
         }

@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using Microsoft.EntityFrameworkCore;
+using PriceNowCompleteV1.DataParsers;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
 using PuppeteerSharp;
@@ -128,7 +129,7 @@ namespace PriceNowCompleteV1.Scrapers
                 }
 
 
-                var products = new SortedSet<Product>();
+                var products = new List<Product>();
                 bool hasMoreProducts = true;
 
                 while (hasMoreProducts)
@@ -144,7 +145,7 @@ namespace PriceNowCompleteV1.Scrapers
 
                     foreach (var productLink in productLinks)
                     {
-                        var name = productLink.GetAttributeValue("data-name", null);
+                        var name = productLink.GetAttributeValue("data-name",null);
                         var priceText = productLink.GetAttributeValue("data-price", null);
                         var price = priceText != null ? decimal.Parse(priceText) : 0;
                         var description = "May not need this field";
@@ -157,6 +158,7 @@ namespace PriceNowCompleteV1.Scrapers
                                 Name = name,
                                 Description = description,
                                 Unit = unit,
+                                Category = "Timber Decking",
                                 Prices = new List<Price>
                                         {
                                             new Price
@@ -167,10 +169,14 @@ namespace PriceNowCompleteV1.Scrapers
                                             }
                                         }
                             };
-                            products.Add(product);
+                            var sanitizedProduct =DataParser.SanitizeProduct(product);
+                            products.Add(sanitizedProduct);
+
                         }
                     }
-                    await _productService.AddMultipleProducts(products);// added new chain here!!!!
+                    var distinctProducts = products.Distinct().ToList();
+                    //await _productService.AddMultipleProducts(products);// added new chain here!!!!
+
 
                     var loadNextButton = await page.QuerySelectorAsync("span[x-text='loadingafterTextButton']");
                     if (loadNextButton != null)
@@ -190,13 +196,16 @@ namespace PriceNowCompleteV1.Scrapers
             }
             catch (Exception ex)
             {
-                await _loggingService.AddLog(new Logging
+                var Logging = new Logging
                 {
                     MerchantId = merchant.MerchantId,
                     ScrapedAt = DateTime.UtcNow,
-                    Status = "Failed",
-                    ErrorMessage = ex.Message
-                });
+                    Status = "failed",
+                    ErrorMessage = "Chadwicks scraper failed",
+                    
+                };
+
+                await _loggingService.AddLog(Logging);
             }
             finally
             {

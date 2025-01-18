@@ -7,6 +7,6 @@ namespace PriceNowCompleteV1.Interfaces
         Task<Product> GetProductWithPrices(int id);
         Task AddProduct(Product product);
 
-        Task AddMultipleProducts(SortedSet<Product> products);
+        Task AddMultipleProducts(List<Product> products);
     }
 }

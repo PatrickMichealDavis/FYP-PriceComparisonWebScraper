@@ -29,6 +29,7 @@ builder.Services.AddScoped<IMerchantService, MerchantService>();
 builder.Services.AddScoped<IPriceService, PriceService>();
 builder.Services.AddScoped<ILoggingService, LoggingService>();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -43,7 +44,7 @@ app.UseCors(options => options.WithOrigins("http://localhost:4200")
     .AllowAnyHeader()
     .AllowCredentials());
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

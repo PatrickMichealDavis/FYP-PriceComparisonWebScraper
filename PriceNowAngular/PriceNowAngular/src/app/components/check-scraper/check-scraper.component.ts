@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ScraperService } from '../../service/scraper.service';
+import { Merchant } from '../../shared/models/merchant.model';
 
 
 @Component({
@@ -11,11 +12,13 @@ import { ScraperService } from '../../service/scraper.service';
 export class CheckScraperComponent {
 
   selectedOption: string = '';
+  merchantList:Merchant[]=[];
 
   constructor(public scraperService: ScraperService) { }
 
   ngOnInit():void {
     this.selectedOption = 'full';
+    this.getAllMerchants();
   }
 
   runFullSuite(): void {
@@ -27,5 +30,14 @@ export class CheckScraperComponent {
     console.log('Testing add product');
     this.scraperService.testAddProduct();
   }
+
+  getAllMerchants():void {
+    this.scraperService.getAllMerchants().subscribe({
+      next:(data)=>{
+        this.merchantList = data;
+      },error:(err)=>console.error('Error fetching merchants',err)});
+  }
+
+ 
   
 }

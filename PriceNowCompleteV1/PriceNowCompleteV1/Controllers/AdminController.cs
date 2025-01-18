@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PriceNowCompleteV1.DataParsers;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
 using PriceNowCompleteV1.Scrapers;
@@ -29,18 +30,26 @@ namespace PriceNowCompleteV1.Controllers
             _loggingService = loggingService;
         }
 
-        [HttpGet("products")]
+        [HttpGet("getProducts")]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
             var products = await _productService.GetAllProducts();
             return Ok(products);
         }
 
-        [HttpGet("run-full-suite")]
+        [HttpGet("getAllMerchants")]
+        public async Task<ActionResult<IEnumerable<Merchant>>> GetMerchants()
+        {
+            var merchants = await _merchantService.GetAllMerchants();
+            return Ok(merchants);
+        }
+
+        [HttpGet("runFullSuite")]
         public void RunFullSuite()//this will create all scrapers in time
         {
             var merchant = new Merchant
             {
+                MerchantId = 2,
                 Name = "Chadwicks",
                 Url = "https://www.chadwicks.ie",
                 ContactEmail = "support@chadwicks.ie",
@@ -62,6 +71,28 @@ namespace PriceNowCompleteV1.Controllers
                     Status = "Scraping initiated",
                     ErrorMessage = e.Message
                 });
+            }
+        }
+
+        [HttpGet("runScraperByMerchant")]
+        public async void RunScraperByMerchant(int merchantId)
+        {
+            var merchant = await _merchantService.GetMerchantById(merchantId);
+
+            try
+            {
+                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name);
+                await scraper.RunFullScrape(merchant);
+            }
+            catch (Exception e)
+            {
+               await _loggingService.AddLog(new Logging
+                     {
+                        MerchantId = merchant.MerchantId,
+                        ScrapedAt = DateTime.UtcNow,
+                        Status = "Scraping initiated",
+                        ErrorMessage = e.Message
+                     });
             }
         }
 
@@ -87,14 +118,28 @@ namespace PriceNowCompleteV1.Controllers
 
             Product product = new Product
             {
-                Name = "Test",
+                Name = "1.8m 75 x 75 Treated Post",
                 Description = "Test",
                 Category = "Test",
                 Unit = "Test",
                 Prices = prices
             };
 
-            await _productService.AddProduct(product);
+            var testObject = DataParser.SanitizeProduct(product);
+
+            //var Logging = new Logging
+            //{
+            //    MerchantId = 2,
+            //    ScrapedAt = DateTime.UtcNow,
+            //    Status = "Scraping initiated",
+            //    ErrorMessage = "Test"
+            //};
+
+           // await _loggingService.AddLog(Logging);
+
+            
+
+            //await _productService.AddProduct(product);
             return Ok("Test product added successfully.");
         }
 

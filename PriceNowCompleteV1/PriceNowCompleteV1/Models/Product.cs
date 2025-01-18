@@ -30,5 +30,14 @@ namespace PriceNowCompleteV1.Models
             UpdatedAt = updatedAt;
             Prices = prices;
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Product other)
+            {
+                return Name == other.Name && Unit == other.Unit;
+            }
+            return false;
+        }
     }
 }

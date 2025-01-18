@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Merchant } from '../shared/models/merchant.model';
 
 @Injectable({
   providedIn: 'root'
@@ -32,5 +34,11 @@ export class ScraperService {
   testAddProduct(): void {
     this.http.get(this.url + '/testAddProduct').subscribe();
   }
+
+  getAllMerchants(): Observable<Merchant[]> {
+      return this.http.get<Merchant[]>(this.url + '/getAllMerchants');
+  }
+
+  
   
 }

@@ -2,6 +2,7 @@
 {
     public class WebScraperFactory
     {
+
         public static IWebScraper CreateScraper(string scarperType)
         {
             switch (scarperType)
