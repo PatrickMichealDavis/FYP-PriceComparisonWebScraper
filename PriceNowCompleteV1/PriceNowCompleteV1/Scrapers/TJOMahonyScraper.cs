@@ -28,7 +28,7 @@ namespace PriceNowCompleteV1.Scrapers
                     Headless = false,
                     Args = new[]
                     {
-                        "--window-size=1920,1080" // Set browser window size
+                        "--window-size=1920,1080" // Set browser window size for testing in headless cooment out as needed
                     }
                 });
 
@@ -122,37 +122,7 @@ namespace PriceNowCompleteV1.Scrapers
                     return;
                 }
 
-                //var timberDeckingLink = await page.EvaluateFunctionAsync<string>(
-                //    @"() => {
-                //    const links = Array.from(document.querySelectorAll('a'));
-                //    const deckingLink = links.find(link => link.innerText.includes('Timber Decking'));
-                //    return deckingLink ? deckingLink.href : null;
-                //}"
-                //);
-
-                //if (timberDeckingLink != null)
-                //{
-                //    Console.WriteLine("Navigating to Timber Decking link...");
-                //    await page.GoToAsync(timberDeckingLink, new NavigationOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-
-
-                //    await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-                //    Console.WriteLine("Clicked on 'Timber Decking' link.");
-                //}
-                //else
-                //{
-                //    Console.WriteLine("'Timber Decking' link not found.");
-                //    await browser.CloseAsync();
-                //    return;
-                //}
-
-
+               
                 var products = new List<Product>();
                 bool hasMoreProducts = true;
 
@@ -171,20 +141,19 @@ namespace PriceNowCompleteV1.Scrapers
 
                     foreach (var productItem in productItems)
                     {
-                        //this works
                         var productName = productItem.Descendants("div")
                             .FirstOrDefault(x => x.GetAttributeValue("class", "").Contains("product-name"))
                             ?.InnerText.Trim();
 
-                        //this is not right
-                        var priceElement = productItem.Descendants("span")
-                            .FirstOrDefault(x => x.GetAttributeValue("class", "").Contains("price"));
+                        var priceWrapper = productItem.Descendants("span")
+                            .FirstOrDefault(x => x.GetAttributeValue("class", "").Contains("price-wrapper price-including-tax"));
 
-                        var priceText = priceElement?.InnerText.Trim(); 
-                        var priceData = priceElement?.GetAttributeValue("data-price-amount", "");
+                        var priceText = priceWrapper?.Descendants("span")
+                            .FirstOrDefault(x => x.GetAttributeValue("class", "").Contains("price"))
+                            ?.InnerText.Trim();
 
+                        var priceData = priceWrapper?.GetAttributeValue("data-price-amount", "");
 
-                        
                         var price = priceData != null ? decimal.Parse(priceData) : 0;
                         var description = "May not need this field";
                         var unit = "test unit";
@@ -196,7 +165,7 @@ namespace PriceNowCompleteV1.Scrapers
                                 Name = productName,
                                 Description = description,
                                 Unit = unit,
-                                Category = "Timber Decking",
+                                Category = "Timber",
                                 Prices = new List<Price>
                                         {
                                             new Price
@@ -216,7 +185,7 @@ namespace PriceNowCompleteV1.Scrapers
                     //await _productService.AddMultipleProducts(products);// added new chain here!!!!
 
 
-                    var loadNextButton = await page.QuerySelectorAsync("span[x-text='loadingafterTextButton']");
+                    var loadNextButton = await page.QuerySelectorAsync("span[x-text='loadingafterTextButton']");//dont need this code remove later
                     if (loadNextButton != null)
                     {
                         Console.WriteLine("Loading next products...");
@@ -239,8 +208,7 @@ namespace PriceNowCompleteV1.Scrapers
                     MerchantId = merchant.MerchantId,
                     ScrapedAt = DateTime.UtcNow,
                     Status = "failed",
-                    ErrorMessage = "Chadwicks scraper failed",
-
+                    ErrorMessage = merchant.Name+" scraper failed",
                 };
 
                 await _loggingService.AddLog(Logging);
