@@ -49,8 +49,8 @@ namespace PriceNowCompleteV1.Controllers
         {
             var merchant = new Merchant
             {
-                MerchantId = 3,
-                Name = "TJOMahonyScraper",
+                MerchantId = 6,
+                Name = "CorkBP",
                 Url = "https://www.chadwicks.ie",
                 ContactEmail = "support@chadwicks.ie",
                 Prices = new List<Price>(),

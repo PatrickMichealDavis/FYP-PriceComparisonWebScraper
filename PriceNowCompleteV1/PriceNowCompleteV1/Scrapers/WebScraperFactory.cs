@@ -1,6 +1,6 @@
 ﻿namespace PriceNowCompleteV1.Scrapers
 {
-    public class WebScraperFactory
+    public static class WebScraperFactory
     {
 
         public static IWebScraper CreateScraper(string scarperType)
@@ -9,9 +9,9 @@
             {
                 case "Chadwicks":
                     return new ChadwicksScraper();
-                case "CorkBpScraper":
+                case "CorkBP":
                     return new CorkBpScraper();
-                case "TJOMahonyScraper":
+                case "TJOMahony": //you changed here patrick
                     return new TJOMahonyScraper();
                 default:
                     throw new ArgumentException("Invalid scraper type", nameof(scarperType));

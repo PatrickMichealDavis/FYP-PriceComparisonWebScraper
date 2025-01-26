@@ -155,7 +155,6 @@ namespace PriceNowCompleteV1.Scrapers
                         var priceData = priceWrapper?.GetAttributeValue("data-price-amount", "");
 
                         var price = priceData != null ? decimal.Parse(priceData) : 0;
-                        var description = "May not need this field";
                         var unit = "test unit";
 
                         if (productName != null && price != 0)//this is temporary
@@ -163,9 +162,9 @@ namespace PriceNowCompleteV1.Scrapers
                             var product = new Product
                             {
                                 Name = productName,
-                                Description = description,
+                                Description = productName,
                                 Unit = unit,
-                                Category = "Timber",
+                                Category = "timber",
                                 Prices = new List<Price>
                                         {
                                             new Price
@@ -208,7 +207,7 @@ namespace PriceNowCompleteV1.Scrapers
                     MerchantId = merchant.MerchantId,
                     ScrapedAt = DateTime.UtcNow,
                     Status = "failed",
-                    ErrorMessage = merchant.Name+" scraper failed",
+                    ErrorMessage = merchant.Name +" scraper failed",
                 };
 
                 await _loggingService.AddLog(Logging);

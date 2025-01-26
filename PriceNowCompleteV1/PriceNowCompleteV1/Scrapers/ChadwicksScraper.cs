@@ -148,7 +148,6 @@ namespace PriceNowCompleteV1.Scrapers
                         var name = productLink.GetAttributeValue("data-name",null);
                         var priceText = productLink.GetAttributeValue("data-price", null);
                         var price = priceText != null ? decimal.Parse(priceText) : 0;
-                        var description = "May not need this field";
                         var unit = "test unit";
 
                         if (name != null && price != 0)//this is temporary
@@ -156,9 +155,9 @@ namespace PriceNowCompleteV1.Scrapers
                             var product = new Product
                             {
                                 Name = name,
-                                Description = description,
+                                Description = name,
                                 Unit = unit,
-                                Category = "Timber Decking",
+                                Category = "timber decking",
                                 Prices = new List<Price>
                                         {
                                             new Price
@@ -201,7 +200,7 @@ namespace PriceNowCompleteV1.Scrapers
                     MerchantId = merchant.MerchantId,
                     ScrapedAt = DateTime.UtcNow,
                     Status = "failed",
-                    ErrorMessage = "Chadwicks scraper failed",
+                    ErrorMessage = merchant.Name + " scraper failed",
                     
                 };
 
