@@ -8,5 +8,7 @@ namespace PriceNowCompleteV1.Interfaces
         Task AddProduct(Product product);
 
         Task AddMultipleProducts(List<Product> products);
+        Task<Product> GetProductByName(string name);
+        Task<Product> GetProductByDescription(string description);
     }
 }

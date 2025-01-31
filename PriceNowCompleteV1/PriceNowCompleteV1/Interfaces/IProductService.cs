@@ -11,5 +11,9 @@ namespace PriceNowCompleteV1.Interfaces
         Task DeleteProduct(int id);
        
         Task AddMultipleProducts(List<Product> products);
+        Task<Product> GetProductByName(string name);
+
+        Task<Product> GetProductByDescription(string description);
+
     }
 }

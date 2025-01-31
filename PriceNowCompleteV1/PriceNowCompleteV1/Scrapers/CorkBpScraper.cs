@@ -134,10 +134,10 @@ namespace PriceNowCompleteV1.Scrapers
 
                         var productName = productLink.GetAttributeValue("data-name", null);
                         var priceText = productLink.GetAttributeValue("data-price", null);
-                        var price = priceText != null ? decimal.Parse(priceText) : 0;
+                        var price = priceText != null ? Math.Round(decimal.Parse(priceText), 2) : 0;
                         var unit = "test unit";
 
-                        if (productName != null && price != 0)//this is temporary
+                        if (productName != null && price != 0)
                         {
                             var product = new Product
                             {
@@ -150,7 +150,7 @@ namespace PriceNowCompleteV1.Scrapers
                                             new Price
                                             {
                                                 PriceValue = price,
-                                                Merchant = merchant,
+                                                MerchantId = merchant.MerchantId,
                                                 ScrapedAt = DateTime.UtcNow
                                             }
                                         }
@@ -162,8 +162,7 @@ namespace PriceNowCompleteV1.Scrapers
 
                         }
                     }
-                    var distinctProducts = products.Distinct().ToList();
-                    //await _productService.AddMultipleProducts(products);// added new chain here!!!!
+                    
 
 
                     var loadNextButton = await page.QuerySelectorAsync("span[x-text='loadingafterTextButton']");
@@ -181,6 +180,8 @@ namespace PriceNowCompleteV1.Scrapers
                         hasMoreProducts = false;
                     }
                 }
+                var distinctProducts = products.Distinct().ToList();
+                await _productService.AddMultipleProducts(products);
             }
             catch (Exception ex)
             {

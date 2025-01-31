@@ -38,9 +38,29 @@ namespace PriceNowCompleteV1.Services
             return await _productRepository.GetAll();
         }
 
+        public Task<Product> GetProductByDescription(string description)
+        {
+           var product = _productRepository.GetProductByDescription(description);
+            if (product == null)
+            {
+                throw new Exception("Product not found");
+            }
+            return product;
+        }
+
         public async Task<Product> GetProductById(int id)
         {
             var product = await _productRepository.GetById(id);
+            if (product == null)
+            {
+                throw new Exception("Product not found");
+            }
+            return product;
+        }
+
+        public async Task<Product> GetProductByName(string name)
+        {
+            var product = await _productRepository.GetProductByName(name);
             if (product == null)
             {
                 throw new Exception("Product not found");

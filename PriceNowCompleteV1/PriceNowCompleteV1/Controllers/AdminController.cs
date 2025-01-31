@@ -28,6 +28,7 @@ namespace PriceNowCompleteV1.Controllers
             _priceService = priceService;
             _merchantService = merchantService;
             _loggingService = loggingService;
+           
         }
 
         [HttpGet("getProducts")]
@@ -45,26 +46,19 @@ namespace PriceNowCompleteV1.Controllers
         }
 
         [HttpGet("runFullSuite")]
-        public void RunFullSuite()//this will create all scrapers in time
+        public async Task RunFullSuite()//this will create all scrapers in time
         {
-            var merchant = new Merchant
-            {
-                MerchantId = 6,
-                Name = "CorkBP",
-                Url = "https://www.chadwicks.ie",
-                ContactEmail = "support@chadwicks.ie",
-                Prices = new List<Price>(),
-                Loggings = new List<Logging>()
-            };
+            var merchantId = 6;
+            var merchant = await _merchantService.GetMerchantById(merchantId);
 
             try
             {
                 IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name,_productService,_loggingService);
-                scraper.RunFullScrapeByMerchant(merchant);
+                await scraper.RunFullScrapeByMerchant(merchant);
             }
             catch (Exception e)
             {
-                _loggingService.AddLog(new Logging
+                await _loggingService.AddLog(new Logging
                 {
                     MerchantId = merchant.MerchantId,
                     ScrapedAt = DateTime.UtcNow,

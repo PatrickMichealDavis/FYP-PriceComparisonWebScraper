@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using PriceNowCompleteV1.DataParsers;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
@@ -12,11 +13,13 @@ namespace PriceNowCompleteV1.Scrapers
         string chadwicksUrl = "https://www.chadwicks.ie";//change to merchant url after testing is done
         private readonly IProductService _productService;
         private readonly ILoggingService _loggingService;
+        
 
         public ChadwicksScraper(IProductService productService, ILoggingService loggingService)
         {
             _productService = productService;
             _loggingService = loggingService;
+           
         }
 
         public override async Task RunFullScrapeByMerchant(Merchant merchant)
@@ -30,7 +33,7 @@ namespace PriceNowCompleteV1.Scrapers
             {
                 browser = await Puppeteer.LaunchAsync(new LaunchOptions
                 {
-                    Headless = true
+                    Headless = false
                 });
 
                 var page = await browser.NewPageAsync();
@@ -137,6 +140,7 @@ namespace PriceNowCompleteV1.Scrapers
 
                 var products = new List<Product>();
                 bool hasMoreProducts = true;
+                var repeatedProductLinks = new HashSet<string>();
 
                 while (hasMoreProducts)
                 {
@@ -151,12 +155,18 @@ namespace PriceNowCompleteV1.Scrapers
 
                     foreach (var productLink in productLinks)
                     {
+                        var productHref = productLink.GetAttributeValue("href", null);
+
+                        if (productHref == null || repeatedProductLinks.Contains(productHref))
+                        {
+                            continue;
+                        }
                         var name = productLink.GetAttributeValue("data-name",null);
                         var priceText = productLink.GetAttributeValue("data-price", null);
-                        var price = priceText != null ? decimal.Parse(priceText) : 0;
+                        var price = priceText != null ? Math.Round(decimal.Parse(priceText), 2) : 0;
                         var unit = "test unit";
 
-                        if (name != null && price != 0)//this is temporary
+                        if (name != null && price != 0)
                         {
                             var product = new Product
                             {
@@ -169,20 +179,18 @@ namespace PriceNowCompleteV1.Scrapers
                                             new Price
                                             {
                                                 PriceValue = price,
-                                                Merchant = merchant,
+                                                MerchantId = merchant.MerchantId,
                                                 ScrapedAt = DateTime.UtcNow
                                             }
                                         }
                             };
                             var sanitizedProduct =DataParser.SanitizeProduct(product);
                             products.Add(sanitizedProduct);
+                            repeatedProductLinks.Add(productHref);
 
                         }
                     }
-                    var distinctProducts = products.Distinct().ToList();
-                    //await _productService.AddMultipleProducts(products);// added new chain here!!!!
-
-
+                    
                     var loadNextButton = await page.QuerySelectorAsync("span[x-text='loadingafterTextButton']");
                     if (loadNextButton != null)
                     {
@@ -198,19 +206,21 @@ namespace PriceNowCompleteV1.Scrapers
                         hasMoreProducts = false;
                     }
                 }
+                var distinctProducts = products.Distinct().ToList();
+
+                await _productService.AddMultipleProducts(distinctProducts);
+                    
+                
             }
             catch (Exception ex)
             {
-                var Logging = new Logging
+                await _loggingService.AddLog(new Logging
                 {
                     MerchantId = merchant.MerchantId,
                     ScrapedAt = DateTime.UtcNow,
                     Status = "failed",
-                    ErrorMessage = merchant.Name + " scraper failed",
-                    
-                };
-
-                await _loggingService.AddLog(Logging);
+                    ErrorMessage = merchant.Name + " scraper failed: " + ex.Message
+                });
             }
             finally
             {

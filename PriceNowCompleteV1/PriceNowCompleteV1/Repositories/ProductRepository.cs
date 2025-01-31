@@ -17,8 +17,17 @@ namespace PriceNowCompleteV1.Repositories
 
         public async Task AddMultipleProducts(List<Product> products)
         {
-            await _context.Products.AddRangeAsync(products);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.Products.AddRangeAsync(products);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error saving products: {ex.Message}");
+                Console.WriteLine($"Inner Exception: {ex.InnerException?.Message}");
+                throw; // Re-throw the exception for debugging
+            }
         }
 
         public async  Task AddProduct(Product product)
@@ -61,6 +70,20 @@ namespace PriceNowCompleteV1.Repositories
         public async Task<Product> GetById(int id)
         {
             return await _context.Products.FindAsync(id); 
+        }
+
+        public async Task<Product> GetProductByDescription(string description)
+        {
+            return await _context.Products
+                .Include(p => p.Prices)
+                .FirstOrDefaultAsync(p => p.Description == description);
+        }
+
+        public async Task<Product> GetProductByName(string name)
+        {
+            return await _context.Products
+                .Include(p => p.Prices)
+                .FirstOrDefaultAsync(p => p.Name == name);
         }
 
         public async Task<Product> GetProductWithPrices(int productId)

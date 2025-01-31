@@ -159,10 +159,10 @@ namespace PriceNowCompleteV1.Scrapers
 
                         var priceData = priceWrapper?.GetAttributeValue("data-price-amount", "");
 
-                        var price = priceData != null ? decimal.Parse(priceData) : 0;
+                        var price = priceData != null ? Math.Round(decimal.Parse(priceData),2) : 0;
                         var unit = "test unit";
 
-                        if (productName != null && price != 0)//this is temporary
+                        if (productName != null && price != 0)
                         {
                             var product = new Product
                             {
@@ -175,7 +175,7 @@ namespace PriceNowCompleteV1.Scrapers
                                             new Price
                                             {
                                                 PriceValue = price,
-                                                Merchant = merchant,
+                                                MerchantId = merchant.MerchantId,
                                                 ScrapedAt = DateTime.UtcNow
                                             }
                                         }
@@ -185,10 +185,7 @@ namespace PriceNowCompleteV1.Scrapers
 
                         }
                     }
-                    var distinctProducts = products.Distinct().ToList();
-                    //await _productService.AddMultipleProducts(products);// added new chain here!!!!
-
-
+                   
                     var loadNextButton = await page.QuerySelectorAsync("span[x-text='loadingafterTextButton']");//dont need this code remove later
                     if (loadNextButton != null)
                     {
@@ -204,6 +201,8 @@ namespace PriceNowCompleteV1.Scrapers
                         hasMoreProducts = false;
                     }
                 }
+                var distinctProducts = products.Distinct().ToList();
+                //await _productService.AddMultipleProducts(products);// added new chain here!!!!
             }
             catch (Exception ex)
             {
