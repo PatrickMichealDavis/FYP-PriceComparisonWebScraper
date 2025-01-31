@@ -59,8 +59,8 @@ namespace PriceNowCompleteV1.Controllers
 
             try
             {
-                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name);
-                scraper.RunFullScrape(merchant);
+                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name,_productService,_loggingService);
+                scraper.RunFullScrapeByMerchant(merchant);
             }
             catch (Exception e)
             {
@@ -81,8 +81,8 @@ namespace PriceNowCompleteV1.Controllers
 
             try
             {
-                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name);
-                await scraper.RunFullScrape(merchant);
+                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
+                await scraper.RunFullScrapeByMerchant(merchant);
             }
             catch (Exception e)
             {
@@ -90,9 +90,9 @@ namespace PriceNowCompleteV1.Controllers
                      {
                         MerchantId = merchant.MerchantId,
                         ScrapedAt = DateTime.UtcNow,
-                        Status = "Scraping initiated",
+                        Status = "RunScraperByMerchant:" + merchant.Name + " Failed",
                         ErrorMessage = e.Message
-                     });
+               });
             }
         }
 

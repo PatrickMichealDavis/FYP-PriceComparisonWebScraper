@@ -11,10 +11,15 @@ namespace PriceNowCompleteV1.Scrapers
         string tJOMahonyUrl = "https://tjomahony.ie";//change to merchant url after testing is done
         private readonly IProductService _productService;
         private readonly ILoggingService _loggingService;
-        //need to add contrutor to pass in the services once figured out issue 
+
+        public TJOMahonyScraper(IProductService productService, ILoggingService loggingService)
+        {
+            _productService = productService;
+            _loggingService = loggingService;
+        }
 
 
-        public override async Task RunFullScrape(Merchant merchant)
+        public override async Task RunFullScrapeByMerchant(Merchant merchant)
         {
             var browserFetcher = new BrowserFetcher();
             await browserFetcher.DownloadAsync();
@@ -231,7 +236,7 @@ namespace PriceNowCompleteV1.Scrapers
             throw new NotImplementedException();
         }
 
-        public override Task RunPartialScrape(Merchant merchant)
+        public override Task RunPartialScrapeByMerchant(Merchant merchant)
         {
             throw new NotImplementedException();
         }

@@ -8,9 +8,9 @@ namespace PriceNowCompleteV1.Scrapers
 
         public abstract Task RunFullSuitePartial();
 
-        public abstract Task RunFullScrape(Merchant merchant);
+        public abstract Task RunFullScrapeByMerchant(Merchant merchant);
 
-        public abstract Task RunPartialScrape(Merchant merchant);
+        public abstract Task RunPartialScrapeByMerchant(Merchant merchant);
                 
     }
     

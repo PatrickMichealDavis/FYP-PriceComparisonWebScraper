@@ -4,7 +4,6 @@ namespace PriceNowCompleteV1.DataParsers
 {
     public class DataParser
     {
-
         public static Product SanitizeProduct(Product product)
         {
             var productNameAndUnit = SplitProductNameAndUnit(product.Name);
@@ -36,8 +35,6 @@ namespace PriceNowCompleteV1.DataParsers
             string unit = string.Join(" ", productUnitParts);
 
             return new Tuple<string, string>(productName, unit);
-
-            
         }
 
         private static bool IsUnitPart(string part)

@@ -13,7 +13,13 @@ namespace PriceNowCompleteV1.Scrapers
         private readonly IProductService _productService;
         private readonly ILoggingService _loggingService;
 
-        public override async Task RunFullScrape(Merchant merchant)
+        public ChadwicksScraper(IProductService productService, ILoggingService loggingService)
+        {
+            _productService = productService;
+            _loggingService = loggingService;
+        }
+
+        public override async Task RunFullScrapeByMerchant(Merchant merchant)
         {
             var browserFetcher = new BrowserFetcher();
             await browserFetcher.DownloadAsync();
@@ -225,7 +231,7 @@ namespace PriceNowCompleteV1.Scrapers
             throw new NotImplementedException();
         }
 
-        public override Task RunPartialScrape(Merchant merchant)
+        public override Task RunPartialScrapeByMerchant(Merchant merchant)
         {
             throw new NotImplementedException();
         }
