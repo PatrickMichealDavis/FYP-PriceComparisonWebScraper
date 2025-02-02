@@ -69,7 +69,12 @@ namespace PriceNowCompleteV1.Repositories
 
         public async Task<Product> GetById(int id)
         {
-            return await _context.Products.FindAsync(id); 
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+            {
+                throw new Exception("Product not found");
+            }
+            return product; 
         }
 
         public async Task<Product> GetProductByDescription(string description)

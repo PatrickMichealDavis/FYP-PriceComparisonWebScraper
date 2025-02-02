@@ -69,14 +69,23 @@ namespace PriceNowCompleteV1.Controllers
         }
 
         [HttpGet("runScraperByMerchant")]
-        public async void RunScraperByMerchant(int merchantId)
+        public async void RunScraperByMerchant(int merchantId,bool isPartial)
         {
             var merchant = await _merchantService.GetMerchantById(merchantId);
 
             try
             {
-                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
-                await scraper.RunFullScrapeByMerchant(merchant);
+                if (isPartial) 
+                {
+                    IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
+                    await scraper.RunPartialScrapeByMerchant(merchant);
+                }
+                else
+                {
+                    IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
+                    await scraper.RunFullScrapeByMerchant(merchant);
+
+                }
             }
             catch (Exception e)
             {
@@ -137,80 +146,26 @@ namespace PriceNowCompleteV1.Controllers
             return Ok("Test product added successfully.");
         }
 
+        [HttpGet("testFuzzy")]
+        public async Task<IActionResult> TestFuzzyComparison()
+        {
+            string existingProductsFilePath = "products.json";
+            string mockscrapeProductsFilePath = "newproducts.json";
+            string outcomeFilepath = "fuzzyComparison.json";
+           
 
-        //    // GET: HomeController
-        //    public ActionResult Index()
-        //    {
-        //        return View();
-        //    }
 
-        //    // GET: HomeController/Details/5
-        //    public ActionResult Details(int id)
-        //    {
-        //        return View();
-        //    }
+            return Ok();
+        }
 
-        //    // GET: HomeController/Create
-        //    public ActionResult Create()
-        //    {
-        //        return View();
-        //    }
+        [HttpGet("runFullSuitePartial")]
+        public async Task<IActionResult> RunFullSuitePartial()
+        {
+            Console.WriteLine("Running partial scrape");
+            return Ok();
+        }
 
-        //    // POST: HomeController/Create
-        //    [HttpPost]
-        //    [ValidateAntiForgeryToken]
-        //    public ActionResult Create(IFormCollection collection)
-        //    {
-        //        try
-        //        {
-        //            return RedirectToAction(nameof(Index));
-        //        }
-        //        catch
-        //        {
-        //            return View();
-        //        }
-        //    }
 
-        //    // GET: HomeController/Edit/5
-        //    public ActionResult Edit(int id)
-        //    {
-        //        return View();
-        //    }
 
-        //    // POST: HomeController/Edit/5
-        //    [HttpPost]
-        //    [ValidateAntiForgeryToken]
-        //    public ActionResult Edit(int id, IFormCollection collection)
-        //    {
-        //        try
-        //        {
-        //            return RedirectToAction(nameof(Index));
-        //        }
-        //        catch
-        //        {
-        //            return View();
-        //        }
-        //    }
-
-        //    // GET: HomeController/Delete/5
-        //    public ActionResult Delete(int id)
-        //    {
-        //        return View();
-        //    }
-
-        //    // POST: HomeController/Delete/5
-        //    [HttpPost]
-        //    [ValidateAntiForgeryToken]
-        //    public ActionResult Delete(int id, IFormCollection collection)
-        //    {
-        //        try
-        //        {
-        //            return RedirectToAction(nameof(Index));
-        //        }
-        //        catch
-        //        {
-        //            return View();
-        //        }
-        //    }
-    }
+        }
 }

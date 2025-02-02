@@ -1,6 +1,6 @@
 <p>check-scraper works!</p>
-<button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#scraperModal">Run Scraper</button><br>
-
+<Button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#scraperModal">Run Scraper</Button><br>
+<button class="btn btn-primary" (click)="testAddProduct()">test add product</button>
 <!-- Modal Structure -->
 <div class="modal fade" id="scraperModal" tabindex="-1" aria-labelledby="scraperModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -11,14 +11,14 @@
         </div>
         <div class="modal-body">
             <button class="btn btn-success" (click)="runFullSuite()">Run Full Suite</button><br><br>
-            <button class="btn btn-warning">Run Full Suite Partial</button><br><br>
+            <button class="btn btn-warning" (click)="runFullSuitePartial()">Run Full Suite Partial</button><br><br>
           <h6>Run Scraper by Merchant</h6>
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
               Merchant
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li class="dropdown-item" *ngFor="let merchant of merchantList">
+              <li class="dropdown-item" *ngFor="let merchant of merchantList" (click)="selectMerchant(merchant)">
                 {{ merchant.name }}
               </li>
             </ul>
@@ -50,12 +50,12 @@
           </div>
           
           <p>Selected Option: {{ selectedOption }}</p>
-
+          <p>Selected Merchant: {{ selectedMerchant?.name }}</p>
 
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save Changes</button>
+          <button type="button" class="btn btn-primary" (click)="runScraperByMerchant()">Run Scraper</button>
         </div>
       </div>
     </div>

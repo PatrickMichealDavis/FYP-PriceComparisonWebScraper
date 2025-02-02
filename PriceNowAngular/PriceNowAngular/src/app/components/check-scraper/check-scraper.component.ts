@@ -12,6 +12,7 @@ import { Merchant } from '../../shared/models/merchant.model';
 export class CheckScraperComponent {
 
   selectedOption: string = '';
+  selectedMerchant?: Merchant;
   merchantList:Merchant[]=[];
 
   constructor(public scraperService: ScraperService) { }
@@ -21,9 +22,18 @@ export class CheckScraperComponent {
     this.getAllMerchants();
   }
 
+  selectMerchant(merchant: Merchant) {
+    this.selectedMerchant = merchant;
+  }
+
   runFullSuite(): void {
     console.log('Running full suite');
     this.scraperService.runFullSuite();
+  }
+
+  runFullSuitePartial():void{
+    console.log('Running full suite partial');
+    this.scraperService.runFullSuitePartial();
   }
 
   testAddProduct(): void {
@@ -36,6 +46,21 @@ export class CheckScraperComponent {
       next:(data)=>{
         this.merchantList = data;
       },error:(err)=>console.error('Error fetching merchants',err)});
+  }
+
+  runScraperByMerchant():void {
+    if (!this.selectedMerchant) {
+      alert("Please select a merchant");
+      return;
+    }
+
+    console.log("Raw selectedOption value:", this.selectedOption);
+
+    const isPartial = this.selectedOption?.trim().toLowerCase() === "partial" ? true : false;
+
+    console.log("After processing, isPartial:", isPartial);
+    console.log("Scraping by merchant")
+    this.scraperService.runScraperByMerchant(this.selectedMerchant.merchantId,isPartial);
   }
 
  

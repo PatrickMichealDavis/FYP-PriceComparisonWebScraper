@@ -14,6 +14,8 @@ namespace PriceNowCompleteV1.Interfaces
         Task<Product> GetProductByName(string name);
 
         Task<Product> GetProductByDescription(string description);
+        Task SaveProductsToFile(string filePath, List<Product> products);
+        Task<List<Product>> LoadProductsFromFile(string filePath);
 
     }
 }

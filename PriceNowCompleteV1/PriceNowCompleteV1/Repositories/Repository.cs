@@ -19,9 +19,14 @@ namespace PriceNowCompleteV1.Repositories
             return await _context.Set<T>().ToListAsync();
         }
 
-        public async Task<T> GetById(int id)
+        public async Task<T> GetById(int id)//changed here patrick 
         {
-            return await _context.Set<T>().FindAsync(id);
+            var entity = await _context.Set<T>().FindAsync(id);
+            if (entity == null)
+            {
+                throw new Exception("Entity not found");
+            }
+            return entity;
         }
 
         public async Task Create(T entity)

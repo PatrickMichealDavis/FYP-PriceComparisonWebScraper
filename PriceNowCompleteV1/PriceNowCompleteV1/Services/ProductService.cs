@@ -1,5 +1,6 @@
 ﻿using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
+using System.Text.Json;
 
 namespace PriceNowCompleteV1.Services
 {
@@ -78,6 +79,28 @@ namespace PriceNowCompleteV1.Services
              await _productRepository.Update(product);
         }
 
-        
+        //testOnly Patrick
+        public async Task SaveProductsToFile(string filePath,List<Product> products)
+        {
+            //var products = await _productRepository.GetAll(); 
+
+            string json = JsonSerializer.Serialize(products, new JsonSerializerOptions { WriteIndented = true });
+
+            await File.WriteAllTextAsync(filePath, json);
+            Console.WriteLine($"Products saved to {filePath}");
+        }
+
+        public async Task<List<Product>> LoadProductsFromFile(string filePath)
+        {
+            if (!File.Exists(filePath))
+            {
+                Console.WriteLine("Product file not found!");
+                return new List<Product>();
+            }
+
+            string json = await File.ReadAllTextAsync(filePath);
+            return JsonSerializer.Deserialize<List<Product>>(json) ?? new List<Product>();
+        }
+
     }
 }

@@ -1,0 +1,1674 @@
+[
+  {
+    "ProductId": 103,
+    "Name": "timber decking board tanalised -",
+    "Description": "- (16 150mm 35mm 4.8m approx) board decking ft tanalised timber x x",
+    "Category": "timber decking",
+    "Unit": "150mm x 35mm x 4.8m (16 ft approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.917162",
+    "Prices": [
+      {
+        "PriceId": 79,
+        "ProductId": 103,
+        "MerchantId": 2,
+        "PriceValue": 25.390000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.917478",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 104,
+    "Name": "treated post",
+    "Description": "1.8m 75 75 post treated x",
+    "Category": "timber decking",
+    "Unit": "1.8m 75 x 75",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919174",
+    "Prices": [
+      {
+        "PriceId": 80,
+        "ProductId": 104,
+        "MerchantId": 2,
+        "PriceValue": 8.020000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919176",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 105,
+    "Name": "tanalised d-rail",
+    "Description": "else statement testing",
+    "Category": "timber decking",
+    "Unit": "3.6m 100 x 35",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919189",
+    "Prices": [
+      {
+        "PriceId": 81,
+        "ProductId": 105,
+        "MerchantId": 2,
+        "PriceValue": 14.270000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.91919",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 106,
+    "Name": "decking spindle pine",
+    "Description": "41 41 895mm pine spindle x",
+    "Category": "timber decking",
+    "Unit": "41 x 41 895mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919197",
+    "Prices": [
+      {
+        "PriceId": 82,
+        "ProductId": 106,
+        "MerchantId": 2,
+        "PriceValue": 5.4400000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919197",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 107,
+    "Name": "decking chamfered post pine",
+    "Description": "1500 86mm chamfered decking pine post x x",
+    "Category": "timber decking",
+    "Unit": "1500 x 86 x 86mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919217",
+    "Prices": [
+      {
+        "PriceId": 83,
+        "ProductId": 107,
+        "MerchantId": 2,
+        "PriceValue": 34.450000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919217",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 108,
+    "Name": "decking square post pine",
+    "Description": "1500 86 86mm decking pine post square x x",
+    "Category": "timber decking",
+    "Unit": "1500 x 86 x 86mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919225",
+    "Prices": [
+      {
+        "PriceId": 84,
+        "ProductId": 108,
+        "MerchantId": 2,
+        "PriceValue": 27.590000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919225",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 109,
+    "Name": "decking baserail pine",
+    "Description": "2100mm 24 68 baserail decking pine x x",
+    "Category": "timber decking",
+    "Unit": "68 x 24 x 2100mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919233",
+    "Prices": [
+      {
+        "PriceId": 85,
+        "ProductId": 109,
+        "MerchantId": 2,
+        "PriceValue": 20.650000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919233",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 110,
+    "Name": "decking handrail round top pine",
+    "Description": "2100mm 55 67 decking handrail pine round top x x",
+    "Category": "timber decking",
+    "Unit": "55 x 67 x 2100mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.91924",
+    "Prices": [
+      {
+        "PriceId": 86,
+        "ProductId": 110,
+        "MerchantId": 2,
+        "PriceValue": 20.100000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.91924",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 111,
+    "Name": "micropro treated tan-e",
+    "Description": "2.4m 94 94 micropro tan-e treated x",
+    "Category": "timber decking",
+    "Unit": "2.4m 94 x 94",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.91925",
+    "Prices": [
+      {
+        "PriceId": 87,
+        "ProductId": 111,
+        "MerchantId": 2,
+        "PriceValue": 37.280000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919251",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 112,
+    "Name": "timber decking board treated -",
+    "Description": "- (18 150mm 35mm 5.4m approx) board decking ft timber treated x x",
+    "Category": "timber decking",
+    "Unit": "150mm x 35mm x 5.4m (18 ft approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919257",
+    "Prices": [
+      {
+        "PriceId": 88,
+        "ProductId": 112,
+        "MerchantId": 2,
+        "PriceValue": 28.560000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919257",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 113,
+    "Name": "timber glb pressure treated fence post -",
+    "Description": "- 2.4m 75mm 75mm fence glb post pressure timber treated x x",
+    "Category": "timber decking",
+    "Unit": "75mm x 75mm x 2.4m",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919266",
+    "Prices": [
+      {
+        "PriceId": 89,
+        "ProductId": 113,
+        "MerchantId": 2,
+        "PriceValue": 11.700000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919267",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 114,
+    "Name": "treated stake",
+    "Description": "1.8m 100 75 stake treated x",
+    "Category": "timber decking",
+    "Unit": "1.8m 100 x 75",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:32.919276",
+    "Prices": [
+      {
+        "PriceId": 90,
+        "ProductId": 114,
+        "MerchantId": 2,
+        "PriceValue": 10.030000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:32.919276",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 115,
+    "Name": "treated post",
+    "Description": "1.8m 150 75 post treated x",
+    "Category": "timber decking",
+    "Unit": "1.8m 150 x 75",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.33641",
+    "Prices": [
+      {
+        "PriceId": 91,
+        "ProductId": 115,
+        "MerchantId": 2,
+        "PriceValue": 13.690000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336415",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 116,
+    "Name": "decking handrail",
+    "Description": "0.00792 2.4m 44 75 decking handrail x",
+    "Category": "timber decking",
+    "Unit": "2.4m 75 x 44 0.00792",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336443",
+    "Prices": [
+      {
+        "PriceId": 92,
+        "ProductId": 116,
+        "MerchantId": 2,
+        "PriceValue": 10.900000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336443",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 117,
+    "Name": "par round top deck post",
+    "Description": "(1.2m) 100 100mm deck par post round top x",
+    "Category": "timber decking",
+    "Unit": "100 x 100mm (1.2m)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336465",
+    "Prices": [
+      {
+        "PriceId": 93,
+        "ProductId": 117,
+        "MerchantId": 2,
+        "PriceValue": 13.120000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336465",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 118,
+    "Name": "square spindle treated",
+    "Description": "900mm spindle square treated",
+    "Category": "timber decking",
+    "Unit": "900mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336473",
+    "Prices": [
+      {
+        "PriceId": 94,
+        "ProductId": 118,
+        "MerchantId": 2,
+        "PriceValue": 5.2800000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336473",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 119,
+    "Name": "timber decking board tanalised -",
+    "Description": "- (14 150mm 4.2m 44mm approx) board decking ft tanalised timber x x",
+    "Category": "timber decking",
+    "Unit": "150mm x 44mm x 4.2m (14 ft approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336478",
+    "Prices": [
+      {
+        "PriceId": 95,
+        "ProductId": 119,
+        "MerchantId": 2,
+        "PriceValue": 26.360000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336478",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 120,
+    "Name": "glendeck tanalised d-rail",
+    "Description": "150 3.6m 35 d-rail glendeck tanalised x",
+    "Category": "timber decking",
+    "Unit": "3.6m 150 x 35",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336487",
+    "Prices": [
+      {
+        "PriceId": 96,
+        "ProductId": 120,
+        "MerchantId": 2,
+        "PriceValue": 17.800000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336487",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 121,
+    "Name": "tanalised d-rail",
+    "Description": "100 3.0m 35 d-rail tanalised x",
+    "Category": "timber decking",
+    "Unit": "3.0m 100 x 35",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336499",
+    "Prices": [
+      {
+        "PriceId": 97,
+        "ProductId": 121,
+        "MerchantId": 2,
+        "PriceValue": 11.920000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336499",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 122,
+    "Name": "timber glb pressure treated tanalised d-rail timber - ",
+    "Description": "- 100mm 35mm 4.8m d-rail glb pressure tanalised timber timber treated x x",
+    "Category": "timber decking",
+    "Unit": "100mm x 35mm x 4.8m",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336506",
+    "Prices": [
+      {
+        "PriceId": 98,
+        "ProductId": 122,
+        "MerchantId": 2,
+        "PriceValue": 19.070000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336506",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 123,
+    "Name": "tanalised d-rail",
+    "Description": "100 2.4m 35 d-rail tanalised x",
+    "Category": "timber decking",
+    "Unit": "2.4m 100 x 35",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336513",
+    "Prices": [
+      {
+        "PriceId": 99,
+        "ProductId": 123,
+        "MerchantId": 2,
+        "PriceValue": 9.520000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336513",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 124,
+    "Name": "timber decking board treated -",
+    "Description": "- (15 150mm 35mm 4.5m approx) board decking ft timber treated x x",
+    "Category": "timber decking",
+    "Unit": "150mm x 35mm x 4.5m (15 ft approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.33652",
+    "Prices": [
+      {
+        "PriceId": 100,
+        "ProductId": 124,
+        "MerchantId": 2,
+        "PriceValue": 23.800000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.33652",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 125,
+    "Name": "tanalised d-rail",
+    "Description": "100 35 d-rail tanalised x",
+    "Category": "timber decking",
+    "Unit": "100 x 35",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.336525",
+    "Prices": [
+      {
+        "PriceId": 101,
+        "ProductId": 125,
+        "MerchantId": 2,
+        "PriceValue": 3.9700000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.336525",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 126,
+    "Name": "glendeck tanalised spindles longford (par)",
+    "Description": "(par) 50 50mm glendeck longford spindles tanalised x",
+    "Category": "timber decking",
+    "Unit": "50 x 50mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:35.33653",
+    "Prices": [
+      {
+        "PriceId": 102,
+        "ProductId": 126,
+        "MerchantId": 2,
+        "PriceValue": 3.8100000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:35.33653",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 127,
+    "Name": "timber decking board tanalised -",
+    "Description": "- (14 150mm 35mm 4.2m approx) board decking ft tanalised timber x x",
+    "Category": "timber decking",
+    "Unit": "150mm x 35mm x 4.2m (14 ft approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:36.550986",
+    "Prices": [
+      {
+        "PriceId": 103,
+        "ProductId": 127,
+        "MerchantId": 2,
+        "PriceValue": 22.210000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:36.550989",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 128,
+    "Name": "composite decking fired earth spindle inc spigot",
+    "Description": "50 50 900mm composite decking earth fired inc spigot spindle x x",
+    "Category": "timber decking",
+    "Unit": "50 x 50 x 900mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:24:36.551229",
+    "Prices": [
+      {
+        "PriceId": 104,
+        "ProductId": 128,
+        "MerchantId": 2,
+        "PriceValue": 10.160000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:24:36.551232",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 129,
+    "Name": "treated rough white deal timber inches",
+    "Description": "(4 100mm 2 4.8m 44mm approx) deal inches rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 44mm x 4.8m (4 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.885881",
+    "Prices": [
+      {
+        "PriceId": 105,
+        "ProductId": 129,
+        "MerchantId": 6,
+        "PriceValue": 13.990000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.886497",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 130,
+    "Name": "white deal rough timber inches inches)",
+    "Description": "(4 100mm 2 2.4m 44mm deal inches inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 44mm x 2.4m (4 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889016",
+    "Prices": [
+      {
+        "PriceId": 106,
+        "ProductId": 130,
+        "MerchantId": 6,
+        "PriceValue": 5.5700000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889017",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 131,
+    "Name": "treated rough white deal timber inches",
+    "Description": "(6 150mm 2 4.8m 44mm approx) deal inches rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "150mm x 44mm x 4.8m (6 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889028",
+    "Prices": [
+      {
+        "PriceId": 107,
+        "ProductId": 131,
+        "MerchantId": 6,
+        "PriceValue": 21.020000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889028",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 132,
+    "Name": "treated rough white deal timber inches",
+    "Description": "(4 1 100mm 22mm 4.8m approx) deal inches rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 22mm x 4.8m (4 x 1 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889036",
+    "Prices": [
+      {
+        "PriceId": 108,
+        "ProductId": 132,
+        "MerchantId": 6,
+        "PriceValue": 6.9200000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889036",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 133,
+    "Name": "treated rough white deal timber inches). ",
+    "Description": "(6 1 150mm 22mm 4.8m deal inches). rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "150mm x 22mm x 4.8m (6 x 1",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889042",
+    "Prices": [
+      {
+        "PriceId": 109,
+        "ProductId": 133,
+        "MerchantId": 6,
+        "PriceValue": 10.500000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889042",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 134,
+    "Name": "treated rough white deal timber - inches",
+    "Description": "- (2 1.5 35mm 4.8m 50mm approx) deal inches rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "50mm x 35mm x 4.8m (2 x 1.5 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889048",
+    "Prices": [
+      {
+        "PriceId": 110,
+        "ProductId": 134,
+        "MerchantId": 6,
+        "PriceValue": 5.5600000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889048",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 135,
+    "Name": "white deal rough timber inches inches)",
+    "Description": "(3 2 4.8m 44mm 75mm deal inches inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "75mm x 44mm x 4.8m (3 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889053",
+    "Prices": [
+      {
+        "PriceId": 111,
+        "ProductId": 135,
+        "MerchantId": 6,
+        "PriceValue": 8.360000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889053",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 136,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 100mm 2 4 4.8m 44mm approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 44mm x 4.8m 4 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889057",
+    "Prices": [
+      {
+        "PriceId": 112,
+        "ProductId": 136,
+        "MerchantId": 6,
+        "PriceValue": 11.170000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889057",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 137,
+    "Name": "white deal rough timber inches inches)",
+    "Description": "(4 100mm 2 3.6m 44mm deal inches inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 44mm x 3.6m (4 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889063",
+    "Prices": [
+      {
+        "PriceId": 113,
+        "ProductId": 137,
+        "MerchantId": 6,
+        "PriceValue": 8.360000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889063",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 138,
+    "Name": "treated rough white deal timber - inches ) ",
+    "Description": "- (4 ) 100mm 3 4.8m 75mm approx) deal inches rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 75mm x 4.8m (4 x 3 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889068",
+    "Prices": [
+      {
+        "PriceId": 114,
+        "ProductId": 138,
+        "MerchantId": 6,
+        "PriceValue": 23.870000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889068",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 139,
+    "Name": "white deal rough timber - ( inches ",
+    "Description": "- ( 150mm 2 3.6m 44mm 6 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "150mm x 44mm x 3.6m 6 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889073",
+    "Prices": [
+      {
+        "PriceId": 115,
+        "ProductId": 139,
+        "MerchantId": 6,
+        "PriceValue": 12.550000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889073",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 140,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 1 100mm 22mm 4 4.8m approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 22mm x 4.8m 4 x 1 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:37.889079",
+    "Prices": [
+      {
+        "PriceId": 116,
+        "ProductId": 140,
+        "MerchantId": 6,
+        "PriceValue": 5.5700000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:37.889079",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 141,
+    "Name": "treated rough white deal timber - ( inches )",
+    "Description": "- ( ) 150mm 3 4.8m 6 75mm approx deal inches rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "150mm x 75mm x 4.8m 6 x 3 approx",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475075",
+    "Prices": [
+      {
+        "PriceId": 117,
+        "ProductId": 141,
+        "MerchantId": 6,
+        "PriceValue": 35.820000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475078",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 142,
+    "Name": "treated rough white deal timber - ( inches",
+    "Description": "- ( 1 225mm 22mm 4.8m 9 approx.) deal inches rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 22mm x 4.8m 9 x 1 approx.)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475124",
+    "Prices": [
+      {
+        "PriceId": 118,
+        "ProductId": 142,
+        "MerchantId": 6,
+        "PriceValue": 15.770000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475124",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 143,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 100mm 2 4 44mm 5.4m approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 44mm x 5.4m 4 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475269",
+    "Prices": [
+      {
+        "PriceId": 119,
+        "ProductId": 143,
+        "MerchantId": 6,
+        "PriceValue": 12.550000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475271",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 144,
+    "Name": "white deal rough timber -  ( inches",
+    "Description": "- ( 125mm 2 4.8m 44mm 5 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "125mm x 44mm x 4.8m 5 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475293",
+    "Prices": [
+      {
+        "PriceId": 120,
+        "ProductId": 144,
+        "MerchantId": 6,
+        "PriceValue": 13.950000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475293",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 145,
+    "Name": "white deal rough timber - (  inches",
+    "Description": "- ( 1 225mm 22mm 4.8m 9 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 22mm x 4.8m 9 x 1 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475386",
+    "Prices": [
+      {
+        "PriceId": 121,
+        "ProductId": 145,
+        "MerchantId": 6,
+        "PriceValue": 12.550000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475386",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 146,
+    "Name": "white deal rough timber - ( inches ",
+    "Description": "- ( 100mm 3 4 4.8m 75mm approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 75mm x 4.8m 4 x 3 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475454",
+    "Prices": [
+      {
+        "PriceId": 122,
+        "ProductId": 146,
+        "MerchantId": 6,
+        "PriceValue": 19.020000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475454",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 147,
+    "Name": "treated rough white deal timber - ",
+    "Description": "- 4.8m 44mm 75mm deal rough timber treated white x x",
+    "Category": "timber",
+    "Unit": "75mm x 44mm x 4.8m",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475514",
+    "Prices": [
+      {
+        "PriceId": 123,
+        "ProductId": 147,
+        "MerchantId": 6,
+        "PriceValue": 10.500000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475514",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 148,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 1 175mm 22mm 4.8m 7 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "175mm x 22mm x 4.8m 7 x 1 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475525",
+    "Prices": [
+      {
+        "PriceId": 124,
+        "ProductId": 148,
+        "MerchantId": 6,
+        "PriceValue": 9.770000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475526",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 149,
+    "Name": "white deal rough timber - ",
+    "Description": "- 150mm 4.2m 44mm deal rough timber white x x",
+    "Category": "timber",
+    "Unit": "150mm x 44mm x 4.2m",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475538",
+    "Prices": [
+      {
+        "PriceId": 125,
+        "ProductId": 149,
+        "MerchantId": 6,
+        "PriceValue": 14.640000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475538",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 150,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 2 2.4m 3 44mm 75mm approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "75mm x 44mm x 2.4m 3 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475549",
+    "Prices": [
+      {
+        "PriceId": 126,
+        "ProductId": 150,
+        "MerchantId": 6,
+        "PriceValue": 4.1800000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475549",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 151,
+    "Name": "white deal rough  timber - ( inches",
+    "Description": "- ( 125mm 2 3.6m 44mm 5 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "125mm x 44mm x 3.6m 5 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475562",
+    "Prices": [
+      {
+        "PriceId": 127,
+        "ProductId": 151,
+        "MerchantId": 6,
+        "PriceValue": 10.460000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.475563",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 152,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 150mm 2 4.8m 44mm 6 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "150mm x 44mm x 4.8m 6 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:39.475579",
+    "Prices": [
+      {
+        "PriceId": 128,
+        "ProductId": 152,
+        "MerchantId": 6,
+        "PriceValue": 16.730000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:39.47558",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 153,
+    "Name": "treated rough white deal timber - ",
+    "Description": "- 225mm 4.8m 44mm deal rough timber treated white x x",
+    "Category": "timber",
+    "Unit": "225mm x 44mm x 4.8m",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479337",
+    "Prices": [
+      {
+        "PriceId": 129,
+        "ProductId": 153,
+        "MerchantId": 6,
+        "PriceValue": 31.510000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.47934",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 154,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 2 225mm 44mm 5.4m 9 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 44mm x 5.4m 9 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479446",
+    "Prices": [
+      {
+        "PriceId": 130,
+        "ProductId": 154,
+        "MerchantId": 6,
+        "PriceValue": 28.250000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479446",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 155,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 150mm 2 44mm 5.4m 6 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "150mm x 44mm x 5.4m 6 x 2 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479455",
+    "Prices": [
+      {
+        "PriceId": 131,
+        "ProductId": 155,
+        "MerchantId": 6,
+        "PriceValue": 18.820000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479455",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 156,
+    "Name": "rough treated timber - white deal - ",
+    "Description": "- - 22mm 4.5m 50mm deal rough timber treated white x x",
+    "Category": "timber",
+    "Unit": "50mm x 22mm x 4.5m",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479481",
+    "Prices": [
+      {
+        "PriceId": 132,
+        "ProductId": 156,
+        "MerchantId": 6,
+        "PriceValue": 3.2600000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479481",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 157,
+    "Name": "white deal rough timber - ( inches) ",
+    "Description": "- ( 100mm 2 3.0m 4 44mm deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "100mm x 44mm x 3.0m 4 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.47949",
+    "Prices": [
+      {
+        "PriceId": 133,
+        "ProductId": 157,
+        "MerchantId": 6,
+        "PriceValue": 6.9700000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.47949",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 158,
+    "Name": "white deal rough timber - ( inches ) ",
+    "Description": "- ( ) 2 3 3.0m 44mm 75mm deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "75mm x 44mm x 3.0m 3 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479497",
+    "Prices": [
+      {
+        "PriceId": 134,
+        "ProductId": 158,
+        "MerchantId": 6,
+        "PriceValue": 5.2300000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479497",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 159,
+    "Name": "white deal rough timber - ( inches)",
+    "Description": "- ( 2 225mm 4.8m 44mm 9 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 44mm x 4.8m 9 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479505",
+    "Prices": [
+      {
+        "PriceId": 135,
+        "ProductId": 159,
+        "MerchantId": 6,
+        "PriceValue": 25.100000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479505",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 160,
+    "Name": "white deal rough timber - ( inches)",
+    "Description": "- ( 225mm 3 4.8m 75mm 9 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 75mm x 4.8m 9 x 3",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479519",
+    "Prices": [
+      {
+        "PriceId": 136,
+        "ProductId": 160,
+        "MerchantId": 6,
+        "PriceValue": 42.780000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479519",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 161,
+    "Name": "white deal rough timber - ( inches)",
+    "Description": "- ( 2 2 4.5m 44mm 50mm deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "50mm x 44mm x 4.5m 2 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479528",
+    "Prices": [
+      {
+        "PriceId": 137,
+        "ProductId": 161,
+        "MerchantId": 6,
+        "PriceValue": 5.2300000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479528",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 162,
+    "Name": "white deal rough timber - ( inches )",
+    "Description": "- ( ) 2 225mm 3.6m 44mm 9 deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 44mm x 3.6m 9 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479535",
+    "Prices": [
+      {
+        "PriceId": 138,
+        "ProductId": 162,
+        "MerchantId": 6,
+        "PriceValue": 18.820000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479535",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 163,
+    "Name": "white deal rough timber - ( inches)",
+    "Description": "- ( 2 225mm 4.2m 44mm 9 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 44mm x 4.2m 9 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.479543",
+    "Prices": [
+      {
+        "PriceId": 139,
+        "ProductId": 163,
+        "MerchantId": 6,
+        "PriceValue": 21.970000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.479543",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 164,
+    "Name": "white deal rough timber - ( inches) ",
+    "Description": "- ( 175mm 2 44mm 5.4m 7 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "175mm x 44mm x 5.4m 7 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:42.47955",
+    "Prices": [
+      {
+        "PriceId": 140,
+        "ProductId": 164,
+        "MerchantId": 6,
+        "PriceValue": 21.970000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:42.47955",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 165,
+    "Name": "white deal rough timber - ( inches)",
+    "Description": "- ( 175mm 2 3.6m 44mm 7 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "175mm x 44mm x 3.6m 7 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780515",
+    "Prices": [
+      {
+        "PriceId": 141,
+        "ProductId": 165,
+        "MerchantId": 6,
+        "PriceValue": 14.640000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780518",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 166,
+    "Name": "white deal rough timber -  ( inches)",
+    "Description": "- ( 175mm 2 4.2m 44mm 7 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "175mm x 44mm x 4.2m 7 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780532",
+    "Prices": [
+      {
+        "PriceId": 142,
+        "ProductId": 166,
+        "MerchantId": 6,
+        "PriceValue": 17.070000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780533",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 167,
+    "Name": "white deal rough treated timber - inches )",
+    "Description": "- (9 ) 225mm 3 4.8m 75mm deal inches rough timber treated white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 75mm x 4.8m (9 x 3",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780539",
+    "Prices": [
+      {
+        "PriceId": 143,
+        "ProductId": 167,
+        "MerchantId": 6,
+        "PriceValue": 53.710000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780539",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 168,
+    "Name": "white deal rough timber - ( inches)",
+    "Description": "- ( 225mm 3 5.4m 75mm 9 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 75mm x 5.4m 9 x 3",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780561",
+    "Prices": [
+      {
+        "PriceId": 144,
+        "ProductId": 168,
+        "MerchantId": 6,
+        "PriceValue": 48.130000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780561",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 169,
+    "Name": "white deal rough timber - ( inches)",
+    "Description": "- ( 150mm 3 4.8m 6 75mm deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "150mm x 75mm x 4.8m 6 x 3",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780566",
+    "Prices": [
+      {
+        "PriceId": 145,
+        "ProductId": 169,
+        "MerchantId": 6,
+        "PriceValue": 28.520000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780566",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 170,
+    "Name": " white deal rough timber - ( inches) ",
+    "Description": "- ( 2 225mm 3.0m 44mm 9 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 44mm x 3.0m 9 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780586",
+    "Prices": [
+      {
+        "PriceId": 146,
+        "ProductId": 170,
+        "MerchantId": 6,
+        "PriceValue": 15.680000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780587",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 171,
+    "Name": "white deal rough timber - ( inches) ",
+    "Description": "- ( 175mm 2 4.8m 44mm 7 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "175mm x 44mm x 4.8m 7 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780597",
+    "Prices": [
+      {
+        "PriceId": 147,
+        "ProductId": 171,
+        "MerchantId": 6,
+        "PriceValue": 19.520000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780597",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 172,
+    "Name": "white deal rough timber - ( inches) ",
+    "Description": "- ( 175mm 2 3.0m 44mm 7 deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "175mm x 44mm x 3.0m 7 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780602",
+    "Prices": [
+      {
+        "PriceId": 148,
+        "ProductId": 172,
+        "MerchantId": 6,
+        "PriceValue": 12.200000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780602",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 173,
+    "Name": "white deal rough timber - ( inches) ",
+    "Description": "- ( 2 3 4.2m 44mm 75mm deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "75mm x 44mm x 4.2m 3 x 2",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780606",
+    "Prices": [
+      {
+        "PriceId": 149,
+        "ProductId": 173,
+        "MerchantId": 6,
+        "PriceValue": 7.3200000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780606",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 174,
+    "Name": "white deal rough timber - ( inches)",
+    "Description": "- ( 1 2 35mm 4.5m 50mm deal inches) rough timber white x x x",
+    "Category": "timber",
+    "Unit": "50mm x 35mm x 4.5m 2 x 1",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780611",
+    "Prices": [
+      {
+        "PriceId": 150,
+        "ProductId": 174,
+        "MerchantId": 6,
+        "PriceValue": 4.1600000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780611",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 175,
+    "Name": "white deal rough timber - ( inches )",
+    "Description": "- ( ) 1 2 22mm 4.5m 50mm deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "50mm x 22mm x 4.5m 2 x 1",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780615",
+    "Prices": [
+      {
+        "PriceId": 151,
+        "ProductId": 175,
+        "MerchantId": 6,
+        "PriceValue": 2.6200000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780615",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 176,
+    "Name": "carbery non potable water tank black",
+    "Description": "1350l black carbery non potable tank water",
+    "Category": "timber",
+    "Unit": "1350l",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:45.780619",
+    "Prices": [
+      {
+        "PriceId": 152,
+        "ProductId": 176,
+        "MerchantId": 6,
+        "PriceValue": 566.49000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:45.780619",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 177,
+    "Name": "rough white deal batten treated",
+    "Description": "35 4.8m 50 batten deal rough sr82 treated white x",
+    "Category": "timber",
+    "Unit": "4.8m 50 x 35 sr82",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971802",
+    "Prices": [
+      {
+        "PriceId": 153,
+        "ProductId": 177,
+        "MerchantId": 6,
+        "PriceValue": 6.5600000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971805",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 178,
+    "Name": "cls white deal",
+    "Description": "150 4.8m 50 cls deal white x",
+    "Category": "timber",
+    "Unit": "4.8m 150 x 50",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.97182",
+    "Prices": [
+      {
+        "PriceId": 154,
+        "ProductId": 178,
+        "MerchantId": 6,
+        "PriceValue": 18.120000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.97182",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 179,
+    "Name": "cls white deal",
+    "Description": "100 4.8m 50 cls deal white x",
+    "Category": "timber",
+    "Unit": "4.8m 100 x 50",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971825",
+    "Prices": [
+      {
+        "PriceId": 155,
+        "ProductId": 179,
+        "MerchantId": 6,
+        "PriceValue": 12.080000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971825",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 180,
+    "Name": "rough white deal treated",
+    "Description": "4.2m 44 50 deal rough treated white x",
+    "Category": "timber",
+    "Unit": "4.2m 50 x 44",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971842",
+    "Prices": [
+      {
+        "PriceId": 156,
+        "ProductId": 180,
+        "MerchantId": 6,
+        "PriceValue": 6.1500000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971843",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 181,
+    "Name": "scaffolding plank",
+    "Description": "1.25m 225 63mm plank scaffolding x",
+    "Category": "timber",
+    "Unit": "1.25m 225 x 63mm",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971847",
+    "Prices": [
+      {
+        "PriceId": 157,
+        "ProductId": 181,
+        "MerchantId": 6,
+        "PriceValue": 22.120000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971847",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 182,
+    "Name": "cls white deal treated",
+    "Description": "150 4.8m 50 cls deal treated white x",
+    "Category": "timber",
+    "Unit": "4.8m 150 x 50",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971852",
+    "Prices": [
+      {
+        "PriceId": 158,
+        "ProductId": 182,
+        "MerchantId": 6,
+        "PriceValue": 19.890000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971852",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 183,
+    "Name": "white deal rough timber - ( inches",
+    "Description": "- ( 1.5 225mm 35mm 4.8m 9 approx) deal inches rough timber white x x x",
+    "Category": "timber",
+    "Unit": "225mm x 35mm x 4.8m 9 x 1.5 approx)",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971856",
+    "Prices": [
+      {
+        "PriceId": 159,
+        "ProductId": 183,
+        "MerchantId": 6,
+        "PriceValue": 19.960000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971856",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 184,
+    "Name": "rough white deal",
+    "Description": "175 35 4.8m deal rough white x",
+    "Category": "timber",
+    "Unit": "4.8m 175 x 35",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971864",
+    "Prices": [
+      {
+        "PriceId": 160,
+        "ProductId": 184,
+        "MerchantId": 6,
+        "PriceValue": 15.530000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971865",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 185,
+    "Name": "imported rough white deal",
+    "Description": "225 44 6.6m deal imported rough white x",
+    "Category": "timber",
+    "Unit": "6.6m 225 x 44",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971868",
+    "Prices": [
+      {
+        "PriceId": 161,
+        "ProductId": 185,
+        "MerchantId": 6,
+        "PriceValue": 39.510000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971869",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 186,
+    "Name": "imported rough white deal",
+    "Description": "225 44 6.0m deal imported rough white x",
+    "Category": "timber",
+    "Unit": "6.0m 225 x 44",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971873",
+    "Prices": [
+      {
+        "PriceId": 162,
+        "ProductId": 186,
+        "MerchantId": 6,
+        "PriceValue": 34.930000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971873",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 187,
+    "Name": "white deal rough - treated",
+    "Description": "- 35 4.8m 75 deal rough treated white x",
+    "Category": "timber",
+    "Unit": "4.8m 75 x 35",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971877",
+    "Prices": [
+      {
+        "PriceId": 163,
+        "ProductId": 187,
+        "MerchantId": 6,
+        "PriceValue": 8.350000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971877",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 188,
+    "Name": "rough white deal treated",
+    "Description": "35 4.5m 50 deal rough treated white x",
+    "Category": "timber",
+    "Unit": "4.5m 50 x 35",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:49.971882",
+    "Prices": [
+      {
+        "PriceId": 164,
+        "ProductId": 188,
+        "MerchantId": 6,
+        "PriceValue": 5.2300000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:49.971882",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 189,
+    "Name": "rough white deal treated",
+    "Description": "22 5.1m 50 deal rough treated white x",
+    "Category": "timber",
+    "Unit": "5.1m 50 x 22",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:52.786884",
+    "Prices": [
+      {
+        "PriceId": 165,
+        "ProductId": 189,
+        "MerchantId": 6,
+        "PriceValue": 3.6900000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:52.786888",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 190,
+    "Name": "white deal rough - treated",
+    "Description": "- 175 44 5.4m deal rough treated white x",
+    "Category": "timber",
+    "Unit": "5.4m 175 x 44",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-01-31T12:47:52.786902",
+    "Prices": [
+      {
+        "PriceId": 166,
+        "ProductId": 190,
+        "MerchantId": 6,
+        "PriceValue": 27.580000000000000000000000000,
+        "ScrapedAt": "2025-01-31T12:47:52.786902",
+        "Merchant": null
+      }
+    ]
+  }
+]

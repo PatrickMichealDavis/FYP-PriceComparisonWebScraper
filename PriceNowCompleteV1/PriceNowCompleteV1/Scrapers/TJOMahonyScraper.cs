@@ -237,6 +237,7 @@ namespace PriceNowCompleteV1.Scrapers
 
         public override Task RunPartialScrapeByMerchant(Merchant merchant)
         {
+            Console.WriteLine("Running partial scrape for TJOMahony");
             throw new NotImplementedException();
         }
 
