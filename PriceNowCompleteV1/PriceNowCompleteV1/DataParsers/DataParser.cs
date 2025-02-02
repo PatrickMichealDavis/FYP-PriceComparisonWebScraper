@@ -1,5 +1,6 @@
 ﻿using PriceNowCompleteV1.Models;
 using FuzzySharp;
+using System.Text.RegularExpressions;
 
 namespace PriceNowCompleteV1.DataParsers
 {
@@ -17,6 +18,7 @@ namespace PriceNowCompleteV1.DataParsers
 
         private static Tuple<string, string> SplitProductNameAndUnit(string fullName)
         {
+            //fullName = Regex.Replace(fullName, @"\s*\(.*?\)\s*", " ").Replace("-",""); use this to clean already dirty db if you dont wipe
             var splitNameAndUnit = fullName.Split(" ");
 
             List<string> productNameParts = new List<string>();
@@ -47,12 +49,9 @@ namespace PriceNowCompleteV1.DataParsers
                   part.EndsWith("ft", StringComparison.OrdinalIgnoreCase);
         }
 
-        public static Product UpdatePriceIfProductExists(Product newProduct, Product existingProduct)
+        public static Product CheckForCloseComparrison(Product newProduct, Product existingProduct)
         {
-            if (existingProduct == null)//never will hit i dont think
-            {
-                return newProduct;
-            }
+           
             int ratio = Fuzz.Ratio(newProduct.Description.ToLower(), existingProduct.Description.ToLower());
             int sortedRatio = Fuzz.TokenSortRatio(newProduct.Description.ToLower(), existingProduct.Description.ToLower());
 
@@ -62,23 +61,21 @@ namespace PriceNowCompleteV1.DataParsers
             //check against book for test cases currently at 106 which failed with score 88 may need to increase further or add another verification
             if (finalScore >= 90)
             {
-                existingProduct.Prices.Add(newProduct.Prices.First());
+                newProduct.Description = existingProduct.Description;
             }
-            //else
-            //{
-            //    return newProduct;//this wont work as you are for eaching need to change to dictionary. 
-            //}
-
-            return existingProduct;
+           
+            return newProduct;
         }
 
         public static string StandardizeDescription(string description)
         {
+            description = Regex.Replace(description, @"\s*\(.*?\)\s*", " ");
             var words = description
-                .Replace("by", "x", StringComparison.OrdinalIgnoreCase)
+                .Replace("by", "x", StringComparison.OrdinalIgnoreCase).Replace("-","")
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(w => w.ToLower()).OrderBy(w => w);
             description = string.Join(" ", words);
+
             return description;
         }
 
