@@ -130,6 +130,8 @@ namespace PriceNowCompleteV1.Scrapers
                
                 var products = new List<Product>();
                 bool hasMoreProducts = true;
+                var scrapedProductsRaw = new List<Product>();
+
 
                 while (hasMoreProducts)
                 {
@@ -169,7 +171,7 @@ namespace PriceNowCompleteV1.Scrapers
                                 Name = productName,
                                 Description = productName,
                                 Unit = unit,
-                                Category = "timber",
+                                Category = "rough timber",
                                 Prices = new List<Price>
                                         {
                                             new Price
@@ -180,6 +182,8 @@ namespace PriceNowCompleteV1.Scrapers
                                             }
                                         }
                             };
+
+                            //scrapedProductsRaw.Add(product); //turn off second 2 lines when turning on this
                             var sanitizedProduct = DataParser.SanitizeProduct(product);
                             products.Add(sanitizedProduct);
 
@@ -202,6 +206,13 @@ namespace PriceNowCompleteV1.Scrapers
                     }
                 }
                 var distinctProducts = products.Distinct().ToList();
+
+                string rawProductsFilePath = "tjomahonyRawProducts.json";
+                string sanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
+
+                //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
+                await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
+
                 //await _productService.AddMultipleProducts(products);// added new chain here!!!!
             }
             catch (Exception ex)

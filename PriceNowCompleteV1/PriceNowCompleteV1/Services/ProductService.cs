@@ -1,5 +1,7 @@
-﻿using PriceNowCompleteV1.Interfaces;
+﻿using PriceNowCompleteV1.DataParsers;
+using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
+using System.Linq;
 using System.Text.Json;
 
 namespace PriceNowCompleteV1.Services
@@ -108,5 +110,33 @@ namespace PriceNowCompleteV1.Services
 
         }
 
+        public async Task  ProcessProducts(List<Product> scrapedProducts)
+        {
+            var allProducts = await _productRepository.GetAll();
+            var category = scrapedProducts.FirstOrDefault()?.Category;
+            var productsByCategory = allProducts.Where(p => p.Category == category).ToList();
+
+            foreach (var scrapedProduct in scrapedProducts) 
+            {
+                var productsByUnit = productsByCategory.Where(p => p.Unit == scrapedProduct.Unit).ToList();
+
+                foreach(var productByUnit in productsByUnit)//repo
+                {
+                    if (DataParser.CheckForCloseComparrison(scrapedProduct, productByUnit))
+                    {
+                        productByUnit.Prices.Add(scrapedProduct.Prices.First());
+                        Console.WriteLine("Price updated in repo");
+                        //update
+                    }
+                    else
+                    {
+                        Console.WriteLine("No close match found, adding new product");
+                        //add new
+                    }
+                }
+
+            }
+
+        }
     }
 }

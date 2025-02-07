@@ -1,0 +1,496 @@
+[
+  {
+    "ProductId": 0,
+    "Name": "Timber Decking Board Tanalised - 150mm X 35mm X 4.8m (16 Ft Approx)",
+    "Description": "Timber Decking Board Tanalised - 150mm X 35mm X 4.8m (16 Ft Approx)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9846002Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 25.39,
+        "ScrapedAt": "2025-02-07T14:14:57.9849299Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "1.8m 75 x 75 Treated Post",
+    "Description": "1.8m 75 x 75 Treated Post",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9850131Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 8.02,
+        "ScrapedAt": "2025-02-07T14:14:57.9850135Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "3.6m 100 x 35 Tanalised D-Rail",
+    "Description": "3.6m 100 x 35 Tanalised D-Rail",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9850172Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 14.27,
+        "ScrapedAt": "2025-02-07T14:14:57.9850173Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Decking Spindle 41 x 41 895mm Pine",
+    "Description": "Decking Spindle 41 x 41 895mm Pine",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.98502Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 5.44,
+        "ScrapedAt": "2025-02-07T14:14:57.9850201Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Decking Chamfered Post 1500 x 86 x 86mm Pine",
+    "Description": "Decking Chamfered Post 1500 x 86 x 86mm Pine",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9850236Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 34.45,
+        "ScrapedAt": "2025-02-07T14:14:57.9850237Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Decking Square Post 1500 x 86 x 86mm Pine",
+    "Description": "Decking Square Post 1500 x 86 x 86mm Pine",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9850264Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 27.59,
+        "ScrapedAt": "2025-02-07T14:14:57.9850265Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Decking Baserail 68 x 24 x 2100mm Pine",
+    "Description": "Decking Baserail 68 x 24 x 2100mm Pine",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9850286Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 20.65,
+        "ScrapedAt": "2025-02-07T14:14:57.9850287Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Decking Handrail Round Top 55 x 67 x 2100mm Pine",
+    "Description": "Decking Handrail Round Top 55 x 67 x 2100mm Pine",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.985043Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 20.1,
+        "ScrapedAt": "2025-02-07T14:14:57.9850431Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "2.4m 94 x 94 Micropro Treated Tan-E",
+    "Description": "2.4m 94 x 94 Micropro Treated Tan-E",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9850456Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 37.28,
+        "ScrapedAt": "2025-02-07T14:14:57.9850457Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Timber Decking Board Treated - 150mm X 35mm X 5.4m (18 Ft Approx)",
+    "Description": "Timber Decking Board Treated - 150mm X 35mm X 5.4m (18 Ft Approx)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.985048Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 28.56,
+        "ScrapedAt": "2025-02-07T14:14:57.9850482Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Timber GLB Pressure Treated Fence Post - 75mm X 75mm X 2.4m",
+    "Description": "Timber GLB Pressure Treated Fence Post - 75mm X 75mm X 2.4m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9850505Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 11.7,
+        "ScrapedAt": "2025-02-07T14:14:57.9850507Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "1.8m 100 x 75 Treated Stake",
+    "Description": "1.8m 100 x 75 Treated Stake",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:14:57.9850528Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 10.03,
+        "ScrapedAt": "2025-02-07T14:14:57.985053Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "1.8m 150 x 75 Treated Post",
+    "Description": "1.8m 150 x 75 Treated Post",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996194Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 13.69,
+        "ScrapedAt": "2025-02-07T14:15:28.5996218Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "2.4m 75 x 44 Decking Handrail 0.00792",
+    "Description": "2.4m 75 x 44 Decking Handrail 0.00792",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996255Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 10.9,
+        "ScrapedAt": "2025-02-07T14:15:28.5996256Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "100 x 100mm Par Round Top Deck Post (1.2m)",
+    "Description": "100 x 100mm Par Round Top Deck Post (1.2m)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996279Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 13.12,
+        "ScrapedAt": "2025-02-07T14:15:28.599628Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Square Spindle Treated 900mm",
+    "Description": "Square Spindle Treated 900mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.59963Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 5.28,
+        "ScrapedAt": "2025-02-07T14:15:28.5996301Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Timber Decking Board Tanalised - 150mm X 44mm X 4.2m (14 Ft Approx)",
+    "Description": "Timber Decking Board Tanalised - 150mm X 44mm X 4.2m (14 Ft Approx)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996323Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 26.36,
+        "ScrapedAt": "2025-02-07T14:15:28.5996325Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "3.6m 150 x 35 Glendeck Tanalised D-Rail",
+    "Description": "3.6m 150 x 35 Glendeck Tanalised D-Rail",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996462Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 17.8,
+        "ScrapedAt": "2025-02-07T14:15:28.5996464Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "3.0m 100 x 35 Tanalised D-Rail",
+    "Description": "3.0m 100 x 35 Tanalised D-Rail",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.599652Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 11.92,
+        "ScrapedAt": "2025-02-07T14:15:28.5996522Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Timber GLB Pressure Treated Tanalised D-Rail Timber - 100mm x 35mm x 4.8m ",
+    "Description": "Timber GLB Pressure Treated Tanalised D-Rail Timber - 100mm x 35mm x 4.8m ",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996599Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 19.07,
+        "ScrapedAt": "2025-02-07T14:15:28.59966Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "2.4m 100 x 35 Tanalised D-Rail",
+    "Description": "2.4m 100 x 35 Tanalised D-Rail",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996627Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 9.52,
+        "ScrapedAt": "2025-02-07T14:15:28.5996628Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Timber Decking Board Treated - 150mm X 35mm X 4.5m (15 Ft Approx)",
+    "Description": "Timber Decking Board Treated - 150mm X 35mm X 4.5m (15 Ft Approx)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996651Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 23.8,
+        "ScrapedAt": "2025-02-07T14:15:28.5996653Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "100 x 35 Tanalised D-Rail",
+    "Description": "100 x 35 Tanalised D-Rail",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996756Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 3.97,
+        "ScrapedAt": "2025-02-07T14:15:28.5996758Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Glendeck Tanalised Spindles 50 x 50mm Longford (Par)",
+    "Description": "Glendeck Tanalised Spindles 50 x 50mm Longford (Par)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:28.5996779Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 3.81,
+        "ScrapedAt": "2025-02-07T14:15:28.5996781Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Timber Decking Board Tanalised - 150mm X 35mm X 4.2m (14 Ft Approx)",
+    "Description": "Timber Decking Board Tanalised - 150mm X 35mm X 4.2m (14 Ft Approx)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:30.2614811Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 22.21,
+        "ScrapedAt": "2025-02-07T14:15:30.2614848Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Decking Fired Earth Spindle Inc Spigot 50 x 50 x 900mm",
+    "Description": "Composite Decking Fired Earth Spindle Inc Spigot 50 x 50 x 900mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T14:15:30.2614899Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 2,
+        "PriceValue": 10.16,
+        "ScrapedAt": "2025-02-07T14:15:30.2614901Z",
+        "Merchant": null
+      }
+    ]
+  }
+]

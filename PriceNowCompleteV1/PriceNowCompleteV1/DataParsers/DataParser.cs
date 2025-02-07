@@ -18,7 +18,7 @@ namespace PriceNowCompleteV1.DataParsers
 
         private static Tuple<string, string> SplitProductNameAndUnit(string fullName)
         {
-            //fullName = Regex.Replace(fullName, @"\s*\(.*?\)\s*", " ").Replace("-",""); use this to clean already dirty db if you dont wipe
+            fullName = Regex.Replace(fullName, @"\s*\(.*?\)\s*", " ").Replace("-",""); //use this to clean already dirty db if you dont wipe
             var splitNameAndUnit = fullName.Split(" ");
 
             List<string> productNameParts = new List<string>();

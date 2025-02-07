@@ -159,12 +159,13 @@ namespace PriceNowCompleteV1.Controllers
             string existingProductsFilePath = "products.json";
             string mockscrapeProductsFilePath = "newproducts.json";
             string outcomeFilepath = "fuzzyComparison.json";
-
-            var mockScrapedProducts = await _productService.LoadProductsFromFile(mockscrapeProductsFilePath);
-            var existingProducts = await _productService.LoadProductsFromFile(existingProductsFilePath);
+            string rawTimberProductsFilePath = "tjomahonyRawProducts.json";
 
 
+            //var mockScrapedProducts = await _productService.LoadProductsFromFile(mockscrapeProductsFilePath);
+            //var existingProducts = await _productService.LoadProductsFromFile(existingProductsFilePath);
 
+          
             return Ok();
         }
 
