@@ -102,5 +102,11 @@ namespace PriceNowCompleteV1.Services
             return JsonSerializer.Deserialize<List<Product>>(json) ?? new List<Product>();
         }
 
+        public async Task ComapreProductsForUpdateOrAdd(List<Product> newProducts)
+        {
+            
+
+        }
+
     }
 }

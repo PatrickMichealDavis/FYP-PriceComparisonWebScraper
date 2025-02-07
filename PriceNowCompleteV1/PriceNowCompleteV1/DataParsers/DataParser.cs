@@ -49,7 +49,7 @@ namespace PriceNowCompleteV1.DataParsers
                   part.EndsWith("ft", StringComparison.OrdinalIgnoreCase);
         }
 
-        public static Product CheckForCloseComparrison(Product newProduct, Product existingProduct)
+        public static bool CheckForCloseComparrison(Product newProduct, Product existingProduct)
         {
            
             int ratio = Fuzz.Ratio(newProduct.Description.ToLower(), existingProduct.Description.ToLower());
@@ -58,13 +58,13 @@ namespace PriceNowCompleteV1.DataParsers
             int finalScore = (ratio + sortedRatio) / 2;
             Console.WriteLine($"Final Similarity Score: {finalScore}%");
 
-            //check against book for test cases currently at 106 which failed with score 88 may need to increase further or add another verification
             if (finalScore >= 90)
             {
-                newProduct.Description = existingProduct.Description;
+                //newProduct.Description = existingProduct.Description;
+                return true;
             }
            
-            return newProduct;
+            return false;
         }
 
         public static string StandardizeDescription(string description)
@@ -84,5 +84,7 @@ namespace PriceNowCompleteV1.DataParsers
             product.Description = StandardizeDescription(product.Description);
             return product;
         }
+
+        
     }
 }

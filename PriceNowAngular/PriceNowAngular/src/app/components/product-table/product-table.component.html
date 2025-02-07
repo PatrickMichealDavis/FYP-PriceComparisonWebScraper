@@ -1,26 +1,60 @@
-<p>product-table works!</p>
+
+<button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#wishListModal">View Wishlist</button><br>
+
 <div>
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Product Name</th>
-                <th>Description</th>
-                <th>Unit</th>
-                <th>Created At</th>
+                <th>Product Name</th>           
+                <th>Unit</th>                
                 <th scope="col">Actions</th>
             </tr>
         </thead>
         <tbody>
             <tr *ngFor="let product of productList">
-                <td>{{ product.name }}</td>
-                <td>{{ product.description }}</td>
-                <td>{{ product.unit }}</td>
-                <td>{{ product.createdAt }}</td>
+                <td>{{ product.name }}</td>               
+                <td>{{ product.unit }}</td>               
                 <td>
-                    <button class="btn btn-primary">Edit</button>
-                    <button class="btn btn-danger">Delete</button>
+                    <button class="btn btn-primary" (click)="addToWishlist(product)">Add to WishList</button>                   
                 </td>
             </tr>
         </tbody>
     </table>
 </div>
+
+<!-- Modal Structure -->
+<div class="modal fade" id="wishListModal" tabindex="-1" aria-labelledby="wishListModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="wishListModalLabel">Wishlist</h5>
+          <button class="btn btn-success" (click)="compare()">Compare</button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <table class="table table-striped">
+              <tbody *ngIf="wishlist.length > 0; else emptyWishlist">
+                <tr *ngFor="let product of wishlist">
+                    <td>{{ product.name }}</td>
+                    <td>{{ product.unit }}</td>
+                    <td>
+                        <button class="btn btn-danger" (click)="removeFromWishlist(product)">
+                            Remove from Wishlist
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <ng-template #emptyWishlist>
+            <tbody>
+                <tr>
+                    <td colspan="3" class="text-center text-muted">Your wishlist is empty.</td>
+                </tr>
+            </tbody>
+        </ng-template>
+        </div>
+      </div>
+    </div>
+</div>
+

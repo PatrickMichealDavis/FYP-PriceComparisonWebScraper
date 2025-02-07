@@ -31,7 +31,10 @@ builder.Services.AddScoped<ILoggingService, LoggingService>();
 
 
 var app = builder.Build();
-
+app.UseCors(options => options.WithOrigins("http://localhost:4200")
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .AllowCredentials());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -40,10 +43,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(options => options.WithOrigins("http://localhost:4200")
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    .AllowCredentials());
+
 
 //app.UseHttpsRedirection();
 

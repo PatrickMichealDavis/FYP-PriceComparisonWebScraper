@@ -2,7 +2,7 @@ import { Price } from "./price.model";
 
 export class Product {
 
-    productID: number=0;
+    productId: number=0;
     name: string='';
     description: string='';
     unit: string='';

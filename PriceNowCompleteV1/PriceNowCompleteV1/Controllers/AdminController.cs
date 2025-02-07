@@ -45,6 +45,13 @@ namespace PriceNowCompleteV1.Controllers
             return Ok(merchants);
         }
 
+        [HttpPost("compare")]
+        public async Task<ActionResult<IEnumerable<Product>>> Compare([FromBody] int[] productList)
+        {
+            var products = await _productService.GetAllProducts();
+            return Ok(products);
+        }
+
         [HttpGet("runFullSuite")]
         public async Task RunFullSuite()//this will create all scrapers in time
         {
