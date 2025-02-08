@@ -184,7 +184,7 @@ namespace PriceNowCompleteV1.Scrapers
                             };
 
                             //scrapedProductsRaw.Add(product); //turn off second 2 lines when turning on this
-                            var sanitizedProduct = DataParser.SanitizeProduct(product);
+                            var sanitizedProduct = DataParser.SanitizeProduct(product);// remove and send to full standardize
                             products.Add(sanitizedProduct);
 
                         }
@@ -211,7 +211,7 @@ namespace PriceNowCompleteV1.Scrapers
                 string sanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
 
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
-                await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
+               // await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
 
                 //await _productService.AddMultipleProducts(products);// added new chain here!!!!
             }

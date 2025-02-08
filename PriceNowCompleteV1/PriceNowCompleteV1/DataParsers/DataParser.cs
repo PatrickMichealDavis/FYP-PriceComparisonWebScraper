@@ -1,6 +1,7 @@
 ﻿using PriceNowCompleteV1.Models;
 using FuzzySharp;
 using System.Text.RegularExpressions;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace PriceNowCompleteV1.DataParsers
 {
@@ -9,16 +10,18 @@ namespace PriceNowCompleteV1.DataParsers
         public static Product SanitizeProduct(Product product)
         {
             var productNameAndUnit = SplitProductNameAndUnit(product.Name);
-            product.Name = productNameAndUnit.Item1.ToLower();
-            product.Unit = productNameAndUnit.Item2.ToLower();
-            product.Description = StandardizeDescription(product.Description);
+            product.Name = productNameAndUnit.Item1.ToLower().Replace(")","").Replace("(","").Replace(".","").Trim();
+            product.Unit = productNameAndUnit.Item2.ToLower().Trim();
+            product.Description = product.Description.ToLower().Trim();//may not need this unless used in comparisson
+
+            //need to decide about cleaning description
 
             return product;
         }
 
         private static Tuple<string, string> SplitProductNameAndUnit(string fullName)
         {
-            fullName = Regex.Replace(fullName, @"\s*\(.*?\)\s*", " ").Replace("-",""); //use this to clean already dirty db if you dont wipe
+            fullName = Clean(fullName);
             var splitNameAndUnit = fullName.Split(" ");
 
             List<string> productNameParts = new List<string>();
@@ -35,8 +38,10 @@ namespace PriceNowCompleteV1.DataParsers
                     productNameParts.Add(part);
                 }
             }
+
             string productName = string.Join(" ", productNameParts);
             string unit = string.Join(" ", productUnitParts);
+            unit = Regex.Replace(unit, @"\b[a-zA-Z]+\d+\b", "").Trim();
 
             return new Tuple<string, string>(productName, unit);
         }
@@ -49,42 +54,61 @@ namespace PriceNowCompleteV1.DataParsers
                   part.EndsWith("ft", StringComparison.OrdinalIgnoreCase);
         }
 
+        private static string Clean(string word)
+        {
+            word = Regex.Replace(word, @"\s*\(.*?\)\s*", " ");
+            word = Regex.Replace(word, @"\s*-\s*", " ");
+            word.Replace(";", "");
+
+            return word;
+        }
+
         public static bool CheckForCloseComparrison(Product newProduct, Product existingProduct)
         {
-           
-            int ratio = Fuzz.Ratio(newProduct.Description.ToLower(), existingProduct.Description.ToLower());
-            int sortedRatio = Fuzz.TokenSortRatio(newProduct.Description.ToLower(), existingProduct.Description.ToLower());
+            int nameRatio = Fuzz.Ratio(newProduct.Name.ToLower(), existingProduct.Name.ToLower());
+            int nameSortedRatio = Fuzz.TokenSortRatio(newProduct.Name.ToLower(), existingProduct.Name.ToLower());
 
-            int finalScore = (ratio + sortedRatio) / 2;
-            Console.WriteLine($"Final Similarity Score: {finalScore}%");
+            int unitRatio = Fuzz.Ratio(newProduct.Unit.ToLower(), existingProduct.Unit.ToLower());
+            int unitSortedRatio = Fuzz.TokenSortRatio(newProduct.Unit.ToLower(), existingProduct.Unit.ToLower());
 
-            if (finalScore >= 90)
+            int finalNameScore = (nameRatio + nameSortedRatio) / 2;
+            int finalUnitScore = (unitRatio + unitSortedRatio) / 2;
+
+            int finalScore = (finalNameScore + finalUnitScore) / 2;
+            Console.WriteLine($"Final Similarity Score: {finalNameScore}%");
+
+            if (finalNameScore >= 90 && finalUnitScore > 97)
             {
-                //newProduct.Description = existingProduct.Description;
+                return true;
+            }
+
+            return false;
+        }
+        
+        public static bool CheckForCloseComparrisonUnit(string newProduct, string existingProduct)
+        {
+            int unitRatio = Fuzz.Ratio(newProduct, existingProduct);
+            int unitSortedRatio = Fuzz.TokenSortRatio(newProduct, existingProduct);
+
+            int finalUnitScore = (unitRatio + unitSortedRatio) / 2;
+
+            if (finalUnitScore >= 80)
+            {
                 return true;
             }
            
             return false;
         }
 
-        public static string StandardizeDescription(string description)
+        public static string Standardize(string word)
         {
-            description = Regex.Replace(description, @"\s*\(.*?\)\s*", " ");
-            var words = description
-                .Replace("by", "x", StringComparison.OrdinalIgnoreCase).Replace("-","")
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(w => w.ToLower()).OrderBy(w => w);
-            description = string.Join(" ", words);
+            var words = word.Replace("by", "x", StringComparison.OrdinalIgnoreCase)
+                            .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                            .Select(w => w.ToLower()).OrderBy(w => w);
 
-            return description;
+            word = string.Join(" ", words);
+
+            return word;
         }
-
-        public static Product CleanProductDescription(Product product)
-        {
-            product.Description = StandardizeDescription(product.Description);
-            return product;
-        }
-
-        
     }
 }

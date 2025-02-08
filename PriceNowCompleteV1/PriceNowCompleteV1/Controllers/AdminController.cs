@@ -152,20 +152,67 @@ namespace PriceNowCompleteV1.Controllers
             //await _productService.AddProduct(product);
             return Ok("Test product added successfully.");
         }
-
+        
         [HttpGet("testFuzzy")]
         public async Task<IActionResult> TestFuzzyComparison()
         {
-            string existingProductsFilePath = "products.json";
-            string mockscrapeProductsFilePath = "newproducts.json";
-            string outcomeFilepath = "fuzzyComparison.json";
-            string rawTimberProductsFilePath = "tjomahonyRawProducts.json";
+            //string existingProductsFilePath = "products.json";
+            string repoProductsMockFilePath = "newproducts.json";
+            string outcomeFilepath = "results.json";
+            //string rawTimberProductsFilePath = "chadwicksRawProducts.json";
+            string tjomaohnyProductsSanitizedFilePath = "tjomahonySanitizedProducts.json";
+            string corkbpProductsSanitizedFilePath = "corkbpProducts.json";
+            string chadwicksProductsSanitizedFilePath = "chadwicksTimberSanitizedProducts.json";
+
+            var sanitizedProducts = new List<Product>();
+
+            var mockScrapedProducts = await _productService.LoadProductsFromFile(chadwicksProductsSanitizedFilePath);
+            var mockReop = await _productService.LoadProductsFromFile(corkbpProductsSanitizedFilePath);
+
+            // var allProducts = await _productRepository.GetAll();
+            var category = mockScrapedProducts.FirstOrDefault()?.Category;
+            var productsByCategory = mockReop.Where(p => p.Category == category).ToList();
+            var updatedProducts = new List<Product>();
+            var repoProductsMock = new List<Product>();
+            var counter = 1;
+
+            foreach (var scrapedProduct in mockScrapedProducts)
+            {
+                var productsByUnit = productsByCategory.Where(p => DataParser.CheckForCloseComparrisonUnit(p.Unit, scrapedProduct.Unit)).ToList();
+
+                foreach (var productByUnit in productsByUnit)//repo
+                {
+                    if (DataParser.CheckForCloseComparrison(scrapedProduct, productByUnit))
+                    {
+                        var newPrice = scrapedProduct.Prices.First();
+                        newPrice.ProductId = counter;
+                        productByUnit.Prices.Add(newPrice);
+                        productByUnit.ProductId = counter;
+                        updatedProducts.Add(productByUnit);
+                        scrapedProduct.ProductId = counter;
+                        counter++;
 
 
-            //var mockScrapedProducts = await _productService.LoadProductsFromFile(mockscrapeProductsFilePath);
+                        repoProductsMock.Add(scrapedProduct);
+                        Console.WriteLine("Price updated in repo");
+                        //update
+                    }
+                    else
+                    {
+                        Console.WriteLine("No close match found, adding new product");
+                        //add new
+                    }
+                }
+
+            }
+            updatedProducts = updatedProducts.Distinct().ToList();
+            repoProductsMock = repoProductsMock.Distinct().ToList();
+            await _productService.SaveProductsToFile(outcomeFilepath, updatedProducts);
+            await _productService.SaveProductsToFile(repoProductsMockFilePath, repoProductsMock);
+
+            //await _productService.SaveProductsToFile(ProductsSanitizedFilePath, sanitizedProducts);
             //var existingProducts = await _productService.LoadProductsFromFile(existingProductsFilePath);
 
-          
             return Ok();
         }
 

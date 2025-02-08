@@ -216,9 +216,9 @@ namespace PriceNowCompleteV1.Scrapers
                                         }
                             };
 
-                            scrapedProductsRaw.Add(product); //turn off second 2 lines when turning on this
-                            //var sanitizedProduct = DataParser.SanitizeProduct(product);
-                            //products.Add(sanitizedProduct);
+                            //scrapedProductsRaw.Add(product); //turn off second 2 lines when turning on this
+                            var sanitizedProduct = DataParser.SanitizeProduct(product);
+                            products.Add(sanitizedProduct);
                             repeatedProductLinks.Add(productHref);
 
                         }
@@ -245,7 +245,7 @@ namespace PriceNowCompleteV1.Scrapers
                 string sanitizedProductsFilePath = "corkbpSanitizedProducts.json";
                 string rawDeckingProductsFilePath = "corkbpDeckingProducts.json";
 
-                await _productService.SaveProductsToFile(rawDeckingProductsFilePath, scrapedProductsRaw);
+               // await _productService.SaveProductsToFile(rawDeckingProductsFilePath, scrapedProductsRaw);
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
                 //await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
 
