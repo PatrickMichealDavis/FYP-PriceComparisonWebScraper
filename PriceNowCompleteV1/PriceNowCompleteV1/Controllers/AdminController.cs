@@ -45,6 +45,13 @@ namespace PriceNowCompleteV1.Controllers
             return Ok(merchants);
         }
 
+        [HttpGet("getAllLogs")]
+        public async Task<ActionResult<IEnumerable<Logging>>> GetLogs()
+        {
+            var logs = await _loggingService.GetAllLogs();
+            return Ok(logs);
+        }
+
         [HttpPost("compare")]
         public async Task<ActionResult<IEnumerable<Product>>> Compare([FromBody] int[] productList)
         {

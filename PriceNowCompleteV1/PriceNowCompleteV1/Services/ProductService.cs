@@ -104,23 +104,38 @@ namespace PriceNowCompleteV1.Services
             return JsonSerializer.Deserialize<List<Product>>(json) ?? new List<Product>();
         }
 
-        public async Task ComapreProductsForUpdateOrAdd(List<Product> newProducts)
-        {
-            
 
-        }
-
-        public async Task  ProcessProducts(List<Product> scrapedProducts)
+        //ensure that the products are in the same category sudo code belong in scraper
+        //var categorizedProducts = products.GroupBy(p => p.Category).ToList();
+        //foreach(var category in categorizedProducts)
+        //{
+        //   var productsByCategory = allProducts.Where(p => p.Category == category).ToList();
+        //      pass this to processProducts(productsByCategory)
+        //}
+        public async Task ProcessProducts(List<Product> scrapedProducts)
         {
             var allProducts = await _productRepository.GetAll();
+
+            if (allProducts.Count() == 0)//first scrape
+            {
+                await AddMultipleProducts(scrapedProducts);
+                return;
+            }
+
             var category = scrapedProducts.FirstOrDefault()?.Category;
             var productsByCategory = allProducts.Where(p => p.Category == category).ToList();
 
+            if (productsByCategory.Count() == 0)//first scrape for category
+            {
+                await AddMultipleProducts(scrapedProducts);
+                return;
+            }
+
             foreach (var scrapedProduct in scrapedProducts) 
             {
-                var productsByUnit = productsByCategory.Where(p => p.Unit == scrapedProduct.Unit).ToList();
+                var productsByUnit = productsByCategory.Where(p => DataParser.CheckForCloseComparrisonUnit(p.Unit, scrapedProduct.Unit)).ToList();
 
-                foreach(var productByUnit in productsByUnit)//repo
+                foreach (var productByUnit in productsByUnit)//repo
                 {
                     if (DataParser.CheckForCloseComparrison(scrapedProduct, productByUnit))
                     {

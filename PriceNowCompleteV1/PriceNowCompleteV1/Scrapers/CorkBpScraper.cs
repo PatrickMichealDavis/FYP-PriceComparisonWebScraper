@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using PriceNowCompleteV1.DataParsers;
+using PriceNowCompleteV1.Helpers;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
 using PuppeteerSharp;
@@ -49,7 +50,9 @@ namespace PriceNowCompleteV1.Scrapers
                     Timeout = 60000 //60Secs
                 });
 
-                
+                var testTimberLink = await ScraperHelper.GetHrefLink(page, "timber-1.html");//this works for refactor when ready 
+
+
                 var timberLink = await page.EvaluateFunctionAsync<string>(
                    @"() => {
                         const links = Array.from(document.querySelectorAll('a'));
@@ -271,6 +274,8 @@ namespace PriceNowCompleteV1.Scrapers
                 }
             }
         }
+
+       
 
         public override Task RunFullSuite()
         {

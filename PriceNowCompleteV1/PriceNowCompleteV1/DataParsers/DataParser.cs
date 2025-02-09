@@ -92,12 +92,22 @@ namespace PriceNowCompleteV1.DataParsers
 
             int finalUnitScore = (unitRatio + unitSortedRatio) / 2;
 
+            int testOfRefactor = GetRatioScore(newProduct, existingProduct);//if this works change later when testing should work
+
             if (finalUnitScore >= 80)
             {
                 return true;
             }
            
             return false;
+        }
+
+        private static int GetRatioScore(string word1, string word2)
+        {
+            int ratio = Fuzz.Ratio(word1, word2);
+            int tokenSortRatio = Fuzz.TokenSortRatio(word1, word2);
+
+            return (ratio + tokenSortRatio) / 2;
         }
 
         public static string Standardize(string word)
