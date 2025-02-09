@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Merchant } from '../shared/models/merchant.model';
+import { Logging } from '../shared/models/logging.model';
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +13,7 @@ export class ScraperService {
   private runFullSuiteUrl = '/runFullSuite';
   private runFullSuitePartialUrl = '/runFullSuitePartial';
   private runScraperByMerchantUrl = 'runScraperByMerchant';
+  private getLogsUrl = '/getAllLogs';
   
 
   constructor(private http:HttpClient) { }
@@ -38,6 +40,10 @@ export class ScraperService {
 
   getAllMerchants(): Observable<Merchant[]> {
       return this.http.get<Merchant[]>(this.url + '/getAllMerchants');
+  }
+
+  getAllLogs(): Observable<Logging[]> {
+    return this.http.get<Logging[]>(this.url + this.getLogsUrl);
   }
 
   

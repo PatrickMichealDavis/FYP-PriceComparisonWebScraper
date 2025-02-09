@@ -49,6 +49,11 @@ namespace PriceNowCompleteV1.Controllers
         public async Task<ActionResult<IEnumerable<Logging>>> GetLogs()
         {
             var logs = await _loggingService.GetAllLogs();
+            var merchants = await _merchantService.GetAllMerchants();
+            foreach (var log in logs)
+            {
+                log.Merchant = merchants.FirstOrDefault(m => m.MerchantId == log.MerchantId);
+            }
             return Ok(logs);
         }
 

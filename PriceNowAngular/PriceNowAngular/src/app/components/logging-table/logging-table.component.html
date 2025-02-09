@@ -1,0 +1,22 @@
+<p>logging-table works!</p>
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Merchant Name</th>           
+                <th>Scraped At</th>                
+                <th>Status</th>
+                <th>Error Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let log of loggingList">
+                <td>{{ log.merchant.name }}</td>               
+                <td>{{ log.scrapedAt }}</td>  
+                <td>{{ log.status }}</td>   
+                <td>{{ log.errorMessage }}</td>                
+                
+            </tr>
+        </tbody>
+    </table>
+</div>

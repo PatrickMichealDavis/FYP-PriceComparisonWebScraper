@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { CheckScraperComponent } from './components/check-scraper/check-scraper.component';
 import { FormsModule } from '@angular/forms';
 import { ProductTableComponent } from './components/product-table/product-table.component';
+import { LoggingTableComponent } from './components/logging-table/logging-table.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProductTableComponent } from './components/product-table/product-table.
     NavbarComponent,
     HomeComponent,
     CheckScraperComponent,
-    ProductTableComponent
+    ProductTableComponent,
+    LoggingTableComponent
   ],
   imports: [
     BrowserModule,

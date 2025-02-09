@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace PriceNowCompleteV1.Models
 {
@@ -10,7 +11,10 @@ namespace PriceNowCompleteV1.Models
         public string Url { get; set; }
         public string ContactEmail { get; set; }
 
+        [JsonIgnore]//may be wrong
         public ICollection<Price> Prices { get; set; }
+
+        [JsonIgnore]//maybe wrong
         public ICollection<Logging> Loggings { get; set; }
 
         public Merchant()
