@@ -65,7 +65,7 @@ namespace PriceNowCompleteV1.Controllers
         }
 
         [HttpGet("runFullSuite")]
-        public async Task RunFullSuite()//this will create all scrapers in time
+        public async Task<IActionResult> RunFullSuite()//this will create all scrapers in time
         {
             var merchantId = 6;
             var merchant = await _merchantService.GetMerchantById(merchantId);
@@ -74,6 +74,7 @@ namespace PriceNowCompleteV1.Controllers
             {
                 IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name,_productService,_loggingService);
                 await scraper.RunFullScrapeByMerchant(merchant);
+                return Ok("Scraping initiated");//too quick?
             }
             catch (Exception e)
             {
@@ -85,12 +86,18 @@ namespace PriceNowCompleteV1.Controllers
                     ErrorMessage = e.Message
                 });
             }
+            return StatusCode(500, $"Error while Scraping for:{merchant.Name}");
+
         }
 
         [HttpGet("runScraperByMerchant")]
-        public async void RunScraperByMerchant(int merchantId,bool isPartial)
+        public async Task<IActionResult> RunScraperByMerchant(int merchantId,bool isPartial)
         {
             var merchant = await _merchantService.GetMerchantById(merchantId);
+            if (merchant == null)
+            {
+                return NotFound($"No Merchant with id:{merchantId}");
+            }
 
             try
             {
@@ -105,6 +112,7 @@ namespace PriceNowCompleteV1.Controllers
                     await scraper.RunFullScrapeByMerchant(merchant);
 
                 }
+                return Ok("Scraping initiated");
             }
             catch (Exception e)
             {
@@ -116,6 +124,7 @@ namespace PriceNowCompleteV1.Controllers
                         ErrorMessage = e.Message
                });
             }
+            return StatusCode(500, $"Error while Scraping for:{merchant.Name}");
         }
 
         [HttpGet("testAddProduct")]
