@@ -1,0 +1,3042 @@
+[
+  {
+    "ProductId": 0,
+    "Name": "Garden Railway Sleeper Brown Treated - 200mm X 100mm X 2.4m",
+    "Description": "Garden Railway Sleeper Brown Treated - 200mm X 100mm X 2.4m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4985138Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 29.95,
+        "ScrapedAt": "2025-02-07T15:32:34.4989601Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Shiplap Panel (P/Treated) 1.8 x 1.8m",
+    "Description": "Shiplap Panel (P/Treated) 1.8 x 1.8m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4990615Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 51.2,
+        "ScrapedAt": "2025-02-07T15:32:34.4990618Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Machine Round Spiked Treated Fence Post -  75mm X 1800mm",
+    "Description": "Machine Round Spiked Treated Fence Post -  75mm X 1800mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4990697Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 10.91,
+        "ScrapedAt": "2025-02-07T15:32:34.4990698Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Tanalised Fence Board 150 x 22mm x 1.8m Round Top 0.00594",
+    "Description": "Tanalised Fence Board 150 x 22mm x 1.8m Round Top 0.00594",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4990725Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 4.12,
+        "ScrapedAt": "2025-02-07T15:32:34.4990726Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Glendeck Par Post - 100mm X 100mm X 2.4m",
+    "Description": "Glendeck Par Post - 100mm X 100mm X 2.4m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.499076Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 19.29,
+        "ScrapedAt": "2025-02-07T15:32:34.4990761Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Independent Fencing Concrete Base Panel - 1800mm x 300mm x 50mm ",
+    "Description": "Independent Fencing Concrete Base Panel - 1800mm x 300mm x 50mm ",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4990783Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 25.01,
+        "ScrapedAt": "2025-02-07T15:32:34.4990784Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Whiteriver Ultrashield Composite Decking Board Naturale Silver Grey - 138mm x 23mm x 3.6m",
+    "Description": "Whiteriver Ultrashield Composite Decking Board Naturale Silver Grey - 138mm x 23mm x 3.6m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4990809Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 42,
+        "ScrapedAt": "2025-02-07T15:32:34.499081Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Whiteriver Ultrashield Composite Decking Board - 180mm X 15mm X 3.6m",
+    "Description": "Whiteriver Ultrashield Composite Decking Board - 180mm X 15mm X 3.6m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.499083Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 70,
+        "ScrapedAt": "2025-02-07T15:32:34.4990831Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Cedar Fascia Board 180 x 15 x 3600mm",
+    "Description": "Ultrashield Cedar Fascia Board 180 x 15 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4990851Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 70,
+        "ScrapedAt": "2025-02-07T15:32:34.4990852Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "1.8m 75 x 75 Treated Post",
+    "Description": "1.8m 75 x 75 Treated Post",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.499087Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 6.94,
+        "ScrapedAt": "2025-02-07T15:32:34.4990871Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Fencing Post - Treated 95 x 95mm x 1.8m 0.016245",
+    "Description": "Fencing Post - Treated 95 x 95mm x 1.8m 0.016245",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4990899Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 11.12,
+        "ScrapedAt": "2025-02-07T15:32:34.49909Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Silver Grey Corner Wrap 40 x 40 x 3600mm",
+    "Description": "Ultrashield Silver Grey Corner Wrap 40 x 40 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:34.4990922Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17.98,
+        "ScrapedAt": "2025-02-07T15:32:34.4990923Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Corner Wrap 40 x 40 x 3600mm Fired Earth",
+    "Description": "Composite Corner Wrap 40 x 40 x 3600mm Fired Earth",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0261851Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17.98,
+        "ScrapedAt": "2025-02-07T15:32:38.0261881Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Portland Universal Installation Kit Timber Joist 20 Clips per M2",
+    "Description": "Portland Universal Installation Kit Timber Joist 20 Clips per M2",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0261989Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 21,
+        "ScrapedAt": "2025-02-07T15:32:38.0261991Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Teak Corner Wrap 40 x 40 x 3600mm",
+    "Description": "Ultrashield Teak Corner Wrap 40 x 40 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0262018Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17.98,
+        "ScrapedAt": "2025-02-07T15:32:38.026202Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite End Piece 140 x 31mm Montana Soft Grey",
+    "Description": "Composite End Piece 140 x 31mm Montana Soft Grey",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0262044Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 1.4,
+        "ScrapedAt": "2025-02-07T15:32:38.0262046Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Corner Wrap 40 x 40 x 3600mm Soft Grey",
+    "Description": "Composite Corner Wrap 40 x 40 x 3600mm Soft Grey",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0262067Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17.98,
+        "ScrapedAt": "2025-02-07T15:32:38.0262069Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Walnut Corner Wrap 40 x 40 x 3600",
+    "Description": "Ultrashield Walnut Corner Wrap 40 x 40 x 3600",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.026212Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17.98,
+        "ScrapedAt": "2025-02-07T15:32:38.0262122Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite End Piece 140 x 31mm Montana Charcoal",
+    "Description": "Composite End Piece 140 x 31mm Montana Charcoal",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.026217Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 1.4,
+        "ScrapedAt": "2025-02-07T15:32:38.0262172Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Corner Wrap 40 x 40 x 3600mm Charcoal",
+    "Description": "Composite Corner Wrap 40 x 40 x 3600mm Charcoal",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0262195Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17.98,
+        "ScrapedAt": "2025-02-07T15:32:38.0262197Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Portland / Ultrashield Steel Starter / End Clips Steel / Alu Joists",
+    "Description": "Portland / Ultrashield Steel Starter / End Clips Steel / Alu Joists",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0262221Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 22,
+        "ScrapedAt": "2025-02-07T15:32:38.0262223Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "1.2m x 50mm Machined Round Post",
+    "Description": "1.2m x 50mm Machined Round Post",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0262298Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 5.52,
+        "ScrapedAt": "2025-02-07T15:32:38.02623Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Decking Installation Kit - Timber Incl Screws",
+    "Description": "Ultrashield Decking Installation Kit - Timber Incl Screws",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.0262336Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 21,
+        "ScrapedAt": "2025-02-07T15:32:38.0262338Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Marking Out Pegs Pointed 1.2m x 50 x 50mm",
+    "Description": "Marking Out Pegs Pointed 1.2m x 50 x 50mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:38.026237Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 3.11,
+        "ScrapedAt": "2025-02-07T15:32:38.0262372Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Diamonds Anthracite",
+    "Description": "Smarttrellis Diamonds Anthracite",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204165Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:32:41.7204198Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Panel Buttermilk Cream Box Will Make A Panel 1530mm H x 1800mm W.",
+    "Description": "Smartfence Panel Buttermilk Cream Box Will Make A Panel 1530mm H x 1800mm W.",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.720437Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 202.91,
+        "ScrapedAt": "2025-02-07T15:32:41.7204372Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "3.0m x 125 x 100mm Concrete H Post",
+    "Description": "3.0m x 125 x 100mm Concrete H Post",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204399Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 47.92,
+        "ScrapedAt": "2025-02-07T15:32:41.7204401Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Concrete H Post 2.7m",
+    "Description": "Concrete H Post 2.7m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204424Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 40.01,
+        "ScrapedAt": "2025-02-07T15:32:41.7204426Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Greaney Concrete Base Pan Rockface 1800 x 300 x 50mm",
+    "Description": "Greaney Concrete Base Pan Rockface 1800 x 300 x 50mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204447Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 25.95,
+        "ScrapedAt": "2025-02-07T15:32:41.7204448Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Greaney Concrete H Post 2.4m x 125mm x 100mm",
+    "Description": "Greaney Concrete H Post 2.4m x 125mm x 100mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.720447Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 35.57,
+        "ScrapedAt": "2025-02-07T15:32:41.7204472Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Marking Out Pegs Pointed 0.9m x 50 x 50mm",
+    "Description": "Marking Out Pegs Pointed 0.9m x 50 x 50mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204576Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 2.34,
+        "ScrapedAt": "2025-02-07T15:32:41.7204578Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Marking Out Pegs Pointed 0.6m x 50 x 50mm",
+    "Description": "Marking Out Pegs Pointed 0.6m x 50 x 50mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.72046Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 1.55,
+        "ScrapedAt": "2025-02-07T15:32:41.7204602Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Trellis 1.8 x 1.8m Treated 100mm Box Section",
+    "Description": "Trellis 1.8 x 1.8m Treated 100mm Box Section",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204625Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 36.63,
+        "ScrapedAt": "2025-02-07T15:32:41.7204627Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Trellis 1.8 x 0.9m Treated 100mm Box Sections",
+    "Description": "Trellis 1.8 x 0.9m Treated 100mm Box Sections",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204656Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 28.43,
+        "ScrapedAt": "2025-02-07T15:32:41.7204658Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Fencing Panel Roundtop Picket 1.8 x 0.9m",
+    "Description": "Fencing Panel Roundtop Picket 1.8 x 0.9m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204675Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 44.12,
+        "ScrapedAt": "2025-02-07T15:32:41.7204677Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Fencing Panel Roundtop Picket 1.8 x 1.2m",
+    "Description": "Fencing Panel Roundtop Picket 1.8 x 1.2m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:41.7204692Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 45.82,
+        "ScrapedAt": "2025-02-07T15:32:41.7204693Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Fencing Panel Roundtop Hit \u0026amp; Miss 1.8 x 1.5m Double Sided (95 x 16mm Planks)",
+    "Description": "Fencing Panel Roundtop Hit \u0026amp; Miss 1.8 x 1.5m Double Sided (95 x 16mm Planks)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932162Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 89.84,
+        "ScrapedAt": "2025-02-07T15:32:46.093219Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Fence Panel Round Top 1.8 x 1.5m 100 x 22 Round Top Boards",
+    "Description": "Fence Panel Round Top 1.8 x 1.5m 100 x 22 Round Top Boards",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932234Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 76.36,
+        "ScrapedAt": "2025-02-07T15:32:46.0932235Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Fence Panel Round Top 1.8 x 1.5m 150 x 22 Round Top Boards",
+    "Description": "Fence Panel Round Top 1.8 x 1.5m 150 x 22 Round Top Boards",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932378Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 77.47,
+        "ScrapedAt": "2025-02-07T15:32:46.093238Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "4.8m -150 x 22 W/D Treated Shiplapped Sheeting",
+    "Description": "4.8m -150 x 22 W/D Treated Shiplapped Sheeting",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932403Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 12.63,
+        "ScrapedAt": "2025-02-07T15:32:46.0932404Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "1.8m x 95 x 16mm Premier Round Top Board",
+    "Description": "1.8m x 95 x 16mm Premier Round Top Board",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932419Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 3.95,
+        "ScrapedAt": "2025-02-07T15:32:46.093242Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "4.8m Treated Post 100 x 100mm Imported",
+    "Description": "4.8m Treated Post 100 x 100mm Imported",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932589Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 38.77,
+        "ScrapedAt": "2025-02-07T15:32:46.093259Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Timber Post Square 3000 x 150 x 150 Treated",
+    "Description": "Timber Post Square 3000 x 150 x 150 Treated",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932613Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 74.27,
+        "ScrapedAt": "2025-02-07T15:32:46.0932614Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Infill Section Anthracite 1780 x 300mm",
+    "Description": "Smartfence Infill Section Anthracite 1780 x 300mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932634Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 36,
+        "ScrapedAt": "2025-02-07T15:32:46.0932635Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Top Finish Rail Merlyn 1780mm",
+    "Description": "Smartfence Top Finish Rail Merlyn 1780mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932652Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17,
+        "ScrapedAt": "2025-02-07T15:32:46.0932653Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Top Finish Rail Olive 1780mm",
+    "Description": "Smartfence Top Finish Rail Olive 1780mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.093267Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17,
+        "ScrapedAt": "2025-02-07T15:32:46.0932671Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Infill Panel Olive Green 1.8m x 300mm",
+    "Description": "Smartfence Infill Panel Olive Green 1.8m x 300mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932696Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 36,
+        "ScrapedAt": "2025-02-07T15:32:46.0932697Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Infill Panel Goosewing Grey 1.8m x 300mm",
+    "Description": "Smartfence Infill Panel Goosewing Grey 1.8m x 300mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:46.0932714Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 36,
+        "ScrapedAt": "2025-02-07T15:32:46.0932715Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Channel Adapter 1.5m Anthracite",
+    "Description": "Smartfence Channel Adapter 1.5m Anthracite",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1851926Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 18.5,
+        "ScrapedAt": "2025-02-07T15:32:52.1851959Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Concrete Post Cover 1.9m Anthracite",
+    "Description": "Concrete Post Cover 1.9m Anthracite",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1851996Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 63,
+        "ScrapedAt": "2025-02-07T15:32:52.1851998Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Single Plinth 48 x 150mm x 1.795m Anthrac",
+    "Description": "Smartfence Single Plinth 48 x 150mm x 1.795m Anthrac",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852023Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 43,
+        "ScrapedAt": "2025-02-07T15:32:52.1852024Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Stainless Screw Pack Anthracite (6 Concrete \u0026amp; 6 Metal Coloured)",
+    "Description": "Smartfence Stainless Screw Pack Anthracite (6 Concrete \u0026amp; 6 Metal Coloured)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852048Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 6.25,
+        "ScrapedAt": "2025-02-07T15:32:52.185205Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Top Finishing Rail Anthracite",
+    "Description": "Smartfence Top Finishing Rail Anthracite",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852072Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17,
+        "ScrapedAt": "2025-02-07T15:32:52.1852074Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Top Finishing Rail Goosewing Grey",
+    "Description": "Smartfence Top Finishing Rail Goosewing Grey",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852239Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17,
+        "ScrapedAt": "2025-02-07T15:32:52.1852241Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Infill Section Merlin 1780 x 300mm",
+    "Description": "Smartfence Infill Section Merlin 1780 x 300mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852308Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 36,
+        "ScrapedAt": "2025-02-07T15:32:52.1852309Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Channel Adapters 300mm Anthracite 12/box",
+    "Description": "Smartfence Channel Adapters 300mm Anthracite 12/box",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852334Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 79,
+        "ScrapedAt": "2025-02-07T15:32:52.1852335Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Facing Surface Bracket Anthracite",
+    "Description": "Smartfence Facing Surface Bracket Anthracite",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852355Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 43,
+        "ScrapedAt": "2025-02-07T15:32:52.1852357Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Slots Anthracite",
+    "Description": "Smarttrellis Slots Anthracite",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.185238Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:32:52.1852382Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Smartcap Anthracite",
+    "Description": "Smartfence Smartcap Anthracite",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852403Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 15.01,
+        "ScrapedAt": "2025-02-07T15:32:52.1852404Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartuniversal Channel 1.83m Anthracite Can Be Used On Flat Surface",
+    "Description": "Smartuniversal Channel 1.83m Anthracite Can Be Used On Flat Surface",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:52.1852433Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 33,
+        "ScrapedAt": "2025-02-07T15:32:52.1852435Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Coloured Post Cover Gen2 Anthracite Bs2 Or Pp1.25",
+    "Description": "Smartfence Coloured Post Cover Gen2 Anthracite Bs2 Or Pp1.25",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446092Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 63,
+        "ScrapedAt": "2025-02-07T15:32:57.0446121Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Plinth Pack 48 x 150mm x 1.795m Anthracit",
+    "Description": "Smartfence Plinth Pack 48 x 150mm x 1.795m Anthracit",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446267Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 83,
+        "ScrapedAt": "2025-02-07T15:32:57.0446268Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Fence Panel Anthracite 1500 x 1800/ 5ft x 6ft",
+    "Description": "Smartfence Fence Panel Anthracite 1500 x 1800/ 5ft x 6ft",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.044629Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 159,
+        "ScrapedAt": "2025-02-07T15:32:57.0446291Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Fence Panel Merlin 1500 x 1800/ 5ft x 6ft",
+    "Description": "Smartfence Fence Panel Merlin 1500 x 1800/ 5ft x 6ft",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446327Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 159,
+        "ScrapedAt": "2025-02-07T15:32:57.0446331Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Fence Panel Olive 1500 x 1800/ 5ft x 6ft",
+    "Description": "Smartfence Fence Panel Olive 1500 x 1800/ 5ft x 6ft",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446359Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 159,
+        "ScrapedAt": "2025-02-07T15:32:57.044636Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Fence Panel Goosewing Grey 1500 x 1800/ 5ft x 6ft",
+    "Description": "Smartfence Fence Panel Goosewing Grey 1500 x 1800/ 5ft x 6ft",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446479Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 159,
+        "ScrapedAt": "2025-02-07T15:32:57.044648Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Box Section 80 x 80 x 1875mm",
+    "Description": "Smartfence Box Section 80 x 80 x 1875mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.04465Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 79,
+        "ScrapedAt": "2025-02-07T15:32:57.0446502Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Gen2 Box Section Cover In Olive Green 1.9m Smartfence",
+    "Description": "Gen2 Box Section Cover In Olive Green 1.9m Smartfence",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446518Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 63,
+        "ScrapedAt": "2025-02-07T15:32:57.044652Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Gen2 Box Section Cover In Goosewing Grey 1.9m Smartfence",
+    "Description": "Gen2 Box Section Cover In Goosewing Grey 1.9m Smartfence",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446536Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 63,
+        "ScrapedAt": "2025-02-07T15:32:57.0446538Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Gen2 Box Section Cover In Merlin 1.9m",
+    "Description": "Gen2 Box Section Cover In Merlin 1.9m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446555Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 63,
+        "ScrapedAt": "2025-02-07T15:32:57.0446557Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Single Plinth 48 x 150mm x 1.795m Merlin",
+    "Description": "Smartfence Single Plinth 48 x 150mm x 1.795m Merlin",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446571Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 43,
+        "ScrapedAt": "2025-02-07T15:32:57.0446572Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Single Plinth 48 x 150mm x 1.795m Olive",
+    "Description": "Smartfence Single Plinth 48 x 150mm x 1.795m Olive",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:32:57.0446584Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 43,
+        "ScrapedAt": "2025-02-07T15:32:57.0446585Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Single Plinth 48 x 150mm x 1.795m Goosewing",
+    "Description": "Smartfence Single Plinth 48 x 150mm x 1.795m Goosewing",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.869129Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 43,
+        "ScrapedAt": "2025-02-07T15:33:00.8691318Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Channel Adapter 1.5m Merlin",
+    "Description": "Smartfence Channel Adapter 1.5m Merlin",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691348Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 18.5,
+        "ScrapedAt": "2025-02-07T15:33:00.8691349Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Channel Adapter 1.5m Olive",
+    "Description": "Smartfence Channel Adapter 1.5m Olive",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691369Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 18.5,
+        "ScrapedAt": "2025-02-07T15:33:00.869137Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Channel Adapter 1.5m Goosewing",
+    "Description": "Smartfence Channel Adapter 1.5m Goosewing",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691386Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 18.5,
+        "ScrapedAt": "2025-02-07T15:33:00.8691387Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Channel Adapters 300mm Merlin 12/box",
+    "Description": "Smartfence Channel Adapters 300mm Merlin 12/box",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691404Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 79,
+        "ScrapedAt": "2025-02-07T15:33:00.8691405Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Channel Adapters 300mm Olive 12/box",
+    "Description": "Smartfence Channel Adapters 300mm Olive 12/box",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691579Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 79,
+        "ScrapedAt": "2025-02-07T15:33:00.869158Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Channel Adapters 300mm Goosewing 12/box",
+    "Description": "Smartfence Channel Adapters 300mm Goosewing 12/box",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691608Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 79,
+        "ScrapedAt": "2025-02-07T15:33:00.8691609Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Facing Surface Bracket 1.83m Olive",
+    "Description": "Smartfence Facing Surface Bracket 1.83m Olive",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691631Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 43,
+        "ScrapedAt": "2025-02-07T15:33:00.8691632Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Facing Surface Bracket 1.83m Merlin",
+    "Description": "Smartfence Facing Surface Bracket 1.83m Merlin",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691648Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 43,
+        "ScrapedAt": "2025-02-07T15:33:00.8691649Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Facing Surface Bracket 1.83m Goosewing",
+    "Description": "Smartfence Facing Surface Bracket 1.83m Goosewing",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691664Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 43,
+        "ScrapedAt": "2025-02-07T15:33:00.8691665Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Concrete Post Cover 1.9m Merlin",
+    "Description": "Concrete Post Cover 1.9m Merlin",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.8691679Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 63,
+        "ScrapedAt": "2025-02-07T15:33:00.869168Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Concrete Post Cover 1.9m Olive",
+    "Description": "Concrete Post Cover 1.9m Olive",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:00.869169Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 63,
+        "ScrapedAt": "2025-02-07T15:33:00.8691691Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Concrete Post Cover 1.9m Goosewing",
+    "Description": "Concrete Post Cover 1.9m Goosewing",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643527Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 63,
+        "ScrapedAt": "2025-02-07T15:33:05.1643564Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Diamonds Buttermilk Cream",
+    "Description": "Smarttrellis Diamonds Buttermilk Cream",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.16436Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:05.1643602Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Slots Merlin",
+    "Description": "Smarttrellis Slots Merlin",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643623Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:05.1643624Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Slots Olive",
+    "Description": "Smarttrellis Slots Olive",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643646Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:05.1643647Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Slots Goosewing",
+    "Description": "Smarttrellis Slots Goosewing",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643667Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:05.1643668Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Smartcap Merlin for Smartpost Gen2 Cover \u0026amp; Concrete H-Post Cover",
+    "Description": "Smartfence Smartcap Merlin for Smartpost Gen2 Cover \u0026amp; Concrete H-Post Cover",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643691Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 15.01,
+        "ScrapedAt": "2025-02-07T15:33:05.1643692Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Smartcap Olive for Smartpost Gen2 Cover \u0026amp; Concrete H-Post Cover",
+    "Description": "Smartfence Smartcap Olive for Smartpost Gen2 Cover \u0026amp; Concrete H-Post Cover",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643742Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 15.01,
+        "ScrapedAt": "2025-02-07T15:33:05.1643743Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Smartcap Goosewing for Smartpost Gen2 Cover \u0026amp; Concrete H-Post Cover",
+    "Description": "Smartfence Smartcap Goosewing for Smartpost Gen2 Cover \u0026amp; Concrete H-Post Cover",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.164376Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 15.01,
+        "ScrapedAt": "2025-02-07T15:33:05.1643761Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartuniversal Channel 1.83m Merlin",
+    "Description": "Smartuniversal Channel 1.83m Merlin",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643784Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 33,
+        "ScrapedAt": "2025-02-07T15:33:05.1643785Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartuniversal Channel 1.83m Olive",
+    "Description": "Smartuniversal Channel 1.83m Olive",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643802Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 33,
+        "ScrapedAt": "2025-02-07T15:33:05.1643803Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartuniversal Channel 1.83m Goosewing",
+    "Description": "Smartuniversal Channel 1.83m Goosewing",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.164383Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 33,
+        "ScrapedAt": "2025-02-07T15:33:05.1643831Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Post Plate 1.25m Bracket",
+    "Description": "Smartfence Post Plate 1.25m Bracket",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:05.1643848Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 79,
+        "ScrapedAt": "2025-02-07T15:33:05.1643849Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Plinth Pack 48 x 150mm x 1.795m Merlin 2/pack",
+    "Description": "Smartfence Plinth Pack 48 x 150mm x 1.795m Merlin 2/pack",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752062Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 83,
+        "ScrapedAt": "2025-02-07T15:33:08.8752099Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Plinth Pack 48 x 150mm x 1.795m Olive 2/pack",
+    "Description": "Smartfence Plinth Pack 48 x 150mm x 1.795m Olive 2/pack",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752146Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 83,
+        "ScrapedAt": "2025-02-07T15:33:08.8752147Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smartfence Plinth Pack 48 x 150mm x 1.795m Goosewing 2/pack",
+    "Description": "Smartfence Plinth Pack 48 x 150mm x 1.795m Goosewing 2/pack",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752169Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 83,
+        "ScrapedAt": "2025-02-07T15:33:08.875217Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Diamond Merlin Grey",
+    "Description": "Smarttrellis Diamond Merlin Grey",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752205Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:08.8752206Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Diamond Olive Green",
+    "Description": "Smarttrellis Diamond Olive Green",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752237Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:08.8752238Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Smarttrellis Diamond Goosewing Grey",
+    "Description": "Smarttrellis Diamond Goosewing Grey",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752294Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:08.8752295Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Agri Sleeper Creosote (Agri Use Only)",
+    "Description": "Agri Sleeper Creosote (Agri Use Only)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752325Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 39.36,
+        "ScrapedAt": "2025-02-07T15:33:08.8752326Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Montana Woodgrain Anthrazit Composite Decking 135 x 25 x 3600mm (.508m2)",
+    "Description": "Montana Woodgrain Anthrazit Composite Decking 135 x 25 x 3600mm (.508m2)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752355Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:08.8752356Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Montana Woodgrain Soft Grey Composite Decking 135 x 25 x 3600mm (.508m2)",
+    "Description": "Montana Woodgrain Soft Grey Composite Decking 135 x 25 x 3600mm (.508m2)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752387Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:08.8752388Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Montana Woodgrain Charcoal Composite Decking 135 x 25 x 3600mm (.508m2)",
+    "Description": "Montana Woodgrain Charcoal Composite Decking 135 x 25 x 3600mm (.508m2)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752418Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 30,
+        "ScrapedAt": "2025-02-07T15:33:08.8752419Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ebony Ultrashield Composite Decking 138 x 23 x 3.6m",
+    "Description": "Ebony Ultrashield Composite Decking 138 x 23 x 3.6m",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752447Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 42,
+        "ScrapedAt": "2025-02-07T15:33:08.8752447Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "1.8m 150 x 22 Plain Round Top Board",
+    "Description": "1.8m 150 x 22 Plain Round Top Board",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:08.8752473Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 4.07,
+        "ScrapedAt": "2025-02-07T15:33:08.8752475Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Post - Treated 150 x 75mm x 1.8m 0.02025",
+    "Description": "Post - Treated 150 x 75mm x 1.8m 0.02025",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.537517Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 13.86,
+        "ScrapedAt": "2025-02-07T15:33:13.5375197Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Fencing Post - Treated 100 x 100mm x 1.8m Pointed 0.018",
+    "Description": "Fencing Post - Treated 100 x 100mm x 1.8m Pointed 0.018",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375236Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 11.12,
+        "ScrapedAt": "2025-02-07T15:33:13.5375237Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Reeded Decking- 150mm X 44mm X 4.8m (16 Ft Approx)",
+    "Description": "Reeded Decking- 150mm X 44mm X 4.8m (16 Ft Approx)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375255Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 23.16,
+        "ScrapedAt": "2025-02-07T15:33:13.5375256Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "4.2m 100 x 35 Tanalised D-Rail",
+    "Description": "4.2m 100 x 35 Tanalised D-Rail",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375274Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 10.06,
+        "ScrapedAt": "2025-02-07T15:33:13.5375275Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Whiteriver Aluminium Deck Joist 38 x 38 x 3000mm",
+    "Description": "Whiteriver Aluminium Deck Joist 38 x 38 x 3000mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375304Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 34,
+        "ScrapedAt": "2025-02-07T15:33:13.5375305Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Solidor Af100 - 100mm Pedestal Extension Piece Whiteriver (Max 10 Pieces per Pedestal)",
+    "Description": "Solidor Af100 - 100mm Pedestal Extension Piece Whiteriver (Max 10 Pieces per Pedestal)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375323Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 4,
+        "ScrapedAt": "2025-02-07T15:33:13.5375324Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Naturale Antique Deck 138 x 23 x 3600mm",
+    "Description": "Ultrashield Naturale Antique Deck 138 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.537534Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 42,
+        "ScrapedAt": "2025-02-07T15:33:13.5375341Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Decking Antique End Piece / Cap",
+    "Description": "Ultrashield Decking Antique End Piece / Cap",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375358Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 2.25,
+        "ScrapedAt": "2025-02-07T15:33:13.5375358Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Walnut Fascia Board 180 x 15 x 3600mm",
+    "Description": "Ultrashield Walnut Fascia Board 180 x 15 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375378Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 70,
+        "ScrapedAt": "2025-02-07T15:33:13.5375379Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Teak Stair Tread 138 x 23 x 3600mm",
+    "Description": "Ultrashield Teak Stair Tread 138 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375397Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 75.01,
+        "ScrapedAt": "2025-02-07T15:33:13.5375398Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Montana /Nevada Soft Grey Stair Tread 140 x 25 x 3600mm",
+    "Description": "Composite Montana /Nevada Soft Grey Stair Tread 140 x 25 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375415Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 55.01,
+        "ScrapedAt": "2025-02-07T15:33:13.5375416Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Textured Graphite Decking 138 x 23 x 3600mm",
+    "Description": "Ultrashield Textured Graphite Decking 138 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:13.5375432Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 39,
+        "ScrapedAt": "2025-02-07T15:33:13.5375433Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite End Piece 140 x 31mm Montana Fired Earth",
+    "Description": "Composite End Piece 140 x 31mm Montana Fired Earth",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750157Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 1.4,
+        "ScrapedAt": "2025-02-07T15:33:18.5750204Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Old Mist Wide End Cap",
+    "Description": "Ultrashield Old Mist Wide End Cap",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750258Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 2.76,
+        "ScrapedAt": "2025-02-07T15:33:18.5750259Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Pebble Grey Wide End Cap",
+    "Description": "Ultrashield Pebble Grey Wide End Cap",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750288Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 2.76,
+        "ScrapedAt": "2025-02-07T15:33:18.5750289Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Whiteriver Ultrashield Decking Naturale Silver Pebble Grey - 210mm x 23mm x 3600mm ",
+    "Description": "Whiteriver Ultrashield Decking Naturale Silver Pebble Grey - 210mm x 23mm x 3600mm ",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750312Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 70,
+        "ScrapedAt": "2025-02-07T15:33:18.5750314Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Naturale Wide Old Mist Decking 210 x 23 x 3600mm",
+    "Description": "Ultrashield Naturale Wide Old Mist Decking 210 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750346Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 70,
+        "ScrapedAt": "2025-02-07T15:33:18.5750348Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "F30 30mm Pedestal Extension Piece",
+    "Description": "F30 30mm Pedestal Extension Piece",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750381Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 1,
+        "ScrapedAt": "2025-02-07T15:33:18.5750383Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Pv 14/17: 140mm - 170mm Adjustable Pedestal Excludes Top Plate",
+    "Description": "Pv 14/17: 140mm - 170mm Adjustable Pedestal Excludes Top Plate",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750412Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 5.5,
+        "ScrapedAt": "2025-02-07T15:33:18.5750414Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Pv 8/11: 80mm - 110mm Adjustable Pedestal Excludes Top Plate",
+    "Description": "Pv 8/11: 80mm - 110mm Adjustable Pedestal Excludes Top Plate",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750441Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 4.75,
+        "ScrapedAt": "2025-02-07T15:33:18.5750442Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Pv 5/8: 50mm - 80mm Adjustable Pedestal Excludes Top Plate",
+    "Description": "Pv 5/8: 50mm - 80mm Adjustable Pedestal Excludes Top Plate",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750467Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 4.5,
+        "ScrapedAt": "2025-02-07T15:33:18.5750469Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Pv 3.5/5: 35mm - 50mm Adjustable Pedestal Excludes Top Plate",
+    "Description": "Pv 3.5/5: 35mm - 50mm Adjustable Pedestal Excludes Top Plate",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750504Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 4.26,
+        "ScrapedAt": "2025-02-07T15:33:18.5750506Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Montana /Nevada Charcoal Stair Tread 140 x 25 x 2600mm",
+    "Description": "Composite Montana /Nevada Charcoal Stair Tread 140 x 25 x 2600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750536Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 55.01,
+        "ScrapedAt": "2025-02-07T15:33:18.5750538Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Comp. Montana /Nevada Fired Earth Stair Tread 140 x 25 x 3600mm",
+    "Description": "Comp. Montana /Nevada Fired Earth Stair Tread 140 x 25 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:18.5750567Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 55.01,
+        "ScrapedAt": "2025-02-07T15:33:18.5750569Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Montana /Nevada Anthrazit Stair Tread 140 x 25 x 3600mm",
+    "Description": "Composite Montana /Nevada Anthrazit Stair Tread 140 x 25 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778258Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 55.01,
+        "ScrapedAt": "2025-02-07T15:33:24.0778289Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Aluminium Joist Support - Stainless Steel 362mm",
+    "Description": "Aluminium Joist Support - Stainless Steel 362mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778326Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 13,
+        "ScrapedAt": "2025-02-07T15:33:24.0778327Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Antique Corner Wrap 40 x 40 x 3600mm",
+    "Description": "Ultrashield Antique Corner Wrap 40 x 40 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778352Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 17.27,
+        "ScrapedAt": "2025-02-07T15:33:24.0778353Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Whiteriver Ultrashield Cedar Decking 138mm x 23mm x 3600mm",
+    "Description": "Whiteriver Ultrashield Cedar Decking 138mm x 23mm x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778374Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 42,
+        "ScrapedAt": "2025-02-07T15:33:24.0778375Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Naturale Walnut Deck 138 x 23 x 3600mm",
+    "Description": "Ultrashield Naturale Walnut Deck 138 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.077839Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 42,
+        "ScrapedAt": "2025-02-07T15:33:24.0778391Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Naturale Teak Decking 138 x 23 x 3600mm",
+    "Description": "Ultrashield Naturale Teak Decking 138 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778408Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 42,
+        "ScrapedAt": "2025-02-07T15:33:24.0778409Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Decking Silver Grey End Piece / Cap",
+    "Description": "Ultrashield Decking Silver Grey End Piece / Cap",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778428Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 2.25,
+        "ScrapedAt": "2025-02-07T15:33:24.077844Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Decking Cedar End Piece / Cap",
+    "Description": "Ultrashield Decking Cedar End Piece / Cap",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778452Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 2.25,
+        "ScrapedAt": "2025-02-07T15:33:24.0778453Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Decking Walnut End Piece / Cap",
+    "Description": "Ultrashield Decking Walnut End Piece / Cap",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778465Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 2.25,
+        "ScrapedAt": "2025-02-07T15:33:24.0778466Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Decking Teak End Piece / Cap",
+    "Description": "Ultrashield Decking Teak End Piece / Cap",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778478Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 2.25,
+        "ScrapedAt": "2025-02-07T15:33:24.0778479Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Antique Fascia Board 180 x 15 x 3600mm",
+    "Description": "Ultrashield Antique Fascia Board 180 x 15 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778496Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 70,
+        "ScrapedAt": "2025-02-07T15:33:24.0778497Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Silver Grey Fascia 180 x 15 x 3600mm",
+    "Description": "Ultrashield Silver Grey Fascia 180 x 15 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:24.0778504Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 70,
+        "ScrapedAt": "2025-02-07T15:33:24.0778505Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Antique Stair Tread 138 x 23 x 3600mm",
+    "Description": "Ultrashield Antique Stair Tread 138 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893475Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 75.01,
+        "ScrapedAt": "2025-02-07T15:33:27.9893507Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Silver Grey Stair Tread 138 x 23 x 3600",
+    "Description": "Ultrashield Silver Grey Stair Tread 138 x 23 x 3600",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893551Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 75.01,
+        "ScrapedAt": "2025-02-07T15:33:27.9893553Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Cedar Stair Tread 138 x 23 x 3600mm",
+    "Description": "Ultrashield Cedar Stair Tread 138 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893573Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 75.01,
+        "ScrapedAt": "2025-02-07T15:33:27.9893574Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Walnut Stair Tread 138 x 23 x 3600mm",
+    "Description": "Ultrashield Walnut Stair Tread 138 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893608Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 75.01,
+        "ScrapedAt": "2025-02-07T15:33:27.989361Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Antique/Hazelwood Head Screws Pack 51mm - Pk (100)",
+    "Description": "Ultrashield Antique/Hazelwood Head Screws Pack 51mm - Pk (100)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893634Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 34,
+        "ScrapedAt": "2025-02-07T15:33:27.9893635Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Silver Grey/Driftwood Head Screws Pack 51mm - Pk (100)",
+    "Description": "Ultrashield Silver Grey/Driftwood Head Screws Pack 51mm - Pk (100)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893658Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 34,
+        "ScrapedAt": "2025-02-07T15:33:27.989366Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Decking Walnut Head Screws Pack 51mm - Pk (100)",
+    "Description": "Ultrashield Decking Walnut Head Screws Pack 51mm - Pk (100)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893686Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 34,
+        "ScrapedAt": "2025-02-07T15:33:27.9893688Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Ultrashield Decking Teak/Rosewood Head Screws Pack 51mm - Pk (100)",
+    "Description": "Ultrashield Decking Teak/Rosewood Head Screws Pack 51mm - Pk (100)",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893712Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 34,
+        "ScrapedAt": "2025-02-07T15:33:27.9893714Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Whiteriver Ultrashield Decking Starter Clips - Bag of 25",
+    "Description": "Whiteriver Ultrashield Decking Starter Clips - Bag of 25",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893754Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 21,
+        "ScrapedAt": "2025-02-07T15:33:27.9893756Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Anthrazit Fascia Solid 130 x 10mm 130 x 10 x 3600mm",
+    "Description": "Composite Anthrazit Fascia Solid 130 x 10mm 130 x 10 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893783Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 25.01,
+        "ScrapedAt": "2025-02-07T15:33:27.9893784Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Soft Grey Fascia Solid 130 x 10mm 130 x 10 x 3600mm",
+    "Description": "Composite Soft Grey Fascia Solid 130 x 10mm 130 x 10 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893805Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 25.01,
+        "ScrapedAt": "2025-02-07T15:33:27.9893807Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Portland / Ultrashield Steel Installation Kit Steel / Alu Joists",
+    "Description": "Portland / Ultrashield Steel Installation Kit Steel / Alu Joists",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:27.9893832Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 22,
+        "ScrapedAt": "2025-02-07T15:33:27.9893834Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite End Piece 140 x 31mm Montana Anthrazit",
+    "Description": "Composite End Piece 140 x 31mm Montana Anthrazit",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:31.6836047Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 1.4,
+        "ScrapedAt": "2025-02-07T15:33:31.6836076Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Decking Post Flange Fired Earth Each 220 x 220mm",
+    "Description": "Composite Decking Post Flange Fired Earth Each 220 x 220mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:31.6836109Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 8.5,
+        "ScrapedAt": "2025-02-07T15:33:31.683611Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Arizona Deck Soft Grey 146 x 23 x 3600mm",
+    "Description": "Composite Arizona Deck Soft Grey 146 x 23 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:31.6836127Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 34,
+        "ScrapedAt": "2025-02-07T15:33:31.6836128Z",
+        "Merchant": null
+      }
+    ]
+  },
+  {
+    "ProductId": 0,
+    "Name": "Composite Nevada Decking Anthrazit 140 x 25 x 3600mm",
+    "Description": "Composite Nevada Decking Anthrazit 140 x 25 x 3600mm",
+    "Category": "timber decking",
+    "Unit": "test unit",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "2025-02-07T15:33:31.6836146Z",
+    "Prices": [
+      {
+        "PriceId": 0,
+        "ProductId": 0,
+        "MerchantId": 6,
+        "PriceValue": 47.99,
+        "ScrapedAt": "2025-02-07T15:33:31.6836147Z",
+        "Merchant": null
+      }
+    ]
+  }
+]

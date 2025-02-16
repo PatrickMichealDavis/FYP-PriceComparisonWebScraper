@@ -75,10 +75,16 @@ namespace PriceNowCompleteV1.DataParsers
             int finalUnitScore = (unitRatio + unitSortedRatio) / 2;
 
             int finalScore = (finalNameScore + finalUnitScore) / 2;
-            Console.WriteLine($"Final Similarity Score: {finalNameScore}%");
+            Console.WriteLine($"Final Similarity Score: {finalScore}%");
+                       
 
-            if (finalNameScore >= 90 && finalUnitScore > 97)
+            if (finalNameScore >= 80 && finalUnitScore > 97)
             {
+                if (existingProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) && !newProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) 
+                    || !existingProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) && newProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase))
+                {
+                    return false;
+                }
                 return true;
             }
 

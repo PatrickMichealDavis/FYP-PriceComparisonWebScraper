@@ -28,7 +28,7 @@ namespace PriceNowCompleteV1.Controllers
             _priceService = priceService;
             _merchantService = merchantService;
             _loggingService = loggingService;
-           
+
         }
 
         [HttpGet("getProducts")]
@@ -50,6 +50,12 @@ namespace PriceNowCompleteV1.Controllers
         {
             var logs = await _loggingService.GetAllLogs();
             var merchants = await _merchantService.GetAllMerchants();
+
+            if(logs == null|| merchants ==null)
+            {
+                return NotFound();
+            }
+
             foreach (var log in logs)
             {
                 log.Merchant = merchants.FirstOrDefault(m => m.MerchantId == log.MerchantId);
@@ -72,7 +78,7 @@ namespace PriceNowCompleteV1.Controllers
 
             try
             {
-                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name,_productService,_loggingService);
+                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
                 await scraper.RunFullScrapeByMerchant(merchant);
                 return Ok("Scraping initiated");//too quick?
             }
@@ -91,7 +97,7 @@ namespace PriceNowCompleteV1.Controllers
         }
 
         [HttpGet("runScraperByMerchant")]
-        public async Task<IActionResult> RunScraperByMerchant(int merchantId,bool isPartial)
+        public async Task<IActionResult> RunScraperByMerchant(int merchantId, bool isPartial)
         {
             var merchant = await _merchantService.GetMerchantById(merchantId);
             if (merchant == null)
@@ -101,7 +107,7 @@ namespace PriceNowCompleteV1.Controllers
 
             try
             {
-                if (isPartial) 
+                if (isPartial)
                 {
                     IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
                     await scraper.RunPartialScrapeByMerchant(merchant);
@@ -116,13 +122,13 @@ namespace PriceNowCompleteV1.Controllers
             }
             catch (Exception e)
             {
-               await _loggingService.AddLog(new Logging
-                     {
-                        MerchantId = merchant.MerchantId,
-                        ScrapedAt = DateTime.UtcNow,
-                        Status = "RunScraperByMerchant:" + merchant.Name + " Failed",
-                        ErrorMessage = e.Message
-               });
+                await _loggingService.AddLog(new Logging
+                {
+                    MerchantId = merchant.MerchantId,
+                    ScrapedAt = DateTime.UtcNow,
+                    Status = "RunScraperByMerchant:" + merchant.Name + " Failed",
+                    ErrorMessage = e.Message
+                });
             }
             return StatusCode(500, $"Error while Scraping for:{merchant.Name}");
         }
@@ -166,14 +172,14 @@ namespace PriceNowCompleteV1.Controllers
             //    ErrorMessage = "Test"
             //};
 
-           // await _loggingService.AddLog(Logging);
+            // await _loggingService.AddLog(Logging);
 
-            
+
 
             //await _productService.AddProduct(product);
             return Ok("Test product added successfully.");
         }
-        
+
         [HttpGet("testFuzzy")]
         public async Task<IActionResult> TestFuzzyComparison()
         {
@@ -244,7 +250,6 @@ namespace PriceNowCompleteV1.Controllers
             return Ok();
         }
 
-
-
-        }
+        
+    }
 }
