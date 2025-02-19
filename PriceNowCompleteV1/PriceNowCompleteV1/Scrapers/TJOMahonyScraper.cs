@@ -211,7 +211,7 @@ namespace PriceNowCompleteV1.Scrapers
                 string sanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
 
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
-               // await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
+                await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
 
                 //await _productService.AddMultipleProducts(products);// added new chain here!!!!
             }

@@ -82,47 +82,18 @@ namespace PriceNowCompleteV1.Scrapers
                     return;
                 }
 
-                //var roughTimber = await page.EvaluateFunctionAsync<string>(
-                //    @"() => {
-                //    const links = Array.from(document.querySelectorAll('a'));
-                //    const roughTimberLink = links.find(link => link.href.includes('rough-timber'));
-                //    return roughTimberLink ? roughTimberLink.href : null;
-                //}"
-                //);
-
-                //if (roughTimber != null)
-                //{
-                //    Console.WriteLine("Navigating to roughTimber link...");
-                //    await page.GoToAsync(roughTimber, new NavigationOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-
-                //    await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-                //    Console.WriteLine("Clicked on 'roughTimber' link.");
-                //}
-                //else
-                //{
-                //    Console.WriteLine("'roughTimber' link not found.");
-                //    await browser.CloseAsync();
-                //    return;
-                //}
-
-                var deckingPanels = await page.EvaluateFunctionAsync<string>(
+                var roughTimber = await page.EvaluateFunctionAsync<string>(
                     @"() => {
                     const links = Array.from(document.querySelectorAll('a'));
-                    const deckingLink = links.find(link => link.innerText.includes('Decking & Panels'));
-                    return deckingLink ? deckingLink.href : null;
+                    const roughTimberLink = links.find(link => link.href.includes('rough-timber'));
+                    return roughTimberLink ? roughTimberLink.href : null;
                 }"
                 );
 
-                if (deckingPanels != null)
+                if (roughTimber != null)
                 {
-                    Console.WriteLine("Navigating to decking link...");
-                    await page.GoToAsync(deckingPanels, new NavigationOptions
+                    Console.WriteLine("Navigating to roughTimber link...");
+                    await page.GoToAsync(roughTimber, new NavigationOptions
                     {
                         Timeout = 60000
                     });
@@ -131,14 +102,46 @@ namespace PriceNowCompleteV1.Scrapers
                     {
                         Timeout = 60000
                     });
-                    Console.WriteLine("Clicked on ' Decking' link.");
+                    Console.WriteLine("Clicked on 'roughTimber' link.");
                 }
                 else
                 {
-                    Console.WriteLine("' Decking' link not found.");
+                    Console.WriteLine("'roughTimber' link not found.");
                     await browser.CloseAsync();
                     return;
                 }
+
+                var roughTimberProducts = await ScraperHelper.ScrapePage(page, merchant, "rough timber");
+
+                ////here is decking
+                //var deckingPanels = await page.EvaluateFunctionAsync<string>(
+                //    @"() => {
+                //    const links = Array.from(document.querySelectorAll('a'));
+                //    const deckingLink = links.find(link => link.innerText.includes('Decking & Panels'));
+                //    return deckingLink ? deckingLink.href : null;
+                //}"
+                //);
+
+                //if (deckingPanels != null)
+                //{
+                //    Console.WriteLine("Navigating to decking link...");
+                //    await page.GoToAsync(deckingPanels, new NavigationOptions
+                //    {
+                //        Timeout = 60000
+                //    });
+
+                //    await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
+                //    {
+                //        Timeout = 60000
+                //    });
+                //    Console.WriteLine("Clicked on ' Decking' link.");
+                //}
+                //else
+                //{
+                //    Console.WriteLine("' Decking' link not found.");
+                //    await browser.CloseAsync();
+                //    return;
+                //}
 
                 //var timberDeckingLink = await page.EvaluateFunctionAsync<string>(
                 //    @"() => {
@@ -170,87 +173,13 @@ namespace PriceNowCompleteV1.Scrapers
                 //    return;
                 //}
 
-                var products = new List<Product>();
-                bool hasMoreProducts = true;
-                var repeatedProductLinks = new HashSet<string>();
-                var scrapedProductsRaw = new List<Product>();
-
-                while (hasMoreProducts)
-                {
-                    var htmlContent = await page.GetContentAsync();
-
-                    var htmlDoc = new HtmlDocument();
-                    htmlDoc.LoadHtml(htmlContent);
-
-                    var productLinks = htmlDoc.DocumentNode.Descendants("a")
-                        .Where(x => x.GetAttributeValue("class", "") == "product-item-link")
-                        .ToList();
-
-                    foreach (var productLink in productLinks)
-                    {
-                        var productHref = productLink.GetAttributeValue("href", null);
-
-                        if(productHref==null || repeatedProductLinks.Contains(productHref))
-                        {
-                            continue;
-                        }
-
-                        var productName = productLink.GetAttributeValue("data-name", null);
-                        var priceText = productLink.GetAttributeValue("data-price", null);
-                        var price = priceText != null ? Math.Round(decimal.Parse(priceText), 2) : 0;
-                        var unit = "test unit";
-
-                        if (productName != null && price != 0)
-                        {
-                            var product = new Product
-                            {
-                                Name = productName,
-                                Description = productName,
-                                Unit = unit,
-                                Category = "timber decking",// rough timber 
-                                Prices = new List<Price>
-                                        {
-                                            new Price
-                                            {
-                                                PriceValue = price,
-                                                MerchantId = merchant.MerchantId,
-                                                ScrapedAt = DateTime.UtcNow
-                                            }
-                                        }
-                            };
-
-                            //scrapedProductsRaw.Add(product); //turn off second 2 lines when turning on this
-                            var sanitizedProduct = DataParser.SanitizeProduct(product);
-                            products.Add(sanitizedProduct);
-                            repeatedProductLinks.Add(productHref);
-
-                        }
-                    }
-                    
-                    var loadNextButton = await page.QuerySelectorAsync("span[x-text='loadingafterTextButton']");
-                    if (loadNextButton != null)
-                    {
-                        Console.WriteLine("Loading next products...");
-                        await loadNextButton.ClickAsync();
-                        await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
-                        {
-                            Timeout = 60000
-                        });
-                    }
-                    else
-                    {
-                        hasMoreProducts = false;
-                    }
-                }
-                var distinctProducts = products.Distinct().ToList();
-
                 string rawProductsFilePath = "corkbpRawProducts.json";
                 string sanitizedProductsFilePath = "corkbpSanitizedProducts.json";
                 string rawDeckingProductsFilePath = "corkbpDeckingProducts.json";
 
                // await _productService.SaveProductsToFile(rawDeckingProductsFilePath, scrapedProductsRaw);
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
-                //await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
+                await _productService.SaveProductsToFile(sanitizedProductsFilePath, roughTimberProducts);
 
                 //await _productService.AddMultipleProducts(products);
             }
@@ -275,7 +204,7 @@ namespace PriceNowCompleteV1.Scrapers
             }
         }
 
-       
+        
 
         public override Task RunFullSuite()
         {

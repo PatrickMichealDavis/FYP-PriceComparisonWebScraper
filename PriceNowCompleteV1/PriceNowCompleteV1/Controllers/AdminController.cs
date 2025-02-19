@@ -67,13 +67,23 @@ namespace PriceNowCompleteV1.Controllers
         public async Task<ActionResult<IEnumerable<Product>>> Compare([FromBody] int[] productList)
         {
             var products = await _productService.GetAllProducts();
-            return Ok(products);
+
+            var productsToCompare = products.Where(p => productList.Contains(p.ProductId)).ToList();
+
+            if (productsToCompare.Count == 0)
+            {
+                return NotFound("No products found");
+            }
+
+            var productsWithPrices = productsToCompare.Where(p => p.Prices.Count > 1).ToList();
+
+            return Ok(productsToCompare);
         }
 
         [HttpGet("runFullSuite")]
         public async Task<IActionResult> RunFullSuite()//this will create all scrapers in time
         {
-            var merchantId = 6;
+            var merchantId = 3;
             var merchant = await _merchantService.GetMerchantById(merchantId);
 
             try
@@ -183,62 +193,15 @@ namespace PriceNowCompleteV1.Controllers
         [HttpGet("testFuzzy")]
         public async Task<IActionResult> TestFuzzyComparison()
         {
-            //string existingProductsFilePath = "products.json";
-            string repoProductsMockFilePath = "newproducts.json";
-            string outcomeFilepath = "results.json";
-            //string rawTimberProductsFilePath = "chadwicksRawProducts.json";
-            string tjomaohnyProductsSanitizedFilePath = "tjomahonySanitizedProducts.json";
-            string corkbpProductsSanitizedFilePath = "corkbpProducts.json";
-            string chadwicksProductsSanitizedFilePath = "chadwicksTimberSanitizedProducts.json";
+            string chadwicksSanitizedProductsFilePath = "chadwicksSanitizedProducts.json";
+            string corkbpSanitizedProductsFilePath = "corkbpSanitizedProducts.json";
+            string tjomahonySanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
 
-            var sanitizedProducts = new List<Product>();
+            //var products = await _productService.LoadProductsFromFile(corkbpSanitizedProductsFilePath);
+            var products = await _productService.LoadProductsFromFile(tjomahonySanitizedProductsFilePath);
+           // var products = await _productService.LoadProductsFromFile(chadwicksSanitizedProductsFilePath);
 
-            var mockScrapedProducts = await _productService.LoadProductsFromFile(chadwicksProductsSanitizedFilePath);
-            var mockReop = await _productService.LoadProductsFromFile(corkbpProductsSanitizedFilePath);
-
-            // var allProducts = await _productRepository.GetAll();
-            var category = mockScrapedProducts.FirstOrDefault()?.Category;
-            var productsByCategory = mockReop.Where(p => p.Category == category).ToList();
-            var updatedProducts = new List<Product>();
-            var repoProductsMock = new List<Product>();
-            var counter = 1;
-
-            foreach (var scrapedProduct in mockScrapedProducts)
-            {
-                var productsByUnit = productsByCategory.Where(p => DataParser.CheckForCloseComparrisonUnit(p.Unit, scrapedProduct.Unit)).ToList();
-
-                foreach (var productByUnit in productsByUnit)//repo
-                {
-                    if (DataParser.CheckForCloseComparrison(scrapedProduct, productByUnit))
-                    {
-                        var newPrice = scrapedProduct.Prices.First();
-                        newPrice.ProductId = counter;
-                        productByUnit.Prices.Add(newPrice);
-                        productByUnit.ProductId = counter;
-                        updatedProducts.Add(productByUnit);
-                        scrapedProduct.ProductId = counter;
-                        counter++;
-
-
-                        repoProductsMock.Add(scrapedProduct);
-                        Console.WriteLine("Price updated in repo");
-                        //update
-                    }
-                    else
-                    {
-                        Console.WriteLine("No close match found, adding new product");
-                        //add new
-                    }
-                }
-
-            }
-            updatedProducts = updatedProducts.Distinct().ToList();
-            repoProductsMock = repoProductsMock.Distinct().ToList();
-            await _productService.SaveProductsToFile(outcomeFilepath, updatedProducts);
-            await _productService.SaveProductsToFile(repoProductsMockFilePath, repoProductsMock);
-
-            //await _productService.SaveProductsToFile(ProductsSanitizedFilePath, sanitizedProducts);
-            //var existingProducts = await _productService.LoadProductsFromFile(existingProductsFilePath);
+            await _productService.ProcessProducts(products);
 
             return Ok();
         }

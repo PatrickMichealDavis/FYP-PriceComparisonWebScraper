@@ -59,7 +59,7 @@ namespace PriceNowCompleteV1.DataParsers
             word = Regex.Replace(word, @"\s*\(.*?\)\s*", " ");
             word = Regex.Replace(word, @"\s*-\s*", " ");
             word.Replace(";", "");
-
+            //need to add remove &amp; and also +
             return word;
         }
 

@@ -102,6 +102,7 @@ namespace PriceNowCompleteV1.Repositories
         {
             _context.Products.Update(entity);
             await _context.SaveChangesAsync();
+            Console.WriteLine("made it past update");
         }
     }
    

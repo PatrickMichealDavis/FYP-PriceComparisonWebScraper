@@ -66,6 +66,7 @@ export class ProductTableComponent {
          
     this.wishlist.push(product);
     console.log('Wishlist Updated:', this.wishlist);
+    alert("Item added to wishlist");
     }
   }
 
