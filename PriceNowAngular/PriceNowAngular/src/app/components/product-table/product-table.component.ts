@@ -18,10 +18,15 @@ export class ProductTableComponent {
   selectedCategory: string = '';
   dataTable: any;
   filteredProducts: Product[] = [];
+  comparedList: Product[] = [];
+
+  
 
   constructor(public productService: ProductService) {
 
   }
+
+  
 
   //change to on refresh patrick when its working
   ngOnInit():void {
@@ -78,8 +83,20 @@ export class ProductTableComponent {
   compare():void {
     this.wishlistIds = this.wishlist.map((product) => product.productId);
     console.log('Wishlist Ids:', this.wishlistIds);
-     this.productService.compare(this.wishlistIds);
+     this.productService.compare(this.wishlistIds).subscribe({
+      next: (data) => {
+        this.comparedList = data;
+        this.comparedList = this.comparedList.map(product => ({
+          ...product,
+          prices: product.prices.sort((a, b) => a.priceValue - b.priceValue)
+      }));
+      },
+      error: (err) => console.error('Error fetching products', err)
+    });
+
+
   }
+
 
   
 }

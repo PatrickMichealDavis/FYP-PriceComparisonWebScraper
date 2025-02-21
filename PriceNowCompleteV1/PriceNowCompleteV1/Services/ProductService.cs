@@ -160,5 +160,10 @@ namespace PriceNowCompleteV1.Services
             }
 
         }
+
+        public async Task<IEnumerable<Product>> GetAllProductsWithPriceAndMerchant()
+        {
+            return await _productRepository.GetAllProductsWithPriceAndMerchant();
+        }
     }
 }

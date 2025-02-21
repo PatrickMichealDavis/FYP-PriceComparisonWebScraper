@@ -31,6 +31,31 @@
 </div>
 </div>
 
+<!---results table -->
+
+<div>
+    <table id="resultsTable" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>           
+                <th *ngFor="let index of [0, 1, 2]">Top {{ index + 1 }} Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of comparedList">
+                <td>{{ product.name }}</td>               
+                <td>{{ product.description }}</td>             
+                <td *ngFor="let price of product.prices
+                | slice:0:3">
+                {{ price.merchant.name }}: {{ price.priceValue }}
+            </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
 <!-- Modal Structure -->
 <div class="modal fade" id="wishListModal" tabindex="-1" aria-labelledby="wishListModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">

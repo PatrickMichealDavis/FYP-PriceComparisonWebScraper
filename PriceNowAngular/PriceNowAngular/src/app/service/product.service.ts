@@ -20,22 +20,12 @@ export class ProductService {
     return this.httpClient.get<Product[]>(this.url + this.getProductsUrl);
   }
 
-  compare(productListIds: number[]): void {
+  compare(productListIds: number[]): Observable<Product[]> {
     console.log('Product List Ids:', productListIds); 
 
-    this.httpClient.post<Product[]>(this.url + this.compareUrl, productListIds, {
+    return this.httpClient.post<Product[]>(this.url + this.compareUrl, productListIds, {
         headers: { 'Content-Type': 'application/json' }
-
-    }).subscribe({
-        next: (response) => {
-          this.comparedProducts = response;
-            console.log("response:", response);
-        },
-        error: (error) => {
-            console.error("error", error);
-        }
     });
 }
-
   
 }

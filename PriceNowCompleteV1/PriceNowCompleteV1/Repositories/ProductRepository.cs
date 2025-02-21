@@ -67,6 +67,11 @@ namespace PriceNowCompleteV1.Repositories
             return await _context.Products.Include(p=>p.Prices).ToListAsync();
         }
 
+        public async Task<IEnumerable<Product>> GetAllProductsWithPriceAndMerchant()
+        {
+            return await _context.Products.Include(p => p.Prices).ThenInclude(pr => pr.Merchant).ToListAsync();
+        }
+
         public async Task<Product> GetById(int id)
         {
             var product = await _context.Products.FindAsync(id);

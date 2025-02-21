@@ -66,7 +66,7 @@ namespace PriceNowCompleteV1.Controllers
         [HttpPost("compare")]
         public async Task<ActionResult<IEnumerable<Product>>> Compare([FromBody] int[] productList)
         {
-            var products = await _productService.GetAllProducts();
+            var products = await _productService.GetAllProductsWithPriceAndMerchant();
 
             var productsToCompare = products.Where(p => productList.Contains(p.ProductId)).ToList();
 
@@ -75,7 +75,7 @@ namespace PriceNowCompleteV1.Controllers
                 return NotFound("No products found");
             }
 
-            var productsWithPrices = productsToCompare.Where(p => p.Prices.Count > 1).ToList();
+            var productsWithPrices = productsToCompare.Where(p => p.Prices.Count > 1).ToList();//change here to 2 and see if any products did match https://tjomahony.ie/4-8m-50mm-x-44mm-rough-timber-16-2-x-2-030504448.html
 
             return Ok(productsToCompare);
         }

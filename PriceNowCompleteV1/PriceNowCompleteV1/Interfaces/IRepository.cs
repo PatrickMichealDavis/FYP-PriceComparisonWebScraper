@@ -8,5 +8,7 @@
         Task Create(T entity);
         Task Update(T entity);
         Task Delete(int id);
+
+
     }
 }
