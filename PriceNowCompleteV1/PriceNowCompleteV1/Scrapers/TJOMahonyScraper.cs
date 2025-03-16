@@ -1,4 +1,5 @@
 ﻿using HtmlAgilityPack;
+using Microsoft.CodeAnalysis.Options;
 using PriceNowCompleteV1.DataParsers;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
@@ -31,19 +32,19 @@ namespace PriceNowCompleteV1.Scrapers
                 browser = await Puppeteer.LaunchAsync(new LaunchOptions
                 {
                     Headless = false,
-                    Args = new[]
-                    {
-                        "--window-size=1920,1080" // Set browser window size for testing in headless cooment out as needed
-                    }
+                    //Args = new[]
+                    //{
+                    //    "--window-size=1920,1080" // Set browser window size for testing in headless cooment out as needed
+                    //}
                 });
 
                 var page = await browser.NewPageAsync();
 
-                await page.SetViewportAsync(new ViewPortOptions
-                {
-                    Width = 1920,
-                    Height = 1080
-                });
+                //await page.SetViewportAsync(new ViewPortOptions
+                //{
+                //    Width = 1920,
+                //    Height = 1080
+                //});
 
                 await page.GoToAsync(tJOMahonyUrl, new NavigationOptions
                 {
@@ -62,11 +63,6 @@ namespace PriceNowCompleteV1.Scrapers
 
                 await Task.Delay(3000);
                 await page.ClickAsync("button.mc-closeModal");
-
-                //await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
-                //{
-                //    Timeout = 60000
-                //});
 
                 var timberLink = await page.EvaluateFunctionAsync<string>(
                    @"() => {
@@ -103,7 +99,7 @@ namespace PriceNowCompleteV1.Scrapers
                     const links = Array.from(document.querySelectorAll('a'));
                     const roughTimberLink = links.find(link => link.href.includes('rough-timber'));
                     return roughTimberLink ? roughTimberLink.href : null;
-                }"
+                    }"
                 );
 
                 if (roughTimber != null)
@@ -129,91 +125,127 @@ namespace PriceNowCompleteV1.Scrapers
 
                
                 var products = new List<Product>();
-                bool hasMoreProducts = true;
                 var scrapedProductsRaw = new List<Product>();
 
+                var htmlContent = await page.GetContentAsync();
 
-                while (hasMoreProducts)
+                var htmlDoc = new HtmlDocument();
+                htmlDoc.LoadHtml(htmlContent);
+
+                var productItems = htmlDoc.DocumentNode.Descendants("li")
+                    .Where(x => x.GetAttributeValue("class", "").Contains("product-item"))
+                    .ToList();
+
+                var productLinks = htmlDoc.DocumentNode.Descendants("a")
+                .Where(x => x.GetAttributeValue("class", "") == "marker").Select(x => x.GetAttributeValue("href", ""))
+                .ToList();
+
+                foreach (var productLink in productLinks)
                 {
-                    var htmlContent = await page.GetContentAsync();
+                    await page.GoToAsync(productLink);
 
-                    var htmlDoc = new HtmlDocument();
-                    htmlDoc.LoadHtml(htmlContent);
+                    var productPage = await page.GetContentAsync();
+                    var productDoc = new HtmlDocument();
+                    productDoc.LoadHtml(productPage);
 
-                    var productItems = htmlDoc.DocumentNode.Descendants("li")
-                        .Where(x => x.GetAttributeValue("class", "").Contains("product-item"))
-                        .ToList();
+                    var allSwatchOptions = await page.QuerySelectorAllAsync("div.swatch-option.text");
+                    var lengthLabels = new List<string>();
 
-
-
-                    foreach (var productItem in productItems)
+                    foreach (var swatch in allSwatchOptions)
                     {
-                        var productName = productItem.Descendants("div")
-                            .FirstOrDefault(x => x.GetAttributeValue("class", "").Contains("product-name"))
-                            ?.InnerText.Trim();
+                        var label = await swatch.EvaluateFunctionAsync<string>(@"
+                                el => el.getAttribute('data-option-label')
+                                      || el.getAttribute('aria-label')
+                                      || el.textContent.trim()
+                        ") ?? "Unknown label";
 
-                        var priceWrapper = productItem.Descendants("span")
-                            .FirstOrDefault(x => x.GetAttributeValue("class", "").Contains("price-wrapper price-including-tax"));
+                        lengthLabels.Add(label);
+                    }
 
-                        var priceText = priceWrapper?.Descendants("span")
-                            .FirstOrDefault(x => x.GetAttributeValue("class", "").Contains("price"))
-                            ?.InnerText.Trim();
+                    Console.WriteLine($"found {lengthLabels.Count} swatch labels.");
+                    var category = "rough timber";
 
-                        var priceData = priceWrapper?.GetAttributeValue("data-price-amount", "");
+                    foreach (var label in lengthLabels)
+                    {
+                        var escapedLabel = label.Replace("\"", "\\\"");
+                        var selector = $"div.swatch-option.text:not(.selected)[data-option-label=\"{escapedLabel}\"]";
 
-                        var price = priceData != null ? Math.Round(decimal.Parse(priceData),2) : 0;
-                        var unit = "test unit";
-
-                        if (productName != null && price != 0)
+                        var swatch = await page.QuerySelectorAsync(selector);
+                        if (swatch == null)
                         {
-                            var product = new Product
+                            continue;
+                        }
+
+                        await swatch.EvaluateFunctionAsync("el => el.scrollIntoView({ block: 'center' })");
+                        await swatch.ClickAsync();
+
+                        await Task.Delay(5000);
+
+                        var outOfStock = await page.QuerySelectorAsync("p[style='color:#e6322e;']");
+                        if (outOfStock != null)
+                        {
+                            Console.WriteLine($" Out of stock.");
+                            break;
+                        }
+
+                        var productName = await page.EvaluateFunctionAsync<string>(@"
+                            () => {
+                                const el = document.querySelector('span.base[data-ui-id=""page-title-wrapper""]');
+                                return el ? el.textContent.trim() : '';
+                        }");
+
+                        var newPrice = await page.WaitForSelectorAsync(
+                            "span.price",
+                            new WaitForSelectorOptions { Timeout = 5000, Visible = true }
+                        );
+
+                        if (newPrice != null)
+                        {
+                            string priceText = await newPrice.EvaluateFunctionAsync<string>("el => el.innerText");
+                            priceText = priceText.Replace("€", "").Trim();
+                            var price = priceText != null ? Math.Round(decimal.Parse(priceText), 2) : 0;
+                            var unit = "test unit";
+                            Console.WriteLine($"product:{productName}: {price}");
+
+                            if (productName != null && price != 0)
                             {
-                                Name = productName,
-                                Description = productName,
-                                Unit = unit,
-                                Category = "rough timber",
-                                Prices = new List<Price>
+                                var product = new Product
+                                {
+                                    Name = productName,
+                                    Description = productName,
+                                    Unit = unit,
+                                    Category = category,
+                                    Prices = new List<Price>
+                                    {
+                                        new Price
                                         {
-                                            new Price
-                                            {
-                                                PriceValue = price,
-                                                MerchantId = merchant.MerchantId,
-                                                ScrapedAt = DateTime.UtcNow
-                                            }
+                                             PriceValue = price,
+                                             MerchantId = merchant.MerchantId,
+                                             ScrapedAt = DateTime.UtcNow
                                         }
-                            };
+                                    }
+                                };
 
-                            //scrapedProductsRaw.Add(product); //turn off second 2 lines when turning on this
-                            var sanitizedProduct = DataParser.SanitizeProduct(product);// remove and send to full standardize
-                            products.Add(sanitizedProduct);
+                                //scrapedProductsRaw.Add(product); //turn off second 2 lines when turning on this
+                                var sanitizedProduct = DataParser.SanitizeProduct(product);
+                                products.Add(sanitizedProduct);
 
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Could not find updated price for swatch '{label}'.");
                         }
                     }
-                   
-                    var loadNextButton = await page.QuerySelectorAsync("span[x-text='loadingafterTextButton']");//dont need this code remove later
-                    if (loadNextButton != null)
-                    {
-                        Console.WriteLine("Loading next products...");
-                        await loadNextButton.ClickAsync();
-                        await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
-                        {
-                            Timeout = 60000
-                        });
-                    }
-                    else
-                    {
-                        hasMoreProducts = false;
-                    }
                 }
-                var distinctProducts = products.Distinct().ToList();
 
+                var distinctProducts = products.Distinct().ToList();
                 string rawProductsFilePath = "tjomahonyRawProducts.json";
                 string sanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
 
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
                 await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
 
-                //await _productService.AddMultipleProducts(products);// added new chain here!!!!
             }
             catch (Exception ex)
             {
@@ -222,7 +254,7 @@ namespace PriceNowCompleteV1.Scrapers
                     MerchantId = merchant.MerchantId,
                     ScrapedAt = DateTime.UtcNow,
                     Status = "failed",
-                    ErrorMessage = merchant.Name +" scraper failed",
+                    ErrorMessage = merchant.Name +" scraper failed" + ex.Message,
                 };
 
                 await _loggingService.AddLog(Logging);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PriceNowTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b371e693f8e6402204490f017a106c5599f2815")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80e468bf05c4b24600e0f86f95f16ebf529b08ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("PriceNowTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PriceNowTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

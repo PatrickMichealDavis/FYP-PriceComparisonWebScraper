@@ -17,17 +17,8 @@ namespace PriceNowCompleteV1.Repositories
 
         public async Task AddMultipleProducts(List<Product> products)
         {
-            try
-            {
-                await _context.Products.AddRangeAsync(products);
-                await _context.SaveChangesAsync();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error saving products: {ex.Message}");
-                Console.WriteLine($"Inner Exception: {ex.InnerException?.Message}");
-                throw; // Re-throw the exception for debugging
-            }
+            await _context.Products.AddRangeAsync(products);
+            await _context.SaveChangesAsync();
         }
 
         public async  Task AddProduct(Product product)
