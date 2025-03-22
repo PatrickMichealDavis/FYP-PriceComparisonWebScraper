@@ -1,6 +1,7 @@
 ﻿using PriceNowCompleteV1.DataParsers;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text.Json;
 
@@ -133,7 +134,7 @@ namespace PriceNowCompleteV1.Services
                 return;
             }
 
-          
+          //patrcik can we use dictionaries
 
             foreach (var scrapedProduct in scrapedProducts) 
             {
@@ -148,7 +149,7 @@ namespace PriceNowCompleteV1.Services
                         await UpdateProduct(existingProduct);
                         updateCount++;
                         matchFound = true;
-                        Console.WriteLine($"Updating product in repo update count {updateCount}");
+                       // Console.WriteLine($"Updating product in repo update count {updateCount}");
                     }
                     
                 }
@@ -157,6 +158,56 @@ namespace PriceNowCompleteV1.Services
                    await _productRepository.AddProduct(scrapedProduct);
                 }
 
+            }
+
+        }
+
+        public async Task ProcessProductsV2(List<Product> scrapedProducts)
+        {
+            var existingProducts = await _productRepository.GetAll();
+
+            if (existingProducts.Count() == 0)//first scrape
+            {
+                await AddMultipleProducts(scrapedProducts);
+                return;
+            }
+
+            var category = scrapedProducts.FirstOrDefault()?.Category;
+            var existingProductsByCategory = existingProducts.Where(p => p.Category == category).ToList();
+
+            if (existingProductsByCategory.Count() == 0)//first scrape for category
+            {
+                await AddMultipleProducts(scrapedProducts);
+                return;
+            }
+
+            var existingProductsByUnitDict = existingProductsByCategory.GroupBy(p => p.Unit).ToDictionary(p => p.Key, p => p.ToList());
+
+
+
+            foreach (var scrapedProduct in scrapedProducts)
+            {
+               
+                if(!existingProductsByUnitDict.TryGetValue(scrapedProduct.Unit, out var existingProductsClose))
+                {
+                    await _productRepository.AddProduct(scrapedProduct);
+                    continue;
+                }
+
+                var matchedProduct = existingProductsClose.FirstOrDefault(p => DataParser.CheckForCloseComparrison(scrapedProduct, p));//this may be too hacky patrick first or default may be wrong
+
+                if (matchedProduct != null) 
+                {
+                    matchedProduct.Prices.Add(scrapedProduct.Prices.First());// need to find a match for merchant and update price if present else add patrick 
+                    await _productRepository.Update(matchedProduct);
+                    Console.WriteLine($"Updating product in repo {matchedProduct.Name}");
+                }
+                else
+                {
+                    await _productRepository.AddProduct(scrapedProduct); 
+                }
+
+                //may be quicker to add batches after loop need to add multiple upadtes to Irepository
             }
 
         }

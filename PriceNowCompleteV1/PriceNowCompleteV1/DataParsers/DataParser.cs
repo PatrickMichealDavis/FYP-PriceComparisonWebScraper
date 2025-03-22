@@ -56,10 +56,9 @@ namespace PriceNowCompleteV1.DataParsers
 
         private static string Clean(string word)
         {
-            word = Regex.Replace(word, @"\s*\(.*?\)\s*", " ");
+            word = Regex.Replace(word, @"\s*\(.*?\)\s*", " ").Replace("&amp;","").Replace("+","");
             word = Regex.Replace(word, @"\s*-\s*", " ");
             word.Replace(";", "");
-            //need to add remove &amp; and also +
             return word;
         }
 
@@ -75,7 +74,7 @@ namespace PriceNowCompleteV1.DataParsers
             int finalUnitScore = (unitRatio + unitSortedRatio) / 2;
 
             int finalScore = (finalNameScore + finalUnitScore) / 2;
-            Console.WriteLine($"Final Similarity Score: {finalScore}%");
+           // Console.WriteLine($"Final Similarity Score: {finalScore}%");
                        
 
             if (finalNameScore >= 80 && finalUnitScore > 97)
