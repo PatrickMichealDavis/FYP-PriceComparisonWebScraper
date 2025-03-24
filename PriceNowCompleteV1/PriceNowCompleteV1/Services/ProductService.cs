@@ -183,22 +183,35 @@ namespace PriceNowCompleteV1.Services
 
             var existingProductsByUnitDict = existingProductsByCategory.GroupBy(p => p.Unit).ToDictionary(p => p.Key, p => p.ToList());
 
-
-
             foreach (var scrapedProduct in scrapedProducts)
             {
-               
-                if(!existingProductsByUnitDict.TryGetValue(scrapedProduct.Unit, out var existingProductsClose))
+                var closeKey = DataParser.FindClosestKey(scrapedProduct.Unit, existingProductsByUnitDict.Keys.ToList());
+
+                if (closeKey == null)
                 {
                     await _productRepository.AddProduct(scrapedProduct);
                     continue;
                 }
 
-                var matchedProduct = existingProductsClose.FirstOrDefault(p => DataParser.CheckForCloseComparrison(scrapedProduct, p));//this may be too hacky patrick first or default may be wrong
+                var closeExistingProducts = existingProductsByUnitDict[closeKey];
+
+                var matchedProduct = closeExistingProducts.FirstOrDefault(p => DataParser.CheckForCloseComparrison(scrapedProduct, p));//this may be too hacky patrick first or default may be wrong
 
                 if (matchedProduct != null) 
                 {
-                    matchedProduct.Prices.Add(scrapedProduct.Prices.First());// need to find a match for merchant and update price if present else add patrick 
+
+                    var newPrice = scrapedProduct.Prices.First();
+                    var existingPrice = matchedProduct.Prices.FirstOrDefault(p => p.MerchantId == newPrice.MerchantId);
+
+                    if (existingPrice != null)
+                    {
+                        existingPrice.PriceValue = newPrice.PriceValue;
+                        existingPrice.ScrapedAt = newPrice.ScrapedAt;
+                    }
+                    else
+                    {
+                        matchedProduct.Prices.Add(newPrice);
+                    }
                     await _productRepository.Update(matchedProduct);
                     Console.WriteLine($"Updating product in repo {matchedProduct.Name}");
                 }

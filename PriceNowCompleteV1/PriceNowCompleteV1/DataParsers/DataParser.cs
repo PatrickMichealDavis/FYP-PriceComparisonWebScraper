@@ -2,6 +2,7 @@
 using FuzzySharp;
 using System.Text.RegularExpressions;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+using System.Text.Json;
 
 namespace PriceNowCompleteV1.DataParsers
 {
@@ -84,6 +85,7 @@ namespace PriceNowCompleteV1.DataParsers
                 {
                     return false;
                 }
+                Console.WriteLine($"Product scraped: {newProduct.Name} Product repo: {existingProduct.Name} ");
                 return true;
             }
 
@@ -124,6 +126,37 @@ namespace PriceNowCompleteV1.DataParsers
             word = string.Join(" ", words);
 
             return word;
+        }
+
+        public static string FindClosestKey(string unit, List<string> keys)
+        {
+            var closestKey = "";
+            int highestScore = 0;
+
+            foreach (var key in keys)
+            {
+                int score = Fuzz.TokenSortRatio(key, unit);
+
+                if (score > highestScore)
+                {
+                    highestScore = score;
+                    closestKey = key;
+                }
+            }
+
+            return closestKey;
+        }
+
+        public static async Task<List<Product>> GetJsonProducts(string filepath)
+        {
+            if (!File.Exists(filepath))
+            {
+                Console.WriteLine("Product file not found!");
+                return new List<Product>();
+            }
+
+            string json = await File.ReadAllTextAsync(filepath);
+            return JsonSerializer.Deserialize<List<Product>>(json) ?? new List<Product>();
         }
     }
 }
