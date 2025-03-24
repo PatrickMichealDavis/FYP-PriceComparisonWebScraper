@@ -147,16 +147,16 @@ namespace PriceNowCompleteV1.DataParsers
             return closestKey;
         }
 
-        public static async Task<List<Product>> GetJsonProducts(string filepath)
-        {
-            if (!File.Exists(filepath))
-            {
-                Console.WriteLine("Product file not found!");
-                return new List<Product>();
-            }
+        //public static async Task<List<Product>> GetJsonProducts(string filepath)
+        //{
+        //    if (!File.Exists(filepath))
+        //    {
+        //        Console.WriteLine("Product file not found!");
+        //        return new List<Product>();
+        //    }
 
-            string json = await File.ReadAllTextAsync(filepath);
-            return JsonSerializer.Deserialize<List<Product>>(json) ?? new List<Product>();
-        }
+        //    string json = await File.ReadAllTextAsync(filepath);
+        //    return JsonSerializer.Deserialize<List<Product>>(json) ?? new List<Product>();
+        //}
     }
 }

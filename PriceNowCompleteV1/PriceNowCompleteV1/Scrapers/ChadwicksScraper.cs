@@ -196,6 +196,7 @@ namespace PriceNowCompleteV1.Scrapers
 
                 //await _productService.AddMultipleProducts(distinctProducts);
 
+                //add success logs 
 
             }
             catch (Exception ex)

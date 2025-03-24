@@ -246,6 +246,8 @@ namespace PriceNowCompleteV1.Scrapers
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
                 await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
 
+                //add success logs 
+
             }
             catch (Exception ex)
             {

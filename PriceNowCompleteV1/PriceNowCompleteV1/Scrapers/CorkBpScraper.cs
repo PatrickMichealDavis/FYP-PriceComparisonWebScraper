@@ -182,6 +182,8 @@ namespace PriceNowCompleteV1.Scrapers
                 await _productService.SaveProductsToFile(sanitizedProductsFilePath, roughTimberProducts);
 
                 //await _productService.AddMultipleProducts(products);
+
+                //add success logs 
             }
             catch (Exception ex)
             {

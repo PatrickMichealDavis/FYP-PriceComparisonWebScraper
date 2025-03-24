@@ -16,8 +16,6 @@ namespace PriceNowTest
         [Test]
         public async Task CompareProcessProductsAndProcessProductsV2()
         {
-
-
             var existingProducts = TestDataGenerator.GenerateProducts(5000, "timber");
 
             var scrapedProducts = TestDataGenerator.GenerateProducts(2000, "timber");
@@ -71,7 +69,7 @@ namespace PriceNowTest
             TestContext.WriteLine($"Old approach took {oldTime} ms");
 
 
-            existingProducts = await DataParser.GetJsonProducts(chadwicksSanitizedProductsFilePath);
+            existingProducts = await FileHelper.GetJsonProducts(chadwicksSanitizedProductsFilePath);
 
             mockProductRepository = new MockProductRepository(existingProducts);
 
