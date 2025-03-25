@@ -17,5 +17,7 @@ namespace PriceNowCompleteV1.Interfaces
         Task ProcessProducts(List<Product> products);
         Task<IEnumerable<Product>> GetAllProductsWithPriceAndMerchant();
 
+        Task ProcessProductsV2(List<Product> products);
+
     }
 }

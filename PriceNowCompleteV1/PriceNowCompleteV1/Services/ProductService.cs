@@ -134,8 +134,6 @@ namespace PriceNowCompleteV1.Services
                 return;
             }
 
-          //patrcik can we use dictionaries
-
             foreach (var scrapedProduct in scrapedProducts) 
             {
                 var matchFound = false;

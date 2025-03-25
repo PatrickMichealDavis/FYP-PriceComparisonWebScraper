@@ -83,7 +83,7 @@ namespace PriceNowCompleteV1.Controllers
         [HttpGet("runFullSuite")]
         public async Task<IActionResult> RunFullSuite()//this will create all scrapers in time
         {
-            var merchantId = 3;
+            var merchantId = 2;
             var merchant = await _merchantService.GetMerchantById(merchantId);
 
             try
@@ -186,7 +186,7 @@ namespace PriceNowCompleteV1.Controllers
 
 
 
-            //await _productService.AddProduct(product);
+            await _productService.AddProduct(testObject);
             return Ok("Test product added successfully.");
         }
 

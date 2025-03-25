@@ -50,6 +50,8 @@ namespace PriceNowCompleteV1.Scrapers
                     Timeout = 60000
                 });
 
+                await Task.Delay(9000);//modal time changed to 9 secs this may need changing
+
 
                 var closeButton = await page.QuerySelectorAsync("#lpclose");//close modal if exists
 
@@ -194,9 +196,15 @@ namespace PriceNowCompleteV1.Scrapers
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);//use this to grab raw for testing sanitizer
                 await _productService.SaveProductsToFile(sanitizedProductsFilePath, roughTimberProducts);//use this to grab the sanitized products
 
-                //await _productService.AddMultipleProducts(distinctProducts);
+                await _productService.ProcessProductsV2(roughTimberProducts);
 
-                //add success logs 
+                await _loggingService.AddLog(new Logging
+                {
+                    MerchantId = merchant.MerchantId,
+                    ScrapedAt = DateTime.UtcNow,
+                    Status = "Success",
+                    ErrorMessage = $"Scraped successfully for {merchant.Name}"
+                });
 
             }
             catch (Exception ex)

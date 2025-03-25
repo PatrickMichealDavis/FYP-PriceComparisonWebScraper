@@ -246,7 +246,15 @@ namespace PriceNowCompleteV1.Scrapers
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
                 await _productService.SaveProductsToFile(sanitizedProductsFilePath, distinctProducts);
 
-                //add success logs 
+                await _productService.ProcessProductsV2(distinctProducts);
+
+                await _loggingService.AddLog(new Logging
+                {
+                    MerchantId = merchant.MerchantId,
+                    ScrapedAt = DateTime.UtcNow,
+                    Status = "Success",
+                    ErrorMessage = $"Scraped successfully for {merchant.Name}"
+                });
 
             }
             catch (Exception ex)
