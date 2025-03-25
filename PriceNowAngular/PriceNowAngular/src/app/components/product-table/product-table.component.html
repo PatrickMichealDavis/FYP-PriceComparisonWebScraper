@@ -11,6 +11,7 @@
     <table id="prodTable" class="table table-striped">
         <thead>
             <tr>
+                <th>Product ID</th>    
                 <th>Product Name</th>           
                 <th>Unit</th>  
                 <th>Category</th>              
@@ -19,6 +20,7 @@
         </thead>
         <tbody>
             <tr *ngFor="let product of filteredProducts">
+                <td>{{ product.productId }}</td>  
                 <td>{{ product.name }}</td>               
                 <td>{{ product.unit }}</td>    
                 <td>{{ product.category }}</td>           
@@ -39,7 +41,7 @@
             <tr>
                 <th>Product Name</th>
                 <th>Description</th>           
-                <th *ngFor="let index of [0, 1, 2]">Top {{ index + 1 }} Price</th>
+                <th *ngFor="let i of [0, 1, 2]">Top {{ i + 1 }} Price</th>
             </tr>
         </thead>
         <tbody>

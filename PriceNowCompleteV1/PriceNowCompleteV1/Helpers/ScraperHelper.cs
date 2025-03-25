@@ -26,6 +26,8 @@ namespace PriceNowCompleteV1.Helpers
             var repeatedProductLinks = new HashSet<string>();
             var scrapedProductsRaw = new List<Product>();
 
+            await Task.Delay(5000);
+
             var closeButton = await page.QuerySelectorAsync("#lpclose");//close modal if exists
 
             if (closeButton != null)
@@ -44,6 +46,19 @@ namespace PriceNowCompleteV1.Helpers
 
                 var htmlDoc = new HtmlDocument();
                 htmlDoc.LoadHtml(htmlContent);
+
+
+                var modalCloseButton = await page.QuerySelectorAsync("#lpclose");//close modal if exists
+
+                if (modalCloseButton != null)
+                {
+                    Console.WriteLine("Close button found, clicking...");
+                    await modalCloseButton.ClickAsync();
+                }
+                else
+                {
+                    Console.WriteLine("Close button not found, skipping...");
+                }
 
                 var productLinks = htmlDoc.DocumentNode.Descendants("a")
                     .Where(x => x.GetAttributeValue("class", "") == "product-item-link")

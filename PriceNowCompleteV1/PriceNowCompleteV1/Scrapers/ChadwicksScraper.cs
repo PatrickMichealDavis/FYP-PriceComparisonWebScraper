@@ -196,7 +196,7 @@ namespace PriceNowCompleteV1.Scrapers
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);//use this to grab raw for testing sanitizer
                 await _productService.SaveProductsToFile(sanitizedProductsFilePath, roughTimberProducts);//use this to grab the sanitized products
 
-                await _productService.ProcessProductsV2(roughTimberProducts);
+               // await _productService.ProcessProductsV2(roughTimberProducts);
 
                 await _loggingService.AddLog(new Logging
                 {
