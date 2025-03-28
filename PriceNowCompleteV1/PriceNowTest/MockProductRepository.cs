@@ -12,6 +12,9 @@ namespace PriceNowTest
     {
 
         private readonly List<Product> _products;
+        public List<Product> _UpdatedProducts { get; set; } = new();
+        public List<Product> _newProducts { get; set; } = new();
+
 
         public MockProductRepository(List<Product> initialProducts)
         {
@@ -27,12 +30,14 @@ namespace PriceNowTest
         public Task AddProduct(Product product)
         {
             _products.Add(product);
+            _newProducts.Add(product);
+            Console.WriteLine("Product added");
             return Task.CompletedTask;
         }
 
         public Task Create(Product entity)
         {
-            throw new NotImplementedException();
+           throw new NotImplementedException();
         }
 
         public Task Delete(int id)
@@ -72,6 +77,7 @@ namespace PriceNowTest
 
         public Task Update(Product entity)
         {
+            _UpdatedProducts.Add(entity);
             return Task.CompletedTask;
         }
     }

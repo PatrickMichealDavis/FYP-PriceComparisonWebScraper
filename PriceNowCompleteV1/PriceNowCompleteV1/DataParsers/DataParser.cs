@@ -3,6 +3,7 @@ using FuzzySharp;
 using System.Text.RegularExpressions;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using System.Text.Json;
+using PriceNowCompleteV1.Helpers;
 
 namespace PriceNowCompleteV1.DataParsers
 {
@@ -40,8 +41,8 @@ namespace PriceNowCompleteV1.DataParsers
                 }
             }
 
-            string productName = string.Join(" ", productNameParts);
-            string unit = string.Join(" ", productUnitParts);
+            var productName = string.Join(" ", productNameParts);
+            var unit = string.Join(" ", productUnitParts);
             unit = Regex.Replace(unit, @"\b[a-zA-Z]+\d+\b", "").Trim();
 
             return new Tuple<string, string>(productName, unit);
@@ -60,16 +61,32 @@ namespace PriceNowCompleteV1.DataParsers
             word = Regex.Replace(word, @"\s*\(.*?\)\s*", " ").Replace("&amp;","").Replace("+","");
             word = Regex.Replace(word, @"\s*-\s*", " ");
             word.Replace(";", "");
+           
             return word;
         }
 
         public static bool CheckForCloseComparrison(Product newProduct, Product existingProduct)
         {
-            int nameRatio = Fuzz.Ratio(newProduct.Name.ToLower(), existingProduct.Name.ToLower());
-            int nameSortedRatio = Fuzz.TokenSortRatio(newProduct.Name.ToLower(), existingProduct.Name.ToLower());
+            var nameRatio = Fuzz.Ratio(newProduct.Name.ToLower(), existingProduct.Name.ToLower());
+            var nameSortedRatio = Fuzz.TokenSortRatio(newProduct.Name.ToLower(), existingProduct.Name.ToLower());
 
-            int unitRatio = Fuzz.Ratio(newProduct.Unit.ToLower(), existingProduct.Unit.ToLower());
-            int unitSortedRatio = Fuzz.TokenSortRatio(newProduct.Unit.ToLower(), existingProduct.Unit.ToLower());
+            var unitRatio = Fuzz.Ratio(newProduct.Unit.ToLower(), existingProduct.Unit.ToLower());
+            var unitSortedRatio = Fuzz.TokenSortRatio(newProduct.Unit.ToLower(), existingProduct.Unit.ToLower());
+
+            var newName = newProduct.Name;
+            var existingName = existingProduct.Name;
+
+            if(newName.Equals("White Deal Rough Timber", StringComparison.OrdinalIgnoreCase) || existingName.Equals("White Deal Rough Timber", StringComparison.OrdinalIgnoreCase))
+            {
+                var stop = true;
+            }
+
+            bool containsProduct = KeyWordHelper.ContainsKeyWord(existingName, newName);
+
+            if (containsProduct)
+            {
+                var test = true;
+            }
 
             int finalNameScore = (nameRatio + nameSortedRatio) / 2;
             int finalUnitScore = (unitRatio + unitSortedRatio) / 2;
@@ -78,7 +95,7 @@ namespace PriceNowCompleteV1.DataParsers
            // Console.WriteLine($"Final Similarity Score: {finalScore}%");
                        
 
-            if (finalNameScore >= 80 && finalUnitScore > 97)
+            if ((finalNameScore >= 80 || containsProduct) && finalUnitScore > 97)
             {
                 if (existingProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) && !newProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) 
                     || !existingProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) && newProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase))

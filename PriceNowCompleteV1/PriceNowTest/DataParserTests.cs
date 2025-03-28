@@ -1,5 +1,7 @@
 using PriceNowCompleteV1.DataParsers;
+using PriceNowCompleteV1.Helpers;
 using PriceNowCompleteV1.Models;
+using PriceNowCompleteV1.Services;
 
 namespace PriceNowTest
 {
@@ -97,6 +99,38 @@ namespace PriceNowTest
             var result = DataParser.CheckForCloseComparrison(product1, product2);
 
             Assert.IsFalse(result);
+        }
+
+        [Test]
+        public async Task CheckForCloseComparrison_ShouldReturnTrue_BothProductTheSame()
+        {
+           
+            string chadwicksSanitizedProductsFilePath = "chadwicksSanitizedProducts.json";
+            string corkbpSanitizedProductsFilePath = "corkbpSanitizedProducts.json";
+            string tjomahonySanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
+
+            var scrapedProducts = await FileHelper.GetJsonProducts(tjomahonySanitizedProductsFilePath);
+             var existingProducts =  await FileHelper.GetJsonProducts(chadwicksSanitizedProductsFilePath);
+           // var existingProducts = await FileHelper.GetJsonProducts(corkbpSanitizedProductsFilePath);
+
+
+
+            foreach (var exProduct in existingProducts) 
+            {
+                foreach (var scProduct in scrapedProducts)
+                {
+                    if (DataParser.CheckForCloseComparrison(exProduct, scProduct))
+                    {
+                        exProduct.Prices = (ICollection<Price>)scProduct.Prices.First();
+                        Console.WriteLine($"Match found: {exProduct.Name} ~ {scProduct.Name}");
+                    }
+                }
+            }
+
+
+            
+            
+
         }
 
     }

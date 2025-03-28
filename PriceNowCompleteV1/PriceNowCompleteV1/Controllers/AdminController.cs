@@ -201,7 +201,7 @@ namespace PriceNowCompleteV1.Controllers
             var products = await _productService.LoadProductsFromFile(tjomahonySanitizedProductsFilePath);
            // var products = await _productService.LoadProductsFromFile(chadwicksSanitizedProductsFilePath);
 
-            await _productService.ProcessProducts(products);
+            await _productService.ProcessProductsV2(products);
 
             return Ok();
         }
