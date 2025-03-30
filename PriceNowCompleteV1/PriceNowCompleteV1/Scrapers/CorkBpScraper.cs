@@ -113,14 +113,21 @@ namespace PriceNowCompleteV1.Scrapers
 
                 await Task.Delay(10000);
 
-                var closeButton = await page.WaitForSelectorAsync("#lpclose", new WaitForSelectorOptions { Timeout = 5000 });
-                if (closeButton != null)
-                {
-                    Console.WriteLine("Modal close button found.");
-                    await closeButton.ClickAsync();
-                }
+                await ScraperHelper.DismissModal(page, "#lpclose", 3);
 
                 var roughTimberProducts = await ScraperHelper.ScrapePage(page, merchant, "rough timber");
+
+                string rawProductsFilePath = "corkbpRawProducts.json";
+                string sanitizedProductsFilePath = "corkbpSanitizedProducts.json";
+
+
+                // await _productService.SaveProductsToFile(deckingProductsFilePath, scrapedProductsRaw);
+                //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
+                //await _productService.SaveProductsToFile(sanitizedProductsFilePath, scrapedProducts);
+
+                //await _productService.ProcessProductsV2(scrapedProducts);
+
+                var deckingProducts = await ScrapeDecking(page, browser, merchant);
 
                 ////here is decking
                 //var deckingPanels = await page.EvaluateFunctionAsync<string>(
@@ -155,42 +162,18 @@ namespace PriceNowCompleteV1.Scrapers
                 //var timberDeckingLink = await page.EvaluateFunctionAsync<string>(
                 //    @"() => {
                 //    const links = Array.from(document.querySelectorAll('a'));
-                //    const deckingLink = links.find(link => link.innerText.includes('Timber Decking'));
+                //    const deckingLink = links.find(link => link.innerText.includes('decking-panels'));
                 //    return deckingLink ? deckingLink.href : null;
                 //}"
                 //);
 
-                //if (timberDeckingLink != null)
-                //{
-                //    Console.WriteLine("Navigating to Timber Decking link...");
-                //    await page.GoToAsync(timberDeckingLink, new NavigationOptions
-                //    {
-                //        Timeout = 60000
-                //    });
+               
+                //string deckingProductsFilePath = "corkbpDeckingProducts.json";
 
+                //var deckingProducts = await ScraperHelper.ScrapePage(page, merchant, "decking");
+                //await _productService.SaveProductsToFile(deckingProductsFilePath, deckingProducts);
 
-                //    await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-                //    Console.WriteLine("Clicked on 'Timber Decking' link.");
-                //}
-                //else
-                //{
-                //    Console.WriteLine("'Timber Decking' link not found.");
-                //    await browser.CloseAsync();
-                //    return;
-                //}
-
-                string rawProductsFilePath = "corkbpRawProducts.json";
-                string sanitizedProductsFilePath = "corkbpSanitizedProducts.json";
-                string rawDeckingProductsFilePath = "corkbpDeckingProducts.json";
-
-               // await _productService.SaveProductsToFile(rawDeckingProductsFilePath, scrapedProductsRaw);
-                //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
-                await _productService.SaveProductsToFile(sanitizedProductsFilePath, roughTimberProducts);
-
-                await _productService.ProcessProductsV2(roughTimberProducts);
+               // await _productService.ProcessProductsV2(deckingProducts);
 
                 await _loggingService.AddLog(new Logging
                 {
@@ -221,7 +204,52 @@ namespace PriceNowCompleteV1.Scrapers
             }
         }
 
-        
+        private async Task<List<Product>> ScrapeDecking(IPage page,IBrowser browser, Merchant merchant)
+        {
+            var deckingPanels = await page.EvaluateFunctionAsync<string>(
+                        @"() => {
+                    const links = Array.from(document.querySelectorAll('a'));
+                    const deckingLink = links.find(link => link.innerText.includes('Decking & Panels'));
+                    return deckingLink ? deckingLink.href : null;
+                }"
+                    );
+
+            if (deckingPanels != null)
+            {
+                Console.WriteLine("Navigating to decking link...");
+                await page.GoToAsync(deckingPanels, new NavigationOptions
+                {
+                    Timeout = 60000
+                });
+
+                await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
+                {
+                    Timeout = 60000
+                });
+                Console.WriteLine("Clicked on ' Decking' link.");
+            }
+            else
+            {
+                Console.WriteLine("' Decking' link not found.");
+                await browser.CloseAsync();
+                return new List<Product>();
+            }
+
+            var timberDeckingLink = await page.EvaluateFunctionAsync<string>(
+                @"() => {
+                    const links = Array.from(document.querySelectorAll('a'));
+                    const deckingLink = links.find(link => link.innerText.includes('decking-panels'));
+                    return deckingLink ? deckingLink.href : null;
+                }"
+            );
+
+
+            string deckingProductsFilePath = "corkbpDeckingProducts.json";
+
+            var deckingProducts = await ScraperHelper.ScrapePage(page, merchant, "decking");
+
+            return deckingProducts;
+        }
 
         public override Task RunFullSuite()
         {

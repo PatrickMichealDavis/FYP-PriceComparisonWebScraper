@@ -118,5 +118,31 @@ namespace PriceNowCompleteV1.Helpers
             return products.Distinct().ToList();
         }
 
+        public static async Task DismissModal(IPage page, string selector, int retires)
+        {
+            for (int i = 0; i < retires; i++)
+            {
+                try
+                {
+                    var modal = await page.QuerySelectorAsync(selector);
+                    if (modal != null)
+                    {
+                        await modal.ClickAsync();
+                        Console.WriteLine("Modal dismissed.");
+                        await Task.Delay(1000);
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Modal not found.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error dismissing modal: {ex.Message}");
+                }
+            }
+        }
+
     }
 }
