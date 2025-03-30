@@ -3,31 +3,16 @@
     public static class KeyWordHelper
     {
 
-        // This will we used for scalling as the product base grows to remove unwanted keywords
-        public static HashSet<string> KeyWordsForRemoval = new HashSet<string>() { "white deal" };
+        // This will we used for scalling as the product base grows to remove unwanted keywords at scale databse table would be used
+        public static HashSet<string> KeyWordsForRemoval = new HashSet<string>() { "white","deal" };
 
-
-
-        public static string CleanKeyWord(string keyword)
+        
+        public static string RemoveKeyWords(string word)
         {
-            foreach(var key in KeyWordsForRemoval)
-            {
-                keyword = keyword.Replace(key, "");
-            }
-
-            return keyword;
+            var words = word.ToLower().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+            var filtered = words.Where(w => !KeyWordsForRemoval.Contains(w));
+            return string.Join(" ", filtered);
         }
-
-        public static bool ContainsKeyWord(string existing, string newWord)
-        {
-            if (existing.Contains(newWord) || newWord.Contains(existing))
-            {
-                return true;
-            }
-
-            return false;
-        }
-
 
     }
 }

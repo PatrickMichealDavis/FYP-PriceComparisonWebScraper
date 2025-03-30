@@ -17,5 +17,15 @@ namespace PriceNowCompleteV1.Helpers
             string json = await File.ReadAllTextAsync(filepath);
             return JsonSerializer.Deserialize<List<Product>>(json) ?? new List<Product>();
         }
+
+        public static async Task SaveProductsToFile(string filePath, List<Product> products)
+        {
+            //var products = await _productRepository.GetAll(); 
+
+            string json = JsonSerializer.Serialize(products, new JsonSerializerOptions { WriteIndented = true });
+
+            await File.WriteAllTextAsync(filePath, json);
+            Console.WriteLine($"Products saved to {filePath}");
+        }
     }
 }

@@ -111,6 +111,15 @@ namespace PriceNowCompleteV1.Scrapers
                     return;
                 }
 
+                await Task.Delay(10000);
+
+                var closeButton = await page.WaitForSelectorAsync("#lpclose", new WaitForSelectorOptions { Timeout = 5000 });
+                if (closeButton != null)
+                {
+                    Console.WriteLine("Modal close button found.");
+                    await closeButton.ClickAsync();
+                }
+
                 var roughTimberProducts = await ScraperHelper.ScrapePage(page, merchant, "rough timber");
 
                 ////here is decking

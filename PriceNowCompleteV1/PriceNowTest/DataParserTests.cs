@@ -101,37 +101,29 @@ namespace PriceNowTest
             Assert.IsFalse(result);
         }
 
+        
         [Test]
-        public async Task CheckForCloseComparrison_ShouldReturnTrue_BothProductTheSame()
+        public static void RunProductNameSplitTests()
         {
-           
-            string chadwicksSanitizedProductsFilePath = "chadwicksSanitizedProducts.json";
-            string corkbpSanitizedProductsFilePath = "corkbpSanitizedProducts.json";
-            string tjomahonySanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
-
-            var scrapedProducts = await FileHelper.GetJsonProducts(tjomahonySanitizedProductsFilePath);
-             var existingProducts =  await FileHelper.GetJsonProducts(chadwicksSanitizedProductsFilePath);
-           // var existingProducts = await FileHelper.GetJsonProducts(corkbpSanitizedProductsFilePath);
-
-
-
-            foreach (var exProduct in existingProducts) 
+            var testCases = new List<string>
             {
-                foreach (var scProduct in scrapedProducts)
-                {
-                    if (DataParser.CheckForCloseComparrison(exProduct, scProduct))
-                    {
-                        exProduct.Prices = (ICollection<Price>)scProduct.Prices.First();
-                        Console.WriteLine($"Match found: {exProduct.Name} ~ {scProduct.Name}");
-                    }
-                }
+                "white deal rough timber - 150mm x 44mm x 3.6m ( 6 x 2 inches approx)",
+                "2.4m 100 x 44 imported rough white deal",
+                "4.2m 50 x 36 imported white deal rough sr82",
+                "7.2m 225 x 44 truss timber c24 rough white deal c24",
+                "4.8m 100 x 50 cls white deal",
+                "50mm x 22mm rough timber (2 x 1)",
+                "150mm x 44mm rough timber c16 en14081 (6 x 2)"
+            };
+
+            foreach (var test in testCases)
+            {
+                var result = DataParser.SplitProductNameAndUnit(test);
+                Console.WriteLine("Original:  " + test);
+                Console.WriteLine("Name:      " + result.Item1);
+                Console.WriteLine("Unit:      " + result.Item2);
+                Console.WriteLine(new string('-', 60));
             }
-
-
-            
-            
-
         }
-
     }
 }

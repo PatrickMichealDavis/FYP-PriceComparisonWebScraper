@@ -31,7 +31,7 @@ namespace PriceNowTest
         {
             _products.Add(product);
             _newProducts.Add(product);
-            Console.WriteLine("Product added");
+           // Console.WriteLine($"Product added {product}");
             return Task.CompletedTask;
         }
 
@@ -78,6 +78,7 @@ namespace PriceNowTest
         public Task Update(Product entity)
         {
             _UpdatedProducts.Add(entity);
+           // Console.WriteLine($"Product updated {entity}");
             return Task.CompletedTask;
         }
     }

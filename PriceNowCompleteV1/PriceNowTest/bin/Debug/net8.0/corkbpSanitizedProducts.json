@@ -11,7 +11,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 13.99,
         "ScrapedAt": "2025-03-25T13:08:06.7905288Z",
         "Merchant": null
@@ -30,7 +30,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 5.57,
         "ScrapedAt": "2025-03-25T13:08:06.7906288Z",
         "Merchant": null
@@ -49,7 +49,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 21.02,
         "ScrapedAt": "2025-03-25T13:08:06.7906373Z",
         "Merchant": null
@@ -68,7 +68,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 6.92,
         "ScrapedAt": "2025-03-25T13:08:06.7906533Z",
         "Merchant": null
@@ -87,7 +87,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 10.5,
         "ScrapedAt": "2025-03-25T13:08:06.7906616Z",
         "Merchant": null
@@ -106,7 +106,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 5.56,
         "ScrapedAt": "2025-03-25T13:08:06.7906736Z",
         "Merchant": null
@@ -125,7 +125,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 8.36,
         "ScrapedAt": "2025-03-25T13:08:06.7906828Z",
         "Merchant": null
@@ -144,7 +144,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 11.17,
         "ScrapedAt": "2025-03-25T13:08:06.7906904Z",
         "Merchant": null
@@ -163,7 +163,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 8.36,
         "ScrapedAt": "2025-03-25T13:08:06.7906995Z",
         "Merchant": null
@@ -182,7 +182,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 23.87,
         "ScrapedAt": "2025-03-25T13:08:06.7907061Z",
         "Merchant": null
@@ -201,7 +201,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 12.55,
         "ScrapedAt": "2025-03-25T13:08:06.7907142Z",
         "Merchant": null
@@ -220,7 +220,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 5.57,
         "ScrapedAt": "2025-03-25T13:08:06.7907232Z",
         "Merchant": null
@@ -239,7 +239,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 35.82,
         "ScrapedAt": "2025-03-25T13:08:08.5583831Z",
         "Merchant": null
@@ -258,7 +258,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 15.77,
         "ScrapedAt": "2025-03-25T13:08:08.5584314Z",
         "Merchant": null
@@ -277,7 +277,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 12.55,
         "ScrapedAt": "2025-03-25T13:08:08.5584405Z",
         "Merchant": null
@@ -296,7 +296,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 13.95,
         "ScrapedAt": "2025-03-25T13:08:08.5584639Z",
         "Merchant": null
@@ -315,7 +315,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 12.55,
         "ScrapedAt": "2025-03-25T13:08:08.5585796Z",
         "Merchant": null
@@ -334,7 +334,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 19.02,
         "ScrapedAt": "2025-03-25T13:08:08.5586426Z",
         "Merchant": null
@@ -353,7 +353,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 10.5,
         "ScrapedAt": "2025-03-25T13:08:08.5586607Z",
         "Merchant": null
@@ -372,7 +372,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 9.77,
         "ScrapedAt": "2025-03-25T13:08:08.5586743Z",
         "Merchant": null
@@ -391,7 +391,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 14.64,
         "ScrapedAt": "2025-03-25T13:08:08.5586897Z",
         "Merchant": null
@@ -410,7 +410,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 4.18,
         "ScrapedAt": "2025-03-25T13:08:08.5587005Z",
         "Merchant": null
@@ -429,7 +429,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 10.46,
         "ScrapedAt": "2025-03-25T13:08:08.5587243Z",
         "Merchant": null
@@ -448,7 +448,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 16.73,
         "ScrapedAt": "2025-03-25T13:08:08.5587436Z",
         "Merchant": null
@@ -467,7 +467,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 31.51,
         "ScrapedAt": "2025-03-25T13:08:15.1164205Z",
         "Merchant": null
@@ -486,7 +486,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 28.25,
         "ScrapedAt": "2025-03-25T13:08:15.1164581Z",
         "Merchant": null
@@ -505,7 +505,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 18.82,
         "ScrapedAt": "2025-03-25T13:08:15.1164659Z",
         "Merchant": null
@@ -524,7 +524,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 3.26,
         "ScrapedAt": "2025-03-25T13:08:15.1164712Z",
         "Merchant": null
@@ -543,7 +543,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 6.97,
         "ScrapedAt": "2025-03-25T13:08:15.1164772Z",
         "Merchant": null
@@ -562,7 +562,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 5.23,
         "ScrapedAt": "2025-03-25T13:08:15.116485Z",
         "Merchant": null
@@ -581,7 +581,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 25.1,
         "ScrapedAt": "2025-03-25T13:08:15.1164909Z",
         "Merchant": null
@@ -600,7 +600,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 42.78,
         "ScrapedAt": "2025-03-25T13:08:15.1164959Z",
         "Merchant": null
@@ -619,7 +619,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 5.23,
         "ScrapedAt": "2025-03-25T13:08:15.1165025Z",
         "Merchant": null
@@ -638,7 +638,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 18.82,
         "ScrapedAt": "2025-03-25T13:08:15.1165082Z",
         "Merchant": null
@@ -657,7 +657,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 21.97,
         "ScrapedAt": "2025-03-25T13:08:15.1165135Z",
         "Merchant": null
@@ -676,7 +676,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 21.97,
         "ScrapedAt": "2025-03-25T13:08:15.1165185Z",
         "Merchant": null
@@ -695,7 +695,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 14.64,
         "ScrapedAt": "2025-03-25T13:08:18.4110039Z",
         "Merchant": null
@@ -714,7 +714,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 17.07,
         "ScrapedAt": "2025-03-25T13:08:18.4110767Z",
         "Merchant": null
@@ -733,7 +733,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 53.71,
         "ScrapedAt": "2025-03-25T13:08:18.411087Z",
         "Merchant": null
@@ -752,7 +752,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 48.13,
         "ScrapedAt": "2025-03-25T13:08:18.4110948Z",
         "Merchant": null
@@ -771,7 +771,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 28.52,
         "ScrapedAt": "2025-03-25T13:08:18.4111005Z",
         "Merchant": null
@@ -790,7 +790,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 15.68,
         "ScrapedAt": "2025-03-25T13:08:18.4111074Z",
         "Merchant": null
@@ -809,7 +809,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 19.52,
         "ScrapedAt": "2025-03-25T13:08:18.4111141Z",
         "Merchant": null
@@ -828,7 +828,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 12.2,
         "ScrapedAt": "2025-03-25T13:08:18.411121Z",
         "Merchant": null
@@ -847,7 +847,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 7.32,
         "ScrapedAt": "2025-03-25T13:08:18.4111281Z",
         "Merchant": null
@@ -866,7 +866,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 4.16,
         "ScrapedAt": "2025-03-25T13:08:18.4111343Z",
         "Merchant": null
@@ -885,7 +885,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 2.62,
         "ScrapedAt": "2025-03-25T13:08:18.4111403Z",
         "Merchant": null
@@ -904,7 +904,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 566.49,
         "ScrapedAt": "2025-03-25T13:08:18.4111471Z",
         "Merchant": null
@@ -923,7 +923,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 6.56,
         "ScrapedAt": "2025-03-25T13:08:31.8089291Z",
         "Merchant": null
@@ -942,7 +942,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 18.82,
         "ScrapedAt": "2025-03-25T13:08:31.8089705Z",
         "Merchant": null
@@ -961,7 +961,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 12.55,
         "ScrapedAt": "2025-03-25T13:08:31.8089848Z",
         "Merchant": null
@@ -980,7 +980,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 6.15,
         "ScrapedAt": "2025-03-25T13:08:31.8089927Z",
         "Merchant": null
@@ -999,7 +999,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 22.12,
         "ScrapedAt": "2025-03-25T13:08:31.809001Z",
         "Merchant": null
@@ -1018,7 +1018,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 20.59,
         "ScrapedAt": "2025-03-25T13:08:31.8090077Z",
         "Merchant": null
@@ -1037,7 +1037,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 19.96,
         "ScrapedAt": "2025-03-25T13:08:31.809037Z",
         "Merchant": null
@@ -1056,7 +1056,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 15.53,
         "ScrapedAt": "2025-03-25T13:08:31.8090485Z",
         "Merchant": null
@@ -1075,7 +1075,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 39.95,
         "ScrapedAt": "2025-03-25T13:08:31.8090638Z",
         "Merchant": null
@@ -1094,7 +1094,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 35.34,
         "ScrapedAt": "2025-03-25T13:08:31.8090712Z",
         "Merchant": null
@@ -1113,7 +1113,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 8.35,
         "ScrapedAt": "2025-03-25T13:08:31.8090807Z",
         "Merchant": null
@@ -1132,7 +1132,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 5.23,
         "ScrapedAt": "2025-03-25T13:08:31.8090876Z",
         "Merchant": null
@@ -1151,7 +1151,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 3.69,
         "ScrapedAt": "2025-03-25T13:08:37.6821623Z",
         "Merchant": null
@@ -1170,7 +1170,7 @@
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 6,
+        "MerchantId": 3,
         "PriceValue": 27.58,
         "ScrapedAt": "2025-03-25T13:08:37.682204Z",
         "Merchant": null

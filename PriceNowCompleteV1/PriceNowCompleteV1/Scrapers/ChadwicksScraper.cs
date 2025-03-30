@@ -53,16 +53,11 @@ namespace PriceNowCompleteV1.Scrapers
                 await Task.Delay(9000);//modal time changed to 9 secs this may need changing
 
 
-                var closeButton = await page.QuerySelectorAsync("#lpclose");//close modal if exists
-
+                var closeButton = await page.WaitForSelectorAsync("#lpclose", new WaitForSelectorOptions { Timeout = 5000 });
                 if (closeButton != null)
                 {
-                    Console.WriteLine("Close button found, clicking...");
+                    Console.WriteLine("Modal close button found. Clicking...");
                     await closeButton.ClickAsync();
-                }
-                else
-                {
-                    Console.WriteLine("Close button not found, skipping...");
                 }
 
                 var timberLink = await page.EvaluateFunctionAsync<string>(
@@ -196,7 +191,7 @@ namespace PriceNowCompleteV1.Scrapers
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);//use this to grab raw for testing sanitizer
                 await _productService.SaveProductsToFile(sanitizedProductsFilePath, roughTimberProducts);//use this to grab the sanitized products
 
-               // await _productService.ProcessProductsV2(roughTimberProducts);
+                await _productService.ProcessProductsV2(roughTimberProducts);
 
                 await _loggingService.AddLog(new Logging
                 {

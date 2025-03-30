@@ -21,7 +21,7 @@ namespace PriceNowCompleteV1.DataParsers
             return product;
         }
 
-        private static Tuple<string, string> SplitProductNameAndUnit(string fullName)
+        public static Tuple<string, string> SplitProductNameAndUnit(string fullName)
         {
             fullName = Clean(fullName);
             var splitNameAndUnit = fullName.Split(" ");
@@ -29,21 +29,54 @@ namespace PriceNowCompleteV1.DataParsers
             List<string> productNameParts = new List<string>();
             List<string> productUnitParts = new List<string>();
 
+            var pattern = new Regex(@"^\d+(\.\d+)?(mm|m)?$", RegexOptions.IgnoreCase);
+            var codePattern = new Regex(@"\b[a-zA-Z]+\d+\b", RegexOptions.IgnoreCase);
+
             foreach (var part in splitNameAndUnit)
             {
-                if (IsUnitPart(part))
+                var word = part.ToLower().Trim();
+
+                if (codePattern.IsMatch(word))//if has serial numbers you dont need skip
                 {
-                    productUnitParts.Add(part);
+                    continue;
+                }
+
+                //tidy any numbers without mm and m  
+                if (pattern.IsMatch(word))
+                {
+                    //find words with mm and m already
+                    if (word.EndsWith("mm") || word.EndsWith("m"))
+                    {
+                        productUnitParts.Add(word);
+                    }
+                    else if (word.Contains('.'))//only metres have a dot add m if not previously found 
+                    {
+                        productUnitParts.Add(word + "m"); 
+                    }
+                    else
+                    {
+                        productUnitParts.Add(word + "mm"); // add mm to any raw mumber without a dot
+                    }
+                }
+                else if (word == "x" || word == "approx" || word == "inches")//skip name add 
+                {
+                    continue; 
                 }
                 else
                 {
-                    productNameParts.Add(part);
+                    productNameParts.Add(word);
                 }
+
             }
 
+            var orderedUnits = productUnitParts.OrderBy(u => u.EndsWith("mm") ? 0 : 1)
+                            .ThenBy(u => double.Parse(u.Replace("mm", "").Replace("m", "")))//assign a value to each unit and sort by that value mm first group m second group then sort again by value
+                            .ToList();
+
+
             var productName = string.Join(" ", productNameParts);
-            var unit = string.Join(" ", productUnitParts);
-            unit = Regex.Replace(unit, @"\b[a-zA-Z]+\d+\b", "").Trim();
+            var unit = string.Join(" x ", orderedUnits);
+           // unit = Regex.Replace(unit, @"\b[a-zA-Z]+\d+\b", "").Trim();
 
             return new Tuple<string, string>(productName, unit);
         }
@@ -67,35 +100,29 @@ namespace PriceNowCompleteV1.DataParsers
 
         public static bool CheckForCloseComparrison(Product newProduct, Product existingProduct)
         {
-            var nameRatio = Fuzz.Ratio(newProduct.Name.ToLower(), existingProduct.Name.ToLower());
-            var nameSortedRatio = Fuzz.TokenSortRatio(newProduct.Name.ToLower(), existingProduct.Name.ToLower());
+            var newName = KeyWordHelper.RemoveKeyWords(newProduct.Name.ToLower()).Trim();
+            var existingName = KeyWordHelper.RemoveKeyWords(existingProduct.Name.ToLower()).Trim();
+
+            var nameRatio = Fuzz.Ratio(newName, existingName);
+            var nameSortedRatio = Fuzz.TokenSortRatio(newName, existingName);
 
             var unitRatio = Fuzz.Ratio(newProduct.Unit.ToLower(), existingProduct.Unit.ToLower());
             var unitSortedRatio = Fuzz.TokenSortRatio(newProduct.Unit.ToLower(), existingProduct.Unit.ToLower());
-
-            var newName = newProduct.Name;
-            var existingName = existingProduct.Name;
-
-            if(newName.Equals("White Deal Rough Timber", StringComparison.OrdinalIgnoreCase) || existingName.Equals("White Deal Rough Timber", StringComparison.OrdinalIgnoreCase))
-            {
-                var stop = true;
-            }
-
-            bool containsProduct = KeyWordHelper.ContainsKeyWord(existingName, newName);
-
-            if (containsProduct)
-            {
-                var test = true;
-            }
 
             int finalNameScore = (nameRatio + nameSortedRatio) / 2;
             int finalUnitScore = (unitRatio + unitSortedRatio) / 2;
 
             int finalScore = (finalNameScore + finalUnitScore) / 2;
            // Console.WriteLine($"Final Similarity Score: {finalScore}%");
-                       
 
-            if ((finalNameScore >= 80 || containsProduct) && finalUnitScore > 97)
+            int exactMatch = (nameSortedRatio + unitSortedRatio)/2;
+
+            if (exactMatch == 100)
+            {
+                return true;
+            }
+
+            if ((finalNameScore >= 80) && finalUnitScore > 97)
             {
                 if (existingProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) && !newProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) 
                     || !existingProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase) && newProduct.Name.Contains("treated", StringComparison.OrdinalIgnoreCase))
@@ -163,17 +190,5 @@ namespace PriceNowCompleteV1.DataParsers
 
             return closestKey;
         }
-
-        //public static async Task<List<Product>> GetJsonProducts(string filepath)
-        //{
-        //    if (!File.Exists(filepath))
-        //    {
-        //        Console.WriteLine("Product file not found!");
-        //        return new List<Product>();
-        //    }
-
-        //    string json = await File.ReadAllTextAsync(filepath);
-        //    return JsonSerializer.Deserialize<List<Product>>(json) ?? new List<Product>();
-        //}
     }
 }

@@ -26,19 +26,14 @@ namespace PriceNowCompleteV1.Helpers
             var repeatedProductLinks = new HashSet<string>();
             var scrapedProductsRaw = new List<Product>();
 
-            await Task.Delay(5000);
+            //await Task.Delay(5000);
 
-            var closeButton = await page.QuerySelectorAsync("#lpclose");//close modal if exists
-
-            if (closeButton != null)
-            {
-                Console.WriteLine("Close button found, clicking...");
-                await closeButton.ClickAsync();
-            }
-            else
-            {
-                Console.WriteLine("Close button not found, skipping...");
-            }
+            //var closeButton = await page.WaitForSelectorAsync("#lpclose", new WaitForSelectorOptions { Timeout = 5000 });
+            //if (closeButton != null)
+            //{
+            //    Console.WriteLine("Modal close button found. Clicking...");
+            //    await closeButton.ClickAsync();
+            //}
 
             while (hasMoreProducts)
             {
@@ -48,12 +43,12 @@ namespace PriceNowCompleteV1.Helpers
                 htmlDoc.LoadHtml(htmlContent);
 
 
-                var modalCloseButton = await page.QuerySelectorAsync("#lpclose");//close modal if exists
+                var closeButton = await page.QuerySelectorAsync("#lpclose");//close modal if exists
 
-                if (modalCloseButton != null)
+                if (closeButton != null)
                 {
                     Console.WriteLine("Close button found, clicking...");
-                    await modalCloseButton.ClickAsync();
+                    await closeButton.ClickAsync();
                 }
                 else
                 {

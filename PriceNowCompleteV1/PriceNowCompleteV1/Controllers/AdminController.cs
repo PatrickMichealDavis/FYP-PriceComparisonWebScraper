@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PriceNowCompleteV1.DataParsers;
+using PriceNowCompleteV1.Helpers;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
 using PriceNowCompleteV1.Scrapers;
@@ -196,12 +197,15 @@ namespace PriceNowCompleteV1.Controllers
             string chadwicksSanitizedProductsFilePath = "chadwicksSanitizedProducts.json";
             string corkbpSanitizedProductsFilePath = "corkbpSanitizedProducts.json";
             string tjomahonySanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
+            string chadwicksRawProductsFilePath = "chadwicksRawProducts.json";
+            var resultsFilePath = "results.json";
 
-            //var products = await _productService.LoadProductsFromFile(corkbpSanitizedProductsFilePath);
-            var products = await _productService.LoadProductsFromFile(tjomahonySanitizedProductsFilePath);
-           // var products = await _productService.LoadProductsFromFile(chadwicksSanitizedProductsFilePath);
+            var products = await _productService.LoadProductsFromFile(corkbpSanitizedProductsFilePath);
+            //  var products = await _productService.LoadProductsFromFile(tjomahonySanitizedProductsFilePath);
+            //var products = await _productService.LoadProductsFromFile(chadwicksRawProductsFilePath);
 
-            await _productService.ProcessProductsV2(products);
+           
+           await _productService.ProcessProductsV2(products);
 
             return Ok();
         }

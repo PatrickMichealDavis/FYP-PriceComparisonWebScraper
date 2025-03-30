@@ -4,16 +4,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 2.4m",
+    "Unit": "35mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:04.7531632Z",
+    "UpdatedAt": "2025-03-28T13:07:13.3088781Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 3.25,
-        "ScrapedAt": "2025-03-25T13:15:04.7536059Z",
+        "ScrapedAt": "2025-03-28T13:07:13.3094552Z",
         "Merchant": null
       }
     ]
@@ -23,16 +23,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 2.7m (8.9\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 2.7m",
+    "Unit": "35mm x 75mm x 2.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:09.8752949Z",
+    "UpdatedAt": "2025-03-28T13:07:18.4391729Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 3.75,
-        "ScrapedAt": "2025-03-25T13:15:09.8752982Z",
+        "ScrapedAt": "2025-03-28T13:07:18.4391753Z",
         "Merchant": null
       }
     ]
@@ -42,16 +42,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 4.8m",
+    "Unit": "35mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:15.0139797Z",
+    "UpdatedAt": "2025-03-28T13:07:23.5361574Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 6.50,
-        "ScrapedAt": "2025-03-25T13:15:15.0139816Z",
+        "ScrapedAt": "2025-03-28T13:07:23.5361598Z",
         "Merchant": null
       }
     ]
@@ -61,16 +61,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 2.4m",
+    "Unit": "35mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:22.2881572Z",
+    "UpdatedAt": "2025-03-28T13:07:30.3594333Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 3.25,
-        "ScrapedAt": "2025-03-25T13:15:22.2881597Z",
+        "ScrapedAt": "2025-03-28T13:07:30.3594361Z",
         "Merchant": null
       }
     ]
@@ -80,16 +80,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 2.7m (8.9\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 2.7m",
+    "Unit": "35mm x 75mm x 2.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:27.4084153Z",
+    "UpdatedAt": "2025-03-28T13:07:35.4626745Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 3.75,
-        "ScrapedAt": "2025-03-25T13:15:27.4084177Z",
+        "ScrapedAt": "2025-03-28T13:07:35.4626769Z",
         "Merchant": null
       }
     ]
@@ -99,16 +99,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 4.8m",
+    "Unit": "35mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:32.5517927Z",
+    "UpdatedAt": "2025-03-28T13:07:40.5832654Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 6.50,
-        "ScrapedAt": "2025-03-25T13:15:32.5517972Z",
+        "ScrapedAt": "2025-03-28T13:07:40.583268Z",
         "Merchant": null
       }
     ]
@@ -118,16 +118,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 2.4m",
+    "Unit": "35mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:39.7643309Z",
+    "UpdatedAt": "2025-03-28T13:07:47.4513301Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 3.25,
-        "ScrapedAt": "2025-03-25T13:15:39.764336Z",
+        "ScrapedAt": "2025-03-28T13:07:47.4513325Z",
         "Merchant": null
       }
     ]
@@ -137,16 +137,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 2.7m (8.9\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 2.7m",
+    "Unit": "35mm x 75mm x 2.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:44.8919801Z",
+    "UpdatedAt": "2025-03-28T13:07:52.5707574Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 3.75,
-        "ScrapedAt": "2025-03-25T13:15:44.8919821Z",
+        "ScrapedAt": "2025-03-28T13:07:52.5707598Z",
         "Merchant": null
       }
     ]
@@ -156,16 +156,16 @@
     "Name": "rough timber",
     "Description": "75mm x 35mm rough timber (3 x 1.5) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 35mm 4.8m",
+    "Unit": "35mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:50.0260346Z",
+    "UpdatedAt": "2025-03-28T13:07:57.6735893Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 6.50,
-        "ScrapedAt": "2025-03-25T13:15:50.0260384Z",
+        "ScrapedAt": "2025-03-28T13:07:57.6735917Z",
         "Merchant": null
       }
     ]
@@ -175,16 +175,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 2.4m",
+    "Unit": "44mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:15:57.1628368Z",
+    "UpdatedAt": "2025-03-28T13:08:05.1801555Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.25,
-        "ScrapedAt": "2025-03-25T13:15:57.1628389Z",
+        "ScrapedAt": "2025-03-28T13:08:05.1801583Z",
         "Merchant": null
       }
     ]
@@ -194,16 +194,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 2.7m (8.9\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 2.7m",
+    "Unit": "44mm x 75mm x 2.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:02.3029661Z",
+    "UpdatedAt": "2025-03-28T13:08:10.2913694Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.75,
-        "ScrapedAt": "2025-03-25T13:16:02.3029691Z",
+        "ScrapedAt": "2025-03-28T13:08:10.2913721Z",
         "Merchant": null
       }
     ]
@@ -213,16 +213,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 3.0m",
+    "Unit": "44mm x 75mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:07.4513317Z",
+    "UpdatedAt": "2025-03-28T13:08:15.3863361Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.95,
-        "ScrapedAt": "2025-03-25T13:16:07.4513347Z",
+        "ScrapedAt": "2025-03-28T13:08:15.3863381Z",
         "Merchant": null
       }
     ]
@@ -232,16 +232,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 3.6m",
+    "Unit": "44mm x 75mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:12.593947Z",
+    "UpdatedAt": "2025-03-28T13:08:20.5207481Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 5.95,
-        "ScrapedAt": "2025-03-25T13:16:12.5939509Z",
+        "ScrapedAt": "2025-03-28T13:08:20.5207514Z",
         "Merchant": null
       }
     ]
@@ -251,16 +251,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 4.8m",
+    "Unit": "44mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:17.7294023Z",
+    "UpdatedAt": "2025-03-28T13:08:25.6281255Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:16:17.7294057Z",
+        "ScrapedAt": "2025-03-28T13:08:25.62813Z",
         "Merchant": null
       }
     ]
@@ -270,16 +270,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 5.4m",
+    "Unit": "44mm x 75mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:22.8676334Z",
+    "UpdatedAt": "2025-03-28T13:08:30.7559178Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.00,
-        "ScrapedAt": "2025-03-25T13:16:22.8676356Z",
+        "ScrapedAt": "2025-03-28T13:08:30.7559196Z",
         "Merchant": null
       }
     ]
@@ -289,16 +289,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 2.4m",
+    "Unit": "44mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:30.2292962Z",
+    "UpdatedAt": "2025-03-28T13:08:38.0392357Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.25,
-        "ScrapedAt": "2025-03-25T13:16:30.2293003Z",
+        "ScrapedAt": "2025-03-28T13:08:38.0392381Z",
         "Merchant": null
       }
     ]
@@ -308,16 +308,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 2.7m (8.9\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 2.7m",
+    "Unit": "44mm x 75mm x 2.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:35.3451338Z",
+    "UpdatedAt": "2025-03-28T13:08:43.1480437Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.75,
-        "ScrapedAt": "2025-03-25T13:16:35.3451366Z",
+        "ScrapedAt": "2025-03-28T13:08:43.1480463Z",
         "Merchant": null
       }
     ]
@@ -327,16 +327,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 3.0m",
+    "Unit": "44mm x 75mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:40.4745595Z",
+    "UpdatedAt": "2025-03-28T13:08:48.2631596Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.95,
-        "ScrapedAt": "2025-03-25T13:16:40.4745609Z",
+        "ScrapedAt": "2025-03-28T13:08:48.2631626Z",
         "Merchant": null
       }
     ]
@@ -346,16 +346,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 3.6m",
+    "Unit": "44mm x 75mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:45.6066776Z",
+    "UpdatedAt": "2025-03-28T13:08:53.3746703Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 5.95,
-        "ScrapedAt": "2025-03-25T13:16:45.6066817Z",
+        "ScrapedAt": "2025-03-28T13:08:53.3746727Z",
         "Merchant": null
       }
     ]
@@ -365,16 +365,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 4.8m",
+    "Unit": "44mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:50.731316Z",
+    "UpdatedAt": "2025-03-28T13:08:58.5030788Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:16:50.7313195Z",
+        "ScrapedAt": "2025-03-28T13:08:58.5030814Z",
         "Merchant": null
       }
     ]
@@ -384,16 +384,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 5.4m",
+    "Unit": "44mm x 75mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:16:55.8749893Z",
+    "UpdatedAt": "2025-03-28T13:09:03.6260268Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.00,
-        "ScrapedAt": "2025-03-25T13:16:55.8749917Z",
+        "ScrapedAt": "2025-03-28T13:09:03.6260294Z",
         "Merchant": null
       }
     ]
@@ -403,16 +403,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 2.4m",
+    "Unit": "44mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:17:02.9588826Z",
+    "UpdatedAt": "2025-03-28T13:09:11.105996Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.25,
-        "ScrapedAt": "2025-03-25T13:17:02.9588879Z",
+        "ScrapedAt": "2025-03-28T13:09:11.1060008Z",
         "Merchant": null
       }
     ]
@@ -422,16 +422,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 2.7m (8.9\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 2.7m",
+    "Unit": "44mm x 75mm x 2.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:17:08.0778558Z",
+    "UpdatedAt": "2025-03-28T13:09:16.2145278Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.75,
-        "ScrapedAt": "2025-03-25T13:17:08.0778574Z",
+        "ScrapedAt": "2025-03-28T13:09:16.2145307Z",
         "Merchant": null
       }
     ]
@@ -441,16 +441,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 3.0m",
+    "Unit": "44mm x 75mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:17:13.207514Z",
+    "UpdatedAt": "2025-03-28T13:09:21.3215585Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.95,
-        "ScrapedAt": "2025-03-25T13:17:13.207516Z",
+        "ScrapedAt": "2025-03-28T13:09:21.3215614Z",
         "Merchant": null
       }
     ]
@@ -460,16 +460,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 3.6m",
+    "Unit": "44mm x 75mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:17:18.3453489Z",
+    "UpdatedAt": "2025-03-28T13:09:26.4370201Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 5.95,
-        "ScrapedAt": "2025-03-25T13:17:18.3453519Z",
+        "ScrapedAt": "2025-03-28T13:09:26.4370258Z",
         "Merchant": null
       }
     ]
@@ -479,16 +479,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 4.8m",
+    "Unit": "44mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:17:23.496335Z",
+    "UpdatedAt": "2025-03-28T13:09:31.5510686Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:17:23.4963392Z",
+        "ScrapedAt": "2025-03-28T13:09:31.5510711Z",
         "Merchant": null
       }
     ]
@@ -498,16 +498,16 @@
     "Name": "rough timber",
     "Description": "75mm x 44mm rough timber (3 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "75mm x 44mm 5.4m",
+    "Unit": "44mm x 75mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:17:28.6392366Z",
+    "UpdatedAt": "2025-03-28T13:09:36.6875773Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.00,
-        "ScrapedAt": "2025-03-25T13:17:28.6392403Z",
+        "ScrapedAt": "2025-03-28T13:09:36.6875793Z",
         "Merchant": null
       }
     ]
@@ -517,16 +517,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   2.4m",
+    "Unit": "44mm x 100mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:17:57.6502436Z",
+    "UpdatedAt": "2025-03-28T13:10:05.2065038Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 5.50,
-        "ScrapedAt": "2025-03-25T13:17:57.6502479Z",
+        "ScrapedAt": "2025-03-28T13:10:05.2065066Z",
         "Merchant": null
       }
     ]
@@ -536,16 +536,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   3.0m",
+    "Unit": "44mm x 100mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:02.7812135Z",
+    "UpdatedAt": "2025-03-28T13:10:10.3138992Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 6.95,
-        "ScrapedAt": "2025-03-25T13:18:02.7812159Z",
+        "ScrapedAt": "2025-03-28T13:10:10.3139015Z",
         "Merchant": null
       }
     ]
@@ -555,16 +555,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   3.6m",
+    "Unit": "44mm x 100mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:07.9107759Z",
+    "UpdatedAt": "2025-03-28T13:10:15.417803Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:18:07.9107808Z",
+        "ScrapedAt": "2025-03-28T13:10:15.4178057Z",
         "Merchant": null
       }
     ]
@@ -574,16 +574,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   4.8m",
+    "Unit": "44mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:13.0492887Z",
+    "UpdatedAt": "2025-03-28T13:10:20.5444736Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:18:13.0492912Z",
+        "ScrapedAt": "2025-03-28T13:10:20.5444764Z",
         "Merchant": null
       }
     ]
@@ -593,16 +593,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   4.2m",
+    "Unit": "44mm x 100mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:18.1913423Z",
+    "UpdatedAt": "2025-03-28T13:10:25.6498987Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.50,
-        "ScrapedAt": "2025-03-25T13:18:18.191344Z",
+        "ScrapedAt": "2025-03-28T13:10:25.6499014Z",
         "Merchant": null
       }
     ]
@@ -612,16 +612,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   5.4m",
+    "Unit": "44mm x 100mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:23.3158253Z",
+    "UpdatedAt": "2025-03-28T13:10:30.76246Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 11.95,
-        "ScrapedAt": "2025-03-25T13:18:23.3158282Z",
+        "ScrapedAt": "2025-03-28T13:10:30.7624633Z",
         "Merchant": null
       }
     ]
@@ -631,16 +631,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   2.4m",
+    "Unit": "44mm x 100mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:30.8384688Z",
+    "UpdatedAt": "2025-03-28T13:10:37.8069706Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 5.50,
-        "ScrapedAt": "2025-03-25T13:18:30.8384706Z",
+        "ScrapedAt": "2025-03-28T13:10:37.8069733Z",
         "Merchant": null
       }
     ]
@@ -650,16 +650,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   3.0m",
+    "Unit": "44mm x 100mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:35.9617409Z",
+    "UpdatedAt": "2025-03-28T13:10:42.9154469Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 6.95,
-        "ScrapedAt": "2025-03-25T13:18:35.9617449Z",
+        "ScrapedAt": "2025-03-28T13:10:42.9154496Z",
         "Merchant": null
       }
     ]
@@ -669,16 +669,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   3.6m",
+    "Unit": "44mm x 100mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:41.097695Z",
+    "UpdatedAt": "2025-03-28T13:10:48.0202879Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:18:41.097697Z",
+        "ScrapedAt": "2025-03-28T13:10:48.020293Z",
         "Merchant": null
       }
     ]
@@ -688,16 +688,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   4.8m",
+    "Unit": "44mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:46.2469854Z",
+    "UpdatedAt": "2025-03-28T13:10:53.1432453Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:18:46.2469901Z",
+        "ScrapedAt": "2025-03-28T13:10:53.1432474Z",
         "Merchant": null
       }
     ]
@@ -707,16 +707,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   4.2m",
+    "Unit": "44mm x 100mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:51.3828436Z",
+    "UpdatedAt": "2025-03-28T13:10:58.2633383Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.50,
-        "ScrapedAt": "2025-03-25T13:18:51.3828455Z",
+        "ScrapedAt": "2025-03-28T13:10:58.2633404Z",
         "Merchant": null
       }
     ]
@@ -726,16 +726,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   5.4m",
+    "Unit": "44mm x 100mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:18:56.5269654Z",
+    "UpdatedAt": "2025-03-28T13:11:03.3685199Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 11.95,
-        "ScrapedAt": "2025-03-25T13:18:56.5269686Z",
+        "ScrapedAt": "2025-03-28T13:11:03.3685225Z",
         "Merchant": null
       }
     ]
@@ -745,16 +745,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 2.4m (7.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   2.4m",
+    "Unit": "44mm x 100mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:19:04.1210788Z",
+    "UpdatedAt": "2025-03-28T13:11:10.4802775Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 5.50,
-        "ScrapedAt": "2025-03-25T13:19:04.1210819Z",
+        "ScrapedAt": "2025-03-28T13:11:10.4802796Z",
         "Merchant": null
       }
     ]
@@ -764,16 +764,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   3.0m",
+    "Unit": "44mm x 100mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:19:09.2470285Z",
+    "UpdatedAt": "2025-03-28T13:11:15.5912173Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 6.95,
-        "ScrapedAt": "2025-03-25T13:19:09.2470306Z",
+        "ScrapedAt": "2025-03-28T13:11:15.5912192Z",
         "Merchant": null
       }
     ]
@@ -783,16 +783,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   3.6m",
+    "Unit": "44mm x 100mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:19:14.3928957Z",
+    "UpdatedAt": "2025-03-28T13:11:20.7159557Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:19:14.3929014Z",
+        "ScrapedAt": "2025-03-28T13:11:20.715958Z",
         "Merchant": null
       }
     ]
@@ -802,16 +802,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   4.8m",
+    "Unit": "44mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:19:19.5646678Z",
+    "UpdatedAt": "2025-03-28T13:11:25.8387489Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:19:19.5646705Z",
+        "ScrapedAt": "2025-03-28T13:11:25.8387513Z",
         "Merchant": null
       }
     ]
@@ -821,16 +821,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   4.2m",
+    "Unit": "44mm x 100mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:19:24.6912847Z",
+    "UpdatedAt": "2025-03-28T13:11:30.955047Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.50,
-        "ScrapedAt": "2025-03-25T13:19:24.6912882Z",
+        "ScrapedAt": "2025-03-28T13:11:30.955049Z",
         "Merchant": null
       }
     ]
@@ -840,16 +840,16 @@
     "Name": "rough timber",
     "Description": "100mm x 44mm rough timber c16 en14081 (4 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 44mm   5.4m",
+    "Unit": "44mm x 100mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:19:29.8674894Z",
+    "UpdatedAt": "2025-03-28T13:11:36.0770274Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 11.95,
-        "ScrapedAt": "2025-03-25T13:19:29.8674939Z",
+        "ScrapedAt": "2025-03-28T13:11:36.0770313Z",
         "Merchant": null
       }
     ]
@@ -859,16 +859,16 @@
     "Name": "rough timber",
     "Description": "125mm x 44mm rough timber c16 en14081 (5 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "125mm x 44mm   3.6m",
+    "Unit": "44mm x 125mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:19:37.4942762Z",
+    "UpdatedAt": "2025-03-28T13:11:43.3160808Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:19:37.4942794Z",
+        "ScrapedAt": "2025-03-28T13:11:43.3160835Z",
         "Merchant": null
       }
     ]
@@ -878,16 +878,16 @@
     "Name": "rough timber",
     "Description": "125mm x 44mm rough timber c16 en14081 (5 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "125mm x 44mm   3.6m",
+    "Unit": "44mm x 125mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:19:50.5726641Z",
+    "UpdatedAt": "2025-03-28T13:11:55.5657167Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:19:50.5726667Z",
+        "ScrapedAt": "2025-03-28T13:11:55.5657196Z",
         "Merchant": null
       }
     ]
@@ -897,16 +897,16 @@
     "Name": "rough timber",
     "Description": "125mm x 44mm rough timber c16 en14081 (5 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "125mm x 44mm   3.6m",
+    "Unit": "44mm x 125mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:20:03.1462356Z",
+    "UpdatedAt": "2025-03-28T13:12:08.4485571Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:20:03.1462374Z",
+        "ScrapedAt": "2025-03-28T13:12:08.4485594Z",
         "Merchant": null
       }
     ]
@@ -916,16 +916,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   3.0m",
+    "Unit": "44mm x 150mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:20:37.8539922Z",
+    "UpdatedAt": "2025-03-28T13:12:41.4303633Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:20:37.8539941Z",
+        "ScrapedAt": "2025-03-28T13:12:41.4303681Z",
         "Merchant": null
       }
     ]
@@ -935,16 +935,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   3.6m",
+    "Unit": "44mm x 150mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:20:42.9821417Z",
+    "UpdatedAt": "2025-03-28T13:12:46.5304085Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 11.95,
-        "ScrapedAt": "2025-03-25T13:20:42.9821445Z",
+        "ScrapedAt": "2025-03-28T13:12:46.5304109Z",
         "Merchant": null
       }
     ]
@@ -954,16 +954,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 6.6m (21.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   6.6m",
+    "Unit": "44mm x 150mm x 6.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:20:48.1231328Z",
+    "UpdatedAt": "2025-03-28T13:12:51.6436172Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 27.95,
-        "ScrapedAt": "2025-03-25T13:20:48.1231366Z",
+        "ScrapedAt": "2025-03-28T13:12:51.6436206Z",
         "Merchant": null
       }
     ]
@@ -973,16 +973,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 7.2m (23.6\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   7.2m",
+    "Unit": "44mm x 150mm x 7.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:20:53.254566Z",
+    "UpdatedAt": "2025-03-28T13:12:56.753816Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 31.95,
-        "ScrapedAt": "2025-03-25T13:20:53.2545694Z",
+        "ScrapedAt": "2025-03-28T13:12:56.7538198Z",
         "Merchant": null
       }
     ]
@@ -992,16 +992,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   4.8m",
+    "Unit": "44mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:20:58.3881641Z",
+    "UpdatedAt": "2025-03-28T13:13:01.8954476Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 15.95,
-        "ScrapedAt": "2025-03-25T13:20:58.3881685Z",
+        "ScrapedAt": "2025-03-28T13:13:01.8954516Z",
         "Merchant": null
       }
     ]
@@ -1011,16 +1011,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   4.2m",
+    "Unit": "44mm x 150mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:03.524471Z",
+    "UpdatedAt": "2025-03-28T13:13:07.0251925Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 13.95,
-        "ScrapedAt": "2025-03-25T13:21:03.5244738Z",
+        "ScrapedAt": "2025-03-28T13:13:07.025195Z",
         "Merchant": null
       }
     ]
@@ -1030,16 +1030,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   5.4m",
+    "Unit": "44mm x 150mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:08.6689907Z",
+    "UpdatedAt": "2025-03-28T13:13:12.1396522Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 17.95,
-        "ScrapedAt": "2025-03-25T13:21:08.6689927Z",
+        "ScrapedAt": "2025-03-28T13:13:12.1396547Z",
         "Merchant": null
       }
     ]
@@ -1049,16 +1049,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   3.0m",
+    "Unit": "44mm x 150mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:16.3547124Z",
+    "UpdatedAt": "2025-03-28T13:13:19.3220121Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:21:16.3547183Z",
+        "ScrapedAt": "2025-03-28T13:13:19.3220142Z",
         "Merchant": null
       }
     ]
@@ -1068,16 +1068,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   3.6m",
+    "Unit": "44mm x 150mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:21.4913554Z",
+    "UpdatedAt": "2025-03-28T13:13:24.4381973Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 11.95,
-        "ScrapedAt": "2025-03-25T13:21:21.491359Z",
+        "ScrapedAt": "2025-03-28T13:13:24.4382Z",
         "Merchant": null
       }
     ]
@@ -1087,16 +1087,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 6.6m (21.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   6.6m",
+    "Unit": "44mm x 150mm x 6.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:26.6264979Z",
+    "UpdatedAt": "2025-03-28T13:13:29.5466983Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 27.95,
-        "ScrapedAt": "2025-03-25T13:21:26.6265005Z",
+        "ScrapedAt": "2025-03-28T13:13:29.5467006Z",
         "Merchant": null
       }
     ]
@@ -1106,16 +1106,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 7.2m (23.6\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   7.2m",
+    "Unit": "44mm x 150mm x 7.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:31.7718051Z",
+    "UpdatedAt": "2025-03-28T13:13:34.6711898Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 31.95,
-        "ScrapedAt": "2025-03-25T13:21:31.7718104Z",
+        "ScrapedAt": "2025-03-28T13:13:34.6711923Z",
         "Merchant": null
       }
     ]
@@ -1125,16 +1125,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   4.8m",
+    "Unit": "44mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:36.9167681Z",
+    "UpdatedAt": "2025-03-28T13:13:39.7915352Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 15.95,
-        "ScrapedAt": "2025-03-25T13:21:36.9167708Z",
+        "ScrapedAt": "2025-03-28T13:13:39.7915381Z",
         "Merchant": null
       }
     ]
@@ -1144,16 +1144,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   4.2m",
+    "Unit": "44mm x 150mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:42.0532289Z",
+    "UpdatedAt": "2025-03-28T13:13:44.9006961Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 13.95,
-        "ScrapedAt": "2025-03-25T13:21:42.0532342Z",
+        "ScrapedAt": "2025-03-28T13:13:44.9006982Z",
         "Merchant": null
       }
     ]
@@ -1163,16 +1163,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   5.4m",
+    "Unit": "44mm x 150mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:47.2013883Z",
+    "UpdatedAt": "2025-03-28T13:13:50.0165951Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 17.95,
-        "ScrapedAt": "2025-03-25T13:21:47.201393Z",
+        "ScrapedAt": "2025-03-28T13:13:50.0165986Z",
         "Merchant": null
       }
     ]
@@ -1182,16 +1182,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   3.0m",
+    "Unit": "44mm x 150mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:54.5310164Z",
+    "UpdatedAt": "2025-03-28T13:13:57.2824774Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.95,
-        "ScrapedAt": "2025-03-25T13:21:54.5311142Z",
+        "ScrapedAt": "2025-03-28T13:13:57.28248Z",
         "Merchant": null
       }
     ]
@@ -1201,16 +1201,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   3.6m",
+    "Unit": "44mm x 150mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:21:59.6742795Z",
+    "UpdatedAt": "2025-03-28T13:14:02.3804501Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 11.95,
-        "ScrapedAt": "2025-03-25T13:21:59.6742831Z",
+        "ScrapedAt": "2025-03-28T13:14:02.3804528Z",
         "Merchant": null
       }
     ]
@@ -1220,16 +1220,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 6.6m (21.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   6.6m",
+    "Unit": "44mm x 150mm x 6.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:22:04.8003087Z",
+    "UpdatedAt": "2025-03-28T13:14:07.4868338Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 27.95,
-        "ScrapedAt": "2025-03-25T13:22:04.8003114Z",
+        "ScrapedAt": "2025-03-28T13:14:07.4868369Z",
         "Merchant": null
       }
     ]
@@ -1239,16 +1239,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 7.2m (23.6\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   7.2m",
+    "Unit": "44mm x 150mm x 7.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:22:09.9334024Z",
+    "UpdatedAt": "2025-03-28T13:14:12.5952423Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 31.95,
-        "ScrapedAt": "2025-03-25T13:22:09.9334045Z",
+        "ScrapedAt": "2025-03-28T13:14:12.5952448Z",
         "Merchant": null
       }
     ]
@@ -1258,16 +1258,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   4.8m",
+    "Unit": "44mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:22:15.0560184Z",
+    "UpdatedAt": "2025-03-28T13:14:17.7172727Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 15.95,
-        "ScrapedAt": "2025-03-25T13:22:15.0560229Z",
+        "ScrapedAt": "2025-03-28T13:14:17.717275Z",
         "Merchant": null
       }
     ]
@@ -1277,16 +1277,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   4.2m",
+    "Unit": "44mm x 150mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:22:20.20436Z",
+    "UpdatedAt": "2025-03-28T13:14:22.8313409Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 13.95,
-        "ScrapedAt": "2025-03-25T13:22:20.2043644Z",
+        "ScrapedAt": "2025-03-28T13:14:22.8313443Z",
         "Merchant": null
       }
     ]
@@ -1296,16 +1296,16 @@
     "Name": "rough timber",
     "Description": "150mm x 44mm rough timber c16 en14081 (6 x 2) 5.4m (17.7\u0027)",
     "Category": "rough timber",
-    "Unit": "150mm x 44mm   5.4m",
+    "Unit": "44mm x 150mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:22:25.3477177Z",
+    "UpdatedAt": "2025-03-28T13:14:27.9430366Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 17.95,
-        "ScrapedAt": "2025-03-25T13:22:25.3477217Z",
+        "ScrapedAt": "2025-03-28T13:14:27.943039Z",
         "Merchant": null
       }
     ]
@@ -1315,16 +1315,16 @@
     "Name": "rough timber",
     "Description": "175mm x 22mm rough timber (7 x 1) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 22mm 4.8m",
+    "Unit": "22mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:22:55.03715Z",
+    "UpdatedAt": "2025-03-28T13:14:56.9157497Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.50,
-        "ScrapedAt": "2025-03-25T13:22:55.0371558Z",
+        "ScrapedAt": "2025-03-28T13:14:56.915752Z",
         "Merchant": null
       }
     ]
@@ -1334,16 +1334,16 @@
     "Name": "rough timber",
     "Description": "175mm x 22mm rough timber (7 x 1) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 22mm 4.2m",
+    "Unit": "22mm x 175mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:23:00.1607572Z",
+    "UpdatedAt": "2025-03-28T13:15:02.0442995Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:23:00.1607599Z",
+        "ScrapedAt": "2025-03-28T13:15:02.0443022Z",
         "Merchant": null
       }
     ]
@@ -1353,16 +1353,16 @@
     "Name": "rough timber",
     "Description": "175mm x 22mm rough timber (7 x 1) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 22mm 4.8m",
+    "Unit": "22mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:23:08.314707Z",
+    "UpdatedAt": "2025-03-28T13:15:09.3349293Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.50,
-        "ScrapedAt": "2025-03-25T13:23:08.3147093Z",
+        "ScrapedAt": "2025-03-28T13:15:09.3349313Z",
         "Merchant": null
       }
     ]
@@ -1372,16 +1372,16 @@
     "Name": "rough timber",
     "Description": "175mm x 22mm rough timber (7 x 1) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 22mm 4.2m",
+    "Unit": "22mm x 175mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:23:13.4544615Z",
+    "UpdatedAt": "2025-03-28T13:15:14.4481991Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:23:13.4544649Z",
+        "ScrapedAt": "2025-03-28T13:15:14.4482017Z",
         "Merchant": null
       }
     ]
@@ -1391,16 +1391,16 @@
     "Name": "rough timber",
     "Description": "175mm x 22mm rough timber (7 x 1) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 22mm 4.8m",
+    "Unit": "22mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:23:21.1150544Z",
+    "UpdatedAt": "2025-03-28T13:15:21.9617455Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 9.50,
-        "ScrapedAt": "2025-03-25T13:23:21.1150565Z",
+        "ScrapedAt": "2025-03-28T13:15:21.9617483Z",
         "Merchant": null
       }
     ]
@@ -1410,16 +1410,16 @@
     "Name": "rough timber",
     "Description": "175mm x 22mm rough timber (7 x 1) 4.2m (13.8\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 22mm 4.2m",
+    "Unit": "22mm x 175mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:23:26.2514763Z",
+    "UpdatedAt": "2025-03-28T13:15:27.0794838Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 8.50,
-        "ScrapedAt": "2025-03-25T13:23:26.2514799Z",
+        "ScrapedAt": "2025-03-28T13:15:27.079487Z",
         "Merchant": null
       }
     ]
@@ -1429,16 +1429,16 @@
     "Name": "rough timber",
     "Description": "175mm x 75mm rough timber c16 en14081 (7 x 3) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 75mm   4.8m",
+    "Unit": "75mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:23:47.3673578Z",
+    "UpdatedAt": "2025-03-28T13:15:46.3847139Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 31.95,
-        "ScrapedAt": "2025-03-25T13:23:47.367362Z",
+        "ScrapedAt": "2025-03-28T13:15:46.3847165Z",
         "Merchant": null
       }
     ]
@@ -1448,16 +1448,16 @@
     "Name": "rough timber",
     "Description": "175mm x 75mm rough timber c16 en14081 (7 x 3) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 75mm   4.8m",
+    "Unit": "75mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:24:00.0317775Z",
+    "UpdatedAt": "2025-03-28T13:15:58.511967Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 31.95,
-        "ScrapedAt": "2025-03-25T13:24:00.0317815Z",
+        "ScrapedAt": "2025-03-28T13:15:58.5119696Z",
         "Merchant": null
       }
     ]
@@ -1467,16 +1467,16 @@
     "Name": "rough timber",
     "Description": "175mm x 75mm rough timber c16 en14081 (7 x 3) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "175mm x 75mm   4.8m",
+    "Unit": "75mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:24:12.7934767Z",
+    "UpdatedAt": "2025-03-28T13:16:10.726001Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 31.95,
-        "ScrapedAt": "2025-03-25T13:24:12.7934798Z",
+        "ScrapedAt": "2025-03-28T13:16:10.7260036Z",
         "Merchant": null
       }
     ]
@@ -1486,16 +1486,16 @@
     "Name": "rough timber",
     "Description": "225mm x 44mm rough timber c16 en14081 (9 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "225mm x 44mm   3.0m",
+    "Unit": "44mm x 225mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:24:53.2922533Z",
+    "UpdatedAt": "2025-03-28T13:16:49.129845Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 14.95,
-        "ScrapedAt": "2025-03-25T13:24:53.2923304Z",
+        "ScrapedAt": "2025-03-28T13:16:49.1298469Z",
         "Merchant": null
       }
     ]
@@ -1505,16 +1505,16 @@
     "Name": "rough timber",
     "Description": "225mm x 44mm rough timber c16 en14081 (9 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "225mm x 44mm   3.6m",
+    "Unit": "44mm x 225mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:24:58.4313011Z",
+    "UpdatedAt": "2025-03-28T13:16:54.2492866Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 17.95,
-        "ScrapedAt": "2025-03-25T13:24:58.4313055Z",
+        "ScrapedAt": "2025-03-28T13:16:54.2492889Z",
         "Merchant": null
       }
     ]
@@ -1524,16 +1524,16 @@
     "Name": "rough timber",
     "Description": "225mm x 44mm rough timber c16 en14081 (9 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "225mm x 44mm   3.0m",
+    "Unit": "44mm x 225mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:25:12.2250755Z",
+    "UpdatedAt": "2025-03-28T13:17:07.1467944Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 14.95,
-        "ScrapedAt": "2025-03-25T13:25:12.225079Z",
+        "ScrapedAt": "2025-03-28T13:17:07.1467977Z",
         "Merchant": null
       }
     ]
@@ -1543,16 +1543,16 @@
     "Name": "rough timber",
     "Description": "225mm x 44mm rough timber c16 en14081 (9 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "225mm x 44mm   3.6m",
+    "Unit": "44mm x 225mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:25:17.348619Z",
+    "UpdatedAt": "2025-03-28T13:17:12.2560728Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 17.95,
-        "ScrapedAt": "2025-03-25T13:25:17.3486237Z",
+        "ScrapedAt": "2025-03-28T13:17:12.2560814Z",
         "Merchant": null
       }
     ]
@@ -1562,16 +1562,16 @@
     "Name": "rough timber",
     "Description": "225mm x 44mm rough timber c16 en14081 (9 x 2) 3.0m (9.8\u0027)",
     "Category": "rough timber",
-    "Unit": "225mm x 44mm   3.0m",
+    "Unit": "44mm x 225mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:25:30.3871503Z",
+    "UpdatedAt": "2025-03-28T13:17:24.7392139Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 14.95,
-        "ScrapedAt": "2025-03-25T13:25:30.3871526Z",
+        "ScrapedAt": "2025-03-28T13:17:24.7392165Z",
         "Merchant": null
       }
     ]
@@ -1581,16 +1581,16 @@
     "Name": "rough timber",
     "Description": "225mm x 44mm rough timber c16 en14081 (9 x 2) 3.6m (11.8\u0027)",
     "Category": "rough timber",
-    "Unit": "225mm x 44mm   3.6m",
+    "Unit": "44mm x 225mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:25:35.5079873Z",
+    "UpdatedAt": "2025-03-28T13:17:29.8542819Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 17.95,
-        "ScrapedAt": "2025-03-25T13:25:35.507991Z",
+        "ScrapedAt": "2025-03-28T13:17:29.8542846Z",
         "Merchant": null
       }
     ]
@@ -1600,54 +1600,16 @@
     "Name": "rough timber",
     "Description": "50mm x 35mm rough timber  (2 x 1.5) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "50mm x 35mm 4.8m",
+    "Unit": "35mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:12.7840566Z",
+    "UpdatedAt": "2025-03-28T13:18:05.3801222Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.50,
-        "ScrapedAt": "2025-03-25T13:26:12.7840592Z",
-        "Merchant": null
-      }
-    ]
-  },
-  {
-    "ProductId": 0,
-    "Name": "rough timber",
-    "Description": "50mm x 35mm rough timber  (2 x 1.5) 4.2m (13.8\u0027)",
-    "Category": "rough timber",
-    "Unit": "50mm x 35mm 4.2m",
-    "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:17.9122261Z",
-    "Prices": [
-      {
-        "PriceId": 0,
-        "ProductId": 0,
-        "MerchantId": 3,
-        "PriceValue": 3.75,
-        "ScrapedAt": "2025-03-25T13:26:17.9122302Z",
-        "Merchant": null
-      }
-    ]
-  },
-  {
-    "ProductId": 0,
-    "Name": "rough timber",
-    "Description": "50mm x 35mm rough timber  (2 x 1.5) 5.4m (17.7\u0027)",
-    "Category": "rough timber",
-    "Unit": "50mm x 35mm 5.4m",
-    "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:23.0675049Z",
-    "Prices": [
-      {
-        "PriceId": 0,
-        "ProductId": 0,
-        "MerchantId": 3,
-        "PriceValue": 4.95,
-        "ScrapedAt": "2025-03-25T13:26:23.0675083Z",
+        "ScrapedAt": "2025-03-28T13:18:05.3801248Z",
         "Merchant": null
       }
     ]
@@ -1657,54 +1619,16 @@
     "Name": "rough timber",
     "Description": "50mm x 35mm rough timber  (2 x 1.5) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "50mm x 35mm 4.8m",
+    "Unit": "35mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:31.0498592Z",
+    "UpdatedAt": "2025-03-28T13:18:17.9267744Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.50,
-        "ScrapedAt": "2025-03-25T13:26:31.0498641Z",
-        "Merchant": null
-      }
-    ]
-  },
-  {
-    "ProductId": 0,
-    "Name": "rough timber",
-    "Description": "50mm x 35mm rough timber  (2 x 1.5) 4.2m (13.8\u0027)",
-    "Category": "rough timber",
-    "Unit": "50mm x 35mm 4.2m",
-    "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:36.1777362Z",
-    "Prices": [
-      {
-        "PriceId": 0,
-        "ProductId": 0,
-        "MerchantId": 3,
-        "PriceValue": 3.75,
-        "ScrapedAt": "2025-03-25T13:26:36.1777385Z",
-        "Merchant": null
-      }
-    ]
-  },
-  {
-    "ProductId": 0,
-    "Name": "rough timber",
-    "Description": "50mm x 35mm rough timber  (2 x 1.5) 5.4m (17.7\u0027)",
-    "Category": "rough timber",
-    "Unit": "50mm x 35mm 5.4m",
-    "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:41.3191775Z",
-    "Prices": [
-      {
-        "PriceId": 0,
-        "ProductId": 0,
-        "MerchantId": 3,
-        "PriceValue": 4.95,
-        "ScrapedAt": "2025-03-25T13:26:41.3191806Z",
+        "ScrapedAt": "2025-03-28T13:18:17.9267777Z",
         "Merchant": null
       }
     ]
@@ -1714,54 +1638,16 @@
     "Name": "rough timber",
     "Description": "50mm x 35mm rough timber  (2 x 1.5) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "50mm x 35mm 4.8m",
+    "Unit": "35mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:49.2329822Z",
+    "UpdatedAt": "2025-03-28T13:18:30.3721016Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 4.50,
-        "ScrapedAt": "2025-03-25T13:26:49.2329848Z",
-        "Merchant": null
-      }
-    ]
-  },
-  {
-    "ProductId": 0,
-    "Name": "rough timber",
-    "Description": "50mm x 35mm rough timber  (2 x 1.5) 4.2m (13.8\u0027)",
-    "Category": "rough timber",
-    "Unit": "50mm x 35mm 4.2m",
-    "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:54.361905Z",
-    "Prices": [
-      {
-        "PriceId": 0,
-        "ProductId": 0,
-        "MerchantId": 3,
-        "PriceValue": 3.75,
-        "ScrapedAt": "2025-03-25T13:26:54.3619082Z",
-        "Merchant": null
-      }
-    ]
-  },
-  {
-    "ProductId": 0,
-    "Name": "rough timber",
-    "Description": "50mm x 35mm rough timber  (2 x 1.5) 5.4m (17.7\u0027)",
-    "Category": "rough timber",
-    "Unit": "50mm x 35mm 5.4m",
-    "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:26:59.4961192Z",
-    "Prices": [
-      {
-        "PriceId": 0,
-        "ProductId": 0,
-        "MerchantId": 3,
-        "PriceValue": 4.95,
-        "ScrapedAt": "2025-03-25T13:26:59.4961222Z",
+        "ScrapedAt": "2025-03-28T13:18:30.3721047Z",
         "Merchant": null
       }
     ]
@@ -1771,16 +1657,16 @@
     "Name": "rough timber",
     "Description": "100mm x 75mm rough timber c16 en14081 (4 x 3) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 75mm   4.8m",
+    "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:27:52.4915048Z",
+    "UpdatedAt": "2025-03-28T13:19:24.5494576Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 18.50,
-        "ScrapedAt": "2025-03-25T13:27:52.4915074Z",
+        "ScrapedAt": "2025-03-28T13:19:24.5494616Z",
         "Merchant": null
       }
     ]
@@ -1790,16 +1676,16 @@
     "Name": "rough timber",
     "Description": "100mm x 75mm rough timber c16 en14081 (4 x 3) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 75mm   4.8m",
+    "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:28:05.7069201Z",
+    "UpdatedAt": "2025-03-28T13:19:37.4872028Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 18.50,
-        "ScrapedAt": "2025-03-25T13:28:05.7069229Z",
+        "ScrapedAt": "2025-03-28T13:19:37.487205Z",
         "Merchant": null
       }
     ]
@@ -1809,16 +1695,16 @@
     "Name": "rough timber",
     "Description": "100mm x 75mm rough timber c16 en14081 (4 x 3) 4.8m (15.7\u0027)",
     "Category": "rough timber",
-    "Unit": "100mm x 75mm   4.8m",
+    "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-25T13:28:19.1165946Z",
+    "UpdatedAt": "2025-03-28T13:19:50.2839408Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
-        "MerchantId": 3,
+        "MerchantId": 2,
         "PriceValue": 18.50,
-        "ScrapedAt": "2025-03-25T13:28:19.1165972Z",
+        "ScrapedAt": "2025-03-28T13:19:50.2839438Z",
         "Merchant": null
       }
     ]
