@@ -113,7 +113,8 @@ namespace PriceNowTest
                 "7.2m 225 x 44 truss timber c24 rough white deal c24",
                 "4.8m 100 x 50 cls white deal",
                 "50mm x 22mm rough timber (2 x 1)",
-                "150mm x 44mm rough timber c16 en14081 (6 x 2)"
+                "150mm x 44mm rough timber c16 en14081 (6 x 2)",
+                "100mm x 50mm 4.2 rough timber (4 x 2)",
             };
 
             foreach (var test in testCases)

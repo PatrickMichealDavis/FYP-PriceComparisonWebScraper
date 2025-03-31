@@ -116,30 +116,41 @@ namespace PriceNowCompleteV1.Controllers
                 return NotFound($"No Merchant with id:{merchantId}");
             }
 
-            try
-            {
-                if (isPartial)
-                {
-                    IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
-                    await scraper.RunPartialScrapeByMerchant(merchant);
-                }
-                else
-                {
-                    IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
-                    await scraper.RunFullScrapeByMerchant(merchant);
+            var maxAttempts = 2;
 
-                }
-                return Ok("Scraping initiated");
-            }
-            catch (Exception e)
+            for (int attempt = 1; attempt <= maxAttempts; attempt++)
             {
-                await _loggingService.AddLog(new Logging
+                try
                 {
-                    MerchantId = merchant.MerchantId,
-                    ScrapedAt = DateTime.UtcNow,
-                    Status = "RunScraperByMerchant:" + merchant.Name + " Failed",
-                    ErrorMessage = e.Message
-                });
+                    if (isPartial)
+                    {
+                        IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
+                        await scraper.RunPartialScrapeByMerchant(merchant);
+                    }
+                    else
+                    {
+                        IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
+                        await scraper.RunFullScrapeByMerchant(merchant);
+
+                    }
+                    return Ok($"Scraping initiated after {attempt} attempt");
+                }
+                catch (Exception e)
+                {
+                    await _loggingService.AddLog(new Logging
+                    {
+                        MerchantId = merchant.MerchantId,
+                        ScrapedAt = DateTime.UtcNow,
+                        Status = $"RunScraperByMerchant: {merchant.Name} Failed after {attempt} attempts",
+                        ErrorMessage = e.Message
+                    });
+
+                    if (attempt == maxAttempts)
+                    {
+                        return StatusCode(500, $"Error while Scraping for:{merchant.Name} after {maxAttempts} attempts");
+                    }
+                }
+               
             }
             return StatusCode(500, $"Error while Scraping for:{merchant.Name}");
         }
@@ -205,7 +216,7 @@ namespace PriceNowCompleteV1.Controllers
             //var products = await _productService.LoadProductsFromFile(chadwicksRawProductsFilePath);
 
            
-           await _productService.ProcessProductsV2(products);
+            await _productService.ProcessProductsV2(products);
 
             return Ok();
         }
