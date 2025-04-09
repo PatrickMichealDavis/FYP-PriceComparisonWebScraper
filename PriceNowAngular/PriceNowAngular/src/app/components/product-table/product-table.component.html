@@ -33,8 +33,8 @@
 </div>
 </div>
 
-<!---results table -->
 
+<!---results table -->
 <div>
     <table id="resultsTable" class="table table-striped">
         <thead>
@@ -42,20 +42,32 @@
                 <th>Product Name</th>
                 <th>Description</th>           
                 <th *ngFor="let i of [0, 1, 2]">Top {{ i + 1 }} Price</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
             <tr *ngFor="let product of comparedList">
                 <td>{{ product.name }}</td>               
                 <td>{{ product.description }}</td>             
-                <td *ngFor="let price of product.prices
-                | slice:0:3">
-                {{ price.merchant.name }}: {{ price.priceValue }}
-            </td>
+
+                <td *ngFor="let i of [0, 1, 2]">
+                    <ng-container *ngIf="product.prices[i] as price">
+                        {{ price.merchant.name }}: {{ price.priceValue }} <br>
+                        Date: {{ getDays(price.scrapedAt) }}
+                    </ng-container>
+                    <ng-container *ngIf="!product.prices[i]">
+                        N/A
+                    </ng-container>
+                </td>
+
+                <td>
+                    <button class="btn btn-primary" (click)="addToWishlist(product)">Add to WishList</button>                   
+                </td>
             </tr>
         </tbody>
     </table>
 </div>
+
 
 
 <!-- Modal Structure -->

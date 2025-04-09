@@ -97,6 +97,36 @@ export class ProductTableComponent {
 
   }
 
+  getDays(date: Date): string {
 
+    const now = new Date();
+    const scrapedDate = new Date(date);
+  
+    const diffInMs = now.getTime() - scrapedDate.getTime();
+    const diffInHours = Math.floor(diffInMs / (1000 * 60 * 60));
+    const diffInDays = Math.floor(diffInHours / 24);
+  
+    if (diffInDays === 0)
+    {
+      if (diffInHours === 0)
+        {
+          return 'Just now'
+        };
+      if (diffInHours === 1)
+        {
+          return '1 hour ago'
+        };
+
+      return `${diffInHours} hours ago`;
+    }
+  
+    if (diffInDays === 1)
+      {
+        return '1 day ago'
+      };
+
+    return `${diffInDays} days ago`;
+  }
+  
   
 }

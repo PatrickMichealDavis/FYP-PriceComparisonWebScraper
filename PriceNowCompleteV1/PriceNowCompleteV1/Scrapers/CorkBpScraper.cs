@@ -123,11 +123,11 @@ namespace PriceNowCompleteV1.Scrapers
 
                 // await _productService.SaveProductsToFile(deckingProductsFilePath, scrapedProductsRaw);
                 //await _productService.SaveProductsToFile(rawProductsFilePath, scrapedProductsRaw);
-                //await _productService.SaveProductsToFile(sanitizedProductsFilePath, scrapedProducts);
+                await _productService.SaveProductsToFile(sanitizedProductsFilePath, roughTimberProducts);
 
-                //await _productService.ProcessProductsV2(scrapedProducts);
+                await _productService.ProcessProductsV2(roughTimberProducts);
 
-                var deckingProducts = await ScrapeDecking(page, browser, merchant);
+                //var deckingProducts = await ScrapeDecking(page, browser, merchant);
 
                 string deckingProductsFilePath = "corkbpDeckingProducts.json";
 

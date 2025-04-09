@@ -6,14 +6,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7592989Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4900339Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 13.99,
-        "ScrapedAt": "2025-03-30T10:34:59.7598359Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4900384Z",
         "Merchant": null
       }
     ]
@@ -25,14 +25,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7695029Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4902089Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 5.57,
-        "ScrapedAt": "2025-03-30T10:34:59.7695048Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4902097Z",
         "Merchant": null
       }
     ]
@@ -44,14 +44,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.76991Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4902938Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 21.02,
-        "ScrapedAt": "2025-03-30T10:34:59.7699111Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4902944Z",
         "Merchant": null
       }
     ]
@@ -63,14 +63,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7700515Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4903777Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 6.92,
-        "ScrapedAt": "2025-03-30T10:34:59.7700519Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4903783Z",
         "Merchant": null
       }
     ]
@@ -82,14 +82,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7701628Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4904502Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 10.5,
-        "ScrapedAt": "2025-03-30T10:34:59.7701633Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4904507Z",
         "Merchant": null
       }
     ]
@@ -101,14 +101,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7702662Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4905323Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 5.56,
-        "ScrapedAt": "2025-03-30T10:34:59.7702666Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4905329Z",
         "Merchant": null
       }
     ]
@@ -120,14 +120,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7703856Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4906022Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 8.36,
-        "ScrapedAt": "2025-03-30T10:34:59.7703861Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4906027Z",
         "Merchant": null
       }
     ]
@@ -139,14 +139,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7704799Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4906847Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 11.17,
-        "ScrapedAt": "2025-03-30T10:34:59.7704803Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4906854Z",
         "Merchant": null
       }
     ]
@@ -158,14 +158,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7705777Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4907554Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 8.36,
-        "ScrapedAt": "2025-03-30T10:34:59.7705781Z",
+        "ScrapedAt": "2025-04-01T13:19:49.490756Z",
         "Merchant": null
       }
     ]
@@ -177,14 +177,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.770694Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4908386Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 23.87,
-        "ScrapedAt": "2025-03-30T10:34:59.7706944Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4908392Z",
         "Merchant": null
       }
     ]
@@ -196,14 +196,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7708068Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4909384Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 12.55,
-        "ScrapedAt": "2025-03-30T10:34:59.7708074Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4909394Z",
         "Merchant": null
       }
     ]
@@ -215,14 +215,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:34:59.7709346Z",
+    "UpdatedAt": "2025-04-01T13:19:49.4910725Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 5.57,
-        "ScrapedAt": "2025-03-30T10:34:59.7709352Z",
+        "ScrapedAt": "2025-04-01T13:19:49.4910737Z",
         "Merchant": null
       }
     ]
@@ -234,14 +234,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4723798Z",
+    "UpdatedAt": "2025-04-01T13:19:50.318975Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 35.82,
-        "ScrapedAt": "2025-03-30T10:35:00.4723833Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3189783Z",
         "Merchant": null
       }
     ]
@@ -253,14 +253,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4729347Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3191237Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 15.77,
-        "ScrapedAt": "2025-03-30T10:35:00.4729369Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3191241Z",
         "Merchant": null
       }
     ]
@@ -272,14 +272,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4731098Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3191722Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 12.55,
-        "ScrapedAt": "2025-03-30T10:35:00.4731105Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3191724Z",
         "Merchant": null
       }
     ]
@@ -291,14 +291,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.473267Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3192123Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 13.95,
-        "ScrapedAt": "2025-03-30T10:35:00.4732679Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3192125Z",
         "Merchant": null
       }
     ]
@@ -310,14 +310,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4734157Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3192488Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 12.55,
-        "ScrapedAt": "2025-03-30T10:35:00.4734164Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3192491Z",
         "Merchant": null
       }
     ]
@@ -329,14 +329,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.473562Z",
+    "UpdatedAt": "2025-04-01T13:19:50.319286Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 19.02,
-        "ScrapedAt": "2025-03-30T10:35:00.4735633Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3192862Z",
         "Merchant": null
       }
     ]
@@ -348,14 +348,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4737708Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3193228Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 10.5,
-        "ScrapedAt": "2025-03-30T10:35:00.4737717Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3193231Z",
         "Merchant": null
       }
     ]
@@ -367,14 +367,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4739006Z",
+    "UpdatedAt": "2025-04-01T13:19:50.31936Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 9.77,
-        "ScrapedAt": "2025-03-30T10:35:00.4739014Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3193603Z",
         "Merchant": null
       }
     ]
@@ -386,14 +386,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4740582Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3193954Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 14.64,
-        "ScrapedAt": "2025-03-30T10:35:00.4740588Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3193957Z",
         "Merchant": null
       }
     ]
@@ -405,14 +405,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4741676Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3194298Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 4.18,
-        "ScrapedAt": "2025-03-30T10:35:00.4741683Z",
+        "ScrapedAt": "2025-04-01T13:19:50.31943Z",
         "Merchant": null
       }
     ]
@@ -424,14 +424,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4742732Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3194649Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 10.46,
-        "ScrapedAt": "2025-03-30T10:35:00.4742736Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3194651Z",
         "Merchant": null
       }
     ]
@@ -443,14 +443,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:00.4743582Z",
+    "UpdatedAt": "2025-04-01T13:19:50.3195004Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 16.73,
-        "ScrapedAt": "2025-03-30T10:35:00.4743586Z",
+        "ScrapedAt": "2025-04-01T13:19:50.3195006Z",
         "Merchant": null
       }
     ]
@@ -462,14 +462,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4357944Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0968219Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 31.51,
-        "ScrapedAt": "2025-03-30T10:35:03.4357977Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0968276Z",
         "Merchant": null
       }
     ]
@@ -481,14 +481,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4361313Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0970398Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 28.25,
-        "ScrapedAt": "2025-03-30T10:35:03.4361321Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0970405Z",
         "Merchant": null
       }
     ]
@@ -500,14 +500,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4362698Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0971055Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 18.82,
-        "ScrapedAt": "2025-03-30T10:35:03.4362705Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0971059Z",
         "Merchant": null
       }
     ]
@@ -519,14 +519,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 50mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4364273Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0971577Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 3.26,
-        "ScrapedAt": "2025-03-30T10:35:03.4364281Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0971581Z",
         "Merchant": null
       }
     ]
@@ -538,14 +538,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4365476Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0972102Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 6.97,
-        "ScrapedAt": "2025-03-30T10:35:03.4365481Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0972106Z",
         "Merchant": null
       }
     ]
@@ -557,14 +557,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4366706Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0972596Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 5.23,
-        "ScrapedAt": "2025-03-30T10:35:03.4366712Z",
+        "ScrapedAt": "2025-04-01T13:19:53.09726Z",
         "Merchant": null
       }
     ]
@@ -576,14 +576,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4367811Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0973102Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 25.1,
-        "ScrapedAt": "2025-03-30T10:35:03.4367816Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0973106Z",
         "Merchant": null
       }
     ]
@@ -595,14 +595,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4368608Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0973601Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 42.78,
-        "ScrapedAt": "2025-03-30T10:35:03.4368612Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0973605Z",
         "Merchant": null
       }
     ]
@@ -614,14 +614,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 50mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4369302Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0974098Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 5.23,
-        "ScrapedAt": "2025-03-30T10:35:03.4369305Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0974102Z",
         "Merchant": null
       }
     ]
@@ -633,14 +633,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4370007Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0974592Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 18.82,
-        "ScrapedAt": "2025-03-30T10:35:03.437001Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0974596Z",
         "Merchant": null
       }
     ]
@@ -652,14 +652,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4370929Z",
+    "UpdatedAt": "2025-04-01T13:19:53.097509Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 21.97,
-        "ScrapedAt": "2025-03-30T10:35:03.4370942Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0975094Z",
         "Merchant": null
       }
     ]
@@ -671,14 +671,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:03.4371643Z",
+    "UpdatedAt": "2025-04-01T13:19:53.0975571Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 21.97,
-        "ScrapedAt": "2025-03-30T10:35:03.4371647Z",
+        "ScrapedAt": "2025-04-01T13:19:53.0975574Z",
         "Merchant": null
       }
     ]
@@ -690,14 +690,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9878164Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2702004Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 14.64,
-        "ScrapedAt": "2025-03-30T10:35:06.9878205Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2702051Z",
         "Merchant": null
       }
     ]
@@ -709,14 +709,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9880097Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2704042Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 17.07,
-        "ScrapedAt": "2025-03-30T10:35:06.98801Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2704053Z",
         "Merchant": null
       }
     ]
@@ -728,14 +728,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9880991Z",
+    "UpdatedAt": "2025-04-01T13:19:56.270509Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 53.71,
-        "ScrapedAt": "2025-03-30T10:35:06.9880996Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2705097Z",
         "Merchant": null
       }
     ]
@@ -747,14 +747,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9883557Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2705717Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 48.13,
-        "ScrapedAt": "2025-03-30T10:35:06.9883577Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2705722Z",
         "Merchant": null
       }
     ]
@@ -766,14 +766,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.988437Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2706282Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 28.52,
-        "ScrapedAt": "2025-03-30T10:35:06.9884375Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2706287Z",
         "Merchant": null
       }
     ]
@@ -785,14 +785,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9885102Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2706895Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 15.68,
-        "ScrapedAt": "2025-03-30T10:35:06.9885107Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2706905Z",
         "Merchant": null
       }
     ]
@@ -804,14 +804,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9885911Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2707507Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 19.52,
-        "ScrapedAt": "2025-03-30T10:35:06.9885915Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2707513Z",
         "Merchant": null
       }
     ]
@@ -823,14 +823,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9886517Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2708064Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 12.2,
-        "ScrapedAt": "2025-03-30T10:35:06.9886521Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2708068Z",
         "Merchant": null
       }
     ]
@@ -842,14 +842,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9887113Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2708569Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 7.32,
-        "ScrapedAt": "2025-03-30T10:35:06.9887118Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2708574Z",
         "Merchant": null
       }
     ]
@@ -861,14 +861,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 50mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9887719Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2709107Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 4.16,
-        "ScrapedAt": "2025-03-30T10:35:06.9887724Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2709111Z",
         "Merchant": null
       }
     ]
@@ -880,14 +880,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 50mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9888335Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2709607Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 2.62,
-        "ScrapedAt": "2025-03-30T10:35:06.988834Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2709611Z",
         "Merchant": null
       }
     ]
@@ -899,14 +899,14 @@
     "Category": "rough timber",
     "Unit": "",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:06.9888899Z",
+    "UpdatedAt": "2025-04-01T13:19:56.2710133Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 566.49,
-        "ScrapedAt": "2025-03-30T10:35:06.9888903Z",
+        "ScrapedAt": "2025-04-01T13:19:56.2710138Z",
         "Merchant": null
       }
     ]
@@ -918,14 +918,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4672356Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2691242Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 6.68,
-        "ScrapedAt": "2025-03-30T10:35:10.467239Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2691288Z",
         "Merchant": null
       }
     ]
@@ -937,14 +937,14 @@
     "Category": "rough timber",
     "Unit": "50mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4673816Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2693542Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 18.82,
-        "ScrapedAt": "2025-03-30T10:35:10.467382Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2693547Z",
         "Merchant": null
       }
     ]
@@ -956,14 +956,14 @@
     "Category": "rough timber",
     "Unit": "50mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4674288Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2694135Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 12.55,
-        "ScrapedAt": "2025-03-30T10:35:10.4674291Z",
+        "ScrapedAt": "2025-04-01T13:20:00.269414Z",
         "Merchant": null
       }
     ]
@@ -975,14 +975,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 50mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4675485Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2694618Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 6.15,
-        "ScrapedAt": "2025-03-30T10:35:10.4675491Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2694622Z",
         "Merchant": null
       }
     ]
@@ -994,14 +994,14 @@
     "Category": "rough timber",
     "Unit": "63mm x 225mm x 1.25m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4676085Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2695103Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 22.12,
-        "ScrapedAt": "2025-03-30T10:35:10.467609Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2695124Z",
         "Merchant": null
       }
     ]
@@ -1013,14 +1013,14 @@
     "Category": "rough timber",
     "Unit": "50mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4676668Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2695592Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 20.59,
-        "ScrapedAt": "2025-03-30T10:35:10.4676673Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2695597Z",
         "Merchant": null
       }
     ]
@@ -1032,14 +1032,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4677419Z",
+    "UpdatedAt": "2025-04-01T13:20:00.269609Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 19.96,
-        "ScrapedAt": "2025-03-30T10:35:10.4677425Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2696094Z",
         "Merchant": null
       }
     ]
@@ -1051,14 +1051,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4678163Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2696735Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 15.53,
-        "ScrapedAt": "2025-03-30T10:35:10.467818Z",
+        "ScrapedAt": "2025-04-01T13:20:00.269674Z",
         "Merchant": null
       }
     ]
@@ -1070,14 +1070,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 6.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4678722Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2697226Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 39.95,
-        "ScrapedAt": "2025-03-30T10:35:10.4678727Z",
+        "ScrapedAt": "2025-04-01T13:20:00.269723Z",
         "Merchant": null
       }
     ]
@@ -1089,14 +1089,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 6.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4679345Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2697755Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 35.34,
-        "ScrapedAt": "2025-03-30T10:35:10.467935Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2697759Z",
         "Merchant": null
       }
     ]
@@ -1108,14 +1108,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.4679914Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2698279Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 8.35,
-        "ScrapedAt": "2025-03-30T10:35:10.4679919Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2698284Z",
         "Merchant": null
       }
     ]
@@ -1127,14 +1127,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 50mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:10.46805Z",
+    "UpdatedAt": "2025-04-01T13:20:00.2700145Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 5.23,
-        "ScrapedAt": "2025-03-30T10:35:10.4680505Z",
+        "ScrapedAt": "2025-04-01T13:20:00.2700167Z",
         "Merchant": null
       }
     ]
@@ -1146,14 +1146,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 50mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:14.1706644Z",
+    "UpdatedAt": "2025-04-01T13:20:02.5552959Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 3.69,
-        "ScrapedAt": "2025-03-30T10:35:14.1706677Z",
+        "ScrapedAt": "2025-04-01T13:20:02.5553002Z",
         "Merchant": null
       }
     ]
@@ -1165,14 +1165,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-03-30T10:35:14.1708135Z",
+    "UpdatedAt": "2025-04-01T13:20:02.5554202Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 3,
         "PriceValue": 27.58,
-        "ScrapedAt": "2025-03-30T10:35:14.1708143Z",
+        "ScrapedAt": "2025-04-01T13:20:02.5554205Z",
         "Merchant": null
       }
     ]

@@ -160,7 +160,7 @@ namespace PriceNowCompleteV1.Services
 
         }
 
-        public async Task ProcessProductsV2(List<Product> scrapedProducts)
+        public async Task ProcessProductsV2(List<Product> scrapedProducts)//products are pre-sanitized entering this function
         {
             var existingProducts = await _productRepository.GetAll();
 
@@ -185,7 +185,7 @@ namespace PriceNowCompleteV1.Services
             {
                 var closeKey = DataParser.FindClosestKey(scrapedProduct.Unit, existingProductsByUnitDict.Keys.ToList());
 
-                if (closeKey == null)
+                if (closeKey == null)//is this sting.Emtpy patrick?
                 {
                     await _productRepository.AddProduct(scrapedProduct);
                     continue;
