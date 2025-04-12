@@ -227,5 +227,10 @@ namespace PriceNowCompleteV1.Scrapers
             Console.WriteLine("Running partial scrape for CorkBp");
             throw new NotImplementedException();
         }
+
+        public override Task PriceNow(Product product)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

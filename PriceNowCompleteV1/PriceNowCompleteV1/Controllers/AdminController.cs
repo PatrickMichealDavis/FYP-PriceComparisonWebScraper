@@ -81,6 +81,47 @@ namespace PriceNowCompleteV1.Controllers
             return Ok(productsToCompare);
         }
 
+        [HttpPost("priceNow")]
+        public async Task<IActionResult> PriceNow([FromBody] Product product)
+        {
+            if (product == null)
+            {
+                return BadRequest("Product cannot be null");
+            }
+
+            var allMerchants = await _merchantService.GetAllMerchants();
+
+            var errors = new List<string>();
+
+            foreach (var merchant in allMerchants)
+            {
+                try
+                {
+                    var scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
+                    await scraper.PriceNow(product); 
+                }
+                catch (Exception e)
+                {
+                    await _loggingService.AddLog(new Logging
+                    {
+                        MerchantId = merchant.MerchantId,
+                        ScrapedAt = DateTime.UtcNow,
+                        Status = "Run full suite failed",
+                        ErrorMessage = e.Message
+                    });
+
+                    errors.Add($"Scraping failed for {merchant.Name}: {e.Message}");
+                }
+            }
+
+            if (errors.Any())
+            {
+                return StatusCode(500, new { message = "One or more scrapers failed", errors });
+            }
+
+            return Ok("Price now successfull");
+        }
+
         [HttpGet("runFullSuite")]
         public async Task<IActionResult> RunFullSuite()//this will create all scrapers in time
         {
@@ -158,19 +199,13 @@ namespace PriceNowCompleteV1.Controllers
         [HttpGet("testAddProduct")]
         public async Task<IActionResult> TestAddProduct()
         {
-            var merchant = new Merchant
-            {
-                Name = "CorkBP",
-                Url = "https://www.corkbp.ie",
-                ContactEmail = "N/A",
-                Prices = new List<Price>(),
-                Loggings = new List<Logging>()
-            };
+           
 
             Price price = new Price
             {
                 PriceValue = 2,
-                Merchant = merchant
+                MerchantId = 2,
+                ProductUrl = "https://tjomahony.ie/4-8m-50mm-x-44mm-rough-timber-16-2-x-2-030504448.html",
             };
 
             List<Price> prices = new List<Price> { price };

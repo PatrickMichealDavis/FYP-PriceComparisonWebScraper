@@ -11,6 +11,7 @@ namespace PriceNowCompleteV1.Models
         public int MerchantId { get; set; }
         public decimal PriceValue { get; set; }
         public DateTime ScrapedAt { get; set; } = DateTime.UtcNow;
+        public string ProductUrl { get; set; }
 
         [JsonIgnore]
         public Product Product { get; set; }
@@ -20,13 +21,14 @@ namespace PriceNowCompleteV1.Models
         {
         }
 
-        public Price(int priceId, int productId, int merchantId, decimal priceValue, DateTime scrapedAt, Product product, Merchant merchant)
+        public Price(int priceId, int productId, int merchantId, decimal priceValue, DateTime scrapedAt, string productUrl, Product product, Merchant merchant)
         {
             PriceId = priceId;
             ProductId = productId;
             MerchantId = merchantId;
             PriceValue = priceValue;
             ScrapedAt = scrapedAt;
+            ProductUrl = productUrl;
             Product = product;
             Merchant = merchant;
         }

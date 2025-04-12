@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj": {}
+    "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj": {
+    "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj",
+        "projectUniqueName": "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj",
         "projectName": "PriceNowCompleteV1",
-        "projectPath": "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj",
+        "projectPath": "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj",
         "packagesPath": "C:\\Users\\padav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\obj\\",
+        "outputPath": "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -118,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj": {
+    "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj",
+        "projectUniqueName": "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj",
         "projectName": "PriceNowTest",
-        "projectPath": "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj",
+        "projectPath": "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj",
         "packagesPath": "C:\\Users\\padav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\obj\\",
+        "outputPath": "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -147,8 +147,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj": {
-                "projectPath": "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj"
+              "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj": {
+                "projectPath": "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowCompleteV1\\PriceNowCompleteV1.csproj"
               }
             }
           }

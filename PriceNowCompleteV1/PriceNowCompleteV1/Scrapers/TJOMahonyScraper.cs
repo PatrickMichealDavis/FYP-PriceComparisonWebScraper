@@ -294,7 +294,10 @@ namespace PriceNowCompleteV1.Scrapers
             throw new NotImplementedException();
         }
 
-       
+        public override Task PriceNow(Product product)
+        {
+            throw new NotImplementedException();
+        }
     }
    
 }

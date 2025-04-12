@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GAG4fyaMmT4=",
+  "dgSpecHash": "SBu+1jLCxqA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\padav\\source\\repos\\PriceNowV3WithTests\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj",
+  "projectFilePath": "C:\\Users\\padav\\source\\repos\\PriceNowV4\\FYP-PriceComparisonWebScraper\\PriceNowCompleteV1\\PriceNowTest\\PriceNowTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\padav\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\padav\\.nuget\\packages\\fuzzysharp\\2.0.2\\fuzzysharp.2.0.2.nupkg.sha512",

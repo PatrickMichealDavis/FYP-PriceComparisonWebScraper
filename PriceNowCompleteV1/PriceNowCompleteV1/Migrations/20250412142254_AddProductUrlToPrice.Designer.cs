@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PriceNowCompleteV1.Data;
 
@@ -10,9 +11,10 @@ using PriceNowCompleteV1.Data;
 namespace PriceNowCompleteV1.Migrations
 {
     [DbContext(typeof(PriceNowDbContext))]
-    partial class PriceNowDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250412142254_AddProductUrlToPrice")]
+    partial class AddProductUrlToPrice
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

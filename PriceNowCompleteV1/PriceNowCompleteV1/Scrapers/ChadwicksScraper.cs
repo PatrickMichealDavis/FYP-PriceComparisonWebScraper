@@ -234,5 +234,10 @@ namespace PriceNowCompleteV1.Scrapers
             Console.WriteLine("Running partial scrape for Chadwicks");
             throw new NotImplementedException();
         }
+
+        public override Task PriceNow(Product product)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
