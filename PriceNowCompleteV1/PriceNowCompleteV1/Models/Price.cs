@@ -15,6 +15,7 @@ namespace PriceNowCompleteV1.Models
 
         [JsonIgnore]
         public Product Product { get; set; }
+       
         public Merchant Merchant { get; set; }
 
         public Price()

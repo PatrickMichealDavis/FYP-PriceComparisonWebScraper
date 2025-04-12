@@ -87,7 +87,8 @@ namespace PriceNowCompleteV1.Helpers
                                             {
                                                 PriceValue = price,
                                                 MerchantId = merchant.MerchantId,
-                                                ScrapedAt = DateTime.UtcNow
+                                                ScrapedAt = DateTime.UtcNow,
+                                                ProductUrl = productHref
                                             }
                                         }
                         };

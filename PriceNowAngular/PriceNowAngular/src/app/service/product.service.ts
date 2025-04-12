@@ -13,6 +13,7 @@ export class ProductService {
   private url = 'http://localhost:5002/api/admin';
   private getProductsUrl = '/getProducts';
   private compareUrl = '/compare';
+  private priceNowUrl = '/priceNow';
 
   private comparedProducts: Product[] = [];
 
@@ -27,5 +28,13 @@ export class ProductService {
         headers: { 'Content-Type': 'application/json' }
     });
 }
+
+priceNow(Product : Product) : Observable<Product> {
+    console.log('Product:', Product); 
+
+    return this.httpClient.post<Product>(this.url + this.priceNowUrl, Product, {
+      headers: { 'Content-Type': 'application/json' }
+  });
   
+}
 }

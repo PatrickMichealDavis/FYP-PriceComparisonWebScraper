@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PriceNowCompleteV1.DataParsers;
+using PriceNowCompleteV1.DTOs;
 using PriceNowCompleteV1.Helpers;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Models;
@@ -82,7 +83,7 @@ namespace PriceNowCompleteV1.Controllers
         }
 
         [HttpPost("priceNow")]
-        public async Task<IActionResult> PriceNow([FromBody] Product product)
+        public async Task<IActionResult> PriceNow([FromBody] ProductDTO product)
         {
             if (product == null)
             {
@@ -98,7 +99,7 @@ namespace PriceNowCompleteV1.Controllers
                 try
                 {
                     var scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
-                    await scraper.PriceNow(product); 
+                   // await scraper.PriceNow(product); 
                 }
                 catch (Exception e)
                 {

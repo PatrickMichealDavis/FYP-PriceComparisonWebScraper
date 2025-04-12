@@ -19,6 +19,7 @@ export class ProductTableComponent {
   dataTable: any;
   filteredProducts: Product[] = [];
   comparedList: Product[] = [];
+  productPricedNow: any;
 
   
 
@@ -96,6 +97,20 @@ export class ProductTableComponent {
 
 
   }
+
+  priceNow(product: Product): void {
+    console.log('Sending to priceNow:', JSON.stringify(product, null, 2));
+  
+    this.productService.priceNow(product).subscribe({
+      next: (data) => {
+        this.productPricedNow = data;
+        console.log('Updated Product:', data);
+      },
+      error: (err) => console.error('Error hitting priceNow endpoint:', err)
+    });
+  }
+  
+
 
   getDays(date: Date): string {
 
