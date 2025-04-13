@@ -19,18 +19,20 @@ namespace PriceNowCompleteV1.Controllers
         private readonly IPriceService _priceService;
         private readonly IMerchantService _merchantService;
         private readonly ILoggingService _loggingService;
+        private readonly IGenericWebScraper _scraper;
 
         public AdminController(
            IProductService productService,
            IPriceService priceService,
            IMerchantService merchantService,
-           ILoggingService loggingService)
+           ILoggingService loggingService,
+           IGenericWebScraper scraper)
         {
             _productService = productService;
             _priceService = priceService;
             _merchantService = merchantService;
             _loggingService = loggingService;
-
+            _scraper = scraper;
         }
 
         [HttpGet("getProducts")]
@@ -90,37 +92,21 @@ namespace PriceNowCompleteV1.Controllers
                 return BadRequest("Product cannot be null");
             }
 
-            var allMerchants = await _merchantService.GetAllMerchants();
-
-            var errors = new List<string>();
-
-            foreach (var merchant in allMerchants)
+            foreach (var price in product.Prices)
             {
                 try
                 {
-                    var scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
-                   // await scraper.PriceNow(product); 
+                    price.PriceValue = await _scraper.PriceNow(price.ProductUrl);
+                    price.ScrapedAt = DateTime.UtcNow;
                 }
-                catch (Exception e)
+                catch (Exception ex)
                 {
-                    await _loggingService.AddLog(new Logging
-                    {
-                        MerchantId = merchant.MerchantId,
-                        ScrapedAt = DateTime.UtcNow,
-                        Status = "Run full suite failed",
-                        ErrorMessage = e.Message
-                    });
-
-                    errors.Add($"Scraping failed for {merchant.Name}: {e.Message}");
+                    Console.WriteLine($"Price now failed for merchant {price.MerchantId} → {ex.Message}");
+                   
                 }
-            }
 
-            if (errors.Any())
-            {
-                return StatusCode(500, new { message = "One or more scrapers failed", errors });
             }
-
-            return Ok("Price now successfull");
+            return Ok(product);
         }
 
         [HttpGet("runFullSuite")]

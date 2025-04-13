@@ -12,7 +12,7 @@ namespace PriceNowCompleteV1.Scrapers
 
         public abstract Task RunPartialScrapeByMerchant(Merchant merchant);
 
-        public abstract Task PriceNow(Product product);
+       
        
     }
     

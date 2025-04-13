@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using PriceNowCompleteV1.Data;
 using PriceNowCompleteV1.Interfaces;
 using PriceNowCompleteV1.Repositories;
+using PriceNowCompleteV1.Scrapers;
 using PriceNowCompleteV1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +29,9 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IMerchantService, MerchantService>();
 builder.Services.AddScoped<IPriceService, PriceService>();
 builder.Services.AddScoped<ILoggingService, LoggingService>();
+
+builder.Services.AddScoped<IGenericWebScraper, GenericScraper>();
+
 
 
 var app = builder.Build();
