@@ -87,6 +87,8 @@ namespace PriceNowCompleteV1.Controllers
         [HttpPost("priceNow")]
         public async Task<IActionResult> PriceNow([FromBody] ProductDTO product)
         {
+           
+
             if (product == null)
             {
                 return BadRequest("Product cannot be null");
@@ -98,6 +100,7 @@ namespace PriceNowCompleteV1.Controllers
                 {
                     price.PriceValue = await _scraper.PriceNow(price.ProductUrl);
                     price.ScrapedAt = DateTime.UtcNow;
+                    
                 }
                 catch (Exception ex)
                 {
@@ -106,8 +109,12 @@ namespace PriceNowCompleteV1.Controllers
                 }
 
             }
+
+            
             return Ok(product);
         }
+
+        
 
         [HttpGet("runFullSuite")]
         public async Task<IActionResult> RunFullSuite()//this will create all scrapers in time

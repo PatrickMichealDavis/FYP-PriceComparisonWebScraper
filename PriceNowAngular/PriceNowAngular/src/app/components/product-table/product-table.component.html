@@ -106,3 +106,45 @@
     </div>
 </div>
 
+<!-- PriceNowModal--->
+<div class="modal-backdrop" *ngIf="showPriceModal"></div>
+
+<div class="modal show d-block" tabindex="-1" *ngIf="showPriceModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Price Now - {{ productPricedNow.name }}</h5>
+        <button type="button" class="btn-close" (click)="closeModal()"></button>
+      </div>
+
+      <div class="modal-body">
+        <p><strong>Description:</strong> {{ productPricedNow.description }}</p>
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Merchant</th>
+              <th>Price</th>
+              <th>Scraped</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let price of productPricedNow.prices.slice(0, 3)">
+              <td>{{ price.merchant.name || 'N/A' }}</td>
+              <td>€{{ price.priceValue }}</td>
+              <td>{{ getDays(price.scrapedAt) }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModal()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+

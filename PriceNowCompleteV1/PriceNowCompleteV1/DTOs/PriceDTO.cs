@@ -8,5 +8,7 @@
         public decimal PriceValue { get; set; }
         public DateTime ScrapedAt { get; set; }
         public string ProductUrl { get; set; }
+
+        public MerchantDTO Merchant { get; set; }
     }
 }

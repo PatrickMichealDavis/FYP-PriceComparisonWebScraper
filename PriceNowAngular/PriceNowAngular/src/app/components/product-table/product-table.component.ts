@@ -19,7 +19,9 @@ export class ProductTableComponent {
   dataTable: any;
   filteredProducts: Product[] = [];
   comparedList: Product[] = [];
-  productPricedNow: any;
+  productPricedNow: Product = new Product();
+  showPriceModal: boolean = false;
+ 
 
   
 
@@ -95,6 +97,7 @@ export class ProductTableComponent {
       error: (err) => console.error('Error fetching products', err)
     });
 
+    $('#wishListModal').modal('hide');
 
   }
 
@@ -104,13 +107,16 @@ export class ProductTableComponent {
     this.productService.priceNow(product).subscribe({
       next: (data) => {
         this.productPricedNow = data;
+        this.showPriceModal = true;
         console.log('Updated Product:', data);
       },
       error: (err) => console.error('Error hitting priceNow endpoint:', err)
     });
   }
-  
 
+  closeModal(): void {
+    this.showPriceModal = false;
+  }
 
   getDays(date: Date): string {
 
