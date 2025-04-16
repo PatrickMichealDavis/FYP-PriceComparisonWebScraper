@@ -26,12 +26,9 @@ export class ScraperService {
     return this.http.get(this.url + this.runFullSuitePartialUrl);
   }
 
-  runScraperByMerchant(merchantId: number, partial: boolean): void {
+  runScraperByMerchant(merchantId: number, partial: boolean): Observable<any> {
     const url = `${this.url}/${this.runScraperByMerchantUrl}?merchantId=${merchantId}&isPartial=${partial}`;
-    this.http.get(url).subscribe({
-      next: (response) => console.log('Scraper executed successfully:', response),
-      error: (error) => console.error('Error executing scraper:', error)
-    });
+    return this.http.get(url);
   }
 
   testAddProduct(): void {
@@ -44,8 +41,5 @@ export class ScraperService {
 
   getAllLogs(): Observable<Logging[]> {
     return this.http.get<Logging[]>(this.url + this.getLogsUrl);
-  }
-
-  
-  
+  }  
 }

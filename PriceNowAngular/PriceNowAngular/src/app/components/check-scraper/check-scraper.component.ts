@@ -79,9 +79,19 @@ export class CheckScraperComponent {
 
     const isPartial = this.selectedOption?.trim().toLowerCase() === "partial" ? true : false;
 
-    console.log("After processing, isPartial:", isPartial);
-    console.log("Scraping by merchant")
-    this.scraperService.runScraperByMerchant(this.selectedMerchant.merchantId,isPartial);
+    this.isScraping = true;
+
+    this.scraperService.runScraperByMerchant(this.selectedMerchant.merchantId, isPartial)
+      .subscribe({
+        next: (response) => {
+          console.log("Scraper executed successfully:", response);
+          this.isScraping = false;
+        },
+        error: (error) => {
+          console.error("Error executing scraper:", error);
+          this.isScraping = false;
+        }
+      });
   }
 
  
