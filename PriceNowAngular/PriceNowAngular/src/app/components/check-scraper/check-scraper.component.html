@@ -12,8 +12,8 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <button class="btn btn-success" (click)="runFullSuite()">Run Full Suite</button><br><br>
-            <button class="btn btn-warning" (click)="runFullSuitePartial()">Run Full Suite Partial</button><br><br>
+            <button class="btn btn-success" (click)="runFullSuite()" [disabled]="isScraping">Run Full Suite</button><br><br>
+            <button class="btn btn-warning" (click)="runFullSuitePartial()" [disabled]="isScraping">Run Full Suite Partial</button><br><br>
           <h6>Run Scraper by Merchant</h6>
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">

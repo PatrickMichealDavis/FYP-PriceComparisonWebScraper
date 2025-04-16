@@ -21,15 +21,12 @@ export class ProductTableComponent {
   comparedList: Product[] = [];
   productPricedNow: Product = new Product();
   showPriceModal: boolean = false;
+  isPricingNow = false;
  
-
-  
 
   constructor(public productService: ProductService) {
 
   }
-
-  
 
   //change to on refresh patrick when its working
   ngOnInit():void {
@@ -103,15 +100,19 @@ export class ProductTableComponent {
 
   priceNow(product: Product): void {
     console.log('Sending to priceNow:', JSON.stringify(product, null, 2));
-  
+    this.isPricingNow = true;
     this.productService.priceNow(product).subscribe({
       next: (data) => {
         this.productPricedNow = data;
         this.showPriceModal = true;
         console.log('Updated Product:', data);
+        this.isPricingNow = false;
       },
-      error: (err) => console.error('Error hitting priceNow endpoint:', err)
-    });
+      error: (err) => {
+        console.error('Error hitting priceNow endpoint:', err);
+        this.isPricingNow = false;
+      }
+      });
   }
 
   closeModal(): void {
@@ -148,6 +149,4 @@ export class ProductTableComponent {
 
     return `${diffInDays} days ago`;
   }
-  
-  
 }

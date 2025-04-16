@@ -14,6 +14,7 @@ export class CheckScraperComponent {
   selectedOption: string = '';
   selectedMerchant?: Merchant;
   merchantList:Merchant[]=[];
+  isScraping: boolean = false;
 
   constructor(public scraperService: ScraperService) { }
 
@@ -28,12 +29,32 @@ export class CheckScraperComponent {
 
   runFullSuite(): void {
     console.log('Running full suite');
-    this.scraperService.runFullSuite();
+    this.isScraping = true;  
+    this.scraperService.runFullSuite().subscribe({
+      next: (data) => {
+        console.log('Full suite success:', data);
+        this.isScraping = false; 
+      },
+      error: (err) => {
+        console.error('Full suite error:', err);
+        this.isScraping = false; 
+      }
+    });
   }
 
   runFullSuitePartial():void{
     console.log('Running full suite partial');
-    this.scraperService.runFullSuitePartial();
+    this.isScraping = true; 
+    this.scraperService.runFullSuitePartial().subscribe({
+      next: (data) => {
+        console.log('Full suite partial success:', data);
+        this.isScraping = false; 
+      },
+      error: (err) => {
+        console.error('Full suite partial error:', err);
+        this.isScraping = false; 
+      }
+    });
   }
 
   testAddProduct(): void {

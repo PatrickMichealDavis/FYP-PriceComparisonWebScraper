@@ -18,12 +18,12 @@ export class ScraperService {
 
   constructor(private http:HttpClient) { }
 
-  runFullSuite(): void {
-    this.http.get(this.url + this.runFullSuiteUrl).subscribe();
+  runFullSuite(): Observable<any> {
+    return this.http.get(this.url + this.runFullSuiteUrl);
   }
 
-  runFullSuitePartial(): void {
-    this.http.get(this.url + this.runFullSuitePartialUrl).subscribe();
+  runFullSuitePartial(): Observable<any> {
+    return this.http.get(this.url + this.runFullSuitePartialUrl);
   }
 
   runScraperByMerchant(merchantId: number, partial: boolean): void {

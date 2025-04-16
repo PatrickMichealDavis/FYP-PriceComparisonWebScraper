@@ -61,7 +61,7 @@
                 </td>
 
                 <td>
-                    <button class="btn btn-primary" (click)="priceNow(product)">PriceNow</button>                   
+                    <button class="btn btn-primary" (click)="priceNow(product)" [disabled]="isPricingNow">PriceNow</button>                   
                 </td>
             </tr>
         </tbody>

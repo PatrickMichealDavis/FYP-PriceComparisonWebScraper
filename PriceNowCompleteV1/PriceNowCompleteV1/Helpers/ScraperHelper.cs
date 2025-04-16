@@ -26,15 +26,6 @@ namespace PriceNowCompleteV1.Helpers
             var repeatedProductLinks = new HashSet<string>();
             var scrapedProductsRaw = new List<Product>();
 
-            //await Task.Delay(5000);
-
-            //var closeButton = await page.WaitForSelectorAsync("#lpclose", new WaitForSelectorOptions { Timeout = 5000 });
-            //if (closeButton != null)
-            //{
-            //    Console.WriteLine("Modal close button found. Clicking...");
-            //    await closeButton.ClickAsync();
-            //}
-
             while (hasMoreProducts)
             {
                 var htmlContent = await page.GetContentAsync();
