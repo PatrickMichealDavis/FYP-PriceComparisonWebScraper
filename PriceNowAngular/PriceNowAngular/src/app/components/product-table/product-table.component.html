@@ -124,6 +124,7 @@
         <table class="table table-striped">
           <thead>
             <tr>
+              <th>Changes</th>
               <th>Merchant</th>
               <th>Price</th>
               <th>Scraped</th>
@@ -131,16 +132,29 @@
           </thead>
           <tbody>
             <tr *ngFor="let price of productPricedNow.prices.slice(0, 3)">
+              <td>New</td>
               <td>{{ price.merchant.name || 'N/A' }}</td>
               <td>€{{ price.priceValue }}</td>
               <td>{{ getDays(price.scrapedAt) }}</td>
             </tr>
+            <tr>
+              <td colspan="4">
+                <hr />
+              </td>
+            </tr>
+            <tr *ngFor="let price of productToCompare.prices.slice(0, 3)">
+              <td>Old</td>
+              <td>{{ price.merchant.name || 'N/A' }}</td>
+              <td>€{{ price.priceValue }}</td>
+              <td>{{ getDays(price.scrapedAt) }}</td>
+            </tr>
+
           </tbody>
         </table>
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" (click)="closeModal()">Close</button>
+        <button type="button" class="btn btn-primary" (click)="closeModal()">Close</button>
       </div>
 
     </div>

@@ -22,6 +22,7 @@ export class ProductTableComponent {
   productPricedNow: Product = new Product();
   showPriceModal: boolean = false;
   isPricingNow = false;
+  productToCompare: Product = new Product();
  
 
   constructor(public productService: ProductService) {
@@ -101,6 +102,7 @@ export class ProductTableComponent {
   priceNow(product: Product): void {
     console.log('Sending to priceNow:', JSON.stringify(product, null, 2));
     this.isPricingNow = true;
+    this.productToCompare = product;
     this.productService.priceNow(product).subscribe({
       next: (data) => {
         this.productPricedNow = data;
