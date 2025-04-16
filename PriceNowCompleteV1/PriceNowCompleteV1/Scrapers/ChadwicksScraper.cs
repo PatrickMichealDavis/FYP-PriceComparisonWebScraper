@@ -86,65 +86,7 @@ namespace PriceNowCompleteV1.Scrapers
                     return;
                 }
 
-                //var deckingPanels = await page.EvaluateFunctionAsync<string>(
-                //    @"() => {
-                //    const links = Array.from(document.querySelectorAll('a'));
-                //    const deckingLink = links.find(link => link.innerText.includes('Decking & Panels'));
-                //    return deckingLink ? deckingLink.href : null;
-                //}"
-                //);
-
-                //if (deckingPanels != null)
-                //{
-                //    Console.WriteLine("Navigating to decking link...");
-                //    await page.GoToAsync(deckingPanels, new NavigationOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-
-                //    await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-                //    Console.WriteLine("Clicked on ' Decking' link.");
-                //}
-                //else
-                //{
-                //    Console.WriteLine("' Decking' link not found.");
-                //    await browser.CloseAsync();
-                //    return;
-                //}
-
-                //var timberDeckingLink = await page.EvaluateFunctionAsync<string>(
-                //    @"() => {
-                //    const links = Array.from(document.querySelectorAll('a'));
-                //    const deckingLink = links.find(link => link.innerText.includes('Timber Decking'));
-                //    return deckingLink ? deckingLink.href : null;
-                //}"
-                //);
-
-                //if (timberDeckingLink != null)
-                //{
-                //    Console.WriteLine("Navigating to Timber Decking link...");
-                //    await page.GoToAsync(timberDeckingLink, new NavigationOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-
-
-                //    await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
-                //    {
-                //        Timeout = 60000
-                //    });
-                //    Console.WriteLine("Clicked on 'Timber Decking' link.");
-                //}
-                //else
-                //{
-                //    Console.WriteLine("'Timber Decking' link not found.");
-                //    await browser.CloseAsync();
-                //    return;
-                //}
-
+               
                 var roughTimber = await page.EvaluateFunctionAsync<string>(
                    @"() => {
                     const links = Array.from(document.querySelectorAll('a'));

@@ -88,7 +88,6 @@ namespace PriceNowCompleteV1.Controllers
         public async Task<IActionResult> PriceNow([FromBody] ProductDTO product)
         {
            
-
             if (product == null)
             {
                 return BadRequest("Product cannot be null");
@@ -110,7 +109,6 @@ namespace PriceNowCompleteV1.Controllers
 
             }
 
-            
             return Ok(product);
         }
 

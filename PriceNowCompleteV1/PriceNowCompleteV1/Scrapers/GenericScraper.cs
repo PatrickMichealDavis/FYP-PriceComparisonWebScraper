@@ -37,8 +37,21 @@ namespace PriceNowCompleteV1.Scrapers
                 var htmlDoc = new HtmlDocument();
                 htmlDoc.LoadHtml(htmlContent);
 
+                if (productUrl.Contains("tjomahony",StringComparison.OrdinalIgnoreCase))
+                {
+                    var firstPrice = await page.EvaluateExpressionAsync<string>(
+                          @"document.querySelectorAll('span.price')[0].innerText");
+
+                    if (!string.IsNullOrWhiteSpace(firstPrice))
+                    {
+                        firstPrice = firstPrice.Replace("€", "").Trim();
+
+                        if (decimal.TryParse(firstPrice, out var result))
+                            return result;
+                    }
+                }
                 var price = await page.EvaluateExpressionAsync<string>(
-                            @"document.querySelectorAll('span.price')[1].innerText");
+                           @"document.querySelectorAll('span.price')[1].innerText");
 
                 if (!string.IsNullOrWhiteSpace(price))
                 {
