@@ -62,9 +62,15 @@ namespace PriceNowCompleteV1.Scrapers
                 }
 
             }
-            catch
+            catch (Exception ex)
             {
-
+                var Logging = new Logging
+                {
+                   // MerchantId = merchant.MerchantId,
+                    ScrapedAt = DateTime.UtcNow,
+                    Status = "failed",
+                    ErrorMessage =$"Price now scraper failed at url: {productUrl}" + ex.Message,
+                };
             }
             finally
             {

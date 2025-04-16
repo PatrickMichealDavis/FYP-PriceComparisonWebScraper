@@ -85,12 +85,11 @@ namespace PriceNowCompleteV1.Controllers
         }
 
         [HttpPost("priceNow")]
-        public async Task<IActionResult> PriceNow([FromBody] ProductDTO product)
+        public async Task<IActionResult> PriceNow([FromBody] ProductDTO product)//add better error handling
         {
-           
-            if (product == null)
+            if (product == null || product.Prices == null || product.Prices.Count == 0)
             {
-                return BadRequest("Product cannot be null");
+                return BadRequest("Product or prices cannot be null");
             }
 
             foreach (var price in product.Prices)
@@ -115,29 +114,32 @@ namespace PriceNowCompleteV1.Controllers
         
 
         [HttpGet("runFullSuite")]
-        public async Task<IActionResult> RunFullSuite()//this will create all scrapers in time
+        public async Task<IActionResult> RunFullSuite()
         {
-            var merchantId = 2;
-            var merchant = await _merchantService.GetMerchantById(merchantId);
+            var merchants = await _merchantService.GetAllMerchants();
 
-            try
+            foreach (var merchant in merchants)
             {
-                IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
-                await scraper.RunFullScrapeByMerchant(merchant);
-                return Ok("Scraping initiated");//too quick?
-            }
-            catch (Exception e)
-            {
-                await _loggingService.AddLog(new Logging
+                try
                 {
-                    MerchantId = merchant.MerchantId,
-                    ScrapedAt = DateTime.UtcNow,
-                    Status = "Run full suite failed",
-                    ErrorMessage = e.Message
-                });
+                    IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
+                    await scraper.RunFullScrapeByMerchant(merchant);
+                   
+                }
+                catch (Exception e)
+                {
+                    await _loggingService.AddLog(new Logging
+                    {
+                        MerchantId = merchant.MerchantId,
+                        ScrapedAt = DateTime.UtcNow,
+                        Status = "Run full suite failed",
+                        ErrorMessage = e.Message
+                    });
+                    return StatusCode(500, $"Error while Scraping for:{merchant.Name}");
+                }
+               
             }
-            return StatusCode(500, $"Error while Scraping for:{merchant.Name}");
-
+            return Ok("Scraping initiated for all merchants");
         }
 
         [HttpGet("runScraperByMerchant")]
@@ -251,8 +253,28 @@ namespace PriceNowCompleteV1.Controllers
         [HttpGet("runFullSuitePartial")]
         public async Task<IActionResult> RunFullSuitePartial()
         {
-            Console.WriteLine("Running partial scrape");
-            return Ok();
+            var merchants = await _merchantService.GetAllMerchants();
+
+            foreach (var merchant in merchants)
+            {
+                try
+                {
+                    IWebScraper scraper = WebScraperFactory.CreateScraper(merchant.Name, _productService, _loggingService);
+                    await scraper.RunPartialScrapeByMerchant(merchant);
+                }
+                catch (Exception e)
+                {
+                    await _loggingService.AddLog(new Logging
+                    {
+                        MerchantId = merchant.MerchantId,
+                        ScrapedAt = DateTime.UtcNow,
+                        Status = "Run full suite failed",
+                        ErrorMessage = e.Message
+                    });
+                    return StatusCode(500, $"Error while Scraping for:{merchant.Name}");
+                }
+            }
+            return Ok("Scraping initiated for all merchants");
         }
 
         

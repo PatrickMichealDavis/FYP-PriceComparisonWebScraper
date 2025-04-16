@@ -6,14 +6,14 @@
     "Category": "rough timber",
     "Unit": "1.5m x 10m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8767872Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4645781Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 195.72,
-        "ScrapedAt": "2025-04-12T16:21:50.8770764Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4649504Z",
         "ProductUrl": "https://www.chadwicks.ie/superfoil-insulation-1-5-x-10m-15m2-21450.html",
         "Merchant": null
       }
@@ -26,14 +26,14 @@
     "Category": "rough timber",
     "Unit": "50mm x 70mm x 3600mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8836405Z",
+    "UpdatedAt": "2025-04-16T11:01:47.47036Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 14.7,
-        "ScrapedAt": "2025-04-12T16:21:50.8836418Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4703616Z",
         "ProductUrl": "https://www.chadwicks.ie/gyproc-metal-stud-3600mm-70-s-50-27126.html",
         "Merchant": null
       }
@@ -46,14 +46,14 @@
     "Category": "rough timber",
     "Unit": "",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8838186Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4705928Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.25,
-        "ScrapedAt": "2025-04-12T16:21:50.8838188Z",
+        "ScrapedAt": "2025-04-16T11:01:47.470593Z",
         "ProductUrl": "https://www.chadwicks.ie/kpro-crete-3-1-sand-cement-34397.html",
         "Merchant": null
       }
@@ -66,14 +66,14 @@
     "Category": "rough timber",
     "Unit": "40mm x 400mm x 400mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8838886Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4706921Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.22,
-        "ScrapedAt": "2025-04-12T16:21:50.8838888Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4706924Z",
         "ProductUrl": "https://www.chadwicks.ie/cashel-40-x-400-x-400mm-natural-paving-slab-26432.html",
         "Merchant": null
       }
@@ -86,14 +86,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8839375Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4707486Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 13.75,
-        "ScrapedAt": "2025-04-12T16:21:50.8839377Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4707488Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-44-rough-white-deal-treated-14014.html",
         "Merchant": null
       }
@@ -106,14 +106,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8839934Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4708049Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 5.67,
-        "ScrapedAt": "2025-04-12T16:21:50.8839936Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4708051Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/2-4m-100-x-44-rough-white-deal-14559.html",
         "Merchant": null
       }
@@ -126,14 +126,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8840395Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4708565Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 20.54,
-        "ScrapedAt": "2025-04-12T16:21:50.8840397Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4708567Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-150-x-44-rough-white-deal-treated-14020.html",
         "Merchant": null
       }
@@ -146,14 +146,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8840876Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4709238Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.85,
-        "ScrapedAt": "2025-04-12T16:21:50.8840878Z",
+        "ScrapedAt": "2025-04-16T11:01:47.470924Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-22-rough-white-deal-treated-14003.html",
         "Merchant": null
       }
@@ -166,14 +166,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8841295Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4709889Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 3.48,
-        "ScrapedAt": "2025-04-12T16:21:50.8841297Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4709905Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-22-rough-white-deal-treated-14053.html",
         "Merchant": null
       }
@@ -186,14 +186,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8841833Z",
+    "UpdatedAt": "2025-04-16T11:01:47.471057Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.27,
-        "ScrapedAt": "2025-04-12T16:21:50.8841835Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4710573Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-150-x-22-rough-white-deal-treated-16327.html",
         "Merchant": null
       }
@@ -206,14 +206,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8842329Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4711329Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 5.38,
-        "ScrapedAt": "2025-04-12T16:21:50.8842331Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4711333Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-35-rough-white-deal-treated-14063.html",
         "Merchant": null
       }
@@ -226,14 +226,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8842801Z",
+    "UpdatedAt": "2025-04-16T11:01:47.471204Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 9.15,
-        "ScrapedAt": "2025-04-12T16:21:50.8842803Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4712042Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-75-x-44-rough-white-deal-14552.html",
         "Merchant": null
       }
@@ -246,14 +246,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8843204Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4712547Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.79,
-        "ScrapedAt": "2025-04-12T16:21:50.8843206Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4712549Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-44-rough-white-deal-treated-14007.html",
         "Merchant": null
       }
@@ -266,14 +266,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8843944Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4713614Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 11.34,
-        "ScrapedAt": "2025-04-12T16:21:50.8843946Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4713617Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-44-rough-white-deal-14566.html",
         "Merchant": null
       }
@@ -286,14 +286,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8844377Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4714102Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 8.5,
-        "ScrapedAt": "2025-04-12T16:21:50.8844379Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4714104Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-100-x-44-rough-white-deal-14562.html",
         "Merchant": null
       }
@@ -306,14 +306,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:50.8844853Z",
+    "UpdatedAt": "2025-04-16T11:01:47.4714629Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 23.44,
-        "ScrapedAt": "2025-04-12T16:21:50.8844855Z",
+        "ScrapedAt": "2025-04-16T11:01:47.4714631Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-75-rough-white-deal-treated-14081.html",
         "Merchant": null
       }
@@ -326,14 +326,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3527905Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9414085Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 11.98,
-        "ScrapedAt": "2025-04-12T16:21:51.3527933Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9414114Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-175-x-22-rough-white-deal-treated-14004.html",
         "Merchant": null
       }
@@ -346,14 +346,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3531038Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9417034Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.14,
-        "ScrapedAt": "2025-04-12T16:21:51.3531054Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9417039Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-44-rough-white-deal-14538.html",
         "Merchant": null
       }
@@ -366,14 +366,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3531831Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9417516Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 12.79,
-        "ScrapedAt": "2025-04-12T16:21:51.3531833Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9417518Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-150-x-44-rough-white-deal-14620.html",
         "Merchant": null
       }
@@ -386,14 +386,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3532401Z",
+    "UpdatedAt": "2025-04-16T11:01:47.941802Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.14,
-        "ScrapedAt": "2025-04-12T16:21:51.3532403Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9418022Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-22-rough-white-deal-14238.html",
         "Merchant": null
       }
@@ -406,14 +406,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3532882Z",
+    "UpdatedAt": "2025-04-16T11:01:47.941846Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 34.96,
-        "ScrapedAt": "2025-04-12T16:21:51.3532884Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9418462Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-150-x-75-rough-white-deal-treated-14015.html",
         "Merchant": null
       }
@@ -426,14 +426,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3533464Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9418975Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 15.35,
-        "ScrapedAt": "2025-04-12T16:21:51.3533466Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9418977Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-22-rough-white-deal-treated-14009.html",
         "Merchant": null
       }
@@ -446,14 +446,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3534067Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9419376Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 12.76,
-        "ScrapedAt": "2025-04-12T16:21:51.3534071Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9419377Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-100-x-44-rough-white-deal-14568.html",
         "Merchant": null
       }
@@ -466,14 +466,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3534789Z",
+    "UpdatedAt": "2025-04-16T11:01:47.941977Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 14.11,
-        "ScrapedAt": "2025-04-12T16:21:51.3534794Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9419771Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-125-x-44-rough-white-deal-14608.html",
         "Merchant": null
       }
@@ -486,14 +486,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3535647Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9420238Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 12.87,
-        "ScrapedAt": "2025-04-12T16:21:51.353565Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9420239Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-22-rough-white-deal-14324.html",
         "Merchant": null
       }
@@ -506,14 +506,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3536246Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9420721Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 4.9,
-        "ScrapedAt": "2025-04-12T16:21:51.3536249Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9420723Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-35-rough-white-deal-14380.html",
         "Merchant": null
       }
@@ -526,14 +526,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3536986Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9421186Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 18.77,
-        "ScrapedAt": "2025-04-12T16:21:51.353699Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9421187Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-75-rough-white-deal-14738.html",
         "Merchant": null
       }
@@ -546,14 +546,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:51.3537531Z",
+    "UpdatedAt": "2025-04-16T11:01:47.9421615Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.27,
-        "ScrapedAt": "2025-04-12T16:21:51.3537533Z",
+        "ScrapedAt": "2025-04-16T11:01:47.9421616Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-75-x-44-rough-white-deal-treated-14073.html",
         "Merchant": null
       }
@@ -566,14 +566,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.137495Z",
+    "UpdatedAt": "2025-04-16T11:01:48.879256Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 3.08,
-        "ScrapedAt": "2025-04-12T16:21:56.1374981Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8792591Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-22-rough-white-deal-14224.html",
         "Merchant": null
       }
@@ -586,14 +586,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1377468Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8794375Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.86,
-        "ScrapedAt": "2025-04-12T16:21:56.1377472Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8794377Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-175-x-22-rough-white-deal-14294.html",
         "Merchant": null
       }
@@ -606,14 +606,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1378173Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8794944Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 14.93,
-        "ScrapedAt": "2025-04-12T16:21:56.1378175Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8794946Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-150-x-44-rough-white-deal-14622.html",
         "Merchant": null
       }
@@ -626,14 +626,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1379055Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8795558Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 4.58,
-        "ScrapedAt": "2025-04-12T16:21:56.1379058Z",
+        "ScrapedAt": "2025-04-16T11:01:48.879556Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/2-4m-75-x-44-rough-white-deal-14545.html",
         "Merchant": null
       }
@@ -646,14 +646,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1379622Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8796012Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.58,
-        "ScrapedAt": "2025-04-12T16:21:56.1379625Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8796014Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-125-x-44-rough-white-deal-14604.html",
         "Merchant": null
       }
@@ -666,14 +666,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1380506Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8796409Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 17.05,
-        "ScrapedAt": "2025-04-12T16:21:56.1380514Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8796458Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-150-x-44-rough-white-deal-14624.html",
         "Merchant": null
       }
@@ -686,14 +686,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1381113Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8796865Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 30.82,
-        "ScrapedAt": "2025-04-12T16:21:56.1381115Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8796867Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-44-rough-white-deal-treated-16330.html",
         "Merchant": null
       }
@@ -706,14 +706,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1381579Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8797354Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 28.09,
-        "ScrapedAt": "2025-04-12T16:21:56.1381581Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8797356Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-225-x-44-rough-white-deal-14674.html",
         "Merchant": null
       }
@@ -726,14 +726,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1382079Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8797697Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 19.2,
-        "ScrapedAt": "2025-04-12T16:21:56.1382082Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8797698Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-150-x-44-rough-white-deal-14626.html",
         "Merchant": null
       }
@@ -746,14 +746,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1382616Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8798085Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 15.88,
-        "ScrapedAt": "2025-04-12T16:21:56.1382619Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8798086Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-125-x-44-rough-white-deal-14610.html",
         "Merchant": null
       }
@@ -766,14 +766,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 50mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.1383245Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8798478Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 3.27,
-        "ScrapedAt": "2025-04-12T16:21:56.1383248Z",
+        "ScrapedAt": "2025-04-16T11:01:48.879848Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-50-x-22-rough-white-deal-treated-14052.html",
         "Merchant": null
       }
@@ -786,14 +786,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:21:56.138391Z",
+    "UpdatedAt": "2025-04-16T11:01:48.8798902Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 7.08,
-        "ScrapedAt": "2025-04-12T16:21:56.1383914Z",
+        "ScrapedAt": "2025-04-16T11:01:48.8798904Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-0m-100-x-44-rough-white-deal-14560.html",
         "Merchant": null
       }
@@ -806,14 +806,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1033909Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9107239Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 5.72,
-        "ScrapedAt": "2025-04-12T16:22:01.1033935Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9107269Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-0m-75-x-44-rough-white-deal-14546.html",
         "Merchant": null
       }
@@ -826,14 +826,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.103515Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9108386Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 24.97,
-        "ScrapedAt": "2025-04-12T16:22:01.1035152Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9108387Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-44-rough-white-deal-14672.html",
         "Merchant": null
       }
@@ -846,14 +846,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 6.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1035415Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9108648Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 37.69,
-        "ScrapedAt": "2025-04-12T16:22:01.1035416Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9108649Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/6-0m-150-x-44-rough-white-deal-14628.html",
         "Merchant": null
       }
@@ -866,14 +866,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.103564Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9108856Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 42.57,
-        "ScrapedAt": "2025-04-12T16:22:01.1035641Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9108857Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-75-rough-white-deal-14824.html",
         "Merchant": null
       }
@@ -886,14 +886,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1035929Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9109054Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.86,
-        "ScrapedAt": "2025-04-12T16:22:01.1035931Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9109055Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-35-white-deal-rough-treated-14146.html",
         "Merchant": null
       }
@@ -906,14 +906,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1036223Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9109462Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.3,
-        "ScrapedAt": "2025-04-12T16:22:01.1036225Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9109464Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-75-x-44-rough-white-deal-14554.html",
         "Merchant": null
       }
@@ -926,14 +926,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1036538Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9110515Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 18.73,
-        "ScrapedAt": "2025-04-12T16:22:01.1036539Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9110521Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-225-x-44-rough-white-deal-14668.html",
         "Merchant": null
       }
@@ -946,14 +946,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.103675Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9110913Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 14.61,
-        "ScrapedAt": "2025-04-12T16:22:01.1036752Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9110914Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-1m-100-x-44-rough-white-deal-treated-14026.html",
         "Merchant": null
       }
@@ -966,14 +966,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1036959Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9111164Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 21.86,
-        "ScrapedAt": "2025-04-12T16:22:01.103696Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9111166Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-225-x-44-rough-white-deal-14670.html",
         "Merchant": null
       }
@@ -986,14 +986,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1037163Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9111368Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 9.91,
-        "ScrapedAt": "2025-04-12T16:22:01.1037164Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9111369Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-100-x-44-rough-white-deal-14564.html",
         "Merchant": null
       }
@@ -1006,14 +1006,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1037371Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9111569Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 24.03,
-        "ScrapedAt": "2025-04-12T16:22:01.1037372Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9111571Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-175-x-44-rough-white-deal-treated-14046.html",
         "Merchant": null
       }
@@ -1026,14 +1026,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:01.1037583Z",
+    "UpdatedAt": "2025-04-16T11:01:49.9111766Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 21.78,
-        "ScrapedAt": "2025-04-12T16:22:01.1037585Z",
+        "ScrapedAt": "2025-04-16T11:01:49.9111767Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-175-x-44-rough-white-deal-14640.html",
         "Merchant": null
       }
@@ -1046,14 +1046,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 75mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0977539Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5794713Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 3.71,
-        "ScrapedAt": "2025-04-12T16:22:06.0977577Z",
+        "ScrapedAt": "2025-04-16T11:01:50.579474Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/2-4m-75-x-35-rough-white-deal-14386.html",
         "Merchant": null
       }
@@ -1066,14 +1066,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0979018Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5795907Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 14.53,
-        "ScrapedAt": "2025-04-12T16:22:06.0979021Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5795909Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-175-x-44-rough-white-deal-14634.html",
         "Merchant": null
       }
@@ -1086,14 +1086,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0979347Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5796166Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 16.95,
-        "ScrapedAt": "2025-04-12T16:22:06.097935Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5796167Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-175-x-44-rough-white-deal-14636.html",
         "Merchant": null
       }
@@ -1106,14 +1106,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0979772Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5796562Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.86,
-        "ScrapedAt": "2025-04-12T16:22:06.0979775Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5796563Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-75-x-44-rough-white-deal-14548.html",
         "Merchant": null
       }
@@ -1126,14 +1126,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0980048Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5796773Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.66,
-        "ScrapedAt": "2025-04-12T16:22:06.098005Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5796774Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-0m-150-x-44-rough-white-deal-14618.html",
         "Merchant": null
       }
@@ -1146,14 +1146,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0980321Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5797113Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 23.92,
-        "ScrapedAt": "2025-04-12T16:22:06.0980322Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5797115Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-75-x-44-furring-piece-cut-diag-2-x-4-8m-pcs-14934.html",
         "Merchant": null
       }
@@ -1166,14 +1166,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.098155Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5797534Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 21.25,
-        "ScrapedAt": "2025-04-12T16:22:06.0981555Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5797535Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-44-furring-piece-cut-diag-2-x-4-8m-pcs-14918.html",
         "Merchant": null
       }
@@ -1186,14 +1186,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0982024Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5797751Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.88,
-        "ScrapedAt": "2025-04-12T16:22:06.0982027Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5797752Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/2-4m-100-x-44-rough-white-deal-treated-14214.html",
         "Merchant": null
       }
@@ -1206,14 +1206,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 100mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0982346Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5797963Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.42,
-        "ScrapedAt": "2025-04-12T16:22:06.0982348Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5797964Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-100-x-22-rough-white-deal-treated-14016.html",
         "Merchant": null
       }
@@ -1226,14 +1226,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0982618Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5798164Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 52.55,
-        "ScrapedAt": "2025-04-12T16:22:06.098262Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5798165Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-75-white-deal-rough-treated-16322.html",
         "Merchant": null
       }
@@ -1246,14 +1246,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0982943Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5798379Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 47.88,
-        "ScrapedAt": "2025-04-12T16:22:06.0982945Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5798381Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-225-x-75-rough-white-deal-14826.html",
         "Merchant": null
       }
@@ -1266,14 +1266,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:06.0983209Z",
+    "UpdatedAt": "2025-04-16T11:01:50.5798568Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 33.11,
-        "ScrapedAt": "2025-04-12T16:22:06.0983211Z",
+        "ScrapedAt": "2025-04-16T11:01:50.5798569Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-175-x-75-rough-white-deal-14794.html",
         "Merchant": null
       }
@@ -1286,14 +1286,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4969387Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1051298Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 28.28,
-        "ScrapedAt": "2025-04-12T16:22:11.4969434Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1051335Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-150-x-75-rough-white-deal-14780.html",
         "Merchant": null
       }
@@ -1306,14 +1306,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4970691Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1052411Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 15.61,
-        "ScrapedAt": "2025-04-12T16:22:11.4970692Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1052415Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-0m-225-x-44-rough-white-deal-14666.html",
         "Merchant": null
       }
@@ -1326,14 +1326,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 6.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4971026Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1052678Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 41.18,
-        "ScrapedAt": "2025-04-12T16:22:11.4971027Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1052679Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/6-0m-175-x-44-rough-white-deal-14642.html",
         "Merchant": null
       }
@@ -1346,14 +1346,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4971253Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1052946Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 19.36,
-        "ScrapedAt": "2025-04-12T16:22:11.4971255Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1052949Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-175-x-44-rough-white-deal-14638.html",
         "Merchant": null
       }
@@ -1366,14 +1366,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.497152Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1053184Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 12.1,
-        "ScrapedAt": "2025-04-12T16:22:11.4971522Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1053186Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-0m-175-x-44-rough-white-deal-14632.html",
         "Merchant": null
       }
@@ -1386,14 +1386,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4971793Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1053432Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 12.35,
-        "ScrapedAt": "2025-04-12T16:22:11.4971795Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1053433Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-125-x-44-rough-white-deal-14606.html",
         "Merchant": null
       }
@@ -1406,14 +1406,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4972798Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1053745Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 8.01,
-        "ScrapedAt": "2025-04-12T16:22:11.4972802Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1053746Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-75-x-44-rough-white-deal-14550.html",
         "Merchant": null
       }
@@ -1426,14 +1426,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 2.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4973066Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1053985Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 5.25,
-        "ScrapedAt": "2025-04-12T16:22:11.4973068Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1053986Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/2-7m-75-x-44-rough-white-deal-14544.html",
         "Merchant": null
       }
@@ -1446,14 +1446,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 115mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4973267Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1054184Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.46,
-        "ScrapedAt": "2025-04-12T16:22:11.4973268Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1054185Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-115-x-35-rough-white-deal-14424.html",
         "Merchant": null
       }
@@ -1466,14 +1466,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4973479Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1054422Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 9.68,
-        "ScrapedAt": "2025-04-12T16:22:11.4973493Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1054423Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-35-rough-white-deal-14410.html",
         "Merchant": null
       }
@@ -1486,14 +1486,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 75mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4973728Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1054653Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 7.44,
-        "ScrapedAt": "2025-04-12T16:22:11.497373Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1054654Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-75-x-35-rough-white-deal-14394.html",
         "Merchant": null
       }
@@ -1506,14 +1506,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 50mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:11.4973969Z",
+    "UpdatedAt": "2025-04-16T11:01:51.1054885Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 2.88,
-        "ScrapedAt": "2025-04-12T16:22:11.4973971Z",
+        "ScrapedAt": "2025-04-16T11:01:51.1054886Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-50-x-22-rough-white-deal-14223.html",
         "Merchant": null
       }
@@ -1526,14 +1526,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 2.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6977069Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0738441Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 11.12,
-        "ScrapedAt": "2025-04-12T16:22:16.69771Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0738472Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/2-7m-75-x-44-imported-rough-white-deal-15375.html",
         "Merchant": null
       }
@@ -1546,14 +1546,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 100mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6978092Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0739471Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 2.42,
-        "ScrapedAt": "2025-04-12T16:22:16.6978094Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0739472Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/100-x-35-imported-white-deal-rough-wdr-15373.html",
         "Merchant": null
       }
@@ -1566,14 +1566,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.69783Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0739683Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 7.52,
-        "ScrapedAt": "2025-04-12T16:22:16.6978302Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0739685Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/150-x-44-imported-rough-white-deal-treated-14897.html",
         "Merchant": null
       }
@@ -1586,14 +1586,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6978673Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0739876Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 40.58,
-        "ScrapedAt": "2025-04-12T16:22:16.6978676Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0739877Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-150-x-44-imported-rough-white-deal-treated-14896.html",
         "Merchant": null
       }
@@ -1606,14 +1606,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6978925Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0740063Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 9.52,
-        "ScrapedAt": "2025-04-12T16:22:16.6978927Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0740064Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-35-imported-rough-white-deal-14895.html",
         "Merchant": null
       }
@@ -1626,14 +1626,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6979195Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0740304Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 40.9,
-        "ScrapedAt": "2025-04-12T16:22:16.6979198Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0740306Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-75-imported-rough-white-deal-treated-14881.html",
         "Merchant": null
       }
@@ -1646,14 +1646,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 100mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6979577Z",
+    "UpdatedAt": "2025-04-16T11:01:54.074061Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 8.52,
-        "ScrapedAt": "2025-04-12T16:22:16.697958Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0740611Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/100-x-75-imported-rough-white-deal-treated-14880.html",
         "Merchant": null
       }
@@ -1666,14 +1666,14 @@
     "Category": "rough timber",
     "Unit": "36mm x 50mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6979871Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0740771Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 11.23,
-        "ScrapedAt": "2025-04-12T16:22:16.6979873Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0740772Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-1m-50-x-36-imported-white-deal-rough-sr82-14866.html",
         "Merchant": null
       }
@@ -1686,14 +1686,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6980162Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0740934Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 20.43,
-        "ScrapedAt": "2025-04-12T16:22:16.6980165Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0740935Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-35-imported-rough-white-deal-treated-14847.html",
         "Merchant": null
       }
@@ -1706,14 +1706,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 100mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6980464Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0741099Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 4.26,
-        "ScrapedAt": "2025-04-12T16:22:16.6980466Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0741101Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/100-x-35-imported-rough-white-deal-treated-14846.html",
         "Merchant": null
       }
@@ -1726,14 +1726,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 50mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6980727Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0741255Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 11.46,
-        "ScrapedAt": "2025-04-12T16:22:16.6980729Z",
+        "ScrapedAt": "2025-04-16T11:01:54.0741256Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-50-x-44-imported-rough-white-deal-treated-14770.html",
         "Merchant": null
       }
@@ -1746,14 +1746,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 50mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:16.6980997Z",
+    "UpdatedAt": "2025-04-16T11:01:54.0741419Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 2.73,
-        "ScrapedAt": "2025-04-12T16:22:16.6981Z",
+        "ScrapedAt": "2025-04-16T11:01:54.074142Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/50-x-44-imported-rough-white-deal-treated-14769.html",
         "Merchant": null
       }
@@ -1766,14 +1766,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0701134Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7609211Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 24.22,
-        "ScrapedAt": "2025-04-12T16:22:22.070117Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7609242Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-1m-100-x-44-imported-rough-white-deal-14766.html",
         "Merchant": null
       }
@@ -1786,14 +1786,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0702026Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7609985Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 40.96,
-        "ScrapedAt": "2025-04-12T16:22:22.0702028Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7609986Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-1m-175-x-44-imported-rough-white-deal-14765.html",
         "Merchant": null
       }
@@ -1806,14 +1806,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 3.3m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0702242Z",
+    "UpdatedAt": "2025-04-16T11:01:54.76102Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 23.79,
-        "ScrapedAt": "2025-04-12T16:22:22.0702243Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7610201Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-3m-150-x-44-imported-rough-white-deal-14696.html",
         "Merchant": null
       }
@@ -1826,14 +1826,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0702416Z",
+    "UpdatedAt": "2025-04-16T11:01:54.761037Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 54.39,
-        "ScrapedAt": "2025-04-12T16:22:22.0702418Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7610371Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-1m-225-x-44-truss-timber-c24-rough-white-deal-17214.html",
         "Merchant": null
       }
@@ -1846,14 +1846,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0702591Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7610539Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 38.39,
-        "ScrapedAt": "2025-04-12T16:22:22.0702593Z",
+        "ScrapedAt": "2025-04-16T11:01:54.761054Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-225-x-44-truss-timber-c24-rough-white-deal-17212.html",
         "Merchant": null
       }
@@ -1866,14 +1866,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 150mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0702773Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7610708Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 26.3,
-        "ScrapedAt": "2025-04-12T16:22:22.0702774Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7610709Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-150-x-35-imported-rough-white-deal-14841.html",
         "Merchant": null
       }
@@ -1886,14 +1886,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 5.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0702932Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7610861Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 125.63,
-        "ScrapedAt": "2025-04-12T16:22:22.0702933Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7610863Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-7m-225-x-75-imported-rough-white-deal-14817.html",
         "Merchant": null
       }
@@ -1906,14 +1906,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0703102Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7611114Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 80.48,
-        "ScrapedAt": "2025-04-12T16:22:22.0703103Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7611116Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-1m-225-x-75-imported-rough-white-deal-14814.html",
         "Merchant": null
       }
@@ -1926,14 +1926,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0703262Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7611286Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 71.02,
-        "ScrapedAt": "2025-04-12T16:22:22.0703263Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7611287Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-225-x-75-imported-rough-white-deal-14813.html",
         "Merchant": null
       }
@@ -1946,14 +1946,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0703429Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7611517Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 66.28,
-        "ScrapedAt": "2025-04-12T16:22:22.070343Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7611518Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-225-x-75-imported-rough-white-deal-14812.html",
         "Merchant": null
       }
@@ -1966,14 +1966,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 225mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.070359Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7611691Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 47.34,
-        "ScrapedAt": "2025-04-12T16:22:22.0703591Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7611692Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-0m-225-x-75-imported-rough-white-deal-14811.html",
         "Merchant": null
       }
@@ -1986,14 +1986,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 3.9m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:22.0703751Z",
+    "UpdatedAt": "2025-04-16T11:01:54.7611892Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 31.33,
-        "ScrapedAt": "2025-04-12T16:22:22.0703752Z",
+        "ScrapedAt": "2025-04-16T11:01:54.7611893Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-9m-175-x-44-imported-rough-white-deal-14810.html",
         "Merchant": null
       }
@@ -2006,14 +2006,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9095945Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1155792Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 26.4,
-        "ScrapedAt": "2025-04-12T16:22:28.9095985Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1155842Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-125-x-44-imported-rough-white-deal-14809.html",
         "Merchant": null
       }
@@ -2026,14 +2026,14 @@
     "Category": "rough timber",
     "Unit": "36mm x 50mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9097231Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1157194Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 6.67,
-        "ScrapedAt": "2025-04-12T16:22:28.9097233Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1157196Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-50-x-36-imported-wh-deal-rough-sr82-treated-wc-14807.html",
         "Merchant": null
       }
@@ -2046,14 +2046,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 3.3m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.909755Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1157661Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 26.51,
-        "ScrapedAt": "2025-04-12T16:22:28.9097552Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1157663Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-3m-175-x-44-imported-rough-white-deal-14659.html",
         "Merchant": null
       }
@@ -2066,14 +2066,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9097784Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1157897Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 23.2,
-        "ScrapedAt": "2025-04-12T16:22:28.9097787Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1157899Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-100-x-44-imported-rough-white-deal-14598.html",
         "Merchant": null
       }
@@ -2086,14 +2086,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 100mm x 2.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9098017Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1158127Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 13.26,
-        "ScrapedAt": "2025-04-12T16:22:28.909802Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1158129Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/2-4m-100-x-44-imported-rough-white-deal-14591.html",
         "Merchant": null
       }
@@ -2106,14 +2106,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9098242Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1158319Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 36.15,
-        "ScrapedAt": "2025-04-12T16:22:28.9098244Z",
+        "ScrapedAt": "2025-04-16T11:01:56.115832Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-175-x-44-imported-rough-white-deal-14499.html",
         "Merchant": null
       }
@@ -2126,14 +2126,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9098456Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1158534Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 25.95,
-        "ScrapedAt": "2025-04-12T16:22:28.9098458Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1158536Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-150-x-44-imported-rough-white-deal-14498.html",
         "Merchant": null
       }
@@ -2146,14 +2146,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9098679Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1158729Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 17.3,
-        "ScrapedAt": "2025-04-12T16:22:28.9098681Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1158731Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-75-x-44-imported-rough-white-deal-14492.html",
         "Merchant": null
       }
@@ -2166,14 +2166,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9098888Z",
+    "UpdatedAt": "2025-04-16T11:01:56.115901Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 32.44,
-        "ScrapedAt": "2025-04-12T16:22:28.909889Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1159011Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-150-x-44-imported-rough-white-deal-14491.html",
         "Merchant": null
       }
@@ -2186,14 +2186,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9099112Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1159216Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 21.62,
-        "ScrapedAt": "2025-04-12T16:22:28.9099114Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1159218Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-0m-150-x-44-imported-rough-white-deal-14490.html",
         "Merchant": null
       }
@@ -2206,14 +2206,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 3.9m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9099337Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1159381Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 24.51,
-        "ScrapedAt": "2025-04-12T16:22:28.9099339Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1159382Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-9m-125-x-44-imported-rough-white-deal-14489.html",
         "Merchant": null
       }
@@ -2226,14 +2226,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 50mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:28.9099556Z",
+    "UpdatedAt": "2025-04-16T11:01:56.1159551Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 11.37,
-        "ScrapedAt": "2025-04-12T16:22:28.9099557Z",
+        "ScrapedAt": "2025-04-16T11:01:56.1159552Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-50-x-44-imported-rough-white-deal-14416.html",
         "Merchant": null
       }
@@ -2246,14 +2246,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8067246Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9350589Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 69.97,
-        "ScrapedAt": "2025-04-12T16:22:34.8067278Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9350622Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-225-x-44-imported-rough-white-deal-14403.html",
         "Merchant": null
       }
@@ -2266,14 +2266,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8068197Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9351561Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 36.76,
-        "ScrapedAt": "2025-04-12T16:22:34.8068198Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9351563Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-1m-150-x-44-imported-rough-white-deal-14398.html",
         "Merchant": null
       }
@@ -2286,14 +2286,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8068408Z",
+    "UpdatedAt": "2025-04-16T11:01:57.935178Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 22.63,
-        "ScrapedAt": "2025-04-12T16:22:34.8068409Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9351782Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-125-x-44-imported-rough-white-deal-14397.html",
         "Merchant": null
       }
@@ -2306,14 +2306,14 @@
     "Category": "rough timber",
     "Unit": "36mm x 50mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8068578Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9351959Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 1.59,
-        "ScrapedAt": "2025-04-12T16:22:34.8068579Z",
+        "ScrapedAt": "2025-04-16T11:01:57.935196Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/50-x-36-imported-white-deal-rough-sr82-treated-14373.html",
         "Merchant": null
       }
@@ -2326,14 +2326,14 @@
     "Category": "rough timber",
     "Unit": "36mm x 50mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8068753Z",
+    "UpdatedAt": "2025-04-16T11:01:57.935215Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 2.2,
-        "ScrapedAt": "2025-04-12T16:22:34.8068754Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9352151Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/50-x-36-imported-white-deal-rough-sr82-14372.html",
         "Merchant": null
       }
@@ -2346,14 +2346,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 7.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8068912Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9352312Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 103.97,
-        "ScrapedAt": "2025-04-12T16:22:34.8068913Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9352313Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/7-8m-225-x-44-truss-timber-c24-rough-white-deal-14356.html",
         "Merchant": null
       }
@@ -2366,14 +2366,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 150mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8069084Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9352493Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 20.43,
-        "ScrapedAt": "2025-04-12T16:22:34.8069085Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9352494Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-150-x-22-imported-rough-white-deal-14355.html",
         "Merchant": null
       }
@@ -2386,14 +2386,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 7.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.806925Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9352659Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 95.98,
-        "ScrapedAt": "2025-04-12T16:22:34.8069251Z",
+        "ScrapedAt": "2025-04-16T11:01:57.935266Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/7-2m-225-x-44-truss-timber-c24-rough-white-deal-14352.html",
         "Merchant": null
       }
@@ -2406,14 +2406,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8069417Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9352836Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 23.09,
-        "ScrapedAt": "2025-04-12T16:22:34.8069418Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9352838Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-175-x-22-imported-rough-white-deal-14344.html",
         "Merchant": null
       }
@@ -2426,14 +2426,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8069583Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9352997Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 13.81,
-        "ScrapedAt": "2025-04-12T16:22:34.8069584Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9352999Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-22-imported-rough-white-deal-treated-14341.html",
         "Merchant": null
       }
@@ -2446,14 +2446,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 3.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8069751Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9353175Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 28.92,
-        "ScrapedAt": "2025-04-12T16:22:34.8069752Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9353176Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-6m-175-x-44-imported-rough-white-deal-14338.html",
         "Merchant": null
       }
@@ -2466,14 +2466,14 @@
     "Category": "rough timber",
     "Unit": "36mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:34.8069911Z",
+    "UpdatedAt": "2025-04-16T11:01:57.9353337Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 7.61,
-        "ScrapedAt": "2025-04-12T16:22:34.8069912Z",
+        "ScrapedAt": "2025-04-16T11:01:57.9353338Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-36-imported-wh-deal-rough-sr82-treated-14303.html",
         "Merchant": null
       }
@@ -2486,14 +2486,14 @@
     "Category": "rough timber",
     "Unit": "36mm x 50mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1094116Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0564616Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 10.57,
-        "ScrapedAt": "2025-04-12T16:22:40.1094147Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0564651Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-50-x-36-imported-white-deal-rough-sr82-14302.html",
         "Merchant": null
       }
@@ -2506,14 +2506,14 @@
     "Category": "rough timber",
     "Unit": "36mm x 50mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1094981Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0565672Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 9.91,
-        "ScrapedAt": "2025-04-12T16:22:40.1094982Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0565674Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-50-x-36-imported-white-deal-rough-sr82-14301.html",
         "Merchant": null
       }
@@ -2526,14 +2526,14 @@
     "Category": "rough timber",
     "Unit": "36mm x 50mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1095192Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0565875Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 9.25,
-        "ScrapedAt": "2025-04-12T16:22:40.1095193Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0565876Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-50-x-36-imported-white-deal-rough-sr82-14300.html",
         "Merchant": null
       }
@@ -2546,14 +2546,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1095374Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0566056Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 28.4,
-        "ScrapedAt": "2025-04-12T16:22:40.1095375Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0566057Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-22-imported-rough-white-deal-14299.html",
         "Merchant": null
       }
@@ -2566,14 +2566,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1095542Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0566224Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 43.46,
-        "ScrapedAt": "2025-04-12T16:22:40.1095543Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0566226Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-35-imported-rough-white-deal-14298.html",
         "Merchant": null
       }
@@ -2586,14 +2586,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 225mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1095714Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0566396Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 9.05,
-        "ScrapedAt": "2025-04-12T16:22:40.1095715Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0566397Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/225-x-35-imported-rough-white-deal-14270.html",
         "Merchant": null
       }
@@ -2606,14 +2606,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 5.7m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1095869Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0566549Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 77.64,
-        "ScrapedAt": "2025-04-12T16:22:40.109587Z",
+        "ScrapedAt": "2025-04-16T11:01:59.056655Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-7m-225-x-44-imported-rough-white-deal-14267.html",
         "Merchant": null
       }
@@ -2626,14 +2626,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 5.1m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1096038Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0566713Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 79.31,
-        "ScrapedAt": "2025-04-12T16:22:40.1096039Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0566714Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-1m-225-x-44-imported-rough-white-deal-14265.html",
         "Merchant": null
       }
@@ -2646,14 +2646,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 3.9m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1096198Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0566904Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 60.65,
-        "ScrapedAt": "2025-04-12T16:22:40.1096199Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0566905Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-9m-225-x-44-imported-rough-white-deal-14263.html",
         "Merchant": null
       }
@@ -2666,14 +2666,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 6.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1096356Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0567067Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 60.06,
-        "ScrapedAt": "2025-04-12T16:22:40.1096357Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0567068Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/6-0m-175-x-44-truss-timber-c24-rough-white-deal-14260.html",
         "Merchant": null
       }
@@ -2686,14 +2686,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 3.3m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1096526Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0567237Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 51.32,
-        "ScrapedAt": "2025-04-12T16:22:40.1096527Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0567239Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-3m-225-x-44-imported-rough-white-deal-14258.html",
         "Merchant": null
       }
@@ -2706,14 +2706,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 3.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:40.1096677Z",
+    "UpdatedAt": "2025-04-16T11:01:59.0567403Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 46.65,
-        "ScrapedAt": "2025-04-12T16:22:40.1096678Z",
+        "ScrapedAt": "2025-04-16T11:01:59.0567404Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-0m-225-x-44-imported-rough-white-deal-14257.html",
         "Merchant": null
       }
@@ -2726,14 +2726,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.059527Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3388169Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 30.17,
-        "ScrapedAt": "2025-04-12T16:22:46.0595329Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3388201Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-125-x-44-imported-rough-white-deal-14255.html",
         "Merchant": null
       }
@@ -2746,14 +2746,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 125mm x 4.5m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0596949Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3389333Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 28.29,
-        "ScrapedAt": "2025-04-12T16:22:46.0596951Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3389336Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-5m-125-x-44-imported-rough-white-deal-14254.html",
         "Merchant": null
       }
@@ -2766,14 +2766,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 5.4m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0597294Z",
+    "UpdatedAt": "2025-04-16T11:02:01.338956Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 38.92,
-        "ScrapedAt": "2025-04-12T16:22:46.0597296Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3389561Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/5-4m-150-x-44-imported-rough-white-deal-14253.html",
         "Merchant": null
       }
@@ -2786,14 +2786,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0597568Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3389834Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 30.27,
-        "ScrapedAt": "2025-04-12T16:22:46.059757Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3389835Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-150-x-44-imported-rough-white-deal-14251.html",
         "Merchant": null
       }
@@ -2806,14 +2806,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 150mm x 3.9m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0598181Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3390026Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 28.11,
-        "ScrapedAt": "2025-04-12T16:22:46.0598183Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3390028Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/3-9m-150-x-44-imported-rough-white-deal-14250.html",
         "Merchant": null
       }
@@ -2826,14 +2826,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 6.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0598475Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3390247Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 79.98,
-        "ScrapedAt": "2025-04-12T16:22:46.0598477Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3390248Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/6-0m-225-x-44-truss-timber-c24-rough-white-deal-14249.html",
         "Merchant": null
       }
@@ -2846,14 +2846,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 175mm x 4.2m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0598802Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3390506Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 33.74,
-        "ScrapedAt": "2025-04-12T16:22:46.0598805Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3390507Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-2m-175-x-44-imported-rough-white-deal-14212.html",
         "Merchant": null
       }
@@ -2866,14 +2866,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 225mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0599091Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3390699Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 5.92,
-        "ScrapedAt": "2025-04-12T16:22:46.0599093Z",
+        "ScrapedAt": "2025-04-16T11:02:01.33907Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/225-x-22-imported-rough-white-deal-14197.html",
         "Merchant": null
       }
@@ -2886,14 +2886,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 175mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0599337Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3390919Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 4.8,
-        "ScrapedAt": "2025-04-12T16:22:46.059937Z",
+        "ScrapedAt": "2025-04-16T11:02:01.339092Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/175-x-22-imported-rough-white-deal-14196.html",
         "Merchant": null
       }
@@ -2906,14 +2906,14 @@
     "Category": "rough timber",
     "Unit": "22mm x 150mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0599615Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3391115Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 4.26,
-        "ScrapedAt": "2025-04-12T16:22:46.0599617Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3391116Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/150-x-22-imported-rough-white-deal-14190.html",
         "Merchant": null
       }
@@ -2926,14 +2926,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 75mm",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0599852Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3391333Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 4.12,
-        "ScrapedAt": "2025-04-12T16:22:46.0599854Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3391334Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/75-x-44-imported-rough-white-deal-14186.html",
         "Merchant": null
       }
@@ -2946,14 +2946,14 @@
     "Category": "rough timber",
     "Unit": "75mm x 100mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:46.0600079Z",
+    "UpdatedAt": "2025-04-16T11:02:01.3391535Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 42.29,
-        "ScrapedAt": "2025-04-12T16:22:46.060008Z",
+        "ScrapedAt": "2025-04-16T11:02:01.3391537Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-100-x-75-imported-rough-white-deal-13980.html",
         "Merchant": null
       }
@@ -2966,14 +2966,14 @@
     "Category": "rough timber",
     "Unit": "45mm x 300mm x 13m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:51.8799429Z",
+    "UpdatedAt": "2025-04-16T11:02:02.6539711Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 192,
-        "ScrapedAt": "2025-04-12T16:22:51.8799466Z",
+        "ScrapedAt": "2025-04-16T11:02:02.6539753Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/steico-i-joist-45-x-300mm-x-13m-15592.html",
         "Merchant": null
       }
@@ -2986,14 +2986,14 @@
     "Category": "rough timber",
     "Unit": "45mm x 240mm x 13m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:51.8800514Z",
+    "UpdatedAt": "2025-04-16T11:02:02.6541071Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 173.95,
-        "ScrapedAt": "2025-04-12T16:22:51.8800516Z",
+        "ScrapedAt": "2025-04-16T11:02:02.6541074Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/steico-i-joist-45-x-240mm-x-13m-15591.html",
         "Merchant": null
       }
@@ -3006,14 +3006,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 6.6m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:51.8800738Z",
+    "UpdatedAt": "2025-04-16T11:02:02.6541301Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 57.69,
-        "ScrapedAt": "2025-04-12T16:22:51.8800739Z",
+        "ScrapedAt": "2025-04-16T11:02:02.6541302Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/6-6m-225-x-44-rough-white-deal-14678.html",
         "Merchant": null
       }
@@ -3026,14 +3026,14 @@
     "Category": "rough timber",
     "Unit": "44mm x 225mm x 6.0m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:51.8800919Z",
+    "UpdatedAt": "2025-04-16T11:02:02.6541491Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 51.55,
-        "ScrapedAt": "2025-04-12T16:22:51.8800921Z",
+        "ScrapedAt": "2025-04-16T11:02:02.6541492Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/6-0m-225-x-44-rough-white-deal-14676.html",
         "Merchant": null
       }
@@ -3046,14 +3046,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:51.8801091Z",
+    "UpdatedAt": "2025-04-16T11:02:02.6541659Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 19.84,
-        "ScrapedAt": "2025-04-12T16:22:51.8801092Z",
+        "ScrapedAt": "2025-04-16T11:02:02.654166Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/4-8m-225-x-35-rough-white-deal-14510.html",
         "Merchant": null
       }
@@ -3066,14 +3066,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 225mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:51.8801289Z",
+    "UpdatedAt": "2025-04-16T11:02:02.6541877Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 24.56,
-        "ScrapedAt": "2025-04-12T16:22:51.880129Z",
+        "ScrapedAt": "2025-04-16T11:02:02.6541878Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/rough-white-deal-treated-timber-225mm-x-35mm-x-4-8m-9-x-1-5-inches-16352.html",
         "Merchant": null
       }
@@ -3086,14 +3086,14 @@
     "Category": "rough timber",
     "Unit": "35mm x 175mm x 4.8m",
     "CreatedAt": "0001-01-01T00:00:00",
-    "UpdatedAt": "2025-04-12T16:22:51.8801475Z",
+    "UpdatedAt": "2025-04-16T11:02:02.6542072Z",
     "Prices": [
       {
         "PriceId": 0,
         "ProductId": 0,
         "MerchantId": 1,
         "PriceValue": 19.07,
-        "ScrapedAt": "2025-04-12T16:22:51.8801476Z",
+        "ScrapedAt": "2025-04-16T11:02:02.6542073Z",
         "ProductUrl": "https://www.chadwicks.ie/all-products/timber-1/rough-timber/rough-white-deal-treated-timber-175mm-x-35mm-x-4-8m-7-x-1-5-inches-16328.html",
         "Merchant": null
       }

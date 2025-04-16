@@ -222,12 +222,142 @@ namespace PriceNowCompleteV1.Scrapers
             throw new NotImplementedException();
         }
 
-        public override Task RunPartialScrapeByMerchant(Merchant merchant)
+        public async override Task RunPartialScrapeByMerchant(Merchant merchant)
         {
-            Console.WriteLine("Running partial scrape for CorkBp");
-            throw new NotImplementedException();
+            var products = await ScrapeTimberProducts(merchant);
+            if (products.Any())
+            {
+                await _productService.ProcessProductsPartial(products);
+
+                await _loggingService.AddLog(new Logging
+                {
+                    MerchantId = merchant.MerchantId,
+                    ScrapedAt = DateTime.UtcNow,
+                    Status = "Success",
+                    ErrorMessage = $"Partially scraped successfully for {merchant.Name}"
+                });
+            }
         }
 
-        
+        private async Task<List<Product>> ScrapeTimberProducts(Merchant merchant)
+        {
+            var browserFetcher = new BrowserFetcher();
+            await browserFetcher.DownloadAsync();
+
+            IBrowser browser = null;
+
+
+            try
+            {
+                browser = await Puppeteer.LaunchAsync(new LaunchOptions
+                {
+                    Headless = false
+                });
+
+                var page = await browser.NewPageAsync();
+
+                await page.GoToAsync(corkBPUrl, new NavigationOptions
+                {
+                    Timeout = 60000 //60Secs
+                });
+
+                await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
+                {
+                    Timeout = 60000
+                });
+
+                await Task.Delay(9000);//modal time changed to 9 secs this may need changing
+
+
+                await ScraperHelper.DismissModal(page, "#lpclose", 3);
+
+
+                var timberLink = await page.EvaluateFunctionAsync<string>(
+                   @"() => {
+                    const links = Array.from(document.querySelectorAll('a'));
+                    const timberLink = links.find(link => link.innerText.includes('Timber'));
+                    return timberLink ? timberLink.href : null;
+                }"
+                );
+
+                if (timberLink != null)
+                {
+                    Console.WriteLine("Navigating to Timber link...");
+                    await page.GoToAsync(timberLink, new NavigationOptions
+                    {
+                        Timeout = 60000
+                    });
+
+
+                    await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
+                    {
+                        Timeout = 60000
+                    });
+                    Console.WriteLine("Clicked on 'Timber' link.");
+                }
+                else
+                {
+                    Console.WriteLine("'Timber' link not found.");
+                    await browser.CloseAsync();
+                    return new List<Product>();
+                }
+
+
+                var roughTimber = await page.EvaluateFunctionAsync<string>(
+                   @"() => {
+                    const links = Array.from(document.querySelectorAll('a'));
+                    const roughTimberLink = links.find(link => link.href.includes('rough-timber'));
+                    return roughTimberLink ? roughTimberLink.href : null;
+                }"
+               );
+
+                if (roughTimber != null)
+                {
+                    Console.WriteLine("Navigating to roughTimber link...");
+                    await page.GoToAsync(roughTimber, new NavigationOptions
+                    {
+                        Timeout = 60000
+                    });
+
+                    await page.WaitForSelectorAsync("a", new WaitForSelectorOptions
+                    {
+                        Timeout = 60000
+                    });
+                    Console.WriteLine("Clicked on 'roughTimber' link.");
+                }
+                else
+                {
+                    Console.WriteLine("'roughTimber' link not found.");
+                    await browser.CloseAsync();
+                    return new List<Product>();
+                }
+
+
+                var scrapedProducts = await ScraperHelper.ScrapePage(page, merchant, "rough timber");
+                return scrapedProducts.Distinct().ToList();
+
+            }
+            catch (Exception ex)
+            {
+                await _loggingService.AddLog(new Logging
+                {
+                    MerchantId = merchant.MerchantId,
+                    ScrapedAt = DateTime.UtcNow,
+                    Status = "failed",
+                    ErrorMessage = merchant.Name + " scraper failed: " + ex.Message
+                });
+            }
+            finally
+            {
+                if (browser != null)
+                {
+                    await browser.CloseAsync();
+                }
+            }
+            return new List<Product>();
+
+        }
+
+
     }
 }

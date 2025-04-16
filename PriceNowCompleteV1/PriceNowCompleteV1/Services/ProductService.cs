@@ -223,6 +223,53 @@ namespace PriceNowCompleteV1.Services
 
         }
 
+        public async Task ProcessProductsPartial(List<Product> scrapedProducts)//products are pre-sanitized entering this function
+        {
+            var existingProducts = await _productRepository.GetAll();
+            var count = 0;
+            var category = scrapedProducts.FirstOrDefault()?.Category;
+            var existingProductsByCategory = existingProducts.Where(p => p.Category == category).ToList();
+
+            var existingProductsByUnitDict = existingProductsByCategory.GroupBy(p => p.Unit).ToDictionary(p => p.Key, p => p.ToList());
+
+            foreach (var scrapedProduct in scrapedProducts)
+            {
+                var closeKey = DataParser.FindClosestKey(scrapedProduct.Unit, existingProductsByUnitDict.Keys.ToList());
+
+                if (closeKey == string.Empty)
+                {
+                    continue;
+                }
+
+                var closeExistingProducts = existingProductsByUnitDict[closeKey];
+
+                var matchedProduct = closeExistingProducts.FirstOrDefault(p => DataParser.CheckForCloseComparrison(scrapedProduct, p));//this may be too hacky patrick first or default may be wrong
+
+               
+                if (matchedProduct != null)
+                {
+
+                    var newPrice = scrapedProduct.Prices.First();
+                    var existingPrice = matchedProduct.Prices.FirstOrDefault(p => p.MerchantId == newPrice.MerchantId);
+
+                    if (existingPrice != null)
+                    {
+                        existingPrice.PriceValue = newPrice.PriceValue;
+                        existingPrice.ScrapedAt = newPrice.ScrapedAt;
+                        count++;
+                        //await _productRepository.Update(matchedProduct);
+                        Console.WriteLine($"Updating product in repo {matchedProduct.Name} count {count}");
+                    }
+                   
+                   
+                }
+               
+
+                //may be quicker to add batches after loop need to add multiple upadtes to Irepository
+            }
+            
+        }
+
         public async Task<IEnumerable<Product>> GetAllProductsWithPriceAndMerchant()
         {
             return await _productRepository.GetAllProductsWithPriceAndMerchant();
