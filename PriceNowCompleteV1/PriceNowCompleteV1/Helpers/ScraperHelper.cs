@@ -72,6 +72,7 @@ namespace PriceNowCompleteV1.Helpers
                             Description = productName,
                             Unit = unit,
                             Category = category,
+                            CreatedAt = DateTime.UtcNow,
                             Prices = new List<Price>
                                         {
                                             new Price

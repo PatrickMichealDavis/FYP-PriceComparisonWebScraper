@@ -82,7 +82,6 @@ namespace PriceNowCompleteV1.Services
              await _productRepository.Update(product);
         }
 
-        //testOnly Patrick
         public async Task SaveProductsToFile(string filePath,List<Product> products)
         {
             //var products = await _productRepository.GetAll(); 
@@ -113,7 +112,7 @@ namespace PriceNowCompleteV1.Services
         //   var productsByCategory = allProducts.Where(p => p.Category == category).ToList();
         //      pass this to processProducts(productsByCategory)
         //}
-        public async Task ProcessProducts(List<Product> scrapedProducts)
+        public async Task ProcessProducts(List<Product> scrapedProducts)//pre-sanitized products entering this function
         {
             var existingProducts = await _productRepository.GetAll();
             int updateCount = 0;
@@ -181,6 +180,9 @@ namespace PriceNowCompleteV1.Services
 
             var existingProductsByUnitDict = existingProductsByCategory.GroupBy(p => p.Unit).ToDictionary(p => p.Key, p => p.ToList());
 
+            var productsToAdd = new List<Product>();
+            var productsToUpdate = new List<Product>();
+
             foreach (var scrapedProduct in scrapedProducts)
             {
                 var closeKey = DataParser.FindClosestKey(scrapedProduct.Unit, existingProductsByUnitDict.Keys.ToList());
@@ -193,9 +195,9 @@ namespace PriceNowCompleteV1.Services
 
                 var closeExistingProducts = existingProductsByUnitDict[closeKey];
 
-                var matchedProduct = closeExistingProducts.FirstOrDefault(p => DataParser.CheckForCloseComparrison(scrapedProduct, p));//this may be too hacky patrick first or default may be wrong
+                var matchedProduct = closeExistingProducts.FirstOrDefault(p => DataParser.CheckForCloseComparrison(scrapedProduct, p));
 
-                if (matchedProduct != null) 
+                if (matchedProduct != null)
                 {
 
                     var newPrice = scrapedProduct.Prices.First();
@@ -205,22 +207,25 @@ namespace PriceNowCompleteV1.Services
                     {
                         existingPrice.PriceValue = newPrice.PriceValue;
                         existingPrice.ScrapedAt = newPrice.ScrapedAt;
+                        existingPrice.ProductUrl = newPrice.ProductUrl;
                     }
                     else
                     {
                         matchedProduct.Prices.Add(newPrice);
                     }
-                    await _productRepository.Update(matchedProduct);
+                    //await _productRepository.Update(matchedProduct);
+                    productsToUpdate.Add(matchedProduct);
                     Console.WriteLine($"Updating product in repo {matchedProduct.Name}");
                 }
                 else
                 {
-                    await _productRepository.AddProduct(scrapedProduct); 
+                    //await _productRepository.AddProduct(scrapedProduct); 
+                    productsToAdd.Add(scrapedProduct);
                 }
 
-                //may be quicker to add batches after loop need to add multiple upadtes to Irepository
             }
-
+            await _productRepository.UpdateMultipleProducts(productsToUpdate);
+            await _productRepository.AddMultipleProducts(productsToAdd);
         }
 
         public async Task ProcessProductsPartial(List<Product> scrapedProducts)//products are pre-sanitized entering this function
@@ -243,9 +248,8 @@ namespace PriceNowCompleteV1.Services
 
                 var closeExistingProducts = existingProductsByUnitDict[closeKey];
 
-                var matchedProduct = closeExistingProducts.FirstOrDefault(p => DataParser.CheckForCloseComparrison(scrapedProduct, p));//this may be too hacky patrick first or default may be wrong
-
-               
+                var matchedProduct = closeExistingProducts.FirstOrDefault(p => DataParser.CheckForCloseComparrison(scrapedProduct, p));
+                
                 if (matchedProduct != null)
                 {
 
@@ -257,7 +261,7 @@ namespace PriceNowCompleteV1.Services
                         existingPrice.PriceValue = newPrice.PriceValue;
                         existingPrice.ScrapedAt = newPrice.ScrapedAt;
                         count++;
-                        //await _productRepository.Update(matchedProduct);
+                        await _productRepository.Update(matchedProduct);
                         Console.WriteLine($"Updating product in repo {matchedProduct.Name} count {count}");
                     }
                    
@@ -265,7 +269,7 @@ namespace PriceNowCompleteV1.Services
                 }
                
 
-                //may be quicker to add batches after loop need to add multiple upadtes to Irepository
+               
             }
             
         }
@@ -273,6 +277,12 @@ namespace PriceNowCompleteV1.Services
         public async Task<IEnumerable<Product>> GetAllProductsWithPriceAndMerchant()
         {
             return await _productRepository.GetAllProductsWithPriceAndMerchant();
+        }
+
+        public Task UpdateMultipleProducts(List<Product> products)
+        {
+           _productRepository.UpdateMultipleProducts(products);
+            return Task.CompletedTask;
         }
     }
 }

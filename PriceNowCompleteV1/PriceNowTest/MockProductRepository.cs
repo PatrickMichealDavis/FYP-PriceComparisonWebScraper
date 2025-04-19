@@ -31,7 +31,18 @@ namespace PriceNowTest
         {
             _products.Add(product);
             _newProducts.Add(product);
-           // Console.WriteLine($"Product added {product}");
+            return Task.CompletedTask;
+        }
+
+        public Task Update(Product entity)
+        {
+            _UpdatedProducts.Add(entity);
+            return Task.CompletedTask;
+        }
+
+        public Task UpdateMultipleProducts(List<Product> products)
+        {
+            _UpdatedProducts.AddRange(products);
             return Task.CompletedTask;
         }
 
@@ -75,11 +86,6 @@ namespace PriceNowTest
             throw new NotImplementedException();
         }
 
-        public Task Update(Product entity)
-        {
-            _UpdatedProducts.Add(entity);
-           // Console.WriteLine($"Product updated {entity}");
-            return Task.CompletedTask;
-        }
+       
     }
 }

@@ -113,7 +113,7 @@ namespace PriceNowCompleteV1.DataParsers
             int finalUnitScore = (unitRatio + unitSortedRatio) / 2;
 
             int finalScore = (finalNameScore + finalUnitScore) / 2;
-           // Console.WriteLine($"Final Similarity Score: {finalScore}%");
+            Console.WriteLine($"Final Similarity Score: {finalScore}%");
 
             int exactMatch = (nameSortedRatio + unitSortedRatio)/2;
 

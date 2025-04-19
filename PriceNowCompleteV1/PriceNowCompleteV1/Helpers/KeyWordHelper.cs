@@ -3,7 +3,7 @@
     public static class KeyWordHelper
     {
 
-        // This will we used for scalling as the product base grows to remove unwanted keywords at scale databse table would be used
+        // This will be used for scalling as the product base grows to remove unwanted keywords at scale a database table would be used
         public static HashSet<string> KeyWordsForRemoval = new HashSet<string>() { "white","deal" };
 
         

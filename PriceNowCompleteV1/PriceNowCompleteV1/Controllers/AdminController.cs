@@ -85,7 +85,7 @@ namespace PriceNowCompleteV1.Controllers
         }
 
         [HttpPost("priceNow")]
-        public async Task<IActionResult> PriceNow([FromBody] ProductDTO product)//add better error handling
+        public async Task<IActionResult> PriceNow([FromBody] ProductDTO product)
         {
             if (product == null || product.Prices == null || product.Prices.Count == 0)
             {
@@ -98,20 +98,21 @@ namespace PriceNowCompleteV1.Controllers
                 {
                     price.PriceValue = await _scraper.PriceNow(price.ProductUrl);
                     price.ScrapedAt = DateTime.UtcNow;
-                    
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Price now failed for merchant {price.MerchantId} → {ex.Message}");
-                   
+                    await _loggingService.AddLog(new Logging
+                    {
+                        MerchantId = price.MerchantId,
+                        ScrapedAt = DateTime.UtcNow,
+                        Status = "PriceNow failed",
+                        ErrorMessage = ex.Message
+                    });
                 }
-
             }
 
             return Ok(product);
         }
-
-        
 
         [HttpGet("runFullSuite")]
         public async Task<IActionResult> RunFullSuite()
@@ -240,8 +241,8 @@ namespace PriceNowCompleteV1.Controllers
             string chadwicksRawProductsFilePath = "chadwicksRawProducts.json";
             var resultsFilePath = "results.json";
 
-            var products = await _productService.LoadProductsFromFile(corkbpSanitizedProductsFilePath);
-            //  var products = await _productService.LoadProductsFromFile(tjomahonySanitizedProductsFilePath);
+           // var products = await _productService.LoadProductsFromFile(corkbpSanitizedProductsFilePath);
+              var products = await _productService.LoadProductsFromFile(tjomahonySanitizedProductsFilePath);
             //var products = await _productService.LoadProductsFromFile(chadwicksRawProductsFilePath);
 
            

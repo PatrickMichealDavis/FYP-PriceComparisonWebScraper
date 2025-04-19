@@ -10,6 +10,7 @@ namespace PriceNowCompleteV1.Interfaces
         Task UpdateProduct(Product product);
         Task DeleteProduct(int id);
         Task AddMultipleProducts(List<Product> products);
+        Task UpdateMultipleProducts(List<Product> products);
         Task<Product> GetProductByName(string name);
         Task<Product> GetProductByDescription(string description);
         Task SaveProductsToFile(string filePath, List<Product> products);

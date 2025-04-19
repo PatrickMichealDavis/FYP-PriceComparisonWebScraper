@@ -100,6 +100,12 @@ namespace PriceNowCompleteV1.Repositories
             await _context.SaveChangesAsync();
             Console.WriteLine("made it past update");
         }
+
+        public async Task UpdateMultipleProducts(List<Product> products)
+        {
+             _context.Products.UpdateRange(products);
+            await _context.SaveChangesAsync();
+        }
     }
    
 }
