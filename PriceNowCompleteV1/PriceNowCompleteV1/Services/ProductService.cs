@@ -187,7 +187,7 @@ namespace PriceNowCompleteV1.Services
             {
                 var closeKey = DataParser.FindClosestKey(scrapedProduct.Unit, existingProductsByUnitDict.Keys.ToList());
 
-                if (closeKey == null)//is this sting.Emtpy patrick?
+                if (closeKey == null)
                 {
                     await _productRepository.AddProduct(scrapedProduct);
                     continue;
@@ -213,13 +213,12 @@ namespace PriceNowCompleteV1.Services
                     {
                         matchedProduct.Prices.Add(newPrice);
                     }
-                    //await _productRepository.Update(matchedProduct);
+                    
                     productsToUpdate.Add(matchedProduct);
                     Console.WriteLine($"Updating product in repo {matchedProduct.Name}");
                 }
                 else
                 {
-                    //await _productRepository.AddProduct(scrapedProduct); 
                     productsToAdd.Add(scrapedProduct);
                 }
 

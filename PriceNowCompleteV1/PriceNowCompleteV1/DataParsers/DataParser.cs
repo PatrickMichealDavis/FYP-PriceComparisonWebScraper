@@ -14,9 +14,7 @@ namespace PriceNowCompleteV1.DataParsers
             var productNameAndUnit = SplitProductNameAndUnit(product.Name);
             product.Name = productNameAndUnit.Item1.ToLower().Replace(")","").Replace("(","").Replace(".","").Trim();
             product.Unit = productNameAndUnit.Item2.ToLower().Trim();
-            product.Description = product.Description.ToLower().Trim();//may not need this unless used in comparisson
-
-            //need to decide about cleaning description
+            product.Description = product.Description.ToLower().Trim();
 
             return product;
         }
@@ -30,13 +28,13 @@ namespace PriceNowCompleteV1.DataParsers
             List<string> productUnitParts = new List<string>();
 
             var pattern = new Regex(@"^\d+(\.\d+)?(mm|m)?$", RegexOptions.IgnoreCase);
-            var codePattern = new Regex(@"\b[a-zA-Z]+\d+\b", RegexOptions.IgnoreCase);
+            var serialCode = new Regex(@"\b[a-zA-Z]+\d+\b", RegexOptions.IgnoreCase);
 
             foreach (var part in splitNameAndUnit)
             {
                 var word = part.ToLower().Trim();
 
-                if (codePattern.IsMatch(word))//if has serial numbers you dont need skip
+                if (serialCode.IsMatch(word))//if has serial numbers you dont need skip
                 {
                     continue;
                 }
@@ -76,8 +74,7 @@ namespace PriceNowCompleteV1.DataParsers
 
             var productName = string.Join(" ", productNameParts);
             var unit = string.Join(" x ", orderedUnits);
-           // unit = Regex.Replace(unit, @"\b[a-zA-Z]+\d+\b", "").Trim();
-
+          
             return new Tuple<string, string>(productName, unit);
         }
 
