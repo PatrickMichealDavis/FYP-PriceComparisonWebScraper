@@ -154,7 +154,7 @@ namespace PriceNowCompleteV1.Controllers
 
             var maxAttempts = 2;
 
-            for (int attempt = 1; attempt <= maxAttempts; attempt++)
+            for (int attempt = 1; attempt <= maxAttempts; attempt++)//retry for failed scrape attempts
             {
                 try
                 {
@@ -185,72 +185,12 @@ namespace PriceNowCompleteV1.Controllers
                     {
                         return StatusCode(500, $"Error while Scraping for:{merchant.Name} after {maxAttempts} attempts");
                     }
-                }
-               
+                } 
             }
             return StatusCode(500, $"Error while Scraping for:{merchant.Name}");
         }
 
-        [HttpGet("testAddProduct")]
-        public async Task<IActionResult> TestAddProduct()
-        {
-           
-
-            Price price = new Price
-            {
-                PriceValue = 2,
-                MerchantId = 2,
-                ProductUrl = "https://tjomahony.ie/4-8m-50mm-x-44mm-rough-timber-16-2-x-2-030504448.html",
-            };
-
-            List<Price> prices = new List<Price> { price };
-
-            Product product = new Product
-            {
-                Name = "1.8m 75 x 75 Treated Post",
-                Description = "Test",
-                Category = "Test",
-                Unit = "Test",
-                Prices = prices
-            };
-
-            var testObject = DataParser.SanitizeProduct(product);
-
-            //var Logging = new Logging
-            //{
-            //    MerchantId = 2,
-            //    ScrapedAt = DateTime.UtcNow,
-            //    Status = "Scraping initiated",
-            //    ErrorMessage = "Test"
-            //};
-
-            // await _loggingService.AddLog(Logging);
-
-
-
-            await _productService.AddProduct(testObject);
-            return Ok("Test product added successfully.");
-        }
-
-        [HttpGet("testFuzzy")]
-        public async Task<IActionResult> TestFuzzyComparison()
-        {
-            string chadwicksSanitizedProductsFilePath = "chadwicksSanitizedProducts.json";
-            string corkbpSanitizedProductsFilePath = "corkbpSanitizedProducts.json";
-            string tjomahonySanitizedProductsFilePath = "tjomahonySanitizedProducts.json";
-            string chadwicksRawProductsFilePath = "chadwicksRawProducts.json";
-            var resultsFilePath = "results.json";
-
-           // var products = await _productService.LoadProductsFromFile(corkbpSanitizedProductsFilePath);
-              var products = await _productService.LoadProductsFromFile(tjomahonySanitizedProductsFilePath);
-            //var products = await _productService.LoadProductsFromFile(chadwicksRawProductsFilePath);
-
-           
-            await _productService.ProcessProductsV2(products);
-
-            return Ok();
-        }
-
+        
         [HttpGet("runFullSuitePartial")]
         public async Task<IActionResult> RunFullSuitePartial()
         {
@@ -277,7 +217,5 @@ namespace PriceNowCompleteV1.Controllers
             }
             return Ok("Scraping initiated for all merchants");
         }
-
-        
     }
 }
